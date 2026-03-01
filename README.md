@@ -2,6 +2,8 @@
 
 A proof-of-concept application for ingesting, storing, and searching JSON documents in MongoDB. Built with .NET Aspire, ASP.NET, and React.
 
+**Repository:** https://github.com/Interfacing/DBPMongo
+
 ## Architecture
 
 ```
@@ -34,6 +36,10 @@ Documents are stored with normalized metadata (formId, formName, title, applicat
 ## Quick start
 
 ```bash
+# Clone the repository
+git clone https://github.com/Interfacing/DBPMongo.git
+cd DBPMongo
+
 # Install frontend dependencies
 cd frontend && npm install && cd ..
 
@@ -93,4 +99,28 @@ docker run -d -p 27017:27017 mongo:8.0
 # Set connection string and run
 $env:ConnectionStrings__MongoDBP='mongodb://localhost:27017'
 dotnet run --project MongoPOC.Server
+```
+
+## Project structure
+
+```
+MongoPOC.AppHost/
+  AppHost.cs                 – Aspire resource wiring (Mongo, Express, Server, Vite)
+
+MongoPOC.Server/
+  Program.cs                 – Minimal API endpoints
+  Models/
+    DocumentKind.cs          – Enum mapping subfolders → collections
+    MongoDocumentRecord.cs   – BSON-mapped document model
+    ApiContracts.cs          – Request/response DTOs
+  Services/
+    MongoDbContext.cs         – MongoDB client + collection access
+    MongoIndexService.cs     – Index creation on startup
+    JsonIngestionService.cs  – Folder scan, file upload, upsert logic
+    DocumentQueryService.cs  – Dashboard aggregation, search, document retrieval
+
+frontend/
+  src/App.tsx                – Single-page dashboard, search, and document viewer
+
+JSON/                        – Source JSON files (DJSON, FormData, FormDataPreview)
 ```
