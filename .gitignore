@@ -1,0 +1,17 @@
+# Build outputs
+**/bin/
+**/obj/
+
+# IDE files
+.vs/
+.idea/
+*.user
+*.suo
+
+# Frontend artifacts
+frontend/node_modules/
+frontend/dist/
+
+# OS artifacts
+.DS_Store
+Thumbs.db

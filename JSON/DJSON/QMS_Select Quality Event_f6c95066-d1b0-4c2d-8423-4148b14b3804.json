@@ -1,0 +1,155 @@
+{
+  "shortname": "QMS",
+  "application": "QMS",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "f6c95066-d1b0-4c2d-8423-4148b14b3804",
+    "name": "QualityEvent_SelectedQualityEvent",
+    "fields": {
+      "GridQualityEvent": {
+        "name": "GridQualityEvent",
+        "type": "none",
+        "ext_type": "Grid",
+        "original_serverid": "GridQualityEvent",
+        "original_controltype": "Grid",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Select Quality Event",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "QualityEventId": {
+        "name": "QualityEventId",
+        "type": "string",
+        "original_serverid": "QualityEventId",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Quality Event ID",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "QualitEventName": {
+        "name": "QualitEventName",
+        "type": "string",
+        "original_serverid": "QualitEventName",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Quality Event Name",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": ""
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "",
+        "original_serverid": "Row2",
+        "original_controltype": "Row",
+        "type": "section",
+        "index": 0,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "F6C95066-D1B0-4C2D-8423-4148B14B3804",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column2",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "F6C95066-D1B0-4C2D-8423-4148B14B3804",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "SearchPanel1",
+                "original_serverid": "SearchPanel1",
+                "original_controltype": "Row",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "Search Panel",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "entity_name": "",
+        "original_serverid": "Row1",
+        "original_controltype": "Row",
+        "type": "section",
+        "index": 1,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "F6C95066-D1B0-4C2D-8423-4148B14B3804",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column1",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "F6C95066-D1B0-4C2D-8423-4148B14B3804",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "GridQualityEvent",
+                "original_serverid": "GridQualityEvent",
+                "original_controltype": "Grid",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "Select Quality Event",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "F6C95066-D1B0-4C2D-8423-4148B14B3804",
+        "name": "QualityEvent_SelectedQualityEvent"
+      }
+    ]
+  }
+}

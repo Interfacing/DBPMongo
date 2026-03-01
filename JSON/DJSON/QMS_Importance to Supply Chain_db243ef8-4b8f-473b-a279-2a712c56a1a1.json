@@ -1,0 +1,165 @@
+{
+  "shortname": "QMS",
+  "application": "QMS",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "db243ef8-4b8f-473b-a279-2a712c56a1a1",
+    "name": "ImportancetoSupplyChain",
+    "fields": {
+      "Label": {
+        "name": "Label",
+        "type": "none",
+        "ext_type": "Label",
+        "original_serverid": "Label",
+        "original_controltype": "Label",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Create/ Edit/ Delete the options used to express the importance to the supply chain",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "Grid": {
+        "name": "Grid",
+        "type": "none",
+        "ext_type": "Grid",
+        "original_serverid": "Grid",
+        "original_controltype": "Grid",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "",
+        "original_serverid": "Row1",
+        "original_controltype": "Row",
+        "type": "section",
+        "index": 0,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "0E827C7D-D9BE-4FC0-A07C-AD7C0001D0E4",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "DB243EF8-4B8F-473B-A279-2A712C56A1A1",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column1",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "0E827C7D-D9BE-4FC0-A07C-AD7C0001D0E4",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "DB243EF8-4B8F-473B-A279-2A712C56A1A1",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "Label",
+                "original_serverid": "Label",
+                "original_controltype": "Label",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "Create/ Edit/ Delete the options used to express the importance to the supply chain",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "entity_name": "",
+        "original_serverid": "Row2",
+        "original_controltype": "Row",
+        "type": "section",
+        "index": 1,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "0E827C7D-D9BE-4FC0-A07C-AD7C0001D0E4",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "DB243EF8-4B8F-473B-A279-2A712C56A1A1",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column2",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "0E827C7D-D9BE-4FC0-A07C-AD7C0001D0E4",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "DB243EF8-4B8F-473B-A279-2A712C56A1A1",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "Grid",
+                "original_serverid": "Grid",
+                "original_controltype": "Grid",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "0E827C7D-D9BE-4FC0-A07C-AD7C0001D0E4",
+        "name": "Edit_ImportanceSupplyChain"
+      },
+      {
+        "id": "DB243EF8-4B8F-473B-A279-2A712C56A1A1",
+        "name": "ImportancetoSupplyChain"
+      }
+    ]
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "shortname": "QMS",
+  "application": "QMS",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "14ab2201-5a2a-450b-9416-97f545fe21e4",
+    "name": "Audit_AuditListByTeamLead",
+    "fields": {
+      "GridAuditByTeamLead": {
+        "name": "GridAuditByTeamLead",
+        "type": "none",
+        "ext_type": "Grid",
+        "original_serverid": "GridAuditByTeamLead",
+        "original_controltype": "Grid",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "",
+        "original_serverid": "Row1",
+        "original_controltype": "Row",
+        "type": "section",
+        "index": 0,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "14AB2201-5A2A-450B-9416-97F545FE21E4",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column1",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "14AB2201-5A2A-450B-9416-97F545FE21E4",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "GridAuditByTeamLead",
+                "original_serverid": "GridAuditByTeamLead",
+                "original_controltype": "Grid",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "14AB2201-5A2A-450B-9416-97F545FE21E4",
+        "name": "Audit_AuditListByTeamLead"
+      }
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "shortname": "QMS",
+  "application": "QMS",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "42e0b6fc-6ad8-4133-980f-6eb5a1196e3a",
+    "name": "Inspection_SelectDefinitionForPlan",
+    "fields": {
+      "BPMAPP_Inspection_PlanPlan": {
+        "name": "BPMAPP_Inspection_PlanPlan",
+        "type": "string",
+        "ext_type": "dropdown",
+        "original_serverid": "BPMAPP_Inspection_PlanPlan",
+        "original_controltype": "DropDown",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Plan",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": "Select...",
+        "system_options": []
+      },
+      "BPMAPP_Inspection_DefineDefinition": {
+        "name": "BPMAPP_Inspection_DefineDefinition",
+        "type": "string",
+        "ext_type": "dropdown",
+        "original_serverid": "BPMAPP_Inspection_DefineDefinition",
+        "original_controltype": "DropDown",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Select the defined inspection",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "#0070C0",
+        "placeholder": "Select...",
+        "system_options": []
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "BPMAPP_Inspection_PlanPlan",
+        "original_serverid": "BPMAPP_Inspection_PlanPlan",
+        "original_controltype": "DropDown",
+        "type": "field",
+        "index": 0,
+        "default_state": "invisible",
+        "states": [],
+        "caption": "Plan",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "BPMAPP_Inspection_DefineDefinition",
+        "original_serverid": "BPMAPP_Inspection_DefineDefinition",
+        "original_controltype": "DropDown",
+        "type": "field",
+        "index": 1,
+        "default_state": "mandatory",
+        "states": [],
+        "caption": "Select the defined inspection",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "42E0B6FC-6AD8-4133-980F-6EB5A1196E3A",
+        "name": "Inspection_SelectDefinitionForPlan"
+      }
+    ]
+  }
+}

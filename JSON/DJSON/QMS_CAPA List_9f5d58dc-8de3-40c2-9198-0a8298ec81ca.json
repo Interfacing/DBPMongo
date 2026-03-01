@@ -1,0 +1,123 @@
+{
+  "shortname": "QMS",
+  "application": "QMS",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "9f5d58dc-8de3-40c2-9198-0a8298ec81ca",
+    "name": "CAPA_List",
+    "fields": {
+      "Grid": {
+        "name": "Grid",
+        "type": "none",
+        "ext_type": "Grid",
+        "original_serverid": "Grid",
+        "original_controltype": "Grid",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "Black"
+      },
+      "CAPAId": {
+        "name": "CAPAId",
+        "type": "string",
+        "original_serverid": "CAPAId",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "CAPA ID",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "Black"
+      },
+      "TextBox": {
+        "name": "TextBox",
+        "type": "string",
+        "original_serverid": "TextBox",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "CAPA Name",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "Black"
+      },
+      "EventType": {
+        "name": "EventType",
+        "type": "string",
+        "ext_type": "dropdown",
+        "original_serverid": "EventType",
+        "original_controltype": "DropDown",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Event Type",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "Black",
+        "placeholder": "Select...",
+        "options": [
+          "Audit Finding (Internal)",
+          "Audit Finding (External)",
+          "Complaint",
+          "Deviation",
+          "Hazard (H\u0026S)",
+          "Incident",
+          "Inspection Finding",
+          "Issue",
+          "Management Review",
+          "Near Miss",
+          "Non-Conformity",
+          "Out-of-Spec",
+          "Serious Breach",
+          "Variance"
+        ]
+      },
+      "SingleSelectDropdown": {
+        "name": "SingleSelectDropdown",
+        "type": "string",
+        "ext_type": "dropdown",
+        "original_serverid": "SingleSelectDropdown",
+        "original_controltype": "DropDown",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Business Division",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "Black",
+        "placeholder": "Select...",
+        "system_options": []
+      },
+      "SingleSelectDropdown1": {
+        "name": "SingleSelectDropdown1",
+        "type": "string",
+        "ext_type": "dropdown",
+        "original_serverid": "SingleSelectDropdown1",
+        "original_controltype": "DropDown",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Business Line",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "Black",
+        "placeholder": "Select...",
+        "system_options": []
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "Grid",
+        "original_serverid": "Grid",
+        "original_controltype": "Grid",
+        "type": "field",
+        "index": 0,
+        "default_state": "editable",
+        "states": [],
+        "caption": "",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "9F5D58DC-8DE3-40C2-9198-0A8298EC81CA",
+        "name": "CAPA_List"
+      }
+    ]
+  }
+}

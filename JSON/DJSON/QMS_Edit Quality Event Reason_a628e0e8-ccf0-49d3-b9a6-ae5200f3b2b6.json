@@ -1,0 +1,235 @@
+{
+  "shortname": "QMS",
+  "application": "QMS",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "a628e0e8-ccf0-49d3-b9a6-ae5200f3b2b6",
+    "name": "ActionItem_List",
+    "fields": {
+      "Priority": {
+        "name": "Priority",
+        "type": "string",
+        "ext_type": "dropdown",
+        "original_serverid": "Priority",
+        "original_controltype": "DropDown",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Action Item Owner",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "Black",
+        "placeholder": "Select...",
+        "system_options": [
+          "user"
+        ]
+      },
+      "ActionName": {
+        "name": "ActionName",
+        "type": "string",
+        "original_serverid": "ActionName",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Action Name",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "Black",
+        "placeholder": ""
+      },
+      "Status": {
+        "name": "Status",
+        "type": "string",
+        "ext_type": "dropdown",
+        "original_serverid": "Status",
+        "original_controltype": "DropDown",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Status",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "Black",
+        "placeholder": "Select...",
+        "options": [
+          "Not Started",
+          "Has Started",
+          "In Progress",
+          "Completed",
+          "Rejected"
+        ]
+      },
+      "SingleSelectDropdown2": {
+        "name": "SingleSelectDropdown2",
+        "type": "string",
+        "ext_type": "dropdown",
+        "original_serverid": "SingleSelectDropdown2",
+        "original_controltype": "DropDown",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Type",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "Black",
+        "placeholder": "Select...",
+        "options": [
+          "Correction",
+          "Corrective",
+          "Effectiveness check",
+          "Improvement",
+          "Preventive"
+        ]
+      },
+      "SingleSelectDropdown": {
+        "name": "SingleSelectDropdown",
+        "type": "string",
+        "ext_type": "dropdown",
+        "original_serverid": "SingleSelectDropdown",
+        "original_controltype": "DropDown",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Priority",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "Black",
+        "placeholder": "Select...",
+        "options": [
+          "Low",
+          "Medium",
+          "High"
+        ]
+      },
+      "SingleSelectDropdown3": {
+        "name": "SingleSelectDropdown3",
+        "type": "string",
+        "ext_type": "dropdown",
+        "original_serverid": "SingleSelectDropdown3",
+        "original_controltype": "DropDown",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Action Type",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "Black",
+        "placeholder": "Select...",
+        "options": [
+          "Internal",
+          "External",
+          "Supplier"
+        ]
+      },
+      "SingleSelectDropdown1": {
+        "name": "SingleSelectDropdown1",
+        "type": "string",
+        "ext_type": "dropdown",
+        "original_serverid": "SingleSelectDropdown1",
+        "original_controltype": "DropDown",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Category",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "Black",
+        "placeholder": "Select...",
+        "system_options": []
+      },
+      "Grid": {
+        "name": "Grid",
+        "type": "none",
+        "ext_type": "Grid",
+        "original_serverid": "Grid",
+        "original_controltype": "Grid",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "Black"
+      },
+      "Action": {
+        "name": "Action",
+        "type": "string",
+        "original_serverid": "Action",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Action ID",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "Black"
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "",
+        "original_serverid": "Row2",
+        "original_controltype": "Row",
+        "type": "section",
+        "index": 0,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "AA0202B0-478D-493C-A0CF-AFC0003F3B4D",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "A628E0E8-CCF0-49D3-B9A6-AE5200F3B2B6",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "C10959ED-F80D-4425-B723-474F1D8516EC",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column8",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "AA0202B0-478D-493C-A0CF-AFC0003F3B4D",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "A628E0E8-CCF0-49D3-B9A6-AE5200F3B2B6",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "C10959ED-F80D-4425-B723-474F1D8516EC",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "Grid",
+                "original_serverid": "Grid",
+                "original_controltype": "Grid",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "AA0202B0-478D-493C-A0CF-AFC0003F3B4D",
+        "name": "Assessment"
+      },
+      {
+        "id": "A628E0E8-CCF0-49D3-B9A6-AE5200F3B2B6",
+        "name": "QMS_QualityEvent_Reason_Edit"
+      },
+      {
+        "id": "C10959ED-F80D-4425-B723-474F1D8516EC",
+        "name": "ActionItem_List"
+      }
+    ]
+  }
+}

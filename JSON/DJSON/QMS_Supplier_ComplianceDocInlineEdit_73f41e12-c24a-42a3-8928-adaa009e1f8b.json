@@ -1,0 +1,151 @@
+{
+  "shortname": "QMS",
+  "application": "QMS",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "73f41e12-c24a-42a3-8928-adaa009e1f8b",
+    "name": "QMS_Supplier_ComplianceDocument",
+    "fields": {
+      "Name": {
+        "name": "Name",
+        "type": "string",
+        "original_serverid": "Name",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Name",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "AuditDate": {
+        "name": "AuditDate",
+        "type": "datetime",
+        "ext_type": "datetime",
+        "original_serverid": "AuditDate",
+        "original_controltype": "DateEdit",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "AuditDate",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "RenewalDate": {
+        "name": "RenewalDate",
+        "type": "datetime",
+        "ext_type": "datetime",
+        "original_serverid": "RenewalDate",
+        "original_controltype": "DateEdit",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Renewal Date",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "Attachments": {
+        "name": "Attachments",
+        "type": "string",
+        "original_serverid": "Attachments",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Attachments",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "BPMAPP_QMS_SupplierSupplier": {
+        "name": "BPMAPP_QMS_SupplierSupplier",
+        "type": "string",
+        "ext_type": "dropdown",
+        "original_serverid": "BPMAPP_QMS_SupplierSupplier",
+        "original_controltype": "DropDown",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Supplier",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": "Select..."
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "Name",
+        "original_serverid": "Name",
+        "original_controltype": "TextBox",
+        "type": "field",
+        "index": 0,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Name",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "AuditDate",
+        "original_serverid": "AuditDate",
+        "original_controltype": "DateEdit",
+        "type": "field",
+        "index": 1,
+        "default_state": "editable",
+        "states": [],
+        "caption": "AuditDate",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "RenewalDate",
+        "original_serverid": "RenewalDate",
+        "original_controltype": "DateEdit",
+        "type": "field",
+        "index": 2,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Renewal Date",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "Attachments",
+        "original_serverid": "Attachments",
+        "original_controltype": "TextBox",
+        "type": "field",
+        "index": 3,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Attachments",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "BPMAPP_QMS_SupplierSupplier",
+        "original_serverid": "BPMAPP_QMS_SupplierSupplier",
+        "original_controltype": "DropDown",
+        "type": "field",
+        "index": 4,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Supplier",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "42B9B672-E0DA-43C6-84F6-ADAA009D4222",
+        "name": "Supplier_ComplanceDocument"
+      },
+      {
+        "id": "73F41E12-C24A-42A3-8928-ADAA009E1F8B",
+        "name": "Supplier_ComplianceDocInlineEdit"
+      }
+    ]
+  }
+}

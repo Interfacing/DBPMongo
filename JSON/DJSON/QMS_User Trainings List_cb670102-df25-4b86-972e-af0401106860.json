@@ -1,0 +1,56 @@
+{
+  "shortname": "QMS",
+  "application": "QMS",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "cb670102-df25-4b86-972e-af0401106860",
+    "name": "Training_User_Instance_List",
+    "fields": {
+      "Grid": {
+        "name": "Grid",
+        "type": "none",
+        "ext_type": "Grid",
+        "original_serverid": "Grid",
+        "original_controltype": "Grid",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "TrainingName": {
+        "name": "TrainingName",
+        "type": "string",
+        "original_serverid": "TrainingName",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Training Name",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "#002060",
+        "placeholder": ""
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "Grid",
+        "original_serverid": "Grid",
+        "original_controltype": "Grid",
+        "type": "field",
+        "index": 0,
+        "default_state": "editable",
+        "states": [],
+        "caption": "",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "CB670102-DF25-4B86-972E-AF0401106860",
+        "name": "ViewTrainingUserInstancesList"
+      }
+    ]
+  }
+}

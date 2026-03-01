@@ -1,0 +1,2128 @@
+{
+  "shortname": "AdminApp",
+  "application": "AdminApp",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "6c808bbe-d90d-4ef8-92dc-c266ad6d43ba",
+    "name": "frmEPCSyncUsers",
+    "fields": {
+      "SingleSelectDropdown": {
+        "name": "SingleSelectDropdown",
+        "type": "string",
+        "ext_type": "dropdown",
+        "original_serverid": "SingleSelectDropdown",
+        "original_controltype": "DropDown",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Environment",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": "Select...",
+        "system_options": [
+          "user"
+        ]
+      },
+      "ssdpEnvironmentDpt": {
+        "name": "ssdpEnvironmentDpt",
+        "type": "string",
+        "ext_type": "dropdown",
+        "original_serverid": "ssdpEnvironmentDpt",
+        "original_controltype": "DropDown",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Environment",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": "Select...",
+        "system_options": [
+          "user"
+        ]
+      },
+      "ssdEPCDeptId": {
+        "name": "ssdEPCDeptId",
+        "type": "string",
+        "ext_type": "dropdown",
+        "original_serverid": "ssdEPCDeptId",
+        "original_controltype": "DropDown",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "EPC Department",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": "Select...",
+        "system_options": []
+      },
+      "ssdpRepositoryRole": {
+        "name": "ssdpRepositoryRole",
+        "type": "string",
+        "ext_type": "dropdown",
+        "original_serverid": "ssdpRepositoryRole",
+        "original_controltype": "DropDown",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "EPC Role",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": "Select...",
+        "system_options": [
+          "user"
+        ]
+      },
+      "btnDeptSelected": {
+        "name": "btnDeptSelected",
+        "type": "none",
+        "ext_type": "Button",
+        "original_serverid": "btnDeptSelected",
+        "original_controltype": "Button",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Add/Update Selected Department",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "btnDeptAll": {
+        "name": "btnDeptAll",
+        "type": "none",
+        "ext_type": "Button",
+        "original_serverid": "btnDeptAll",
+        "original_controltype": "Button",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Add/Update All Departments",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "ssdpRoleDepartment": {
+        "name": "ssdpRoleDepartment",
+        "type": "string",
+        "ext_type": "dropdown",
+        "original_serverid": "ssdpRoleDepartment",
+        "original_controltype": "DropDown",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Role Department",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": "Select...",
+        "system_options": []
+      },
+      "ssdpEnvironment": {
+        "name": "ssdpEnvironment",
+        "type": "string",
+        "ext_type": "dropdown",
+        "original_serverid": "ssdpEnvironment",
+        "original_controltype": "DropDown",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Environment",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": "Select...",
+        "system_options": [
+          "user"
+        ]
+      },
+      "ssdrpUser": {
+        "name": "ssdrpUser",
+        "type": "string",
+        "ext_type": "dropdown",
+        "original_serverid": "ssdrpUser",
+        "original_controltype": "DropDown",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "EPC User",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": "Select...",
+        "system_options": [
+          "user"
+        ]
+      },
+      "btnSelectedRole": {
+        "name": "btnSelectedRole",
+        "type": "none",
+        "ext_type": "Button",
+        "original_serverid": "btnSelectedRole",
+        "original_controltype": "Button",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Add/Update Selected Role",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "btnUpdateRoles": {
+        "name": "btnUpdateRoles",
+        "type": "none",
+        "ext_type": "Button",
+        "original_serverid": "btnUpdateRoles",
+        "original_controltype": "Button",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Add/Update All Roles",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "lblMessageRole": {
+        "name": "lblMessageRole",
+        "type": "none",
+        "ext_type": "Label",
+        "original_serverid": "lblMessageRole",
+        "original_controltype": "Label",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "ssdpMainEnvironment": {
+        "name": "ssdpMainEnvironment",
+        "type": "string",
+        "ext_type": "dropdown",
+        "original_serverid": "ssdpMainEnvironment",
+        "original_controltype": "DropDown",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Environment",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": "Select...",
+        "system_options": [
+          "user"
+        ]
+      },
+      "btnImportAll": {
+        "name": "btnImportAll",
+        "type": "none",
+        "ext_type": "Button",
+        "original_serverid": "btnImportAll",
+        "original_controltype": "Button",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Sync All",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "txtMessages": {
+        "name": "txtMessages",
+        "type": "string",
+        "ext_type": "multiline",
+        "original_serverid": "txtMessages",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Output",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "btnLoad": {
+        "name": "btnLoad",
+        "type": "none",
+        "ext_type": "Button",
+        "original_serverid": "btnLoad",
+        "original_controltype": "Button",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "OnLoading",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "lblimportAllMessage": {
+        "name": "lblimportAllMessage",
+        "type": "none",
+        "ext_type": "Label",
+        "original_serverid": "lblimportAllMessage",
+        "original_controltype": "Label",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "Button1": {
+        "name": "Button1",
+        "type": "none",
+        "ext_type": "Button",
+        "original_serverid": "Button1",
+        "original_controltype": "Button",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Run Script",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "btnPopulateUsers": {
+        "name": "btnPopulateUsers",
+        "type": "none",
+        "ext_type": "Button",
+        "original_serverid": "btnPopulateUsers",
+        "original_controltype": "Button",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Update Grid/Dropdown with EPC Users",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "DateTimePicker": {
+        "name": "DateTimePicker",
+        "type": "datetime",
+        "ext_type": "datetime",
+        "original_serverid": "DateTimePicker",
+        "original_controltype": "DateEdit",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Last Upload Date(EPC Users)",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "Label1": {
+        "name": "Label1",
+        "type": "none",
+        "ext_type": "Label",
+        "original_serverid": "Label1",
+        "original_controltype": "Label",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "To display the latest user data in EPC, click on the Update Grid/Dropdown button. Note that you will still need to select the Add/Update button to synchronize the users in DBP. \r\n",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "Label4": {
+        "name": "Label4",
+        "type": "none",
+        "ext_type": "Label",
+        "original_serverid": "Label4",
+        "original_controltype": "Label",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "If you sync the users first and then the roles, the relationship between the two in EPC will be kept on the DBP side. If you sync the roles first, however, and then the users, the relationship between the two in EPC will not be kept on the DBP side.",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "btnSelectedUser": {
+        "name": "btnSelectedUser",
+        "type": "none",
+        "ext_type": "Button",
+        "original_serverid": "btnSelectedUser",
+        "original_controltype": "Button",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Add/Update Selected User",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "btnUpdateUsers": {
+        "name": "btnUpdateUsers",
+        "type": "none",
+        "ext_type": "Button",
+        "original_serverid": "btnUpdateUsers",
+        "original_controltype": "Button",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Add/Update All Users",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "Label": {
+        "name": "Label",
+        "type": "none",
+        "ext_type": "Label",
+        "original_serverid": "Label",
+        "original_controltype": "Label",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Synchronize All Departments, Roles, Users, \u0026 Their Relations\r\n",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "tooltip": "You will get notifications during process and the message with the result at the end."
+      },
+      "Label3": {
+        "name": "Label3",
+        "type": "none",
+        "ext_type": "Label",
+        "original_serverid": "Label3",
+        "original_controltype": "Label",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Synchronize Individually ",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "lblUser": {
+        "name": "lblUser",
+        "type": "none",
+        "ext_type": "Label",
+        "original_serverid": "lblUser",
+        "original_controltype": "Label",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "lblDeptMessage": {
+        "name": "lblDeptMessage",
+        "type": "none",
+        "ext_type": "Label",
+        "original_serverid": "lblDeptMessage",
+        "original_controltype": "Label",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "tblDepartment": {
+        "name": "tblDepartment",
+        "type": "none",
+        "ext_type": "Table",
+        "original_serverid": "tblDepartment",
+        "original_controltype": "Table",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "GenericGrid": {
+        "name": "GenericGrid",
+        "type": "none",
+        "ext_type": "Table",
+        "original_serverid": "GenericGrid",
+        "original_controltype": "Table",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "tblEPCUsers": {
+        "name": "tblEPCUsers",
+        "type": "none",
+        "ext_type": "Table",
+        "original_serverid": "tblEPCUsers",
+        "original_controltype": "Table",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "tblBPMSUsers": {
+        "name": "tblBPMSUsers",
+        "type": "none",
+        "ext_type": "Table",
+        "original_serverid": "tblBPMSUsers",
+        "original_controltype": "Table",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "tblRepositoryRoles": {
+        "name": "tblRepositoryRoles",
+        "type": "none",
+        "ext_type": "Table",
+        "original_serverid": "tblRepositoryRoles",
+        "original_controltype": "Table",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "tblWorkflowRoles": {
+        "name": "tblWorkflowRoles",
+        "type": "none",
+        "ext_type": "Table",
+        "original_serverid": "tblWorkflowRoles",
+        "original_controltype": "Table",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "",
+        "original_serverid": "Row11",
+        "original_controltype": "Row",
+        "type": "section",
+        "index": 0,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "6C808BBE-D90D-4EF8-92DC-C266AD6D43BA",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column5",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "6C808BBE-D90D-4EF8-92DC-C266AD6D43BA",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "Label",
+                "original_serverid": "Label",
+                "original_controltype": "Label",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "Synchronize All Departments, Roles, Users, \u0026 Their Relations\r\n",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "entity_name": "",
+        "original_serverid": "Row13",
+        "original_controltype": "Row",
+        "type": "columns",
+        "index": 1,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "6C808BBE-D90D-4EF8-92DC-C266AD6D43BA",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column26",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "6C808BBE-D90D-4EF8-92DC-C266AD6D43BA",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "ssdpMainEnvironment",
+                "original_serverid": "ssdpMainEnvironment",
+                "original_controltype": "DropDown",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "Environment",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              },
+              {
+                "entity_name": "btnImportAll",
+                "original_serverid": "btnImportAll",
+                "original_controltype": "Button",
+                "type": "field",
+                "index": 1,
+                "default_state": "editable",
+                "states": [],
+                "caption": "Sync All",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              },
+              {
+                "entity_name": "",
+                "original_serverid": "Row15",
+                "original_controltype": "Row",
+                "type": "section",
+                "index": 2,
+                "default_state": "editable",
+                "states": [
+                  {
+                    "behaviorTaskId": "6C808BBE-D90D-4EF8-92DC-C266AD6D43BA",
+                    "state": "editable"
+                  }
+                ],
+                "caption_bold": false,
+                "caption_italic": false,
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": [
+                  {
+                    "entity_name": "",
+                    "original_serverid": "Column30",
+                    "original_controltype": "Column",
+                    "type": "section",
+                    "index": 0,
+                    "default_state": "editable",
+                    "states": [
+                      {
+                        "behaviorTaskId": "6C808BBE-D90D-4EF8-92DC-C266AD6D43BA",
+                        "state": "editable"
+                      }
+                    ],
+                    "is_default_open": false,
+                    "all_open_by_default": false,
+                    "children": [
+                      {
+                        "entity_name": "lblimportAllMessage",
+                        "original_serverid": "lblimportAllMessage",
+                        "original_controltype": "Label",
+                        "type": "field",
+                        "index": 0,
+                        "default_state": "editable",
+                        "states": [],
+                        "caption": "",
+                        "is_default_open": false,
+                        "all_open_by_default": false,
+                        "children": []
+                      },
+                      {
+                        "entity_name": "Button1",
+                        "original_serverid": "Button1",
+                        "original_controltype": "Button",
+                        "type": "field",
+                        "index": 1,
+                        "default_state": "invisible",
+                        "states": [],
+                        "caption": "Run Script",
+                        "is_default_open": false,
+                        "all_open_by_default": false,
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "entity_name": "",
+            "original_serverid": "Column27",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 1,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "6C808BBE-D90D-4EF8-92DC-C266AD6D43BA",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": []
+          },
+          {
+            "entity_name": "",
+            "original_serverid": "Column28",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 2,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "6C808BBE-D90D-4EF8-92DC-C266AD6D43BA",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": []
+          }
+        ]
+      },
+      {
+        "entity_name": "",
+        "original_serverid": "Row14",
+        "original_controltype": "Row",
+        "type": "section",
+        "index": 2,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "6C808BBE-D90D-4EF8-92DC-C266AD6D43BA",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column29",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "6C808BBE-D90D-4EF8-92DC-C266AD6D43BA",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "txtMessages",
+                "original_serverid": "txtMessages",
+                "original_controltype": "TextBox",
+                "type": "field",
+                "index": 0,
+                "default_state": "invisible",
+                "states": [],
+                "caption": "Output",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "entity_name": "",
+        "original_serverid": "Row16",
+        "original_controltype": "Row",
+        "type": "section",
+        "index": 3,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "6C808BBE-D90D-4EF8-92DC-C266AD6D43BA",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column6",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "6C808BBE-D90D-4EF8-92DC-C266AD6D43BA",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "Label3",
+                "original_serverid": "Label3",
+                "original_controltype": "Label",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "Synchronize Individually ",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "entity_name": "",
+        "original_serverid": "Row19",
+        "original_controltype": "Row",
+        "type": "section",
+        "index": 4,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "6C808BBE-D90D-4EF8-92DC-C266AD6D43BA",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column39",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "6C808BBE-D90D-4EF8-92DC-C266AD6D43BA",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "Label4",
+                "original_serverid": "Label4",
+                "original_controltype": "Label",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "If you sync the users first and then the roles, the relationship between the two in EPC will be kept on the DBP side. If you sync the roles first, however, and then the users, the relationship between the two in EPC will not be kept on the DBP side.",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "entity_name": "",
+        "original_serverid": "Row",
+        "original_controltype": "Row",
+        "type": "section",
+        "index": 5,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "6C808BBE-D90D-4EF8-92DC-C266AD6D43BA",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "6C808BBE-D90D-4EF8-92DC-C266AD6D43BA",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "",
+                "original_serverid": "TabControl",
+                "original_controltype": "TabControl",
+                "type": "tabs",
+                "index": 0,
+                "default_state": "editable",
+                "states": [
+                  {
+                    "behaviorTaskId": "6C808BBE-D90D-4EF8-92DC-C266AD6D43BA",
+                    "state": "editable"
+                  }
+                ],
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": [
+                  {
+                    "entity_name": "",
+                    "original_serverid": "TabPage",
+                    "original_controltype": "TabPage",
+                    "type": "section",
+                    "index": 0,
+                    "default_state": "editable",
+                    "states": [
+                      {
+                        "behaviorTaskId": "6C808BBE-D90D-4EF8-92DC-C266AD6D43BA",
+                        "state": "editable"
+                      }
+                    ],
+                    "caption": "Departments",
+                    "caption_bold": false,
+                    "caption_italic": false,
+                    "is_default_open": false,
+                    "all_open_by_default": false,
+                    "background_color": "White",
+                    "children": [
+                      {
+                        "entity_name": "",
+                        "original_serverid": "Row5",
+                        "original_controltype": "Row",
+                        "type": "columns",
+                        "index": 0,
+                        "default_state": "editable",
+                        "states": [
+                          {
+                            "behaviorTaskId": "6C808BBE-D90D-4EF8-92DC-C266AD6D43BA",
+                            "state": "editable"
+                          }
+                        ],
+                        "caption_bold": false,
+                        "caption_italic": false,
+                        "is_default_open": false,
+                        "all_open_by_default": false,
+                        "children": [
+                          {
+                            "entity_name": "",
+                            "original_serverid": "Column11",
+                            "original_controltype": "Column",
+                            "type": "section",
+                            "index": 0,
+                            "default_state": "editable",
+                            "states": [
+                              {
+                                "behaviorTaskId": "6C808BBE-D90D-4EF8-92DC-C266AD6D43BA",
+                                "state": "editable"
+                              }
+                            ],
+                            "is_default_open": false,
+                            "all_open_by_default": false,
+                            "children": [
+                              {
+                                "entity_name": "ssdpEnvironmentDpt",
+                                "original_serverid": "ssdpEnvironmentDpt",
+                                "original_controltype": "DropDown",
+                                "type": "field",
+                                "index": 0,
+                                "default_state": "editable",
+                                "states": [],
+                                "caption": "Environment",
+                                "is_default_open": false,
+                                "all_open_by_default": false,
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "entity_name": "",
+                            "original_serverid": "Column12",
+                            "original_controltype": "Column",
+                            "type": "section",
+                            "index": 1,
+                            "default_state": "editable",
+                            "states": [
+                              {
+                                "behaviorTaskId": "6C808BBE-D90D-4EF8-92DC-C266AD6D43BA",
+                                "state": "editable"
+                              }
+                            ],
+                            "is_default_open": false,
+                            "all_open_by_default": false,
+                            "children": [
+                              {
+                                "entity_name": "ssdEPCDeptId",
+                                "original_serverid": "ssdEPCDeptId",
+                                "original_controltype": "DropDown",
+                                "type": "field",
+                                "index": 0,
+                                "default_state": "editable",
+                                "states": [],
+                                "caption": "EPC Department",
+                                "is_default_open": false,
+                                "all_open_by_default": false,
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "entity_name": "",
+                        "original_serverid": "Row6",
+                        "original_controltype": "Row",
+                        "type": "section",
+                        "index": 1,
+                        "default_state": "editable",
+                        "states": [
+                          {
+                            "behaviorTaskId": "6C808BBE-D90D-4EF8-92DC-C266AD6D43BA",
+                            "state": "editable"
+                          }
+                        ],
+                        "caption_bold": false,
+                        "caption_italic": false,
+                        "is_default_open": false,
+                        "all_open_by_default": false,
+                        "children": [
+                          {
+                            "entity_name": "",
+                            "original_serverid": "Column14",
+                            "original_controltype": "Column",
+                            "type": "section",
+                            "index": 0,
+                            "default_state": "editable",
+                            "states": [
+                              {
+                                "behaviorTaskId": "6C808BBE-D90D-4EF8-92DC-C266AD6D43BA",
+                                "state": "editable"
+                              }
+                            ],
+                            "is_default_open": false,
+                            "all_open_by_default": false,
+                            "children": [
+                              {
+                                "entity_name": "btnDeptSelected",
+                                "original_serverid": "btnDeptSelected",
+                                "original_controltype": "Button",
+                                "type": "field",
+                                "index": 0,
+                                "default_state": "editable",
+                                "states": [],
+                                "caption": "Add/Update Selected Department",
+                                "is_default_open": false,
+                                "all_open_by_default": false,
+                                "children": []
+                              },
+                              {
+                                "entity_name": "btnDeptAll",
+                                "original_serverid": "btnDeptAll",
+                                "original_controltype": "Button",
+                                "type": "field",
+                                "index": 1,
+                                "default_state": "editable",
+                                "states": [],
+                                "caption": "Add/Update All Departments",
+                                "is_default_open": false,
+                                "all_open_by_default": false,
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "entity_name": "",
+                        "original_serverid": "Row3",
+                        "original_controltype": "Row",
+                        "type": "section",
+                        "index": 2,
+                        "default_state": "editable",
+                        "states": [
+                          {
+                            "behaviorTaskId": "6C808BBE-D90D-4EF8-92DC-C266AD6D43BA",
+                            "state": "editable"
+                          }
+                        ],
+                        "caption_bold": false,
+                        "caption_italic": false,
+                        "is_default_open": false,
+                        "all_open_by_default": false,
+                        "children": [
+                          {
+                            "entity_name": "",
+                            "original_serverid": "Column9",
+                            "original_controltype": "Column",
+                            "type": "section",
+                            "index": 0,
+                            "default_state": "editable",
+                            "states": [
+                              {
+                                "behaviorTaskId": "6C808BBE-D90D-4EF8-92DC-C266AD6D43BA",
+                                "state": "editable"
+                              }
+                            ],
+                            "is_default_open": false,
+                            "all_open_by_default": false,
+                            "children": [
+                              {
+                                "entity_name": "lblDeptMessage",
+                                "original_serverid": "lblDeptMessage",
+                                "original_controltype": "Label",
+                                "type": "field",
+                                "index": 0,
+                                "default_state": "editable",
+                                "states": [],
+                                "caption": "",
+                                "is_default_open": false,
+                                "all_open_by_default": false,
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "entity_name": "",
+                        "original_serverid": "Row4",
+                        "original_controltype": "Row",
+                        "type": "section",
+                        "index": 3,
+                        "default_state": "editable",
+                        "states": [
+                          {
+                            "behaviorTaskId": "6C808BBE-D90D-4EF8-92DC-C266AD6D43BA",
+                            "state": "editable"
+                          }
+                        ],
+                        "caption_bold": false,
+                        "caption_italic": false,
+                        "is_default_open": false,
+                        "all_open_by_default": false,
+                        "children": [
+                          {
+                            "entity_name": "",
+                            "original_serverid": "Column10",
+                            "original_controltype": "Column",
+                            "type": "section",
+                            "index": 0,
+                            "default_state": "editable",
+                            "states": [
+                              {
+                                "behaviorTaskId": "6C808BBE-D90D-4EF8-92DC-C266AD6D43BA",
+                                "state": "editable"
+                              }
+                            ],
+                            "is_default_open": false,
+                            "all_open_by_default": false,
+                            "children": [
+                              {
+                                "entity_name": "",
+                                "original_serverid": "TabControl1",
+                                "original_controltype": "TabControl",
+                                "type": "tabs",
+                                "index": 0,
+                                "default_state": "editable",
+                                "states": [
+                                  {
+                                    "behaviorTaskId": "6C808BBE-D90D-4EF8-92DC-C266AD6D43BA",
+                                    "state": "editable"
+                                  }
+                                ],
+                                "is_default_open": false,
+                                "all_open_by_default": false,
+                                "children": [
+                                  {
+                                    "entity_name": "",
+                                    "original_serverid": "TabPage3",
+                                    "original_controltype": "TabPage",
+                                    "type": "section",
+                                    "index": 0,
+                                    "default_state": "editable",
+                                    "states": [
+                                      {
+                                        "behaviorTaskId": "6C808BBE-D90D-4EF8-92DC-C266AD6D43BA",
+                                        "state": "editable"
+                                      }
+                                    ],
+                                    "caption": "List of EPC Departments",
+                                    "caption_bold": false,
+                                    "caption_italic": false,
+                                    "is_default_open": false,
+                                    "all_open_by_default": false,
+                                    "background_color": "White",
+                                    "children": [
+                                      {
+                                        "entity_name": "tblDepartment",
+                                        "original_serverid": "tblDepartment",
+                                        "original_controltype": "Table",
+                                        "type": "field",
+                                        "index": 0,
+                                        "default_state": "editable",
+                                        "states": [],
+                                        "caption": "",
+                                        "is_default_open": false,
+                                        "all_open_by_default": false,
+                                        "children": []
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "entity_name": "",
+                                    "original_serverid": "TabPage4",
+                                    "original_controltype": "TabPage",
+                                    "type": "section",
+                                    "index": 0,
+                                    "default_state": "editable",
+                                    "states": [
+                                      {
+                                        "behaviorTaskId": "6C808BBE-D90D-4EF8-92DC-C266AD6D43BA",
+                                        "state": "editable"
+                                      }
+                                    ],
+                                    "caption": "List of DBP Departments",
+                                    "caption_bold": false,
+                                    "caption_italic": false,
+                                    "is_default_open": false,
+                                    "all_open_by_default": false,
+                                    "background_color": "White",
+                                    "children": [
+                                      {
+                                        "entity_name": "GenericGrid",
+                                        "original_serverid": "GenericGrid",
+                                        "original_controltype": "Table",
+                                        "type": "field",
+                                        "index": 0,
+                                        "default_state": "editable",
+                                        "states": [],
+                                        "caption": "",
+                                        "is_default_open": false,
+                                        "all_open_by_default": false,
+                                        "children": []
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "entity_name": "",
+                    "original_serverid": "TabPage1",
+                    "original_controltype": "TabPage",
+                    "type": "section",
+                    "index": 0,
+                    "default_state": "editable",
+                    "states": [
+                      {
+                        "behaviorTaskId": "6C808BBE-D90D-4EF8-92DC-C266AD6D43BA",
+                        "state": "editable"
+                      }
+                    ],
+                    "caption": "Users",
+                    "caption_bold": false,
+                    "caption_italic": false,
+                    "is_default_open": false,
+                    "all_open_by_default": false,
+                    "background_color": "White",
+                    "children": [
+                      {
+                        "entity_name": "",
+                        "original_serverid": "Row20",
+                        "original_controltype": "Row",
+                        "type": "section",
+                        "index": 0,
+                        "default_state": "editable",
+                        "states": [
+                          {
+                            "behaviorTaskId": "6C808BBE-D90D-4EF8-92DC-C266AD6D43BA",
+                            "state": "editable"
+                          }
+                        ],
+                        "caption_bold": false,
+                        "caption_italic": false,
+                        "is_default_open": false,
+                        "all_open_by_default": false,
+                        "children": [
+                          {
+                            "entity_name": "",
+                            "original_serverid": "Column37",
+                            "original_controltype": "Column",
+                            "type": "section",
+                            "index": 0,
+                            "default_state": "editable",
+                            "states": [
+                              {
+                                "behaviorTaskId": "6C808BBE-D90D-4EF8-92DC-C266AD6D43BA",
+                                "state": "editable"
+                              }
+                            ],
+                            "is_default_open": false,
+                            "all_open_by_default": false,
+                            "children": [
+                              {
+                                "entity_name": "Label1",
+                                "original_serverid": "Label1",
+                                "original_controltype": "Label",
+                                "type": "field",
+                                "index": 0,
+                                "default_state": "editable",
+                                "states": [],
+                                "caption": "To display the latest user data in EPC, click on the Update Grid/Dropdown button. Note that you will still need to select the Add/Update button to synchronize the users in DBP. \r\n",
+                                "is_default_open": false,
+                                "all_open_by_default": false,
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "entity_name": "",
+                        "original_serverid": "Row18",
+                        "original_controltype": "Row",
+                        "type": "columns",
+                        "index": 1,
+                        "default_state": "editable",
+                        "states": [
+                          {
+                            "behaviorTaskId": "6C808BBE-D90D-4EF8-92DC-C266AD6D43BA",
+                            "state": "editable"
+                          }
+                        ],
+                        "caption_bold": false,
+                        "caption_italic": false,
+                        "is_default_open": false,
+                        "all_open_by_default": false,
+                        "children": [
+                          {
+                            "entity_name": "",
+                            "original_serverid": "Column34",
+                            "original_controltype": "Column",
+                            "type": "section",
+                            "index": 0,
+                            "default_state": "editable",
+                            "states": [
+                              {
+                                "behaviorTaskId": "6C808BBE-D90D-4EF8-92DC-C266AD6D43BA",
+                                "state": "editable"
+                              }
+                            ],
+                            "is_default_open": false,
+                            "all_open_by_default": false,
+                            "children": [
+                              {
+                                "entity_name": "btnPopulateUsers",
+                                "original_serverid": "btnPopulateUsers",
+                                "original_controltype": "Button",
+                                "type": "field",
+                                "index": 0,
+                                "default_state": "editable",
+                                "states": [],
+                                "caption": "Update Grid/Dropdown with EPC Users",
+                                "is_default_open": false,
+                                "all_open_by_default": false,
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "entity_name": "",
+                            "original_serverid": "Column35",
+                            "original_controltype": "Column",
+                            "type": "section",
+                            "index": 1,
+                            "default_state": "editable",
+                            "states": [
+                              {
+                                "behaviorTaskId": "6C808BBE-D90D-4EF8-92DC-C266AD6D43BA",
+                                "state": "editable"
+                              }
+                            ],
+                            "is_default_open": false,
+                            "all_open_by_default": false,
+                            "children": [
+                              {
+                                "entity_name": "DateTimePicker",
+                                "original_serverid": "DateTimePicker",
+                                "original_controltype": "DateEdit",
+                                "type": "field",
+                                "index": 0,
+                                "default_state": "invisible",
+                                "states": [],
+                                "caption": "Last Upload Date(EPC Users)",
+                                "is_default_open": false,
+                                "all_open_by_default": false,
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "entity_name": "",
+                        "original_serverid": "Row1",
+                        "original_controltype": "Row",
+                        "type": "columns",
+                        "index": 2,
+                        "default_state": "editable",
+                        "states": [
+                          {
+                            "behaviorTaskId": "6C808BBE-D90D-4EF8-92DC-C266AD6D43BA",
+                            "state": "editable"
+                          }
+                        ],
+                        "caption_bold": false,
+                        "caption_italic": false,
+                        "is_default_open": false,
+                        "all_open_by_default": false,
+                        "children": [
+                          {
+                            "entity_name": "",
+                            "original_serverid": "Column1",
+                            "original_controltype": "Column",
+                            "type": "section",
+                            "index": 0,
+                            "default_state": "editable",
+                            "states": [
+                              {
+                                "behaviorTaskId": "6C808BBE-D90D-4EF8-92DC-C266AD6D43BA",
+                                "state": "editable"
+                              }
+                            ],
+                            "is_default_open": false,
+                            "all_open_by_default": false,
+                            "children": [
+                              {
+                                "entity_name": "SingleSelectDropdown",
+                                "original_serverid": "SingleSelectDropdown",
+                                "original_controltype": "DropDown",
+                                "type": "field",
+                                "index": 0,
+                                "default_state": "editable",
+                                "states": [],
+                                "caption": "Environment",
+                                "is_default_open": false,
+                                "all_open_by_default": false,
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "entity_name": "",
+                            "original_serverid": "Column2",
+                            "original_controltype": "Column",
+                            "type": "section",
+                            "index": 1,
+                            "default_state": "editable",
+                            "states": [
+                              {
+                                "behaviorTaskId": "6C808BBE-D90D-4EF8-92DC-C266AD6D43BA",
+                                "state": "editable"
+                              }
+                            ],
+                            "is_default_open": false,
+                            "all_open_by_default": false,
+                            "children": [
+                              {
+                                "entity_name": "ssdrpUser",
+                                "original_serverid": "ssdrpUser",
+                                "original_controltype": "DropDown",
+                                "type": "field",
+                                "index": 0,
+                                "default_state": "editable",
+                                "states": [],
+                                "caption": "EPC User",
+                                "is_default_open": false,
+                                "all_open_by_default": false,
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "entity_name": "",
+                            "original_serverid": "Column3",
+                            "original_controltype": "Column",
+                            "type": "section",
+                            "index": 2,
+                            "default_state": "editable",
+                            "states": [
+                              {
+                                "behaviorTaskId": "6C808BBE-D90D-4EF8-92DC-C266AD6D43BA",
+                                "state": "editable"
+                              }
+                            ],
+                            "is_default_open": false,
+                            "all_open_by_default": false,
+                            "children": [
+                              {
+                                "entity_name": "btnLoad",
+                                "original_serverid": "btnLoad",
+                                "original_controltype": "Button",
+                                "type": "field",
+                                "index": 0,
+                                "default_state": "invisible",
+                                "states": [],
+                                "caption": "OnLoading",
+                                "is_default_open": false,
+                                "all_open_by_default": false,
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "entity_name": "",
+                        "original_serverid": "Row2",
+                        "original_controltype": "Row",
+                        "type": "section",
+                        "index": 3,
+                        "default_state": "editable",
+                        "states": [
+                          {
+                            "behaviorTaskId": "6C808BBE-D90D-4EF8-92DC-C266AD6D43BA",
+                            "state": "editable"
+                          }
+                        ],
+                        "caption_bold": false,
+                        "caption_italic": false,
+                        "is_default_open": false,
+                        "all_open_by_default": false,
+                        "children": [
+                          {
+                            "entity_name": "",
+                            "original_serverid": "Column4",
+                            "original_controltype": "Column",
+                            "type": "section",
+                            "index": 0,
+                            "default_state": "editable",
+                            "states": [
+                              {
+                                "behaviorTaskId": "6C808BBE-D90D-4EF8-92DC-C266AD6D43BA",
+                                "state": "editable"
+                              }
+                            ],
+                            "is_default_open": false,
+                            "all_open_by_default": false,
+                            "children": [
+                              {
+                                "entity_name": "btnSelectedUser",
+                                "original_serverid": "btnSelectedUser",
+                                "original_controltype": "Button",
+                                "type": "field",
+                                "index": 0,
+                                "default_state": "editable",
+                                "states": [],
+                                "caption": "Add/Update Selected User",
+                                "is_default_open": false,
+                                "all_open_by_default": false,
+                                "children": []
+                              },
+                              {
+                                "entity_name": "btnUpdateUsers",
+                                "original_serverid": "btnUpdateUsers",
+                                "original_controltype": "Button",
+                                "type": "field",
+                                "index": 1,
+                                "default_state": "editable",
+                                "states": [],
+                                "caption": "Add/Update All Users",
+                                "is_default_open": false,
+                                "all_open_by_default": false,
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "entity_name": "",
+                        "original_serverid": "Row7",
+                        "original_controltype": "Row",
+                        "type": "section",
+                        "index": 4,
+                        "default_state": "editable",
+                        "states": [
+                          {
+                            "behaviorTaskId": "6C808BBE-D90D-4EF8-92DC-C266AD6D43BA",
+                            "state": "editable"
+                          }
+                        ],
+                        "caption_bold": false,
+                        "caption_italic": false,
+                        "is_default_open": false,
+                        "all_open_by_default": false,
+                        "children": [
+                          {
+                            "entity_name": "",
+                            "original_serverid": "Column7",
+                            "original_controltype": "Column",
+                            "type": "section",
+                            "index": 0,
+                            "default_state": "editable",
+                            "states": [
+                              {
+                                "behaviorTaskId": "6C808BBE-D90D-4EF8-92DC-C266AD6D43BA",
+                                "state": "editable"
+                              }
+                            ],
+                            "is_default_open": false,
+                            "all_open_by_default": false,
+                            "children": [
+                              {
+                                "entity_name": "lblUser",
+                                "original_serverid": "lblUser",
+                                "original_controltype": "Label",
+                                "type": "field",
+                                "index": 0,
+                                "default_state": "editable",
+                                "states": [],
+                                "caption": "",
+                                "is_default_open": false,
+                                "all_open_by_default": false,
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "entity_name": "",
+                        "original_serverid": "Row8",
+                        "original_controltype": "Row",
+                        "type": "section",
+                        "index": 5,
+                        "default_state": "editable",
+                        "states": [
+                          {
+                            "behaviorTaskId": "6C808BBE-D90D-4EF8-92DC-C266AD6D43BA",
+                            "state": "editable"
+                          }
+                        ],
+                        "caption_bold": false,
+                        "caption_italic": false,
+                        "is_default_open": false,
+                        "all_open_by_default": false,
+                        "children": [
+                          {
+                            "entity_name": "",
+                            "original_serverid": "Column8",
+                            "original_controltype": "Column",
+                            "type": "section",
+                            "index": 0,
+                            "default_state": "editable",
+                            "states": [
+                              {
+                                "behaviorTaskId": "6C808BBE-D90D-4EF8-92DC-C266AD6D43BA",
+                                "state": "editable"
+                              }
+                            ],
+                            "is_default_open": false,
+                            "all_open_by_default": false,
+                            "children": [
+                              {
+                                "entity_name": "",
+                                "original_serverid": "TabControl2",
+                                "original_controltype": "TabControl",
+                                "type": "tabs",
+                                "index": 0,
+                                "default_state": "editable",
+                                "states": [
+                                  {
+                                    "behaviorTaskId": "6C808BBE-D90D-4EF8-92DC-C266AD6D43BA",
+                                    "state": "editable"
+                                  }
+                                ],
+                                "is_default_open": false,
+                                "all_open_by_default": false,
+                                "children": [
+                                  {
+                                    "entity_name": "",
+                                    "original_serverid": "TabPage5",
+                                    "original_controltype": "TabPage",
+                                    "type": "section",
+                                    "index": 0,
+                                    "default_state": "editable",
+                                    "states": [
+                                      {
+                                        "behaviorTaskId": "6C808BBE-D90D-4EF8-92DC-C266AD6D43BA",
+                                        "state": "editable"
+                                      }
+                                    ],
+                                    "caption": "List of EPC Users",
+                                    "caption_bold": false,
+                                    "caption_italic": false,
+                                    "is_default_open": false,
+                                    "all_open_by_default": false,
+                                    "background_color": "White",
+                                    "children": [
+                                      {
+                                        "entity_name": "tblEPCUsers",
+                                        "original_serverid": "tblEPCUsers",
+                                        "original_controltype": "Table",
+                                        "type": "field",
+                                        "index": 0,
+                                        "default_state": "editable",
+                                        "states": [],
+                                        "caption": "",
+                                        "is_default_open": false,
+                                        "all_open_by_default": false,
+                                        "children": []
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "entity_name": "",
+                                    "original_serverid": "TabPage6",
+                                    "original_controltype": "TabPage",
+                                    "type": "section",
+                                    "index": 0,
+                                    "default_state": "editable",
+                                    "states": [
+                                      {
+                                        "behaviorTaskId": "6C808BBE-D90D-4EF8-92DC-C266AD6D43BA",
+                                        "state": "editable"
+                                      }
+                                    ],
+                                    "caption": "List of DBP Users",
+                                    "caption_bold": false,
+                                    "caption_italic": false,
+                                    "is_default_open": false,
+                                    "all_open_by_default": false,
+                                    "background_color": "White",
+                                    "children": [
+                                      {
+                                        "entity_name": "tblBPMSUsers",
+                                        "original_serverid": "tblBPMSUsers",
+                                        "original_controltype": "Table",
+                                        "type": "field",
+                                        "index": 0,
+                                        "default_state": "editable",
+                                        "states": [],
+                                        "caption": "",
+                                        "is_default_open": false,
+                                        "all_open_by_default": false,
+                                        "children": []
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "entity_name": "",
+                    "original_serverid": "TabPage2",
+                    "original_controltype": "TabPage",
+                    "type": "section",
+                    "index": 0,
+                    "default_state": "editable",
+                    "states": [
+                      {
+                        "behaviorTaskId": "6C808BBE-D90D-4EF8-92DC-C266AD6D43BA",
+                        "state": "editable"
+                      }
+                    ],
+                    "caption": "Roles",
+                    "caption_bold": false,
+                    "caption_italic": false,
+                    "is_default_open": false,
+                    "all_open_by_default": false,
+                    "background_color": "White",
+                    "children": [
+                      {
+                        "entity_name": "",
+                        "original_serverid": "Row17",
+                        "original_controltype": "Row",
+                        "type": "section",
+                        "index": 0,
+                        "default_state": "editable",
+                        "states": [
+                          {
+                            "behaviorTaskId": "6C808BBE-D90D-4EF8-92DC-C266AD6D43BA",
+                            "state": "editable"
+                          }
+                        ],
+                        "caption_bold": false,
+                        "caption_italic": false,
+                        "is_default_open": false,
+                        "all_open_by_default": false,
+                        "children": [
+                          {
+                            "entity_name": "",
+                            "original_serverid": "Column38",
+                            "original_controltype": "Column",
+                            "type": "section",
+                            "index": 0,
+                            "default_state": "editable",
+                            "states": [
+                              {
+                                "behaviorTaskId": "6C808BBE-D90D-4EF8-92DC-C266AD6D43BA",
+                                "state": "editable"
+                              }
+                            ],
+                            "is_default_open": false,
+                            "all_open_by_default": false,
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "entity_name": "",
+                        "original_serverid": "Row9",
+                        "original_controltype": "Row",
+                        "type": "section",
+                        "index": 1,
+                        "default_state": "editable",
+                        "states": [
+                          {
+                            "behaviorTaskId": "6C808BBE-D90D-4EF8-92DC-C266AD6D43BA",
+                            "state": "editable"
+                          }
+                        ],
+                        "caption_bold": false,
+                        "caption_italic": false,
+                        "is_default_open": false,
+                        "all_open_by_default": false,
+                        "children": [
+                          {
+                            "entity_name": "",
+                            "original_serverid": "Column17",
+                            "original_controltype": "Column",
+                            "type": "section",
+                            "index": 0,
+                            "default_state": "editable",
+                            "states": [
+                              {
+                                "behaviorTaskId": "6C808BBE-D90D-4EF8-92DC-C266AD6D43BA",
+                                "state": "editable"
+                              }
+                            ],
+                            "is_default_open": false,
+                            "all_open_by_default": false,
+                            "children": [
+                              {
+                                "entity_name": "ssdpEnvironment",
+                                "original_serverid": "ssdpEnvironment",
+                                "original_controltype": "DropDown",
+                                "type": "field",
+                                "index": 0,
+                                "default_state": "editable",
+                                "states": [],
+                                "caption": "Environment",
+                                "is_default_open": false,
+                                "all_open_by_default": false,
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "entity_name": "",
+                        "original_serverid": "Row21",
+                        "original_controltype": "Row",
+                        "type": "columns",
+                        "index": 2,
+                        "default_state": "editable",
+                        "states": [
+                          {
+                            "behaviorTaskId": "6C808BBE-D90D-4EF8-92DC-C266AD6D43BA",
+                            "state": "editable"
+                          }
+                        ],
+                        "caption_bold": false,
+                        "caption_italic": false,
+                        "is_default_open": false,
+                        "all_open_by_default": false,
+                        "children": [
+                          {
+                            "entity_name": "",
+                            "original_serverid": "Column13",
+                            "original_controltype": "Column",
+                            "type": "section",
+                            "index": 0,
+                            "default_state": "editable",
+                            "states": [
+                              {
+                                "behaviorTaskId": "6C808BBE-D90D-4EF8-92DC-C266AD6D43BA",
+                                "state": "editable"
+                              }
+                            ],
+                            "is_default_open": false,
+                            "all_open_by_default": false,
+                            "children": [
+                              {
+                                "entity_name": "ssdpRepositoryRole",
+                                "original_serverid": "ssdpRepositoryRole",
+                                "original_controltype": "DropDown",
+                                "type": "field",
+                                "index": 0,
+                                "default_state": "editable",
+                                "states": [],
+                                "caption": "EPC Role",
+                                "is_default_open": false,
+                                "all_open_by_default": false,
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "entity_name": "",
+                            "original_serverid": "Column15",
+                            "original_controltype": "Column",
+                            "type": "section",
+                            "index": 1,
+                            "default_state": "editable",
+                            "states": [
+                              {
+                                "behaviorTaskId": "6C808BBE-D90D-4EF8-92DC-C266AD6D43BA",
+                                "state": "editable"
+                              }
+                            ],
+                            "is_default_open": false,
+                            "all_open_by_default": false,
+                            "children": [
+                              {
+                                "entity_name": "ssdpRoleDepartment",
+                                "original_serverid": "ssdpRoleDepartment",
+                                "original_controltype": "DropDown",
+                                "type": "field",
+                                "index": 0,
+                                "default_state": "editable",
+                                "states": [],
+                                "caption": "Role Department",
+                                "is_default_open": false,
+                                "all_open_by_default": false,
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "entity_name": "",
+                        "original_serverid": "Row10",
+                        "original_controltype": "Row",
+                        "type": "section",
+                        "index": 3,
+                        "default_state": "editable",
+                        "states": [
+                          {
+                            "behaviorTaskId": "6C808BBE-D90D-4EF8-92DC-C266AD6D43BA",
+                            "state": "editable"
+                          }
+                        ],
+                        "caption_bold": false,
+                        "caption_italic": false,
+                        "is_default_open": false,
+                        "all_open_by_default": false,
+                        "children": [
+                          {
+                            "entity_name": "",
+                            "original_serverid": "Column20",
+                            "original_controltype": "Column",
+                            "type": "section",
+                            "index": 0,
+                            "default_state": "editable",
+                            "states": [
+                              {
+                                "behaviorTaskId": "6C808BBE-D90D-4EF8-92DC-C266AD6D43BA",
+                                "state": "editable"
+                              }
+                            ],
+                            "is_default_open": false,
+                            "all_open_by_default": false,
+                            "children": [
+                              {
+                                "entity_name": "btnSelectedRole",
+                                "original_serverid": "btnSelectedRole",
+                                "original_controltype": "Button",
+                                "type": "field",
+                                "index": 0,
+                                "default_state": "editable",
+                                "states": [],
+                                "caption": "Add/Update Selected Role",
+                                "is_default_open": false,
+                                "all_open_by_default": false,
+                                "children": []
+                              },
+                              {
+                                "entity_name": "btnUpdateRoles",
+                                "original_serverid": "btnUpdateRoles",
+                                "original_controltype": "Button",
+                                "type": "field",
+                                "index": 1,
+                                "default_state": "editable",
+                                "states": [],
+                                "caption": "Add/Update All Roles",
+                                "is_default_open": false,
+                                "all_open_by_default": false,
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "entity_name": "",
+                        "original_serverid": "Row12",
+                        "original_controltype": "Row",
+                        "type": "section",
+                        "index": 4,
+                        "default_state": "editable",
+                        "states": [
+                          {
+                            "behaviorTaskId": "6C808BBE-D90D-4EF8-92DC-C266AD6D43BA",
+                            "state": "editable"
+                          }
+                        ],
+                        "caption_bold": false,
+                        "caption_italic": false,
+                        "is_default_open": false,
+                        "all_open_by_default": false,
+                        "children": [
+                          {
+                            "entity_name": "",
+                            "original_serverid": "Column24",
+                            "original_controltype": "Column",
+                            "type": "section",
+                            "index": 0,
+                            "default_state": "editable",
+                            "states": [
+                              {
+                                "behaviorTaskId": "6C808BBE-D90D-4EF8-92DC-C266AD6D43BA",
+                                "state": "editable"
+                              }
+                            ],
+                            "is_default_open": false,
+                            "all_open_by_default": false,
+                            "children": [
+                              {
+                                "entity_name": "lblMessageRole",
+                                "original_serverid": "lblMessageRole",
+                                "original_controltype": "Label",
+                                "type": "field",
+                                "index": 0,
+                                "default_state": "editable",
+                                "states": [],
+                                "caption": "",
+                                "is_default_open": false,
+                                "all_open_by_default": false,
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "entity_name": "",
+                        "original_serverid": "TabControl3",
+                        "original_controltype": "TabControl",
+                        "type": "tabs",
+                        "index": 5,
+                        "default_state": "editable",
+                        "states": [
+                          {
+                            "behaviorTaskId": "6C808BBE-D90D-4EF8-92DC-C266AD6D43BA",
+                            "state": "editable"
+                          }
+                        ],
+                        "is_default_open": false,
+                        "all_open_by_default": false,
+                        "children": [
+                          {
+                            "entity_name": "",
+                            "original_serverid": "TabPage7",
+                            "original_controltype": "TabPage",
+                            "type": "section",
+                            "index": 5,
+                            "default_state": "editable",
+                            "states": [
+                              {
+                                "behaviorTaskId": "6C808BBE-D90D-4EF8-92DC-C266AD6D43BA",
+                                "state": "editable"
+                              }
+                            ],
+                            "caption": "List of EPC Roles",
+                            "caption_bold": false,
+                            "caption_italic": false,
+                            "is_default_open": false,
+                            "all_open_by_default": false,
+                            "background_color": "White",
+                            "children": [
+                              {
+                                "entity_name": "tblRepositoryRoles",
+                                "original_serverid": "tblRepositoryRoles",
+                                "original_controltype": "Table",
+                                "type": "field",
+                                "index": 0,
+                                "default_state": "editable",
+                                "states": [],
+                                "caption": "",
+                                "is_default_open": false,
+                                "all_open_by_default": false,
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "entity_name": "",
+                            "original_serverid": "TabPage8",
+                            "original_controltype": "TabPage",
+                            "type": "section",
+                            "index": 5,
+                            "default_state": "editable",
+                            "states": [
+                              {
+                                "behaviorTaskId": "6C808BBE-D90D-4EF8-92DC-C266AD6D43BA",
+                                "state": "editable"
+                              }
+                            ],
+                            "caption": "List of DBP Roles",
+                            "caption_bold": false,
+                            "caption_italic": false,
+                            "is_default_open": false,
+                            "all_open_by_default": false,
+                            "background_color": "White",
+                            "children": [
+                              {
+                                "entity_name": "tblWorkflowRoles",
+                                "original_serverid": "tblWorkflowRoles",
+                                "original_controltype": "Table",
+                                "type": "field",
+                                "index": 0,
+                                "default_state": "editable",
+                                "states": [],
+                                "caption": "",
+                                "is_default_open": false,
+                                "all_open_by_default": false,
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "6C808BBE-D90D-4EF8-92DC-C266AD6D43BA",
+        "name": "frmEPCSyncUsers"
+      }
+    ]
+  }
+}

@@ -1,0 +1,850 @@
+{
+  "shortname": "QMS",
+  "application": "QMS",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "b715ca5e-9585-4101-a2f6-9c03632b3157",
+    "name": "Training_Request",
+    "fields": {
+      "Label1": {
+        "name": "Label1",
+        "type": "none",
+        "ext_type": "Label",
+        "original_serverid": "Label1",
+        "original_controltype": "Label",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Indicate whether there is an existing training available or if a new training needs to be created, if accepted.",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "Name": {
+        "name": "Name",
+        "type": "string",
+        "original_serverid": "Name",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Training Name",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": "Provide a short description of the training"
+      },
+      "Training_Location": {
+        "name": "Training_Location",
+        "type": "string",
+        "original_serverid": "Training_Location",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Training Location",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "DateTimePicker1": {
+        "name": "DateTimePicker1",
+        "type": "datetime",
+        "ext_type": "date",
+        "original_serverid": "DateTimePicker1",
+        "original_controltype": "DateEdit",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Requested Date",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "",
+        "default_value": "now"
+      },
+      "UserManager_UserID": {
+        "name": "UserManager_UserID",
+        "type": "string",
+        "ext_type": "dropdown",
+        "original_serverid": "UserManager_UserID",
+        "original_controltype": "DropDown",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Manager",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": "Select...",
+        "system_options": [
+          "user"
+        ]
+      },
+      "SelectTraining": {
+        "name": "SelectTraining",
+        "type": "string",
+        "ext_type": "dropdown",
+        "original_serverid": "SelectTraining",
+        "original_controltype": "DropDown",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Select the Training ",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": "Select...",
+        "system_options": []
+      },
+      "TrainingNested": {
+        "name": "TrainingNested",
+        "type": "none",
+        "ext_type": "NestedLink",
+        "original_serverid": "TrainingNested",
+        "original_controltype": "NestedLink",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Click on the [\u002B] to create a new training",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "AssignTrainee": {
+        "name": "AssignTrainee",
+        "type": "none",
+        "ext_type": "Label",
+        "original_serverid": "AssignTrainee",
+        "original_controltype": "Label",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Assign the requestor as trainee",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "Cost": {
+        "name": "Cost",
+        "type": "int",
+        "original_serverid": "Cost",
+        "original_controltype": "NumericBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Cost",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "UserRequested_ByID": {
+        "name": "UserRequested_ByID",
+        "type": "string",
+        "ext_type": "dropdown",
+        "original_serverid": "UserRequested_ByID",
+        "original_controltype": "DropDown",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Requested By",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "",
+        "default_value": "current_user",
+        "placeholder": "Select...",
+        "system_options": [
+          "user"
+        ]
+      },
+      "ObjectivePurpose": {
+        "name": "ObjectivePurpose",
+        "type": "string",
+        "ext_type": "richtext",
+        "original_serverid": "ObjectivePurpose",
+        "original_controltype": "RichTextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Objective/Purpose",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "Description": {
+        "name": "Description",
+        "type": "string",
+        "ext_type": "richtext",
+        "original_serverid": "Description",
+        "original_controltype": "RichTextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Description",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "AlreadyExist": {
+        "name": "AlreadyExist",
+        "type": "string",
+        "ext_type": "radio",
+        "original_serverid": "AlreadyExist",
+        "original_controltype": "RadioList",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Does this training already exist?",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "",
+        "options": [
+          "No",
+          "Yes"
+        ],
+        "layout_horizontal": true,
+        "nbr_columns_vertical": 1
+      },
+      "CreateTraining": {
+        "name": "CreateTraining",
+        "type": "string",
+        "ext_type": "radio",
+        "original_serverid": "CreateTraining",
+        "original_controltype": "RadioList",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Will you create a new training?",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "",
+        "options": [
+          "No",
+          "Yes"
+        ],
+        "layout_horizontal": true,
+        "nbr_columns_vertical": 1
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "",
+        "original_serverid": "Row4",
+        "original_controltype": "Row",
+        "type": "columns",
+        "index": 0,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "199FEE14-FF2F-43FD-81C0-B0C0015022C1",
+            "state": "readonly"
+          },
+          {
+            "behaviorTaskId": "B715CA5E-9585-4101-A2F6-9C03632B3157",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column4",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "199FEE14-FF2F-43FD-81C0-B0C0015022C1",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "B715CA5E-9585-4101-A2F6-9C03632B3157",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "UserRequested_ByID",
+                "original_serverid": "UserRequested_ByID",
+                "original_controltype": "DropDown",
+                "type": "field",
+                "index": 0,
+                "default_state": "invisible",
+                "states": [],
+                "caption": "Requested By",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "entity_name": "",
+            "original_serverid": "Column11",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 1,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "199FEE14-FF2F-43FD-81C0-B0C0015022C1",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "B715CA5E-9585-4101-A2F6-9C03632B3157",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "DateTimePicker1",
+                "original_serverid": "DateTimePicker1",
+                "original_controltype": "DateEdit",
+                "type": "field",
+                "index": 0,
+                "default_state": "invisible",
+                "states": [],
+                "caption": "Requested Date",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "entity_name": "",
+        "original_serverid": "NewTrainingDetails",
+        "original_controltype": "Row",
+        "type": "columns",
+        "index": 1,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "199FEE14-FF2F-43FD-81C0-B0C0015022C1",
+            "state": "readonly"
+          },
+          {
+            "behaviorTaskId": "B715CA5E-9585-4101-A2F6-9C03632B3157",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column1",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "199FEE14-FF2F-43FD-81C0-B0C0015022C1",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "B715CA5E-9585-4101-A2F6-9C03632B3157",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "Name",
+                "original_serverid": "Name",
+                "original_controltype": "TextBox",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "Training Name",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "entity_name": "",
+            "original_serverid": "Column2",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 1,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "199FEE14-FF2F-43FD-81C0-B0C0015022C1",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "B715CA5E-9585-4101-A2F6-9C03632B3157",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "Cost",
+                "original_serverid": "Cost",
+                "original_controltype": "NumericBox",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "Cost",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "entity_name": "",
+        "original_serverid": "Row1",
+        "original_controltype": "Row",
+        "type": "columns",
+        "index": 2,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "199FEE14-FF2F-43FD-81C0-B0C0015022C1",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "B715CA5E-9585-4101-A2F6-9C03632B3157",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column10",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "199FEE14-FF2F-43FD-81C0-B0C0015022C1",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "B715CA5E-9585-4101-A2F6-9C03632B3157",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "Training_Location",
+                "original_serverid": "Training_Location",
+                "original_controltype": "TextBox",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "Training Location",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "entity_name": "",
+            "original_serverid": "Column12",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 1,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "199FEE14-FF2F-43FD-81C0-B0C0015022C1",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "B715CA5E-9585-4101-A2F6-9C03632B3157",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "UserManager_UserID",
+                "original_serverid": "UserManager_UserID",
+                "original_controltype": "DropDown",
+                "type": "field",
+                "index": 0,
+                "default_state": "mandatory",
+                "states": [],
+                "caption": "Manager",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "entity_name": "",
+        "original_serverid": "NewTraining",
+        "original_controltype": "Row",
+        "type": "columns",
+        "index": 3,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "199FEE14-FF2F-43FD-81C0-B0C0015022C1",
+            "state": "readonly"
+          },
+          {
+            "behaviorTaskId": "B715CA5E-9585-4101-A2F6-9C03632B3157",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column5",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "199FEE14-FF2F-43FD-81C0-B0C0015022C1",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "B715CA5E-9585-4101-A2F6-9C03632B3157",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "ObjectivePurpose",
+                "original_serverid": "ObjectivePurpose",
+                "original_controltype": "RichTextBox",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "Objective/Purpose",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "entity_name": "",
+            "original_serverid": "Column6",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 1,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "199FEE14-FF2F-43FD-81C0-B0C0015022C1",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "B715CA5E-9585-4101-A2F6-9C03632B3157",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "Description",
+                "original_serverid": "Description",
+                "original_controltype": "RichTextBox",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "Description",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "entity_name": "Label1",
+        "original_serverid": "Label1",
+        "original_controltype": "Label",
+        "type": "field",
+        "index": 4,
+        "default_state": "invisible",
+        "states": [],
+        "caption": "Indicate whether there is an existing training available or if a new training needs to be created, if accepted.",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "",
+        "original_serverid": "Row3",
+        "original_controltype": "Row",
+        "type": "columns",
+        "index": 5,
+        "default_state": "invisible",
+        "states": [
+          {
+            "behaviorTaskId": "199FEE14-FF2F-43FD-81C0-B0C0015022C1",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "B715CA5E-9585-4101-A2F6-9C03632B3157",
+            "state": "invisible"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column7",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "199FEE14-FF2F-43FD-81C0-B0C0015022C1",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "B715CA5E-9585-4101-A2F6-9C03632B3157",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "AlreadyExist",
+                "original_serverid": "AlreadyExist",
+                "original_controltype": "RadioList",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "Does this training already exist?",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "entity_name": "",
+            "original_serverid": "Column8",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 1,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "199FEE14-FF2F-43FD-81C0-B0C0015022C1",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "B715CA5E-9585-4101-A2F6-9C03632B3157",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "CreateTraining",
+                "original_serverid": "CreateTraining",
+                "original_controltype": "RadioList",
+                "type": "field",
+                "index": 0,
+                "default_state": "invisible",
+                "states": [],
+                "caption": "Will you create a new training?",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "entity_name": "",
+        "original_serverid": "Row5",
+        "original_controltype": "Row",
+        "type": "columns",
+        "index": 6,
+        "default_state": "invisible",
+        "states": [
+          {
+            "behaviorTaskId": "199FEE14-FF2F-43FD-81C0-B0C0015022C1",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "B715CA5E-9585-4101-A2F6-9C03632B3157",
+            "state": "invisible"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column13",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "199FEE14-FF2F-43FD-81C0-B0C0015022C1",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "B715CA5E-9585-4101-A2F6-9C03632B3157",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "SelectTraining",
+                "original_serverid": "SelectTraining",
+                "original_controltype": "DropDown",
+                "type": "field",
+                "index": 0,
+                "default_state": "invisible",
+                "states": [],
+                "caption": "Select the Training ",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              },
+              {
+                "entity_name": "TrainingNested",
+                "original_serverid": "TrainingNested",
+                "original_controltype": "NestedLink",
+                "type": "field",
+                "index": 1,
+                "default_state": "editable",
+                "states": [],
+                "caption": "Click on the [\u002B] to create a new training",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "entity_name": "",
+            "original_serverid": "Column14",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 1,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "199FEE14-FF2F-43FD-81C0-B0C0015022C1",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "B715CA5E-9585-4101-A2F6-9C03632B3157",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": []
+          }
+        ]
+      },
+      {
+        "entity_name": "",
+        "original_serverid": "Row6",
+        "original_controltype": "Row",
+        "type": "section",
+        "index": 7,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "199FEE14-FF2F-43FD-81C0-B0C0015022C1",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "B715CA5E-9585-4101-A2F6-9C03632B3157",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column16",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "199FEE14-FF2F-43FD-81C0-B0C0015022C1",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "B715CA5E-9585-4101-A2F6-9C03632B3157",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "AssignTrainee",
+                "original_serverid": "AssignTrainee",
+                "original_controltype": "Label",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "Assign the requestor as trainee",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "199FEE14-FF2F-43FD-81C0-B0C0015022C1",
+        "name": "Review_Request_cd49decc93374cbfb0c031c7b5369b39"
+      },
+      {
+        "id": "B715CA5E-9585-4101-A2F6-9C03632B3157",
+        "name": "Training_Request"
+      }
+    ]
+  }
+}

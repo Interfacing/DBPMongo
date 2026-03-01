@@ -1,0 +1,81 @@
+{
+  "shortname": "QMS",
+  "application": "QMS",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "647c1275-4d54-44b6-b432-4de0ab040abe",
+    "name": "Inspection_Plan_List",
+    "fields": {
+      "Grid": {
+        "name": "Grid",
+        "type": "none",
+        "ext_type": "Grid",
+        "original_serverid": "Grid",
+        "original_controltype": "Grid",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "#002D56"
+      },
+      "DateTimePicker": {
+        "name": "DateTimePicker",
+        "type": "datetime",
+        "ext_type": "date",
+        "original_serverid": "DateTimePicker",
+        "original_controltype": "DateEdit",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Schedule Start Date",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "#002D56",
+        "placeholder": ""
+      },
+      "NumericTextBox": {
+        "name": "NumericTextBox",
+        "type": "int",
+        "original_serverid": "NumericTextBox",
+        "original_controltype": "NumericBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Plan #",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "#002D56",
+        "placeholder": ""
+      },
+      "TextBox": {
+        "name": "TextBox",
+        "type": "string",
+        "original_serverid": "TextBox",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Name",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "#002D56",
+        "placeholder": ""
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "Grid",
+        "original_serverid": "Grid",
+        "original_controltype": "Grid",
+        "type": "field",
+        "index": 0,
+        "default_state": "editable",
+        "states": [],
+        "caption": "",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "647C1275-4D54-44B6-B432-4DE0AB040ABE",
+        "name": "Inspection_Plan_List"
+      }
+    ]
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "shortname": "QMS",
+  "application": "QMS",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "e92206f7-8900-4e25-b8da-adb10163e8af",
+    "name": "Audit_UserTask",
+    "fields": {
+      "CheckBox": {
+        "name": "CheckBox",
+        "type": "boolean",
+        "original_serverid": "CheckBox",
+        "original_controltype": "CheckBox",
+        "original_bid": "13ed5a84-0446-4b1b-9489-adb10147051b",
+        "label": "Select to mark all requirements as verified",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "Black",
+        "tooltip": "If the requirement checklist remains incomplete, validation from this field will be omitted."
+      },
+      "Grid": {
+        "name": "Grid",
+        "type": "none",
+        "ext_type": "Grid",
+        "original_serverid": "Grid",
+        "original_controltype": "Grid",
+        "original_bid": "e1bae380-f50c-42c5-8a8c-adb101461e04",
+        "label": "",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "#0070C0"
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "",
+        "original_serverid": "Row2",
+        "original_controltype": "Row",
+        "type": "section",
+        "index": 0,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "4215ABDD-468E-4967-8BB0-ADB101639B4F",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "E92206F7-8900-4E25-B8DA-ADB10163E8AF",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column2",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "4215ABDD-468E-4967-8BB0-ADB101639B4F",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "E92206F7-8900-4E25-B8DA-ADB10163E8AF",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "Grid",
+                "original_serverid": "Grid",
+                "original_controltype": "Grid",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "entity_name": "",
+        "original_serverid": "Row1",
+        "original_controltype": "Row",
+        "type": "section",
+        "index": 1,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "4215ABDD-468E-4967-8BB0-ADB101639B4F",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "E92206F7-8900-4E25-B8DA-ADB10163E8AF",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column1",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "4215ABDD-468E-4967-8BB0-ADB101639B4F",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "E92206F7-8900-4E25-B8DA-ADB10163E8AF",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "CheckBox",
+                "original_serverid": "CheckBox",
+                "original_controltype": "CheckBox",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "Select to mark all requirements as verified",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "4215ABDD-468E-4967-8BB0-ADB101639B4F",
+        "name": "Start"
+      },
+      {
+        "id": "E92206F7-8900-4E25-B8DA-ADB10163E8AF",
+        "name": "ConductAuditUserTask"
+      }
+    ]
+  }
+}

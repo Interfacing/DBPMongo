@@ -1,0 +1,601 @@
+{
+  "shortname": "QMS",
+  "application": "QMS",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "e329b587-aeb7-430e-a490-ad7d0122a0ad",
+    "name": "Mid_DefineAudit_Rec",
+    "fields": {
+      "BPMAPP_Audit_Requirementfk_Requirement": {
+        "name": "BPMAPP_Audit_Requirementfk_Requirement",
+        "type": "string",
+        "ext_type": "dropdown",
+        "original_serverid": "BPMAPP_Audit_Requirementfk_Requirement",
+        "original_controltype": "DropDown",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Select the requirements",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "Black",
+        "placeholder": "Select...",
+        "system_options": []
+      },
+      "TbDescription": {
+        "name": "TbDescription",
+        "type": "string",
+        "ext_type": "richtext",
+        "original_serverid": "TbDescription",
+        "original_controltype": "RichTextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Description of the requirement",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "Black"
+      },
+      "Grid": {
+        "name": "Grid",
+        "type": "none",
+        "ext_type": "Grid",
+        "original_serverid": "Grid",
+        "original_controltype": "Grid",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Check list",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "Black"
+      },
+      "TbEpcId": {
+        "name": "TbEpcId",
+        "type": "string",
+        "original_serverid": "TbEpcId",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "EPC Identifier",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "Black",
+        "placeholder": ""
+      },
+      "TbParentFolder": {
+        "name": "TbParentFolder",
+        "type": "string",
+        "original_serverid": "TbParentFolder",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Parent Folder Name",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "Black",
+        "placeholder": ""
+      },
+      "TbName": {
+        "name": "TbName",
+        "type": "string",
+        "original_serverid": "TbName",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Requirement Name",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "Black",
+        "placeholder": ""
+      },
+      "MultiSelectDropdown": {
+        "name": "MultiSelectDropdown",
+        "type": "none",
+        "ext_type": "MultiSelect",
+        "original_serverid": "MultiSelectDropdown",
+        "original_controltype": "MultiSelect",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Tests",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "Black",
+        "placeholder": ""
+      },
+      "TextBox": {
+        "name": "TextBox",
+        "type": "string",
+        "original_serverid": "TextBox",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Requirement #",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "Black",
+        "placeholder": ""
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "BPMAPP_Audit_Requirementfk_Requirement",
+        "original_serverid": "BPMAPP_Audit_Requirementfk_Requirement",
+        "original_controltype": "DropDown",
+        "type": "field",
+        "index": 0,
+        "default_state": "invisible",
+        "states": [],
+        "caption": "Select the requirements",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "",
+        "original_serverid": "Row",
+        "original_controltype": "Row",
+        "type": "section",
+        "index": 1,
+        "default_state": "readonly",
+        "states": [
+          {
+            "behaviorTaskId": "A3A63F2E-0A67-488D-A990-AD810128E2BD",
+            "state": "invisible"
+          },
+          {
+            "behaviorTaskId": "4018144A-191C-44CC-A4F7-AE310145DF0F",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "E329B587-AEB7-430E-A490-AD7D0122A0AD",
+            "state": "readonly"
+          },
+          {
+            "behaviorTaskId": "45E2AAAA-F33F-4409-9869-B48825A36E7A",
+            "state": "invisible"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "A3A63F2E-0A67-488D-A990-AD810128E2BD",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "4018144A-191C-44CC-A4F7-AE310145DF0F",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "E329B587-AEB7-430E-A490-AD7D0122A0AD",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "45E2AAAA-F33F-4409-9869-B48825A36E7A",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "",
+                "original_serverid": "Row2",
+                "original_controltype": "Row",
+                "type": "columns",
+                "index": 0,
+                "default_state": "editable",
+                "states": [
+                  {
+                    "behaviorTaskId": "A3A63F2E-0A67-488D-A990-AD810128E2BD",
+                    "state": "editable"
+                  },
+                  {
+                    "behaviorTaskId": "4018144A-191C-44CC-A4F7-AE310145DF0F",
+                    "state": "editable"
+                  },
+                  {
+                    "behaviorTaskId": "E329B587-AEB7-430E-A490-AD7D0122A0AD",
+                    "state": "editable"
+                  },
+                  {
+                    "behaviorTaskId": "45E2AAAA-F33F-4409-9869-B48825A36E7A",
+                    "state": "editable"
+                  }
+                ],
+                "caption_bold": false,
+                "caption_italic": false,
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": [
+                  {
+                    "entity_name": "",
+                    "original_serverid": "Column5",
+                    "original_controltype": "Column",
+                    "type": "section",
+                    "index": 0,
+                    "default_state": "editable",
+                    "states": [
+                      {
+                        "behaviorTaskId": "A3A63F2E-0A67-488D-A990-AD810128E2BD",
+                        "state": "editable"
+                      },
+                      {
+                        "behaviorTaskId": "4018144A-191C-44CC-A4F7-AE310145DF0F",
+                        "state": "editable"
+                      },
+                      {
+                        "behaviorTaskId": "E329B587-AEB7-430E-A490-AD7D0122A0AD",
+                        "state": "editable"
+                      },
+                      {
+                        "behaviorTaskId": "45E2AAAA-F33F-4409-9869-B48825A36E7A",
+                        "state": "editable"
+                      }
+                    ],
+                    "is_default_open": false,
+                    "all_open_by_default": false,
+                    "children": [
+                      {
+                        "entity_name": "",
+                        "original_serverid": "Row4",
+                        "original_controltype": "Row",
+                        "type": "columns",
+                        "index": 0,
+                        "default_state": "editable",
+                        "states": [
+                          {
+                            "behaviorTaskId": "A3A63F2E-0A67-488D-A990-AD810128E2BD",
+                            "state": "editable"
+                          },
+                          {
+                            "behaviorTaskId": "4018144A-191C-44CC-A4F7-AE310145DF0F",
+                            "state": "editable"
+                          },
+                          {
+                            "behaviorTaskId": "E329B587-AEB7-430E-A490-AD7D0122A0AD",
+                            "state": "editable"
+                          },
+                          {
+                            "behaviorTaskId": "45E2AAAA-F33F-4409-9869-B48825A36E7A",
+                            "state": "editable"
+                          }
+                        ],
+                        "caption_bold": false,
+                        "caption_italic": false,
+                        "is_default_open": false,
+                        "all_open_by_default": false,
+                        "children": [
+                          {
+                            "entity_name": "",
+                            "original_serverid": "Column9",
+                            "original_controltype": "Column",
+                            "type": "section",
+                            "index": 0,
+                            "default_state": "editable",
+                            "states": [
+                              {
+                                "behaviorTaskId": "A3A63F2E-0A67-488D-A990-AD810128E2BD",
+                                "state": "editable"
+                              },
+                              {
+                                "behaviorTaskId": "4018144A-191C-44CC-A4F7-AE310145DF0F",
+                                "state": "editable"
+                              },
+                              {
+                                "behaviorTaskId": "E329B587-AEB7-430E-A490-AD7D0122A0AD",
+                                "state": "editable"
+                              },
+                              {
+                                "behaviorTaskId": "45E2AAAA-F33F-4409-9869-B48825A36E7A",
+                                "state": "editable"
+                              }
+                            ],
+                            "is_default_open": false,
+                            "all_open_by_default": false,
+                            "children": [
+                              {
+                                "entity_name": "TextBox",
+                                "original_serverid": "TextBox",
+                                "original_controltype": "TextBox",
+                                "type": "field",
+                                "index": 0,
+                                "default_state": "readonly",
+                                "states": [],
+                                "caption": "Requirement #",
+                                "is_default_open": false,
+                                "all_open_by_default": false,
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "entity_name": "",
+                            "original_serverid": "Column10",
+                            "original_controltype": "Column",
+                            "type": "section",
+                            "index": 1,
+                            "default_state": "editable",
+                            "states": [
+                              {
+                                "behaviorTaskId": "A3A63F2E-0A67-488D-A990-AD810128E2BD",
+                                "state": "editable"
+                              },
+                              {
+                                "behaviorTaskId": "4018144A-191C-44CC-A4F7-AE310145DF0F",
+                                "state": "editable"
+                              },
+                              {
+                                "behaviorTaskId": "E329B587-AEB7-430E-A490-AD7D0122A0AD",
+                                "state": "editable"
+                              },
+                              {
+                                "behaviorTaskId": "45E2AAAA-F33F-4409-9869-B48825A36E7A",
+                                "state": "editable"
+                              }
+                            ],
+                            "is_default_open": false,
+                            "all_open_by_default": false,
+                            "children": [
+                              {
+                                "entity_name": "TbEpcId",
+                                "original_serverid": "TbEpcId",
+                                "original_controltype": "TextBox",
+                                "type": "field",
+                                "index": 0,
+                                "default_state": "readonly",
+                                "states": [],
+                                "caption": "EPC Identifier",
+                                "is_default_open": false,
+                                "all_open_by_default": false,
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "entity_name": "",
+                            "original_serverid": "Column11",
+                            "original_controltype": "Column",
+                            "type": "section",
+                            "index": 2,
+                            "default_state": "editable",
+                            "states": [
+                              {
+                                "behaviorTaskId": "A3A63F2E-0A67-488D-A990-AD810128E2BD",
+                                "state": "editable"
+                              },
+                              {
+                                "behaviorTaskId": "4018144A-191C-44CC-A4F7-AE310145DF0F",
+                                "state": "editable"
+                              },
+                              {
+                                "behaviorTaskId": "E329B587-AEB7-430E-A490-AD7D0122A0AD",
+                                "state": "editable"
+                              },
+                              {
+                                "behaviorTaskId": "45E2AAAA-F33F-4409-9869-B48825A36E7A",
+                                "state": "editable"
+                              }
+                            ],
+                            "is_default_open": false,
+                            "all_open_by_default": false,
+                            "children": [
+                              {
+                                "entity_name": "TbParentFolder",
+                                "original_serverid": "TbParentFolder",
+                                "original_controltype": "TextBox",
+                                "type": "field",
+                                "index": 0,
+                                "default_state": "readonly",
+                                "states": [],
+                                "caption": "Parent Folder Name",
+                                "is_default_open": false,
+                                "all_open_by_default": false,
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "entity_name": "TbName",
+                        "original_serverid": "TbName",
+                        "original_controltype": "TextBox",
+                        "type": "field",
+                        "index": 1,
+                        "default_state": "readonly",
+                        "states": [],
+                        "caption": "Requirement Name",
+                        "is_default_open": false,
+                        "all_open_by_default": false,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "entity_name": "",
+                    "original_serverid": "Column6",
+                    "original_controltype": "Column",
+                    "type": "section",
+                    "index": 1,
+                    "default_state": "editable",
+                    "states": [
+                      {
+                        "behaviorTaskId": "A3A63F2E-0A67-488D-A990-AD810128E2BD",
+                        "state": "editable"
+                      },
+                      {
+                        "behaviorTaskId": "4018144A-191C-44CC-A4F7-AE310145DF0F",
+                        "state": "editable"
+                      },
+                      {
+                        "behaviorTaskId": "E329B587-AEB7-430E-A490-AD7D0122A0AD",
+                        "state": "editable"
+                      },
+                      {
+                        "behaviorTaskId": "45E2AAAA-F33F-4409-9869-B48825A36E7A",
+                        "state": "editable"
+                      }
+                    ],
+                    "is_default_open": false,
+                    "all_open_by_default": false,
+                    "children": [
+                      {
+                        "entity_name": "",
+                        "original_serverid": "Row3",
+                        "original_controltype": "Row",
+                        "type": "columns",
+                        "index": 0,
+                        "default_state": "editable",
+                        "states": [
+                          {
+                            "behaviorTaskId": "A3A63F2E-0A67-488D-A990-AD810128E2BD",
+                            "state": "editable"
+                          },
+                          {
+                            "behaviorTaskId": "4018144A-191C-44CC-A4F7-AE310145DF0F",
+                            "state": "editable"
+                          },
+                          {
+                            "behaviorTaskId": "E329B587-AEB7-430E-A490-AD7D0122A0AD",
+                            "state": "editable"
+                          },
+                          {
+                            "behaviorTaskId": "45E2AAAA-F33F-4409-9869-B48825A36E7A",
+                            "state": "editable"
+                          }
+                        ],
+                        "caption_bold": false,
+                        "caption_italic": false,
+                        "is_default_open": false,
+                        "all_open_by_default": false,
+                        "children": [
+                          {
+                            "entity_name": "",
+                            "original_serverid": "Column7",
+                            "original_controltype": "Column",
+                            "type": "section",
+                            "index": 0,
+                            "default_state": "editable",
+                            "states": [
+                              {
+                                "behaviorTaskId": "A3A63F2E-0A67-488D-A990-AD810128E2BD",
+                                "state": "editable"
+                              },
+                              {
+                                "behaviorTaskId": "4018144A-191C-44CC-A4F7-AE310145DF0F",
+                                "state": "editable"
+                              },
+                              {
+                                "behaviorTaskId": "E329B587-AEB7-430E-A490-AD7D0122A0AD",
+                                "state": "editable"
+                              },
+                              {
+                                "behaviorTaskId": "45E2AAAA-F33F-4409-9869-B48825A36E7A",
+                                "state": "editable"
+                              }
+                            ],
+                            "is_default_open": false,
+                            "all_open_by_default": false,
+                            "children": []
+                          },
+                          {
+                            "entity_name": "",
+                            "original_serverid": "Column8",
+                            "original_controltype": "Column",
+                            "type": "section",
+                            "index": 1,
+                            "default_state": "editable",
+                            "states": [
+                              {
+                                "behaviorTaskId": "A3A63F2E-0A67-488D-A990-AD810128E2BD",
+                                "state": "editable"
+                              },
+                              {
+                                "behaviorTaskId": "4018144A-191C-44CC-A4F7-AE310145DF0F",
+                                "state": "editable"
+                              },
+                              {
+                                "behaviorTaskId": "E329B587-AEB7-430E-A490-AD7D0122A0AD",
+                                "state": "editable"
+                              },
+                              {
+                                "behaviorTaskId": "45E2AAAA-F33F-4409-9869-B48825A36E7A",
+                                "state": "editable"
+                              }
+                            ],
+                            "is_default_open": false,
+                            "all_open_by_default": false,
+                            "children": [
+                              {
+                                "entity_name": "MultiSelectDropdown",
+                                "original_serverid": "MultiSelectDropdown",
+                                "original_controltype": "MultiSelect",
+                                "type": "field",
+                                "index": 0,
+                                "default_state": "editable",
+                                "states": [],
+                                "caption": "Tests",
+                                "is_default_open": false,
+                                "all_open_by_default": false,
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "entity_name": "TbDescription",
+                "original_serverid": "TbDescription",
+                "original_controltype": "RichTextBox",
+                "type": "field",
+                "index": 1,
+                "default_state": "readonly",
+                "states": [],
+                "caption": "Description of the requirement",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              },
+              {
+                "entity_name": "Grid",
+                "original_serverid": "Grid",
+                "original_controltype": "Grid",
+                "type": "field",
+                "index": 2,
+                "default_state": "readonly",
+                "states": [],
+                "caption": "Check list",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "A3A63F2E-0A67-488D-A990-AD810128E2BD",
+        "name": "Edit_Req_Applicability"
+      },
+      {
+        "id": "4018144A-191C-44CC-A4F7-AE310145DF0F",
+        "name": "Audit_EditRequirement"
+      },
+      {
+        "id": "E329B587-AEB7-430E-A490-AD7D0122A0AD",
+        "name": "View_Requirement"
+      },
+      {
+        "id": "45E2AAAA-F33F-4409-9869-B48825A36E7A",
+        "name": "Mid_DefineAudit_Rec"
+      }
+    ]
+  }
+}

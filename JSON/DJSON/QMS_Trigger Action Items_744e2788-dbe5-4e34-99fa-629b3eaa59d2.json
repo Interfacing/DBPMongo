@@ -1,0 +1,192 @@
+{
+  "shortname": "QMS",
+  "application": "QMS",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "744e2788-dbe5-4e34-99fa-629b3eaa59d2",
+    "name": "QMS_ActionItem_TriggerList",
+    "fields": {
+      "StandaloneActionsNotStarted": {
+        "name": "StandaloneActionsNotStarted",
+        "type": "none",
+        "ext_type": "Grid",
+        "original_serverid": "StandaloneActionsNotStarted",
+        "original_controltype": "Grid",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Not Started Action items",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "Label": {
+        "name": "Label",
+        "type": "none",
+        "ext_type": "Label",
+        "original_serverid": "Label",
+        "original_controltype": "Label",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Please set responsible and due date to be able to start the action item",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "ActionsToStart": {
+        "name": "ActionsToStart",
+        "type": "none",
+        "ext_type": "MultiSelect",
+        "original_serverid": "ActionsToStart",
+        "original_controltype": "MultiSelect",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Action Items To Start",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "Button": {
+        "name": "Button",
+        "type": "none",
+        "ext_type": "Button",
+        "original_serverid": "Button",
+        "original_controltype": "Button",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Start action items",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "StandaloneActionsNotStarted",
+        "original_serverid": "StandaloneActionsNotStarted",
+        "original_controltype": "Grid",
+        "type": "field",
+        "index": 0,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Not Started Action items",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "Label",
+        "original_serverid": "Label",
+        "original_controltype": "Label",
+        "type": "field",
+        "index": 1,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Please set responsible and due date to be able to start the action item",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "ActionsToStart",
+        "original_serverid": "ActionsToStart",
+        "original_controltype": "MultiSelect",
+        "type": "field",
+        "index": 2,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Action Items To Start",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "",
+        "original_serverid": "Row",
+        "original_controltype": "Row",
+        "type": "columns",
+        "index": 3,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "744E2788-DBE5-4E34-99FA-629B3EAA59D2",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "744E2788-DBE5-4E34-99FA-629B3EAA59D2",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": []
+          },
+          {
+            "entity_name": "",
+            "original_serverid": "Column1",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 1,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "744E2788-DBE5-4E34-99FA-629B3EAA59D2",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "Button",
+                "original_serverid": "Button",
+                "original_controltype": "Button",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "Start action items",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "entity_name": "",
+            "original_serverid": "Column2",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 2,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "744E2788-DBE5-4E34-99FA-629B3EAA59D2",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": []
+          }
+        ]
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "744E2788-DBE5-4E34-99FA-629B3EAA59D2",
+        "name": "QMS_ActionItem_TriggerList"
+      }
+    ]
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "shortname": "QMS",
+  "application": "QMS",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "86e96926-f8e1-46e9-970b-b37100ff774f",
+    "name": "RCAReason",
+    "fields": {
+      "ReasonDescription": {
+        "name": "ReasonDescription",
+        "type": "string",
+        "original_serverid": "ReasonDescription",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "ReasonDescription",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "Name": {
+        "name": "Name",
+        "type": "string",
+        "original_serverid": "Name",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Name",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "BPMAPP_Incidentsfk_RCAReasons": {
+        "name": "BPMAPP_Incidentsfk_RCAReasons",
+        "type": "none",
+        "ext_type": "Grid",
+        "original_serverid": "BPMAPP_Incidentsfk_RCAReasons",
+        "original_controltype": "Grid",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "fk_RCAReasons",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "ReasonDescription",
+        "original_serverid": "ReasonDescription",
+        "original_controltype": "TextBox",
+        "type": "field",
+        "index": 0,
+        "default_state": "editable",
+        "states": [],
+        "caption": "ReasonDescription",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "Name",
+        "original_serverid": "Name",
+        "original_controltype": "TextBox",
+        "type": "field",
+        "index": 1,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Name",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "BPMAPP_Incidentsfk_RCAReasons",
+        "original_serverid": "BPMAPP_Incidentsfk_RCAReasons",
+        "original_controltype": "Grid",
+        "type": "field",
+        "index": 2,
+        "default_state": "editable",
+        "states": [],
+        "caption": "fk_RCAReasons",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      }
+    ],
+    "behaviors": []
+  }
+}

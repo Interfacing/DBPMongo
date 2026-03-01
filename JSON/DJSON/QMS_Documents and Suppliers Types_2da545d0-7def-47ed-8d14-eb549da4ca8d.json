@@ -1,0 +1,425 @@
+{
+  "shortname": "QMS",
+  "application": "QMS",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "2da545d0-7def-47ed-8d14-eb549da4ca8d",
+    "name": "QMS_Types_Docs",
+    "fields": {
+      "Grid": {
+        "name": "Grid",
+        "type": "none",
+        "ext_type": "Grid",
+        "original_serverid": "Grid",
+        "original_controltype": "Grid",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "Grid1": {
+        "name": "Grid1",
+        "type": "none",
+        "ext_type": "Grid",
+        "original_serverid": "Grid1",
+        "original_controltype": "Grid",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "Button": {
+        "name": "Button",
+        "type": "none",
+        "ext_type": "Button",
+        "original_serverid": "Button",
+        "original_controltype": "Button",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Save Document Assignment",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "TypeSingleSelectDropdown": {
+        "name": "TypeSingleSelectDropdown",
+        "type": "string",
+        "ext_type": "dropdown",
+        "original_serverid": "TypeSingleSelectDropdown",
+        "original_controltype": "DropDown",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Type",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": "",
+        "system_options": []
+      },
+      "DocumentMultiSelectDropdown": {
+        "name": "DocumentMultiSelectDropdown",
+        "type": "none",
+        "ext_type": "MultiSelect",
+        "original_serverid": "DocumentMultiSelectDropdown",
+        "original_controltype": "MultiSelect",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Document(s)",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "GenericGrid": {
+        "name": "GenericGrid",
+        "type": "none",
+        "ext_type": "Table",
+        "original_serverid": "GenericGrid",
+        "original_controltype": "Table",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "",
+        "original_serverid": "Row2",
+        "original_controltype": "Row",
+        "type": "section",
+        "index": 0,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "2DA545D0-7DEF-47ED-8D14-EB549DA4CA8D",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column4",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "2DA545D0-7DEF-47ED-8D14-EB549DA4CA8D",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "",
+                "original_serverid": "Accordion1",
+                "original_controltype": "Accordion",
+                "type": "accordion",
+                "index": 0,
+                "default_state": "editable",
+                "states": [
+                  {
+                    "behaviorTaskId": "2DA545D0-7DEF-47ED-8D14-EB549DA4CA8D",
+                    "state": "editable"
+                  }
+                ],
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": [
+                  {
+                    "entity_name": "",
+                    "original_serverid": "AccordionSection",
+                    "original_controltype": "AccordionSection",
+                    "type": "section",
+                    "index": 0,
+                    "default_state": "editable",
+                    "states": [
+                      {
+                        "behaviorTaskId": "2DA545D0-7DEF-47ED-8D14-EB549DA4CA8D",
+                        "state": "editable"
+                      }
+                    ],
+                    "caption": "Define Supplier Type",
+                    "caption_bold": false,
+                    "caption_italic": false,
+                    "is_default_open": false,
+                    "all_open_by_default": false,
+                    "background_color": "Transparent",
+                    "children": [
+                      {
+                        "entity_name": "Grid",
+                        "original_serverid": "Grid",
+                        "original_controltype": "Grid",
+                        "type": "field",
+                        "index": 0,
+                        "default_state": "editable",
+                        "states": [],
+                        "caption": "",
+                        "is_default_open": false,
+                        "all_open_by_default": false,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "entity_name": "",
+                    "original_serverid": "AccordionSection1",
+                    "original_controltype": "AccordionSection",
+                    "type": "section",
+                    "index": 0,
+                    "default_state": "editable",
+                    "states": [
+                      {
+                        "behaviorTaskId": "2DA545D0-7DEF-47ED-8D14-EB549DA4CA8D",
+                        "state": "editable"
+                      }
+                    ],
+                    "caption": "Define Document List",
+                    "caption_bold": false,
+                    "caption_italic": false,
+                    "is_default_open": false,
+                    "all_open_by_default": false,
+                    "background_color": "Transparent",
+                    "children": [
+                      {
+                        "entity_name": "Grid1",
+                        "original_serverid": "Grid1",
+                        "original_controltype": "Grid",
+                        "type": "field",
+                        "index": 0,
+                        "default_state": "editable",
+                        "states": [],
+                        "caption": "",
+                        "is_default_open": false,
+                        "all_open_by_default": false,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "entity_name": "",
+                    "original_serverid": "AccordionSection2",
+                    "original_controltype": "AccordionSection",
+                    "type": "section",
+                    "index": 0,
+                    "default_state": "editable",
+                    "states": [
+                      {
+                        "behaviorTaskId": "2DA545D0-7DEF-47ED-8D14-EB549DA4CA8D",
+                        "state": "editable"
+                      }
+                    ],
+                    "caption": "Assign Documents to Supplier Type",
+                    "caption_bold": false,
+                    "caption_italic": false,
+                    "is_default_open": false,
+                    "all_open_by_default": false,
+                    "background_color": "Transparent",
+                    "children": [
+                      {
+                        "entity_name": "",
+                        "original_serverid": "Row1",
+                        "original_controltype": "Row",
+                        "type": "columns",
+                        "index": 0,
+                        "default_state": "editable",
+                        "states": [
+                          {
+                            "behaviorTaskId": "2DA545D0-7DEF-47ED-8D14-EB549DA4CA8D",
+                            "state": "editable"
+                          }
+                        ],
+                        "caption_bold": false,
+                        "caption_italic": false,
+                        "is_default_open": false,
+                        "all_open_by_default": false,
+                        "children": [
+                          {
+                            "entity_name": "",
+                            "original_serverid": "Column2",
+                            "original_controltype": "Column",
+                            "type": "section",
+                            "index": 0,
+                            "default_state": "editable",
+                            "states": [
+                              {
+                                "behaviorTaskId": "2DA545D0-7DEF-47ED-8D14-EB549DA4CA8D",
+                                "state": "editable"
+                              }
+                            ],
+                            "is_default_open": false,
+                            "all_open_by_default": false,
+                            "children": [
+                              {
+                                "entity_name": "TypeSingleSelectDropdown",
+                                "original_serverid": "TypeSingleSelectDropdown",
+                                "original_controltype": "DropDown",
+                                "type": "field",
+                                "index": 0,
+                                "default_state": "editable",
+                                "states": [],
+                                "caption": "Type",
+                                "is_default_open": false,
+                                "all_open_by_default": false,
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "entity_name": "",
+                            "original_serverid": "Column3",
+                            "original_controltype": "Column",
+                            "type": "section",
+                            "index": 1,
+                            "default_state": "editable",
+                            "states": [
+                              {
+                                "behaviorTaskId": "2DA545D0-7DEF-47ED-8D14-EB549DA4CA8D",
+                                "state": "editable"
+                              }
+                            ],
+                            "is_default_open": false,
+                            "all_open_by_default": false,
+                            "children": [
+                              {
+                                "entity_name": "DocumentMultiSelectDropdown",
+                                "original_serverid": "DocumentMultiSelectDropdown",
+                                "original_controltype": "MultiSelect",
+                                "type": "field",
+                                "index": 0,
+                                "default_state": "editable",
+                                "states": [],
+                                "caption": "Document(s)",
+                                "is_default_open": false,
+                                "all_open_by_default": false,
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "entity_name": "",
+                        "original_serverid": "Row4",
+                        "original_controltype": "Row",
+                        "type": "section",
+                        "index": 1,
+                        "default_state": "editable",
+                        "states": [
+                          {
+                            "behaviorTaskId": "2DA545D0-7DEF-47ED-8D14-EB549DA4CA8D",
+                            "state": "editable"
+                          }
+                        ],
+                        "caption_bold": false,
+                        "caption_italic": false,
+                        "is_default_open": false,
+                        "all_open_by_default": false,
+                        "children": [
+                          {
+                            "entity_name": "",
+                            "original_serverid": "Column1",
+                            "original_controltype": "Column",
+                            "type": "section",
+                            "index": 0,
+                            "default_state": "editable",
+                            "states": [
+                              {
+                                "behaviorTaskId": "2DA545D0-7DEF-47ED-8D14-EB549DA4CA8D",
+                                "state": "editable"
+                              }
+                            ],
+                            "is_default_open": false,
+                            "all_open_by_default": false,
+                            "children": [
+                              {
+                                "entity_name": "Button",
+                                "original_serverid": "Button",
+                                "original_controltype": "Button",
+                                "type": "field",
+                                "index": 0,
+                                "default_state": "editable",
+                                "states": [],
+                                "caption": "Save Document Assignment",
+                                "is_default_open": false,
+                                "all_open_by_default": false,
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "entity_name": "",
+                        "original_serverid": "Row3",
+                        "original_controltype": "Row",
+                        "type": "section",
+                        "index": 2,
+                        "default_state": "editable",
+                        "states": [
+                          {
+                            "behaviorTaskId": "2DA545D0-7DEF-47ED-8D14-EB549DA4CA8D",
+                            "state": "editable"
+                          }
+                        ],
+                        "caption_bold": false,
+                        "caption_italic": false,
+                        "is_default_open": false,
+                        "all_open_by_default": false,
+                        "children": [
+                          {
+                            "entity_name": "",
+                            "original_serverid": "Column5",
+                            "original_controltype": "Column",
+                            "type": "section",
+                            "index": 0,
+                            "default_state": "editable",
+                            "states": [
+                              {
+                                "behaviorTaskId": "2DA545D0-7DEF-47ED-8D14-EB549DA4CA8D",
+                                "state": "editable"
+                              }
+                            ],
+                            "is_default_open": false,
+                            "all_open_by_default": false,
+                            "children": [
+                              {
+                                "entity_name": "GenericGrid",
+                                "original_serverid": "GenericGrid",
+                                "original_controltype": "Table",
+                                "type": "field",
+                                "index": 0,
+                                "default_state": "editable",
+                                "states": [],
+                                "caption": "",
+                                "is_default_open": false,
+                                "all_open_by_default": false,
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "2DA545D0-7DEF-47ED-8D14-EB549DA4CA8D",
+        "name": "QMS_Types_Docs"
+      }
+    ]
+  }
+}

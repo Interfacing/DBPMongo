@@ -1,0 +1,165 @@
+{
+  "shortname": "QMS",
+  "application": "QMS",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "b516b251-6e88-4f82-873a-ad27015ae387",
+    "name": "Location",
+    "fields": {
+      "Label": {
+        "name": "Label",
+        "type": "none",
+        "ext_type": "Label",
+        "original_serverid": "Label",
+        "original_controltype": "Label",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Create, edit, and/or delete the location options used for trainings",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "Grid": {
+        "name": "Grid",
+        "type": "none",
+        "ext_type": "Grid",
+        "original_serverid": "Grid",
+        "original_controltype": "Grid",
+        "original_bid": "a5008efd-a7c0-4a9b-a948-ad27015abe9f",
+        "label": "",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "",
+        "original_serverid": "Row1",
+        "original_controltype": "Row",
+        "type": "section",
+        "index": 0,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "B516B251-6E88-4F82-873A-AD27015AE387",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "3CD3E8F1-7DF9-4D5C-A877-AEA820B87D25",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column1",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "B516B251-6E88-4F82-873A-AD27015AE387",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "3CD3E8F1-7DF9-4D5C-A877-AEA820B87D25",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "Label",
+                "original_serverid": "Label",
+                "original_controltype": "Label",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "Create, edit, and/or delete the location options used for trainings",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "entity_name": "",
+        "original_serverid": "Row2",
+        "original_controltype": "Row",
+        "type": "section",
+        "index": 1,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "B516B251-6E88-4F82-873A-AD27015AE387",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "3CD3E8F1-7DF9-4D5C-A877-AEA820B87D25",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column2",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "B516B251-6E88-4F82-873A-AD27015AE387",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "3CD3E8F1-7DF9-4D5C-A877-AEA820B87D25",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "Grid",
+                "original_serverid": "Grid",
+                "original_controltype": "Grid",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "B516B251-6E88-4F82-873A-AD27015AE387",
+        "name": "Edit_Location"
+      },
+      {
+        "id": "3CD3E8F1-7DF9-4D5C-A877-AEA820B87D25",
+        "name": "Location"
+      }
+    ]
+  }
+}

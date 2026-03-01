@@ -1,0 +1,44 @@
+{
+  "shortname": "QMS",
+  "application": "QMS",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "a8efc8b5-ef2d-49c1-8c68-dfc72ef61c80",
+    "name": "QMS_SupplierList",
+    "fields": {
+      "Grid": {
+        "name": "Grid",
+        "type": "none",
+        "ext_type": "Grid",
+        "original_serverid": "Grid",
+        "original_controltype": "Grid",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "Black"
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "Grid",
+        "original_serverid": "Grid",
+        "original_controltype": "Grid",
+        "type": "field",
+        "index": 0,
+        "default_state": "editable",
+        "states": [],
+        "caption": "",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "A8EFC8B5-EF2D-49C1-8C68-DFC72EF61C80",
+        "name": "QMS_SupplierList"
+      }
+    ]
+  }
+}

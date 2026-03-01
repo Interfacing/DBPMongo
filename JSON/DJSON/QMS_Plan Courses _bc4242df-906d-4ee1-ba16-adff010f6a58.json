@@ -1,0 +1,69 @@
+{
+  "shortname": "QMS",
+  "application": "QMS",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "bc4242df-906d-4ee1-ba16-adff010f6a58",
+    "name": "Instructor_CoursePlan",
+    "fields": {
+      "TextBox": {
+        "name": "TextBox",
+        "type": "string",
+        "original_serverid": "TextBox",
+        "original_controltype": "TextBox",
+        "original_bid": "6df960df-a5a7-4f17-98a6-ae00015d7f5b",
+        "label": "Training",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "Grid1": {
+        "name": "Grid1",
+        "type": "none",
+        "ext_type": "Grid",
+        "original_serverid": "Grid1",
+        "original_controltype": "Grid",
+        "original_bid": "9ccec3a9-6992-478b-a671-ae00011a9b23",
+        "label": "",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "TextBox",
+        "original_serverid": "TextBox",
+        "original_controltype": "TextBox",
+        "type": "field",
+        "index": 0,
+        "default_state": "readonly",
+        "states": [],
+        "caption": "Training",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "Grid1",
+        "original_serverid": "Grid1",
+        "original_controltype": "Grid",
+        "type": "field",
+        "index": 1,
+        "default_state": "editable",
+        "states": [],
+        "caption": "",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "BC4242DF-906D-4EE1-BA16-ADFF010F6A58",
+        "name": "Instructor_CoursePlanEdit"
+      }
+    ]
+  }
+}

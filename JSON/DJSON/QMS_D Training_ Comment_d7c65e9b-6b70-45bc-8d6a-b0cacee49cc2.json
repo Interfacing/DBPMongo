@@ -1,0 +1,74 @@
+{
+  "shortname": "QMS",
+  "application": "QMS",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "d7c65e9b-6b70-45bc-8d6a-b0cacee49cc2",
+    "name": "DTraining_Comment",
+    "fields": {
+      "Date": {
+        "name": "Date",
+        "type": "datetime",
+        "ext_type": "datetime",
+        "original_serverid": "Date",
+        "original_controltype": "DateEdit",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Date",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "Text": {
+        "name": "Text",
+        "type": "string",
+        "original_serverid": "Text",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Text",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "Date",
+        "original_serverid": "Date",
+        "original_controltype": "DateEdit",
+        "type": "field",
+        "index": 0,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Date",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "Text",
+        "original_serverid": "Text",
+        "original_controltype": "TextBox",
+        "type": "field",
+        "index": 1,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Text",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "D7C65E9B-6B70-45BC-8D6A-B0CACEE49CC2",
+        "name": "DTraining_Comment"
+      },
+      {
+        "id": "8FCC4C40-A123-4D89-B592-AD260171C8B0",
+        "name": "Edit_DTraining_Comment"
+      }
+    ]
+  }
+}

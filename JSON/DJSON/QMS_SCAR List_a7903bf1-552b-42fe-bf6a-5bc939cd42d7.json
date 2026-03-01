@@ -1,0 +1,108 @@
+{
+  "shortname": "QMS",
+  "application": "QMS",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "a7903bf1-552b-42fe-bf6a-5bc939cd42d7",
+    "name": "SCAR_List",
+    "fields": {
+      "TextBox": {
+        "name": "TextBox",
+        "type": "string",
+        "original_serverid": "TextBox",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "SCAR ID",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "Black",
+        "placeholder": ""
+      },
+      "SingleSelectDropdown": {
+        "name": "SingleSelectDropdown",
+        "type": "string",
+        "ext_type": "dropdown",
+        "original_serverid": "SingleSelectDropdown",
+        "original_controltype": "DropDown",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Supplier",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "Black",
+        "placeholder": "Select...",
+        "system_options": []
+      },
+      "Grid": {
+        "name": "Grid",
+        "type": "none",
+        "ext_type": "Grid",
+        "original_serverid": "Grid",
+        "original_controltype": "Grid",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "Black"
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "",
+        "original_serverid": "Row1",
+        "original_controltype": "Row",
+        "type": "section",
+        "index": 0,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "A7903BF1-552B-42FE-BF6A-5BC939CD42D7",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column4",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "A7903BF1-552B-42FE-BF6A-5BC939CD42D7",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "Grid",
+                "original_serverid": "Grid",
+                "original_controltype": "Grid",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "A7903BF1-552B-42FE-BF6A-5BC939CD42D7",
+        "name": "SCAR_List"
+      }
+    ]
+  }
+}

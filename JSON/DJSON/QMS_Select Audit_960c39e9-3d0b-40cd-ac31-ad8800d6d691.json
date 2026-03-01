@@ -1,0 +1,93 @@
+{
+  "shortname": "QMS",
+  "application": "QMS",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "960c39e9-3d0b-40cd-ac31-ad8800d6d691",
+    "name": "Audit_AuditApprovedList",
+    "fields": {
+      "Label": {
+        "name": "Label",
+        "type": "none",
+        "ext_type": "Label",
+        "original_serverid": "Label",
+        "original_controltype": "Label",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "In the event of any changes to the audit objectives, scope or criteria, the audit programme should be modified (if necessary) and communicated to interested parties for approval (if appropriate).",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "Grid": {
+        "name": "Grid",
+        "type": "none",
+        "ext_type": "Grid",
+        "original_serverid": "Grid",
+        "original_controltype": "Grid",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "Black"
+      },
+      "TextBox": {
+        "name": "TextBox",
+        "type": "string",
+        "original_serverid": "TextBox",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Audit ID",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "Black",
+        "placeholder": ""
+      },
+      "TextBox1": {
+        "name": "TextBox1",
+        "type": "string",
+        "original_serverid": "TextBox1",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Audit Definition Name",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "Black",
+        "placeholder": ""
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "Label",
+        "original_serverid": "Label",
+        "original_controltype": "Label",
+        "type": "field",
+        "index": 0,
+        "default_state": "editable",
+        "states": [],
+        "caption": "In the event of any changes to the audit objectives, scope or criteria, the audit programme should be modified (if necessary) and communicated to interested parties for approval (if appropriate).",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "Grid",
+        "original_serverid": "Grid",
+        "original_controltype": "Grid",
+        "type": "field",
+        "index": 1,
+        "default_state": "editable",
+        "states": [],
+        "caption": "",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "960C39E9-3D0B-40CD-AC31-AD8800D6D691",
+        "name": "SelectApprovedAudit"
+      }
+    ]
+  }
+}

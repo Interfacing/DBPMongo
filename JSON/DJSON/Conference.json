@@ -1,0 +1,68 @@
+{
+  "application": "Conference Management",
+  "form": {
+    "fields": {
+      "date_of_request": {
+        "label": "Date of Request",
+        "required": true,
+        "type": "date"
+      },
+      "title_of_request": {
+        "label": "Title of Request",
+        "required": true,
+        "type": "string"
+      },
+      "conference_title": {
+        "label": "Conference Title",
+        "required": true,
+        "type": "string"
+      },
+      "countries": {
+        "ext_type": "multi-select",
+        "label": "Countries",
+        "options": [
+        ],
+        "required": true,
+        "type": "dictionary"
+      },
+      "states": {
+        "ext_type": "multi-select",
+        "label": "States",
+        "options": [
+        ],
+        "required": true,
+        "type": "dictionary"
+      },
+      "cities": {
+        "ext_type": "multi-select",
+        "label": "Cities",
+        "options": [
+        ],
+        "required": true,
+        "type": "dictionary"
+      },
+      "hotel_required": {
+        "label": "Hotel Required?",
+        "required": false,
+        "type": "boolean"
+      },
+      "transportation_required": {
+        "label": "Transportation Required?",
+        "required": false,
+        "type": "boolean"
+      },
+      "approval_by": {
+        "label": "Approval By",
+        "required": true,
+        "type": "user"
+      }
+    },
+    "icon": "fa-file-alt",
+    "name": "Conference Request",
+    "receivers": {
+      "groups": "",
+      "users": ""
+    }
+  },
+  "icon": "fa-calendar"
+}

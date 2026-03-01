@@ -1,0 +1,159 @@
+{
+  "shortname": "QMS",
+  "application": "QMS",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "77426df0-25fd-42c4-9e33-dd89996738af",
+    "name": "QMS_Supplier_DocForm",
+    "fields": {
+      "Document": {
+        "name": "Document",
+        "type": "string",
+        "original_serverid": "Document",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Document Name",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "French_Title": {
+        "name": "French_Title",
+        "type": "string",
+        "original_serverid": "French_Title",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "French",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "German_Title": {
+        "name": "German_Title",
+        "type": "string",
+        "original_serverid": "German_Title",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "German",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "Arabic_Title": {
+        "name": "Arabic_Title",
+        "type": "string",
+        "original_serverid": "Arabic_Title",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Arabic",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "Active": {
+        "name": "Active",
+        "type": "boolean",
+        "original_serverid": "Active",
+        "original_controltype": "CheckBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Active",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "Document",
+        "original_serverid": "Document",
+        "original_controltype": "TextBox",
+        "type": "field",
+        "index": 0,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Document Name",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "French_Title",
+        "original_serverid": "French_Title",
+        "original_controltype": "TextBox",
+        "type": "field",
+        "index": 1,
+        "default_state": "editable",
+        "states": [],
+        "caption": "French",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "German_Title",
+        "original_serverid": "German_Title",
+        "original_controltype": "TextBox",
+        "type": "field",
+        "index": 2,
+        "default_state": "editable",
+        "states": [],
+        "caption": "German",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "Arabic_Title",
+        "original_serverid": "Arabic_Title",
+        "original_controltype": "TextBox",
+        "type": "field",
+        "index": 3,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Arabic",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "Active",
+        "original_serverid": "Active",
+        "original_controltype": "CheckBox",
+        "type": "field",
+        "index": 4,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Active",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "9BCACCC1-EEE4-4318-A622-AFB9011282FB",
+        "name": "edit_Document"
+      },
+      {
+        "id": "67CEFF04-5013-4A90-AECC-AFB901129073",
+        "name": "add_Document"
+      },
+      {
+        "id": "F4ECA2B3-D1A8-4818-B988-AFB90112A03D",
+        "name": "view_Document"
+      },
+      {
+        "id": "D2AEA53F-E508-415F-BB83-AFD2004AD4A3",
+        "name": "delete_Document"
+      },
+      {
+        "id": "77426DF0-25FD-42C4-9E33-DD89996738AF",
+        "name": "QMS_Supplier_DocForm"
+      }
+    ]
+  }
+}

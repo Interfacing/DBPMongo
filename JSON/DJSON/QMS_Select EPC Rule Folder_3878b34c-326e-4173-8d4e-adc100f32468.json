@@ -1,0 +1,76 @@
+{
+  "shortname": "QMS",
+  "application": "QMS",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "3878b34c-326e-4173-8d4e-adc100f32468",
+    "name": "EPCNodeSelector",
+    "fields": {
+      "Tree": {
+        "name": "Tree",
+        "type": "none",
+        "ext_type": "Tree",
+        "original_serverid": "Tree",
+        "original_controltype": "Tree",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Tree",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "Tree",
+        "original_serverid": "Tree",
+        "original_controltype": "Tree",
+        "type": "field",
+        "index": 0,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Tree",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "2BD32362-D83C-4DC1-8A7E-B109010F1F49",
+        "name": "EpcNodeSelectorAsset"
+      },
+      {
+        "id": "ED65DF0A-E4D4-447E-AE99-AE4D0104C242",
+        "name": "EpcNodeSelectorCapability"
+      },
+      {
+        "id": "762DA515-4F70-4F50-8C18-AE590153FAEF",
+        "name": "SelectRuleEPCNode"
+      },
+      {
+        "id": "662B8A7E-6ED2-495E-97F2-ADCD00E5E7FB",
+        "name": "EpcNodeSelectorRisk"
+      },
+      {
+        "id": "B612FE42-34A2-4EA8-8424-ADC100F3AA88",
+        "name": "EpcNodeSelectorControl"
+      },
+      {
+        "id": "BC8BF244-A90A-4521-AD61-ADC100F364D9",
+        "name": "EpcNodeSelectorDocument"
+      },
+      {
+        "id": "F03A4C4E-634D-4CF4-8E3D-ADC100EF56A2",
+        "name": "EpcNodeSelectorProcess"
+      },
+      {
+        "id": "C9F8EC97-0CF7-4C3D-B7B0-F889A4519855",
+        "name": "EPCNodeSelector"
+      },
+      {
+        "id": "3878B34C-326E-4173-8D4E-ADC100F32468",
+        "name": "EpcNodeSelectorRule"
+      }
+    ]
+  }
+}

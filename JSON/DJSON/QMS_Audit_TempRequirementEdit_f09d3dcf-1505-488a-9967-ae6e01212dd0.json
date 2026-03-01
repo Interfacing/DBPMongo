@@ -1,0 +1,73 @@
+{
+  "shortname": "QMS",
+  "application": "QMS",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "f09d3dcf-1505-488a-9967-ae6e01212dd0",
+    "name": "Audit_TempRequirement",
+    "fields": {
+      "IsTestRequired": {
+        "name": "IsTestRequired",
+        "type": "boolean",
+        "original_serverid": "IsTestRequired",
+        "original_controltype": "CheckBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "IsTestRequired",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "BPMAPP_QMS_RequirementRequirement": {
+        "name": "BPMAPP_QMS_RequirementRequirement",
+        "type": "string",
+        "ext_type": "dropdown",
+        "original_serverid": "BPMAPP_QMS_RequirementRequirement",
+        "original_controltype": "DropDown",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Requirement",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": "Select..."
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "IsTestRequired",
+        "original_serverid": "IsTestRequired",
+        "original_controltype": "CheckBox",
+        "type": "field",
+        "index": 0,
+        "default_state": "editable",
+        "states": [],
+        "caption": "IsTestRequired",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "BPMAPP_QMS_RequirementRequirement",
+        "original_serverid": "BPMAPP_QMS_RequirementRequirement",
+        "original_controltype": "DropDown",
+        "type": "field",
+        "index": 1,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Requirement",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "F09D3DCF-1505-488A-9967-AE6E01212DD0",
+        "name": "Audit_TempRequirementEdit"
+      },
+      {
+        "id": "2F29D568-7E40-46CB-A7C4-4410B2965792",
+        "name": "Audit_TempRequirement"
+      }
+    ]
+  }
+}

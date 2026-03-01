@@ -1,0 +1,164 @@
+{
+  "shortname": "QMS",
+  "application": "QMS",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "738e9b82-46f5-4d79-a239-ea100704cb30",
+    "name": "Audit_Req_Result_list",
+    "fields": {
+      "GridObservation": {
+        "name": "GridObservation",
+        "type": "none",
+        "ext_type": "Grid",
+        "original_serverid": "GridObservation",
+        "original_controltype": "Grid",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Audit Findings",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "ssdTypeofFindings": {
+        "name": "ssdTypeofFindings",
+        "type": "string",
+        "ext_type": "dropdown",
+        "original_serverid": "ssdTypeofFindings",
+        "original_controltype": "DropDown",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Type of Findings",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": "Select...",
+        "options": [
+          "Minor Finding",
+          "Major Finding",
+          "Non-conformity",
+          "General Findings"
+        ]
+      },
+      "CreationDate": {
+        "name": "CreationDate",
+        "type": "datetime",
+        "ext_type": "date",
+        "original_serverid": "CreationDate",
+        "original_controltype": "DateEdit",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Creation Date",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "",
+        "original_serverid": "Row2",
+        "original_controltype": "Row",
+        "type": "section",
+        "index": 0,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "738E9B82-46F5-4D79-A239-EA100704CB30",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column2",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "738E9B82-46F5-4D79-A239-EA100704CB30",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "SearchPanel1",
+                "original_serverid": "SearchPanel1",
+                "original_controltype": "Row",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "Search Panel",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "entity_name": "",
+        "original_serverid": "Row1",
+        "original_controltype": "Row",
+        "type": "section",
+        "index": 1,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "738E9B82-46F5-4D79-A239-EA100704CB30",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column1",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "738E9B82-46F5-4D79-A239-EA100704CB30",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "GridObservation",
+                "original_serverid": "GridObservation",
+                "original_controltype": "Grid",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "Audit Findings",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "738E9B82-46F5-4D79-A239-EA100704CB30",
+        "name": "Audit_Req_Result_list"
+      }
+    ]
+  }
+}

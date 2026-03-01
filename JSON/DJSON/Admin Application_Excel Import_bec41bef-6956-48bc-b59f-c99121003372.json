@@ -1,0 +1,509 @@
+{
+  "shortname": "AdminApp",
+  "application": "AdminApp",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "bec41bef-6956-48bc-b59f-c99121003372",
+    "name": "frmImportUsers",
+    "fields": {
+      "Label": {
+        "name": "Label",
+        "type": "none",
+        "ext_type": "Label",
+        "original_serverid": "Label",
+        "original_controltype": "Label",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Use  this form to import a user list directly into either EPC or DBP. \r\nIf users will have access to both, we recommend that you import the user list directly into EPC and then use the Synchronization with EPC application to import the list into DBP.",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "tooltip": "The expected file is an Excel document (.xlsx) with the user list on Sheet1.\r\n\r\nThe column headers expected on the first row are:\r\n\r\nUserName, FirstName, MiddleName, LastName, Email, PhoneNumber, Password, Roles(s), Department, Epcadmin, Modeler, Portal, Active, Code, AltCode, Cell, Address, Description"
+      },
+      "Label2": {
+        "name": "Label2",
+        "type": "none",
+        "ext_type": "Label",
+        "original_serverid": "Label2",
+        "original_controltype": "Label",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "An exported user list from the Organization Management application can be used as a template.",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "tooltip": "The column headers on the first row are:\r\n\r\nName, ID, Active, UserCode, Email, Tel, Address, Login, AlternativeCode, FirstName, LastName."
+      },
+      "Label3": {
+        "name": "Label3",
+        "type": "none",
+        "ext_type": "Label",
+        "original_serverid": "Label3",
+        "original_controltype": "Label",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "For a new role, you will need to input the corresponding department. For an existing role, the department is not required.\r\nThe system will disregard a blank or null value under the \u0022Login\u0022 and/or \u0022Username\u0022 columns.\r\n\u2022 If you want to enable EPCAdmin, Modeler, and/or Portal for the user, input \u201CYes\u201D in the relevant fields. If you do not want to enable these permissions, instead leave the columns blank.\r\n\u2022 In the \u0022Active\u0022 column, input \u0022Yes\u0022 to mark the item as active. To mark it as inactive, leave the corresponding row blank.\r\n\u2022 In the Org. Management Excel file, the \u0022Active\u0022 column will instead contain \u0022True\u0022 or \u0022False\u0022 as values. These values will still be accepted by the system.\r\n",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "Label5": {
+        "name": "Label5",
+        "type": "none",
+        "ext_type": "Label",
+        "original_serverid": "Label5",
+        "original_controltype": "Label",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "If the list is imported directly into EPC, only the users will be added to the system. You will need to manually link/create the corresponding roles and departments for each user.",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "ValidateMessage": {
+        "name": "ValidateMessage",
+        "type": "none",
+        "ext_type": "Label",
+        "original_serverid": "ValidateMessage",
+        "original_controltype": "Label",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "RadioButtonList": {
+        "name": "RadioButtonList",
+        "type": "string",
+        "ext_type": "radio",
+        "original_serverid": "RadioButtonList",
+        "original_controltype": "RadioList",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Export to",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "",
+        "default_value": "0",
+        "options": [
+          "DBP",
+          "EPC"
+        ],
+        "layout_horizontal": true,
+        "nbr_columns_vertical": 1
+      },
+      "btnImport": {
+        "name": "btnImport",
+        "type": "none",
+        "ext_type": "Button",
+        "original_serverid": "btnImport",
+        "original_controltype": "Button",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Import User List",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "btnUpdate": {
+        "name": "btnUpdate",
+        "type": "none",
+        "ext_type": "Button",
+        "original_serverid": "btnUpdate",
+        "original_controltype": "Button",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Activate/Deactivate Users",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "DownloadExcelTemplate": {
+        "name": "DownloadExcelTemplate",
+        "type": "file",
+        "original_serverid": "DownloadExcelTemplate",
+        "original_controltype": "FileAttachment",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Download Excel Template",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "",
+        "tooltip": "Click on the file to download"
+      },
+      "UploadFilewithData": {
+        "name": "UploadFilewithData",
+        "type": "file",
+        "original_serverid": "UploadFilewithData",
+        "original_controltype": "FileAttachment",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Upload File with Data",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "Message": {
+        "name": "Message",
+        "type": "string",
+        "ext_type": "multiline",
+        "original_serverid": "Message",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Output Message",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": ""
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "Label",
+        "original_serverid": "Label",
+        "original_controltype": "Label",
+        "type": "field",
+        "index": 0,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Use  this form to import a user list directly into either EPC or DBP. \r\nIf users will have access to both, we recommend that you import the user list directly into EPC and then use the Synchronization with EPC application to import the list into DBP.",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "Label2",
+        "original_serverid": "Label2",
+        "original_controltype": "Label",
+        "type": "field",
+        "index": 1,
+        "default_state": "editable",
+        "states": [],
+        "caption": "An exported user list from the Organization Management application can be used as a template.",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "Label3",
+        "original_serverid": "Label3",
+        "original_controltype": "Label",
+        "type": "field",
+        "index": 2,
+        "default_state": "editable",
+        "states": [],
+        "caption": "For a new role, you will need to input the corresponding department. For an existing role, the department is not required.\r\nThe system will disregard a blank or null value under the \u0022Login\u0022 and/or \u0022Username\u0022 columns.\r\n\u2022 If you want to enable EPCAdmin, Modeler, and/or Portal for the user, input \u201CYes\u201D in the relevant fields. If you do not want to enable these permissions, instead leave the columns blank.\r\n\u2022 In the \u0022Active\u0022 column, input \u0022Yes\u0022 to mark the item as active. To mark it as inactive, leave the corresponding row blank.\r\n\u2022 In the Org. Management Excel file, the \u0022Active\u0022 column will instead contain \u0022True\u0022 or \u0022False\u0022 as values. These values will still be accepted by the system.\r\n",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "Label5",
+        "original_serverid": "Label5",
+        "original_controltype": "Label",
+        "type": "field",
+        "index": 3,
+        "default_state": "editable",
+        "states": [],
+        "caption": "If the list is imported directly into EPC, only the users will be added to the system. You will need to manually link/create the corresponding roles and departments for each user.",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "ValidateMessage",
+        "original_serverid": "ValidateMessage",
+        "original_controltype": "Label",
+        "type": "field",
+        "index": 4,
+        "default_state": "editable",
+        "states": [],
+        "caption": "",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "",
+        "original_serverid": "Row12",
+        "original_controltype": "Row",
+        "type": "columns",
+        "index": 5,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "BEC41BEF-6956-48BC-B59F-C99121003372",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column16",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "BEC41BEF-6956-48BC-B59F-C99121003372",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "DownloadExcelTemplate",
+                "original_serverid": "DownloadExcelTemplate",
+                "original_controltype": "FileAttachment",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "Download Excel Template",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "entity_name": "",
+            "original_serverid": "Column17",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 1,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "BEC41BEF-6956-48BC-B59F-C99121003372",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "UploadFilewithData",
+                "original_serverid": "UploadFilewithData",
+                "original_controltype": "FileAttachment",
+                "type": "field",
+                "index": 0,
+                "default_state": "mandatory",
+                "states": [],
+                "caption": "Upload File with Data",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "entity_name": "RadioButtonList",
+        "original_serverid": "RadioButtonList",
+        "original_controltype": "RadioList",
+        "type": "field",
+        "index": 6,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Export to",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "",
+        "original_serverid": "Row6",
+        "original_controltype": "Row",
+        "type": "section",
+        "index": 7,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "BEC41BEF-6956-48BC-B59F-C99121003372",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column8",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "BEC41BEF-6956-48BC-B59F-C99121003372",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "",
+                "original_serverid": "Row8",
+                "original_controltype": "Row",
+                "type": "section",
+                "index": 0,
+                "default_state": "editable",
+                "states": [
+                  {
+                    "behaviorTaskId": "BEC41BEF-6956-48BC-B59F-C99121003372",
+                    "state": "editable"
+                  }
+                ],
+                "caption_bold": false,
+                "caption_italic": false,
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": [
+                  {
+                    "entity_name": "",
+                    "original_serverid": "Column10",
+                    "original_controltype": "Column",
+                    "type": "section",
+                    "index": 0,
+                    "default_state": "editable",
+                    "states": [
+                      {
+                        "behaviorTaskId": "BEC41BEF-6956-48BC-B59F-C99121003372",
+                        "state": "editable"
+                      }
+                    ],
+                    "is_default_open": false,
+                    "all_open_by_default": false,
+                    "children": [
+                      {
+                        "entity_name": "btnImport",
+                        "original_serverid": "btnImport",
+                        "original_controltype": "Button",
+                        "type": "field",
+                        "index": 0,
+                        "default_state": "editable",
+                        "states": [],
+                        "caption": "Import User List",
+                        "is_default_open": false,
+                        "all_open_by_default": false,
+                        "children": []
+                      },
+                      {
+                        "entity_name": "btnUpdate",
+                        "original_serverid": "btnUpdate",
+                        "original_controltype": "Button",
+                        "type": "field",
+                        "index": 1,
+                        "default_state": "editable",
+                        "states": [],
+                        "caption": "Activate/Deactivate Users",
+                        "is_default_open": false,
+                        "all_open_by_default": false,
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "entity_name": "Message",
+                "original_serverid": "Message",
+                "original_controltype": "TextBox",
+                "type": "field",
+                "index": 1,
+                "default_state": "editable",
+                "states": [],
+                "caption": "Output Message",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "entity_name": "",
+        "original_serverid": "Row",
+        "original_controltype": "Row",
+        "type": "section",
+        "index": 8,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "BEC41BEF-6956-48BC-B59F-C99121003372",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "BEC41BEF-6956-48BC-B59F-C99121003372",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "",
+                "original_serverid": "Row1",
+                "original_controltype": "Row",
+                "type": "section",
+                "index": 0,
+                "default_state": "editable",
+                "states": [
+                  {
+                    "behaviorTaskId": "BEC41BEF-6956-48BC-B59F-C99121003372",
+                    "state": "editable"
+                  }
+                ],
+                "caption_bold": false,
+                "caption_italic": false,
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": [
+                  {
+                    "entity_name": "",
+                    "original_serverid": "Column1",
+                    "original_controltype": "Column",
+                    "type": "section",
+                    "index": 0,
+                    "default_state": "editable",
+                    "states": [
+                      {
+                        "behaviorTaskId": "BEC41BEF-6956-48BC-B59F-C99121003372",
+                        "state": "editable"
+                      }
+                    ],
+                    "is_default_open": false,
+                    "all_open_by_default": false,
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "BEC41BEF-6956-48BC-B59F-C99121003372",
+        "name": "frmImportUsers"
+      }
+    ]
+  }
+}

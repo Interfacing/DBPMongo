@@ -1,0 +1,751 @@
+{
+  "shortname": "QMS",
+  "application": "QMS",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "9c08c853-d475-4808-b99e-ad4b00f2750c",
+    "name": "EPCRule",
+    "fields": {
+      "LblVersioningType1": {
+        "name": "LblVersioningType1",
+        "type": "none",
+        "ext_type": "Label",
+        "original_serverid": "LblVersioningType1",
+        "original_controltype": "Label",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "This versioning type option will always link to the latest version of the rule in EPC.",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "LblVersioningType2": {
+        "name": "LblVersioningType2",
+        "type": "none",
+        "ext_type": "Label",
+        "original_serverid": "LblVersioningType2",
+        "original_controltype": "Label",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "This versioning type option will always link to the latest published version of the rule in EPC.",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "LblVersioningType3": {
+        "name": "LblVersioningType3",
+        "type": "none",
+        "ext_type": "Label",
+        "original_serverid": "LblVersioningType3",
+        "original_controltype": "Label",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "This versioning type option will link to all relevant versions of the rule\u2014from the one currently in progress to the one next published.",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "LblVersioningType4": {
+        "name": "LblVersioningType4",
+        "type": "none",
+        "ext_type": "Label",
+        "original_serverid": "LblVersioningType4",
+        "original_controltype": "Label",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "This versioning type option will link only to the specified version of the rule in EPC.",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "IsRead": {
+        "name": "IsRead",
+        "type": "boolean",
+        "original_serverid": "IsRead",
+        "original_controltype": "CheckBox",
+        "original_bid": "301b9784-355f-4640-86b3-b18000197c3c",
+        "label": "IsRead",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "Label": {
+        "name": "Label",
+        "type": "none",
+        "ext_type": "Label",
+        "original_serverid": "Label",
+        "original_controltype": "Label",
+        "original_bid": "3f11a9bf-e80a-47fd-a9da-ae3801603c81",
+        "label": "Link",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "ddlVersioningAll": {
+        "name": "ddlVersioningAll",
+        "type": "string",
+        "ext_type": "dropdown",
+        "original_serverid": "ddlVersioningAll",
+        "original_controltype": "DropDown",
+        "original_bid": "41e605d5-8a59-42cd-aecf-ae380143962c",
+        "label": "Versioning type",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": "Select...",
+        "options": [
+          "Latest version",
+          "Latest published version",
+          "Current version until next published",
+          "Specified version"
+        ]
+      },
+      "ddlVersioningForPublished": {
+        "name": "ddlVersioningForPublished",
+        "type": "string",
+        "ext_type": "dropdown",
+        "original_serverid": "ddlVersioningForPublished",
+        "original_controltype": "DropDown",
+        "original_bid": "c4848231-6c35-4095-a4ff-ae4501535ee6",
+        "label": "Versioning type",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": "Select...",
+        "options": [
+          "Latest version",
+          "Latest published version",
+          "Specified version"
+        ]
+      },
+      "ddlVersioningWhenNoPublished": {
+        "name": "ddlVersioningWhenNoPublished",
+        "type": "string",
+        "ext_type": "dropdown",
+        "original_serverid": "ddlVersioningWhenNoPublished",
+        "original_controltype": "DropDown",
+        "original_bid": "3b6385c7-a198-4af8-a685-ae4501549f4f",
+        "label": "Versioning type",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": "Select...",
+        "options": [
+          "Latest version",
+          "Current version until next published",
+          "Specified version"
+        ]
+      },
+      "SelectVersion": {
+        "name": "SelectVersion",
+        "type": "string",
+        "ext_type": "dropdown",
+        "original_serverid": "SelectVersion",
+        "original_controltype": "DropDown",
+        "original_bid": "e2e6c463-5e39-44c1-91b9-ae3801448856",
+        "label": "Version",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": "Select...",
+        "system_options": []
+      },
+      "LblCurrentVersion": {
+        "name": "LblCurrentVersion",
+        "type": "none",
+        "ext_type": "Label",
+        "original_serverid": "LblCurrentVersion",
+        "original_controltype": "Label",
+        "original_bid": "fac91f93-65b6-4625-b930-ae3801603c82",
+        "label": "CurrentVersion",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "RadioButtonList": {
+        "name": "RadioButtonList",
+        "type": "string",
+        "ext_type": "radio",
+        "original_serverid": "RadioButtonList",
+        "original_controltype": "RadioList",
+        "original_bid": "bea2189d-2c05-4845-9ae5-aed20104a065",
+        "label": "Primary / Supporting Documentation",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "",
+        "tooltip": "Supporting documentation will not create tasks in EPC and is meant to support the primary documentation with supplementary information.\r\n",
+        "options": [
+          "Primary Documentation",
+          "Supporting Documentation"
+        ],
+        "layout_horizontal": false,
+        "nbr_columns_vertical": 1
+      },
+      "TextBox": {
+        "name": "TextBox",
+        "type": "string",
+        "original_serverid": "TextBox",
+        "original_controltype": "TextBox",
+        "original_bid": "5cafe717-4b78-4967-baf0-ae61012582c3",
+        "label": "Name",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "RichTextBox": {
+        "name": "RichTextBox",
+        "type": "string",
+        "ext_type": "richtext",
+        "original_serverid": "RichTextBox",
+        "original_controltype": "RichTextBox",
+        "original_bid": "7ebe049c-789d-49f8-86f0-ae38014b5c0c",
+        "label": "Description",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": ""
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "",
+        "original_serverid": "Row4",
+        "original_controltype": "Row",
+        "type": "section",
+        "index": 0,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "2899B044-77B1-41E2-B2FA-AE4500E68891",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "9C08C853-D475-4808-B99E-AD4B00F2750C",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "7D589620-DF55-41B2-BAB5-A2B0185944CB",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column7",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "2899B044-77B1-41E2-B2FA-AE4500E68891",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "9C08C853-D475-4808-B99E-AD4B00F2750C",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "7D589620-DF55-41B2-BAB5-A2B0185944CB",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "TextBox",
+                "original_serverid": "TextBox",
+                "original_controltype": "TextBox",
+                "type": "field",
+                "index": 0,
+                "default_state": "readonly",
+                "states": [],
+                "caption": "Name",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "entity_name": "",
+        "original_serverid": "Row5",
+        "original_controltype": "Row",
+        "type": "section",
+        "index": 1,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "2899B044-77B1-41E2-B2FA-AE4500E68891",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "9C08C853-D475-4808-B99E-AD4B00F2750C",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "7D589620-DF55-41B2-BAB5-A2B0185944CB",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column8",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "2899B044-77B1-41E2-B2FA-AE4500E68891",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "9C08C853-D475-4808-B99E-AD4B00F2750C",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "7D589620-DF55-41B2-BAB5-A2B0185944CB",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "RichTextBox",
+                "original_serverid": "RichTextBox",
+                "original_controltype": "RichTextBox",
+                "type": "field",
+                "index": 0,
+                "default_state": "readonly",
+                "states": [],
+                "caption": "Description",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "entity_name": "",
+        "original_serverid": "Row3",
+        "original_controltype": "Row",
+        "type": "section",
+        "index": 2,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "2899B044-77B1-41E2-B2FA-AE4500E68891",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "9C08C853-D475-4808-B99E-AD4B00F2750C",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "7D589620-DF55-41B2-BAB5-A2B0185944CB",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column6",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "2899B044-77B1-41E2-B2FA-AE4500E68891",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "9C08C853-D475-4808-B99E-AD4B00F2750C",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "7D589620-DF55-41B2-BAB5-A2B0185944CB",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "RadioButtonList",
+                "original_serverid": "RadioButtonList",
+                "original_controltype": "RadioList",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "Primary / Supporting Documentation",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "entity_name": "",
+        "original_serverid": "Row1",
+        "original_controltype": "Row",
+        "type": "columns",
+        "index": 3,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "2899B044-77B1-41E2-B2FA-AE4500E68891",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "9C08C853-D475-4808-B99E-AD4B00F2750C",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "7D589620-DF55-41B2-BAB5-A2B0185944CB",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column2",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "2899B044-77B1-41E2-B2FA-AE4500E68891",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "9C08C853-D475-4808-B99E-AD4B00F2750C",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "7D589620-DF55-41B2-BAB5-A2B0185944CB",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "ddlVersioningAll",
+                "original_serverid": "ddlVersioningAll",
+                "original_controltype": "DropDown",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "Versioning type",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              },
+              {
+                "entity_name": "ddlVersioningForPublished",
+                "original_serverid": "ddlVersioningForPublished",
+                "original_controltype": "DropDown",
+                "type": "field",
+                "index": 1,
+                "default_state": "editable",
+                "states": [],
+                "caption": "Versioning type",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              },
+              {
+                "entity_name": "ddlVersioningWhenNoPublished",
+                "original_serverid": "ddlVersioningWhenNoPublished",
+                "original_controltype": "DropDown",
+                "type": "field",
+                "index": 2,
+                "default_state": "editable",
+                "states": [],
+                "caption": "Versioning type",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "entity_name": "",
+            "original_serverid": "Column3",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 1,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "2899B044-77B1-41E2-B2FA-AE4500E68891",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "9C08C853-D475-4808-B99E-AD4B00F2750C",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "7D589620-DF55-41B2-BAB5-A2B0185944CB",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "SelectVersion",
+                "original_serverid": "SelectVersion",
+                "original_controltype": "DropDown",
+                "type": "field",
+                "index": 0,
+                "default_state": "mandatory",
+                "states": [],
+                "caption": "Version",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "entity_name": "",
+            "original_serverid": "Column4",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 2,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "2899B044-77B1-41E2-B2FA-AE4500E68891",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "9C08C853-D475-4808-B99E-AD4B00F2750C",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "7D589620-DF55-41B2-BAB5-A2B0185944CB",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "LblCurrentVersion",
+                "original_serverid": "LblCurrentVersion",
+                "original_controltype": "Label",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "CurrentVersion",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "entity_name": "",
+            "original_serverid": "Row1_column_4",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 3,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "2899B044-77B1-41E2-B2FA-AE4500E68891",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "9C08C853-D475-4808-B99E-AD4B00F2750C",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "7D589620-DF55-41B2-BAB5-A2B0185944CB",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": []
+          }
+        ]
+      },
+      {
+        "entity_name": "",
+        "original_serverid": "Row2",
+        "original_controltype": "Row",
+        "type": "section",
+        "index": 4,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "2899B044-77B1-41E2-B2FA-AE4500E68891",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "9C08C853-D475-4808-B99E-AD4B00F2750C",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "7D589620-DF55-41B2-BAB5-A2B0185944CB",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column1",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "2899B044-77B1-41E2-B2FA-AE4500E68891",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "9C08C853-D475-4808-B99E-AD4B00F2750C",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "7D589620-DF55-41B2-BAB5-A2B0185944CB",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "Label",
+                "original_serverid": "Label",
+                "original_controltype": "Label",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "Link",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "entity_name": "LblVersioningType1",
+        "original_serverid": "LblVersioningType1",
+        "original_controltype": "Label",
+        "type": "field",
+        "index": 5,
+        "default_state": "editable",
+        "states": [],
+        "caption": "This versioning type option will always link to the latest version of the rule in EPC.",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "LblVersioningType2",
+        "original_serverid": "LblVersioningType2",
+        "original_controltype": "Label",
+        "type": "field",
+        "index": 6,
+        "default_state": "editable",
+        "states": [],
+        "caption": "This versioning type option will always link to the latest published version of the rule in EPC.",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "LblVersioningType3",
+        "original_serverid": "LblVersioningType3",
+        "original_controltype": "Label",
+        "type": "field",
+        "index": 7,
+        "default_state": "editable",
+        "states": [],
+        "caption": "This versioning type option will link to all relevant versions of the rule\u2014from the one currently in progress to the one next published.",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "LblVersioningType4",
+        "original_serverid": "LblVersioningType4",
+        "original_controltype": "Label",
+        "type": "field",
+        "index": 8,
+        "default_state": "editable",
+        "states": [],
+        "caption": "This versioning type option will link only to the specified version of the rule in EPC.",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "IsRead",
+        "original_serverid": "IsRead",
+        "original_controltype": "CheckBox",
+        "type": "field",
+        "index": 9,
+        "default_state": "invisible",
+        "states": [],
+        "caption": "IsRead",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "2899B044-77B1-41E2-B2FA-AE4500E68891",
+        "name": "TrainingDefine_InlineEditEpcRule"
+      },
+      {
+        "id": "9C08C853-D475-4808-B99E-AD4B00F2750C",
+        "name": "Edit_EPC_Rule"
+      },
+      {
+        "id": "7D589620-DF55-41B2-BAB5-A2B0185944CB",
+        "name": "EPCRule"
+      }
+    ]
+  }
+}

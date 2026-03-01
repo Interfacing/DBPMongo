@@ -1,0 +1,128 @@
+{
+  "shortname": "QMS",
+  "application": "QMS",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "7f223b28-f477-433c-91cb-f4614ac1232c",
+    "name": "Applicability_Exception",
+    "fields": {
+      "StaffRole": {
+        "name": "StaffRole",
+        "type": "string",
+        "ext_type": "dropdown",
+        "original_serverid": "StaffRole",
+        "original_controltype": "DropDown",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Role",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": "Select...",
+        "system_options": [
+          "roles"
+        ]
+      },
+      "EmitionDate": {
+        "name": "EmitionDate",
+        "type": "datetime",
+        "ext_type": "datetime",
+        "original_serverid": "EmitionDate",
+        "original_controltype": "DateEdit",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "EmitionDate",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "Text": {
+        "name": "Text",
+        "type": "string",
+        "original_serverid": "Text",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Text",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "UserEmittingUser": {
+        "name": "UserEmittingUser",
+        "type": "string",
+        "ext_type": "dropdown",
+        "original_serverid": "UserEmittingUser",
+        "original_controltype": "DropDown",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Emitting User",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": "Select...",
+        "system_options": [
+          "user"
+        ]
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "StaffRole",
+        "original_serverid": "StaffRole",
+        "original_controltype": "DropDown",
+        "type": "field",
+        "index": 0,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Role",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "EmitionDate",
+        "original_serverid": "EmitionDate",
+        "original_controltype": "DateEdit",
+        "type": "field",
+        "index": 1,
+        "default_state": "editable",
+        "states": [],
+        "caption": "EmitionDate",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "Text",
+        "original_serverid": "Text",
+        "original_controltype": "TextBox",
+        "type": "field",
+        "index": 2,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Text",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "UserEmittingUser",
+        "original_serverid": "UserEmittingUser",
+        "original_controltype": "DropDown",
+        "type": "field",
+        "index": 3,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Emitting User",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "7F223B28-F477-433C-91CB-F4614AC1232C",
+        "name": "Applicability_Exception"
+      }
+    ]
+  }
+}

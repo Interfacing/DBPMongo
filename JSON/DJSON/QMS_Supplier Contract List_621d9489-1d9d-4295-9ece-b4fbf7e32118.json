@@ -1,0 +1,302 @@
+{
+  "shortname": "QMS",
+  "application": "QMS",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "621d9489-1d9d-4295-9ece-b4fbf7e32118",
+    "name": "SupplierContractList",
+    "fields": {
+      "GridSupplierContract": {
+        "name": "GridSupplierContract",
+        "type": "none",
+        "ext_type": "Grid",
+        "original_serverid": "GridSupplierContract",
+        "original_controltype": "Grid",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "btnReminder": {
+        "name": "btnReminder",
+        "type": "none",
+        "ext_type": "Button",
+        "original_serverid": "btnReminder",
+        "original_controltype": "Button",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Remind Supplier Nearing Contract Expiry",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "DateTimePicker1": {
+        "name": "DateTimePicker1",
+        "type": "datetime",
+        "ext_type": "datetime",
+        "original_serverid": "DateTimePicker1",
+        "original_controltype": "DateEdit",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Notification Date(Sent for Expiring Supplier Contracts)",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "lblMessage": {
+        "name": "lblMessage",
+        "type": "none",
+        "ext_type": "Label",
+        "original_serverid": "lblMessage",
+        "original_controltype": "Label",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "",
+        "original_serverid": "Row2",
+        "original_controltype": "Row",
+        "type": "columns",
+        "index": 0,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "621D9489-1D9D-4295-9ECE-B4FBF7E32118",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column2",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "621D9489-1D9D-4295-9ECE-B4FBF7E32118",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": []
+          },
+          {
+            "entity_name": "",
+            "original_serverid": "Column3",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 1,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "621D9489-1D9D-4295-9ECE-B4FBF7E32118",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": []
+          },
+          {
+            "entity_name": "",
+            "original_serverid": "Column4",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 2,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "621D9489-1D9D-4295-9ECE-B4FBF7E32118",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "btnReminder",
+                "original_serverid": "btnReminder",
+                "original_controltype": "Button",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "Remind Supplier Nearing Contract Expiry",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "entity_name": "",
+            "original_serverid": "Column5",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 3,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "621D9489-1D9D-4295-9ECE-B4FBF7E32118",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "DateTimePicker1",
+                "original_serverid": "DateTimePicker1",
+                "original_controltype": "DateEdit",
+                "type": "field",
+                "index": 0,
+                "default_state": "readonly",
+                "states": [],
+                "caption": "Notification Date(Sent for Expiring Supplier Contracts)",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "entity_name": "",
+        "original_serverid": "Row3",
+        "original_controltype": "Row",
+        "type": "columns",
+        "index": 1,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "621D9489-1D9D-4295-9ECE-B4FBF7E32118",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column6",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "621D9489-1D9D-4295-9ECE-B4FBF7E32118",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "lblMessage",
+                "original_serverid": "lblMessage",
+                "original_controltype": "Label",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "entity_name": "",
+            "original_serverid": "Column7",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 1,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "621D9489-1D9D-4295-9ECE-B4FBF7E32118",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": []
+          }
+        ]
+      },
+      {
+        "entity_name": "",
+        "original_serverid": "Row1",
+        "original_controltype": "Row",
+        "type": "section",
+        "index": 2,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "621D9489-1D9D-4295-9ECE-B4FBF7E32118",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column1",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "621D9489-1D9D-4295-9ECE-B4FBF7E32118",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "GridSupplierContract",
+                "original_serverid": "GridSupplierContract",
+                "original_controltype": "Grid",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "621D9489-1D9D-4295-9ECE-B4FBF7E32118",
+        "name": "SupplierContractList"
+      }
+    ]
+  }
+}

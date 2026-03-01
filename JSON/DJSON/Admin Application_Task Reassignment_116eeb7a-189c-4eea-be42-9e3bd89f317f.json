@@ -1,0 +1,689 @@
+{
+  "shortname": "AdminApp",
+  "application": "AdminApp",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "116eeb7a-189c-4eea-be42-9e3bd89f317f",
+    "name": "frmTaskAdministration",
+    "fields": {
+      "Label2": {
+        "name": "Label2",
+        "type": "none",
+        "ext_type": "Label",
+        "original_serverid": "Label2",
+        "original_controltype": "Label",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Search Panel",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "lblError": {
+        "name": "lblError",
+        "type": "none",
+        "ext_type": "Label",
+        "original_serverid": "lblError",
+        "original_controltype": "Label",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "lblError",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "CheckBox": {
+        "name": "CheckBox",
+        "type": "boolean",
+        "original_serverid": "CheckBox",
+        "original_controltype": "CheckBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "     Terminate the task for the current assignee ",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "#F00000",
+        "default_value": "True"
+      },
+      "FilterSubject": {
+        "name": "FilterSubject",
+        "type": "string",
+        "original_serverid": "FilterSubject",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Subject",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "FilterCretaedOn": {
+        "name": "FilterCretaedOn",
+        "type": "datetime",
+        "ext_type": "date",
+        "original_serverid": "FilterCretaedOn",
+        "original_controltype": "DateEdit",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Creation date",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "Label": {
+        "name": "Label",
+        "type": "none",
+        "ext_type": "Label",
+        "original_serverid": "Label",
+        "original_controltype": "Label",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Select a task by double-clicking on it from the grid\r\n",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "Filter": {
+        "name": "Filter",
+        "type": "none",
+        "ext_type": "Button",
+        "original_serverid": "Filter",
+        "original_controltype": "Button",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Filter",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "btnClearFilter": {
+        "name": "btnClearFilter",
+        "type": "none",
+        "ext_type": "Button",
+        "original_serverid": "btnClearFilter",
+        "original_controltype": "Button",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Clear Filter",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "Button": {
+        "name": "Button",
+        "type": "none",
+        "ext_type": "Button",
+        "original_serverid": "Button",
+        "original_controltype": "Button",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Send",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "TextBox": {
+        "name": "TextBox",
+        "type": "string",
+        "original_serverid": "TextBox",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Selected Task",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "SingleSelectDropdown": {
+        "name": "SingleSelectDropdown",
+        "type": "string",
+        "ext_type": "dropdown",
+        "original_serverid": "SingleSelectDropdown",
+        "original_controltype": "DropDown",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "New Receiver",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": "Select...",
+        "system_options": []
+      },
+      "TasksTable": {
+        "name": "TasksTable",
+        "type": "none",
+        "ext_type": "Table",
+        "original_serverid": "TasksTable",
+        "original_controltype": "Table",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "Label2",
+        "original_serverid": "Label2",
+        "original_controltype": "Label",
+        "type": "field",
+        "index": 0,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Search Panel",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "",
+        "original_serverid": "Row7",
+        "original_controltype": "Row",
+        "type": "section",
+        "index": 1,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "116EEB7A-189C-4EEA-BE42-9E3BD89F317F",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column11",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "116EEB7A-189C-4EEA-BE42-9E3BD89F317F",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "",
+                "original_serverid": "Row",
+                "original_controltype": "Row",
+                "type": "columns",
+                "index": 0,
+                "default_state": "editable",
+                "states": [
+                  {
+                    "behaviorTaskId": "116EEB7A-189C-4EEA-BE42-9E3BD89F317F",
+                    "state": "editable"
+                  }
+                ],
+                "caption_bold": false,
+                "caption_italic": false,
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": [
+                  {
+                    "entity_name": "",
+                    "original_serverid": "Column",
+                    "original_controltype": "Column",
+                    "type": "section",
+                    "index": 0,
+                    "default_state": "editable",
+                    "states": [
+                      {
+                        "behaviorTaskId": "116EEB7A-189C-4EEA-BE42-9E3BD89F317F",
+                        "state": "editable"
+                      }
+                    ],
+                    "is_default_open": false,
+                    "all_open_by_default": false,
+                    "children": [
+                      {
+                        "entity_name": "FilterSubject",
+                        "original_serverid": "FilterSubject",
+                        "original_controltype": "TextBox",
+                        "type": "field",
+                        "index": 0,
+                        "default_state": "editable",
+                        "states": [],
+                        "caption": "Subject",
+                        "is_default_open": false,
+                        "all_open_by_default": false,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "entity_name": "",
+                    "original_serverid": "Column1",
+                    "original_controltype": "Column",
+                    "type": "section",
+                    "index": 1,
+                    "default_state": "editable",
+                    "states": [
+                      {
+                        "behaviorTaskId": "116EEB7A-189C-4EEA-BE42-9E3BD89F317F",
+                        "state": "editable"
+                      }
+                    ],
+                    "is_default_open": false,
+                    "all_open_by_default": false,
+                    "children": [
+                      {
+                        "entity_name": "FilterCretaedOn",
+                        "original_serverid": "FilterCretaedOn",
+                        "original_controltype": "DateEdit",
+                        "type": "field",
+                        "index": 0,
+                        "default_state": "editable",
+                        "states": [],
+                        "caption": "Creation date",
+                        "is_default_open": false,
+                        "all_open_by_default": false,
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "entity_name": "Filter",
+                "original_serverid": "Filter",
+                "original_controltype": "Button",
+                "type": "field",
+                "index": 1,
+                "default_state": "editable",
+                "states": [],
+                "caption": "Filter",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              },
+              {
+                "entity_name": "btnClearFilter",
+                "original_serverid": "btnClearFilter",
+                "original_controltype": "Button",
+                "type": "field",
+                "index": 2,
+                "default_state": "editable",
+                "states": [],
+                "caption": "Clear Filter",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "entity_name": "",
+        "original_serverid": "Row6",
+        "original_controltype": "Row",
+        "type": "section",
+        "index": 2,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "116EEB7A-189C-4EEA-BE42-9E3BD89F317F",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column10",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "116EEB7A-189C-4EEA-BE42-9E3BD89F317F",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "Label",
+                "original_serverid": "Label",
+                "original_controltype": "Label",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "Select a task by double-clicking on it from the grid\r\n",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "entity_name": "",
+        "original_serverid": "Row3",
+        "original_controltype": "Row",
+        "type": "section",
+        "index": 3,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "116EEB7A-189C-4EEA-BE42-9E3BD89F317F",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column9",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "116EEB7A-189C-4EEA-BE42-9E3BD89F317F",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "TasksTable",
+                "original_serverid": "TasksTable",
+                "original_controltype": "Table",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "entity_name": "lblError",
+        "original_serverid": "lblError",
+        "original_controltype": "Label",
+        "type": "field",
+        "index": 4,
+        "default_state": "editable",
+        "states": [],
+        "caption": "lblError",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "",
+        "original_serverid": "Row2",
+        "original_controltype": "Row",
+        "type": "columns",
+        "index": 5,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "116EEB7A-189C-4EEA-BE42-9E3BD89F317F",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column5",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "116EEB7A-189C-4EEA-BE42-9E3BD89F317F",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "TextBox",
+                "original_serverid": "TextBox",
+                "original_controltype": "TextBox",
+                "type": "field",
+                "index": 0,
+                "default_state": "readonly",
+                "states": [],
+                "caption": "Selected Task",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "entity_name": "",
+            "original_serverid": "Column6",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 1,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "116EEB7A-189C-4EEA-BE42-9E3BD89F317F",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "SingleSelectDropdown",
+                "original_serverid": "SingleSelectDropdown",
+                "original_controltype": "DropDown",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "New Receiver",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "entity_name": "CheckBox",
+        "original_serverid": "CheckBox",
+        "original_controltype": "CheckBox",
+        "type": "field",
+        "index": 6,
+        "default_state": "editable",
+        "states": [],
+        "caption": "     Terminate the task for the current assignee ",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "",
+        "original_serverid": "Row1",
+        "original_controltype": "Row",
+        "type": "columns",
+        "index": 7,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "116EEB7A-189C-4EEA-BE42-9E3BD89F317F",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column3",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "116EEB7A-189C-4EEA-BE42-9E3BD89F317F",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": []
+          },
+          {
+            "entity_name": "",
+            "original_serverid": "Column4",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 1,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "116EEB7A-189C-4EEA-BE42-9E3BD89F317F",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "",
+                "original_serverid": "Row4",
+                "original_controltype": "Row",
+                "type": "columns",
+                "index": 0,
+                "default_state": "editable",
+                "states": [
+                  {
+                    "behaviorTaskId": "116EEB7A-189C-4EEA-BE42-9E3BD89F317F",
+                    "state": "editable"
+                  }
+                ],
+                "caption_bold": false,
+                "caption_italic": false,
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": [
+                  {
+                    "entity_name": "",
+                    "original_serverid": "Column13",
+                    "original_controltype": "Column",
+                    "type": "section",
+                    "index": 0,
+                    "default_state": "editable",
+                    "states": [
+                      {
+                        "behaviorTaskId": "116EEB7A-189C-4EEA-BE42-9E3BD89F317F",
+                        "state": "editable"
+                      }
+                    ],
+                    "is_default_open": false,
+                    "all_open_by_default": false,
+                    "children": []
+                  },
+                  {
+                    "entity_name": "",
+                    "original_serverid": "Column14",
+                    "original_controltype": "Column",
+                    "type": "section",
+                    "index": 1,
+                    "default_state": "editable",
+                    "states": [
+                      {
+                        "behaviorTaskId": "116EEB7A-189C-4EEA-BE42-9E3BD89F317F",
+                        "state": "editable"
+                      }
+                    ],
+                    "is_default_open": false,
+                    "all_open_by_default": false,
+                    "children": [
+                      {
+                        "entity_name": "Button",
+                        "original_serverid": "Button",
+                        "original_controltype": "Button",
+                        "type": "field",
+                        "index": 0,
+                        "default_state": "editable",
+                        "states": [],
+                        "caption": "Send",
+                        "is_default_open": false,
+                        "all_open_by_default": false,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "entity_name": "",
+                    "original_serverid": "Column15",
+                    "original_controltype": "Column",
+                    "type": "section",
+                    "index": 2,
+                    "default_state": "editable",
+                    "states": [
+                      {
+                        "behaviorTaskId": "116EEB7A-189C-4EEA-BE42-9E3BD89F317F",
+                        "state": "editable"
+                      }
+                    ],
+                    "is_default_open": false,
+                    "all_open_by_default": false,
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "entity_name": "",
+            "original_serverid": "Column12",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 2,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "116EEB7A-189C-4EEA-BE42-9E3BD89F317F",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": []
+          }
+        ]
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "116EEB7A-189C-4EEA-BE42-9E3BD89F317F",
+        "name": "frmTaskAdministration"
+      }
+    ]
+  }
+}

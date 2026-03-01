@@ -1,0 +1,77 @@
+{
+  "shortname": "QMS",
+  "application": "QMS",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "0168d5fd-7dc1-4210-8bdb-b08500c985fe",
+    "name": "Audit_EvidencesURL",
+    "fields": {
+      "DisplayNameURL": {
+        "name": "DisplayNameURL",
+        "type": "string",
+        "original_serverid": "DisplayNameURL",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "DisplayNameURL",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "InputURL": {
+        "name": "InputURL",
+        "type": "string",
+        "original_serverid": "InputURL",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "InputURL",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "DisplayNameURL",
+        "original_serverid": "DisplayNameURL",
+        "original_controltype": "TextBox",
+        "type": "field",
+        "index": 0,
+        "default_state": "editable",
+        "states": [],
+        "caption": "DisplayNameURL",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "InputURL",
+        "original_serverid": "InputURL",
+        "original_controltype": "TextBox",
+        "type": "field",
+        "index": 1,
+        "default_state": "editable",
+        "states": [],
+        "caption": "InputURL",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "315EA7CB-AD34-44A4-8E23-A6B547AE9481",
+        "name": "Audit_EvidencesURL"
+      },
+      {
+        "id": "0168D5FD-7DC1-4210-8BDB-B08500C985FE",
+        "name": "Delete_EvidenceURL"
+      },
+      {
+        "id": "47086CCE-369D-4B84-BA05-B08500C9E999",
+        "name": "Del_EvidencesURL"
+      }
+    ]
+  }
+}

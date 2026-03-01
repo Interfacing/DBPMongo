@@ -1,0 +1,82 @@
+{
+  "shortname": "AdminApp",
+  "application": "AdminApp",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "58e990c5-935d-45aa-ae2e-5c91c32e461a",
+    "name": "frmProcessTaskDuration",
+    "fields": {
+      "ClientChart": {
+        "name": "ClientChart",
+        "type": "none",
+        "ext_type": "Chart",
+        "original_serverid": "ClientChart",
+        "original_controltype": "Chart",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Interactive Chart",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "",
+        "original_serverid": "Row",
+        "original_controltype": "Row",
+        "type": "section",
+        "index": 0,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "58E990C5-935D-45AA-AE2E-5C91C32E461A",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "58E990C5-935D-45AA-AE2E-5C91C32E461A",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "ClientChart",
+                "original_serverid": "ClientChart",
+                "original_controltype": "Chart",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "Interactive Chart",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "58E990C5-935D-45AA-AE2E-5C91C32E461A",
+        "name": "frmProcessTaskDuration"
+      }
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "shortname": "QMS",
+  "application": "QMS",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "6d155d04-b1aa-405a-bb14-1cbd2513fd78",
+    "name": "QMS_ActionItem_Ownerlist",
+    "fields": {
+      "GridActionItemOwner": {
+        "name": "GridActionItemOwner",
+        "type": "none",
+        "ext_type": "Grid",
+        "original_serverid": "GridActionItemOwner",
+        "original_controltype": "Grid",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "GridActionItemOwner",
+        "original_serverid": "GridActionItemOwner",
+        "original_controltype": "Grid",
+        "type": "field",
+        "index": 0,
+        "default_state": "editable",
+        "states": [],
+        "caption": "",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "6D155D04-B1AA-405A-BB14-1CBD2513FD78",
+        "name": "QMS_ActionItem_Ownerlist"
+      }
+    ]
+  }
+}

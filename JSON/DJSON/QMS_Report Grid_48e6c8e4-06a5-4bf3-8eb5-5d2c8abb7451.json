@@ -1,0 +1,81 @@
+{
+  "shortname": "QMS",
+  "application": "QMS",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "48e6c8e4-06a5-4bf3-8eb5-5d2c8abb7451",
+    "name": "Inspection_Report_Grid",
+    "fields": {
+      "Grid": {
+        "name": "Grid",
+        "type": "none",
+        "ext_type": "Grid",
+        "original_serverid": "Grid",
+        "original_controltype": "Grid",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "#0070C0"
+      },
+      "DateTimePicker": {
+        "name": "DateTimePicker",
+        "type": "datetime",
+        "ext_type": "date",
+        "original_serverid": "DateTimePicker",
+        "original_controltype": "DateEdit",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Executed date",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "#0070C0",
+        "placeholder": ""
+      },
+      "NumericTextBox": {
+        "name": "NumericTextBox",
+        "type": "int",
+        "original_serverid": "NumericTextBox",
+        "original_controltype": "NumericBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Plan #",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "#0070C0",
+        "placeholder": ""
+      },
+      "TextBox": {
+        "name": "TextBox",
+        "type": "string",
+        "original_serverid": "TextBox",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Name",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "#0070C0",
+        "placeholder": ""
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "Grid",
+        "original_serverid": "Grid",
+        "original_controltype": "Grid",
+        "type": "field",
+        "index": 0,
+        "default_state": "editable",
+        "states": [],
+        "caption": "",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "48E6C8E4-06A5-4BF3-8EB5-5D2C8ABB7451",
+        "name": "Inspection_Report_Grid"
+      }
+    ]
+  }
+}

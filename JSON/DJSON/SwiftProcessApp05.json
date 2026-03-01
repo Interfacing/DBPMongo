@@ -1,0 +1,274 @@
+{
+  "processId": "2706950D-FE9C-4B28-86D3-7EA1EE64A46C",
+  "icon": "",
+  "form": {
+    "name": "SwiftProcess",
+    "id": "019ac16e-7700-753f-8965-c78ec1052711",
+    "fields": {
+      "Name": {
+        "name": "Name",
+        "type": "string",
+        "ext_type": null,
+        "label": "Name",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "ContactNo": {
+        "name": "ContactNo",
+        "type": "int",
+        "ext_type": null,
+        "label": "Contact No",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "Users": {
+        "name": "Users",
+        "type": "string",
+        "ext_type": "dropdown",
+        "label": "Users",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "tooltip": "I also saw a strange placeholder that looked like HTML: <div class='note' data-id=\"44\">&copy; 2025 Test&Co™</div>",
+        "system_options": [
+          "users"
+        ]
+      },
+      "Projects": {
+        "name": "Projects",
+        "type": "string",
+        "ext_type": "radio",
+        "label": "Projects",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "tooltip": "I also saw a strange placeholder that looked like HTML: <div class='note' data-id=\"44\">&copy; 2025 Test&Co™</div>",
+        "options": [
+          "I also saw a strange placeholder that looked like HTML: <div class='note' data-id=\"44\">&copy; 2025 Test&Co™</div>",
+          "हिंदी, 中文测试, and عربى."
+        ],
+        "layout_horizontal": false,
+        "nbr_columns_vertical": 1
+      },
+      "Label234": {
+        "name": "Label234",
+        "type": "boolean",
+        "ext_type": null,
+        "label": "Label",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "UserID": {
+        "name": "UserID",
+        "type": "int",
+        "ext_type": null,
+        "label": "User ID",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": "[END-CODE-9fA7$@41!!]",
+        "tooltip": "[END-CODE-9fA7$@41!!]"
+      }
+    },
+    "layout": [
+      {
+        "type": "columns",
+        "index": 0,
+        "entity_name": "Label",
+        "default_state": "editable",
+        "states": [],
+        "caption": "Column",
+        "caption_bold": true,
+        "caption_italic": true,
+        "caption_color": "#00ACC1",
+        "children": [
+          {
+            "type": "section",
+            "index": 0,
+            "entity_name": "",
+            "caption": "",
+            "caption_bold": true,
+            "caption_italic": true,
+            "caption_color": "#00ACC1",
+            "default_state": "editable",
+            "states": [],
+            "children": [
+              {
+                "type": "field",
+                "index": 0,
+                "entity_name": "Name",
+                "default_state": "editable",
+                "states": []
+              }
+            ]
+          },
+          {
+            "type": "section",
+            "index": 1,
+            "entity_name": "",
+            "caption": "",
+            "caption_bold": true,
+            "caption_italic": true,
+            "caption_color": "#00ACC1",
+            "default_state": "editable",
+            "states": [],
+            "children": [
+              {
+                "type": "field",
+                "index": 0,
+                "entity_name": "ContactNo",
+                "default_state": "editable",
+                "states": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "accordion",
+        "index": 1,
+        "entity_name": "accordion",
+        "default_state": "editable",
+        "states": [],
+        "background_color": "#E0F2F1",
+        "children": [
+          {
+            "type": "section",
+            "index": 0,
+            "entity_name": "",
+            "is_default_open": false,
+            "caption": "Basic",
+            "caption_bold": true,
+            "caption_italic": true,
+            "caption_color": "#FF5722",
+            "background_color": "#FFF8E1",
+            "default_state": "editable",
+            "states": [],
+            "children": [
+              {
+                "type": "columns",
+                "index": 0,
+                "entity_name": "Label2",
+                "default_state": "editable",
+                "states": [],
+                "caption": "Label",
+                "caption_bold": false,
+                "caption_italic": false,
+                "children": [
+                  {
+                    "type": "section",
+                    "index": 0,
+                    "entity_name": "",
+                    "caption": "",
+                    "caption_bold": false,
+                    "caption_italic": false,
+                    "default_state": "editable",
+                    "states": [],
+                    "children": [
+                      {
+                        "type": "field",
+                        "index": 0,
+                        "entity_name": "Users",
+                        "default_state": "editable",
+                        "states": []
+                      }
+                    ]
+                  },
+                  {
+                    "type": "section",
+                    "index": 1,
+                    "entity_name": "",
+                    "caption": "",
+                    "caption_bold": false,
+                    "caption_italic": false,
+                    "default_state": "editable",
+                    "states": [],
+                    "children": [
+                      {
+                        "type": "field",
+                        "index": 0,
+                        "entity_name": "Projects",
+                        "default_state": "editable",
+                        "states": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "section",
+            "index": 1,
+            "entity_name": "",
+            "is_default_open": false,
+            "caption": "Advanced",
+            "caption_bold": true,
+            "caption_italic": true,
+            "caption_color": "#FF5722",
+            "background_color": "#E0F2F1",
+            "default_state": "editable",
+            "states": [],
+            "children": [
+              {
+                "type": "columns",
+                "index": 0,
+                "entity_name": "Label23",
+                "default_state": "editable",
+                "states": [],
+                "caption": "Label",
+                "caption_bold": false,
+                "caption_italic": false,
+                "children": [
+                  {
+                    "type": "section",
+                    "index": 0,
+                    "entity_name": "",
+                    "caption": "",
+                    "caption_bold": false,
+                    "caption_italic": false,
+                    "default_state": "editable",
+                    "states": [],
+                    "children": [
+                      {
+                        "type": "field",
+                        "index": 0,
+                        "entity_name": "Label234",
+                        "default_state": "editable",
+                        "states": []
+                      }
+                    ]
+                  },
+                  {
+                    "type": "section",
+                    "index": 1,
+                    "entity_name": "",
+                    "caption": "",
+                    "caption_bold": false,
+                    "caption_italic": false,
+                    "default_state": "editable",
+                    "states": [],
+                    "children": [
+                      {
+                        "type": "field",
+                        "index": 0,
+                        "entity_name": "UserID",
+                        "default_state": "editable",
+                        "states": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "application": "SwiftProcessApp",
+  "shortname": "SwiftProcessApp"
+}

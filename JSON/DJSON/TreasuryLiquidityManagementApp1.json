@@ -1,0 +1,208 @@
+﻿{
+  "processId": "97476AA8-2C1E-47CF-9438-13D842CD703D",
+  "icon": "",
+  "form": {
+    "name": "TreasuryLiquidityManagement",
+    "fields": {
+      "Name": {
+        "name": "Name",
+        "type": "string",
+        "ext_type": null,
+        "label": "Name",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "Position": {
+        "name": "Position",
+        "type": "string",
+        "ext_type": "radio",
+        "label": "Position",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "options": [
+          "Manager",
+          "Developer",
+          "Quality Assurance"
+        ],
+        "layout_horizontal": false,
+        "nbr_columns_vertical": 1
+      },
+      "Requeststartdate": {
+        "name": "Requeststartdate",
+        "type": "datetime",
+        "ext_type": "date",
+        "label": "Request start date",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "default_value": "now"
+      },
+      "Responsible": {
+        "name": "Responsible",
+        "type": "string",
+        "ext_type": "dropdown",
+        "label": "Responsible",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "system_options": [
+          "users"
+        ]
+      },
+      "Amount": {
+        "name": "Amount",
+        "type": "int",
+        "ext_type": null,
+        "label": "Amount",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "Action": {
+        "name": "Action",
+        "type": "string",
+        "ext_type": null,
+        "label": "Action",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "#ffffff"
+      },
+      "Additionalcomments": {
+        "name": "Additionalcomments",
+        "type": "string",
+        "ext_type": "richtext",
+        "label": "Additional comments",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      }
+    },
+    "layout": [
+      {
+        "type": "section",
+        "index": 0,
+        "entity_name": "General",
+        "default_state": "editable",
+        "states": [],
+        "caption": "General",
+        "caption_bold": true,
+        "caption_italic": false,
+        "caption_font_size": 16,
+        "children": [
+          {
+            "type": "section",
+            "index": 0,
+            "entity_name": "",
+            "caption": "",
+            "caption_bold": true,
+            "caption_italic": false,
+            "caption_font_size": 16,
+            "default_state": "editable",
+            "states": [],
+            "children": [
+              {
+                "type": "field",
+                "index": 0,
+                "entity_name": "Name",
+                "default_state": "mandatory",
+                "states": []
+              },
+              {
+                "type": "field",
+                "index": 1,
+                "entity_name": "Position",
+                "default_state": "editable",
+                "states": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "columns",
+        "index": 1,
+        "entity_name": "Additional",
+        "default_state": "editable",
+        "states": [],
+        "caption": "Additional",
+        "caption_bold": false,
+        "caption_italic": false,
+        "children": [
+          {
+            "type": "section",
+            "index": 0,
+            "entity_name": "",
+            "caption": "",
+            "caption_bold": false,
+            "caption_italic": false,
+            "default_state": "editable",
+            "states": [],
+            "children": [
+              {
+                "type": "field",
+                "index": 0,
+                "entity_name": "Requeststartdate",
+                "default_state": "editable",
+                "states": []
+              }
+            ]
+          },
+          {
+            "type": "section",
+            "index": 1,
+            "entity_name": "",
+            "caption": "",
+            "caption_bold": false,
+            "caption_italic": false,
+            "default_state": "editable",
+            "states": [],
+            "children": [
+              {
+                "type": "field",
+                "index": 0,
+                "entity_name": "Responsible",
+                "default_state": "editable",
+                "states": []
+              }
+            ]
+          },
+          {
+            "type": "section",
+            "index": 2,
+            "entity_name": "",
+            "caption": "",
+            "caption_bold": false,
+            "caption_italic": false,
+            "default_state": "editable",
+            "states": [],
+            "children": [
+              {
+                "type": "field",
+                "index": 0,
+                "entity_name": "Amount",
+                "default_state": "editable",
+                "states": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "field",
+        "index": 2,
+        "entity_name": "Action",
+        "default_state": "editable",
+        "states": []
+      },
+      {
+        "type": "field",
+        "index": 3,
+        "entity_name": "Additionalcomments",
+        "default_state": "editable",
+        "states": []
+      }
+    ]
+  }
+}

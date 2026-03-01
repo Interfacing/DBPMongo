@@ -1,0 +1,61 @@
+{
+  "application": "Vacation Request Application",
+  "icon": "fa-plane",
+  "processId": "457FEBAC-2B3F-4F93-88CF-2BC3CA15E3C4",
+  "form": {
+    "name": "Vacation Request",
+    "icon": "fa-suitcase",
+    "receivers": {
+      "groups": "HR,Management",
+      "users": "john.doe,jane.smith"
+    },
+    "fields": {
+      "EmployeeName": {
+        "type": "user",
+        "label": "Employee Name",
+        "required": true,
+        "default_value": "current_user",
+        "readonly": true
+      },
+      "StartDate": {
+        "type": "date",
+        "label": "Start Date",
+        "required": true
+      },
+      "EndDate": {
+        "type": "date",
+        "label": "End Date",
+        "required": true
+      },
+      "VacationType": {
+        "type": "string",
+        "label": "Type of Vacation",
+        "required": true,
+        "options": [
+          "Paid Leave",
+          "Unpaid Leave",
+          "Sick Leave",
+          "Maternity Leave"
+        ]
+      },
+      "Reason": {
+        "type": "string",
+        "ext_type": "multiline",
+        "label": "Reason for Vacation",
+        "required": false
+      },
+      "ApprovalStatus": {
+        "type": "string",
+        "label": "Approval Status",
+        "required": false,
+        "default_value": "Pending",
+        "readonly": false,
+        "options": [
+          "Pending",
+          "Approved",
+          "Rejected"
+        ]
+      }
+    }
+  }
+}

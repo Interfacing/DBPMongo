@@ -1,0 +1,79 @@
+﻿{
+  "processId": "252D0107-2E21-4C00-A682-44897813DA29",
+  "icon": "",
+  "form": {
+    "id": "019c0028-15ff-758b-a358-50f1f9cf35ee",
+    "name": "FlowFusion",
+    "fields": {
+      "Name": {
+        "name": "Name",
+        "type": "string",
+        "ext_type": null,
+        "label": "Name",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "label_font_size": null,
+        "original_serverid": "Name",
+        "original_controltype": "TextBox",
+        "original_bid": "019c0028-160e-7748-aad1-40abd35a1725"
+      },
+      "UserNumber": {
+        "name": "UserNumber",
+        "type": "int",
+        "ext_type": null,
+        "label": "User Number",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "label_font_size": null,
+        "original_serverid": "UserNumber",
+        "original_controltype": "NumericBox",
+        "original_bid": "019c0028-1618-7216-862e-e88fc4ea7248"
+      },
+      "LastName": {
+        "name": "LastName",
+        "type": "string",
+        "ext_type": null,
+        "label": "Last Name ",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      }
+    },
+    "layout": [
+      {
+        "type": "field",
+        "index": 0,
+        "entity_name": "Name",
+        "default_state": "editable",
+        "states": [],
+        "original_serverid": "Name",
+        "original_controltype": "TextBox"
+      },
+      {
+        "type": "field",
+        "index": 1,
+        "entity_name": "UserNumber",
+        "default_state": "editable",
+        "states": [],
+        "original_serverid": "UserNumber",
+        "original_controltype": "NumericBox"
+      },
+      {
+        "type": "field",
+        "index": 2,
+        "entity_name": "LastName",
+        "default_state": "editable",
+        "states": []
+      }
+    ]
+  },
+  "rulesWorkspace": {
+    "contextId": "c5908db5-bb8d-4ae9-8ccf-afcfbbafe692",
+    "contextType": "process",
+    "ruleGroups": []
+  },
+  "application": "FlowFusionApp_2",
+  "shortname": "FlowFusionApp_2"
+}

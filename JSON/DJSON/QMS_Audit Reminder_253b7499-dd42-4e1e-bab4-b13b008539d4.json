@@ -1,0 +1,276 @@
+{
+  "shortname": "QMS",
+  "application": "QMS",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "253b7499-dd42-4e1e-bab4-b13b008539d4",
+    "name": "AuditPlan_Reminder",
+    "fields": {
+      "TextBox1": {
+        "name": "TextBox1",
+        "type": "string",
+        "original_serverid": "TextBox1",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Audit ID",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "SingleSelectDropdown1": {
+        "name": "SingleSelectDropdown1",
+        "type": "string",
+        "ext_type": "dropdown",
+        "original_serverid": "SingleSelectDropdown1",
+        "original_controltype": "DropDown",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Lead Auditor",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": "Select...",
+        "system_options": [
+          "user"
+        ]
+      },
+      "btnSendReminder": {
+        "name": "btnSendReminder",
+        "type": "none",
+        "ext_type": "Button",
+        "original_serverid": "btnSendReminder",
+        "original_controltype": "Button",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Send Email Reminder",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "DateTimePicker2": {
+        "name": "DateTimePicker2",
+        "type": "datetime",
+        "ext_type": "date",
+        "original_serverid": "DateTimePicker2",
+        "original_controltype": "DateEdit",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Scheduled Start Date",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "DateTimePicker1": {
+        "name": "DateTimePicker1",
+        "type": "datetime",
+        "ext_type": "date",
+        "original_serverid": "DateTimePicker1",
+        "original_controltype": "DateEdit",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Execution Date",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "AuditPlanGrid": {
+        "name": "AuditPlanGrid",
+        "type": "none",
+        "ext_type": "Grid",
+        "original_serverid": "AuditPlanGrid",
+        "original_controltype": "Grid",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "lblMessage": {
+        "name": "lblMessage",
+        "type": "none",
+        "ext_type": "Label",
+        "original_serverid": "lblMessage",
+        "original_controltype": "Label",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "",
+        "original_serverid": "Row2",
+        "original_controltype": "Row",
+        "type": "section",
+        "index": 0,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "253B7499-DD42-4E1E-BAB4-B13B008539D4",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column5",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "253B7499-DD42-4E1E-BAB4-B13B008539D4",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "btnSendReminder",
+                "original_serverid": "btnSendReminder",
+                "original_controltype": "Button",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "Send Email Reminder",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "entity_name": "",
+        "original_serverid": "Row3",
+        "original_controltype": "Row",
+        "type": "section",
+        "index": 1,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "253B7499-DD42-4E1E-BAB4-B13B008539D4",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column8",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "253B7499-DD42-4E1E-BAB4-B13B008539D4",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "",
+                "original_serverid": "Row4",
+                "original_controltype": "Row",
+                "type": "columns",
+                "index": 0,
+                "default_state": "editable",
+                "states": [
+                  {
+                    "behaviorTaskId": "253B7499-DD42-4E1E-BAB4-B13B008539D4",
+                    "state": "editable"
+                  }
+                ],
+                "caption_bold": false,
+                "caption_italic": false,
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": [
+                  {
+                    "entity_name": "",
+                    "original_serverid": "Column9",
+                    "original_controltype": "Column",
+                    "type": "section",
+                    "index": 0,
+                    "default_state": "editable",
+                    "states": [
+                      {
+                        "behaviorTaskId": "253B7499-DD42-4E1E-BAB4-B13B008539D4",
+                        "state": "editable"
+                      }
+                    ],
+                    "is_default_open": false,
+                    "all_open_by_default": false,
+                    "children": [
+                      {
+                        "entity_name": "lblMessage",
+                        "original_serverid": "lblMessage",
+                        "original_controltype": "Label",
+                        "type": "field",
+                        "index": 0,
+                        "default_state": "editable",
+                        "states": [],
+                        "caption": "",
+                        "is_default_open": false,
+                        "all_open_by_default": false,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "entity_name": "",
+                    "original_serverid": "Column10",
+                    "original_controltype": "Column",
+                    "type": "section",
+                    "index": 1,
+                    "default_state": "editable",
+                    "states": [
+                      {
+                        "behaviorTaskId": "253B7499-DD42-4E1E-BAB4-B13B008539D4",
+                        "state": "editable"
+                      }
+                    ],
+                    "is_default_open": false,
+                    "all_open_by_default": false,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "entity_name": "AuditPlanGrid",
+                "original_serverid": "AuditPlanGrid",
+                "original_controltype": "Grid",
+                "type": "field",
+                "index": 1,
+                "default_state": "editable",
+                "states": [],
+                "caption": "",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "253B7499-DD42-4E1E-BAB4-B13B008539D4",
+        "name": "AuditPlan_Reminder"
+      }
+    ]
+  }
+}

@@ -1,0 +1,243 @@
+﻿{
+  "processId": null,
+  "icon": "",
+  "form": {
+    "name": "AppMaxFiveV6",
+    "fields": {
+      "Name": {
+        "name": "Name",
+        "type": "string",
+        "ext_type": null,
+        "label": "Name",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": "Enter it please"
+      },
+      "Severity": {
+        "name": "Severity",
+        "type": "string",
+        "ext_type": "radio",
+        "label": "Severity",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "options": [
+          "Not at all",
+          "Pretty bad",
+          "Nightmare"
+        ],
+        "layout_horizontal": false,
+        "nbr_columns_vertical": 1
+      },
+      "Approver": {
+        "name": "Approver",
+        "type": "string",
+        "ext_type": "dropdown",
+        "label": "Approver",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "label_font_size": null,
+        "placeholder": "Select an approver",
+        "tooltip": "Person responsible for approving the request",
+        "system_options": [
+          "users"
+        ]
+      },
+      "RequestorName3": {
+        "name": "RequestorName3",
+        "type": "string",
+        "ext_type": null,
+        "label": "Requestor Name 3",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "label_font_size": null,
+        "placeholder": "Enter your name",
+        "tooltip": "Name of the person requesting approval"
+      },
+      "RequestDate": {
+        "name": "RequestDate",
+        "type": "string",
+        "ext_type": null,
+        "label": "Request Date",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "label_font_size": null,
+        "placeholder": "Select the request date",
+        "tooltip": "Date when the approval request was submitted"
+      },
+      "ApprovalStatus": {
+        "name": "ApprovalStatus",
+        "type": "string",
+        "ext_type": "dropdown",
+        "label": "Approval Status",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "label_font_size": null,
+        "placeholder": "Select status",
+        "tooltip": "Current status of the approval process"
+      },
+      "Comments": {
+        "name": "Comments",
+        "type": "string",
+        "ext_type": "richtext",
+        "label": "Comments",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "label_font_size": null,
+        "placeholder": "Enter comments here",
+        "tooltip": "Additional comments regarding the approval"
+      },
+      "Files": {
+        "name": "Files",
+        "type": "file",
+        "ext_type": null,
+        "label": "Files",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "label_font_size": null,
+        "placeholder": null,
+        "tooltip": "Additional files"
+      }
+    },
+    "layout": [
+      {
+        "type": "tabs",
+        "index": 0,
+        "entity_name": "Label",
+        "default_state": "editable",
+        "states": [],
+        "sticky_header": true,
+        "children": [
+          {
+            "type": "section",
+            "index": 0,
+            "entity_name": "",
+            "is_default_open": true,
+            "caption": "Tab 1",
+            "caption_bold": false,
+            "caption_italic": false,
+            "background_color": "#FCE4EC",
+            "default_state": "editable",
+            "states": [],
+            "children": [
+              {
+                "type": "field",
+                "index": 0,
+                "entity_name": "Name",
+                "default_state": "editable",
+                "states": []
+              },
+              {
+                "type": "field",
+                "index": 1,
+                "entity_name": "Severity",
+                "default_state": "editable",
+                "states": []
+              }
+            ]
+          },
+          {
+            "type": "section",
+            "index": 1,
+            "entity_name": "",
+            "caption": "Tab 2",
+            "caption_bold": false,
+            "caption_italic": false,
+            "caption_font_size": 16,
+            "default_state": "editable",
+            "states": [],
+            "children": [
+              {
+                "type": "field",
+                "index": 0,
+                "entity_name": "Approver",
+                "default_state": "mandatory",
+                "states": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "accordion",
+        "index": 1,
+        "entity_name": "Label2",
+        "default_state": "editable",
+        "states": [],
+        "all_open_by_default": true,
+        "children": [
+          {
+            "type": "section",
+            "index": 0,
+            "entity_name": "",
+            "is_default_open": false,
+            "caption": "General",
+            "caption_bold": true,
+            "caption_italic": true,
+            "caption_color": "#D81B60",
+            "default_state": "editable",
+            "states": [],
+            "children": [
+              {
+                "type": "field",
+                "index": 0,
+                "entity_name": "RequestorName3",
+                "default_state": "readonly",
+                "states": []
+              },
+              {
+                "type": "field",
+                "index": 1,
+                "entity_name": "RequestDate",
+                "default_state": "readonly",
+                "states": []
+              }
+            ]
+          },
+          {
+            "type": "section",
+            "index": 1,
+            "entity_name": "",
+            "is_default_open": false,
+            "caption": "Additional fields",
+            "caption_bold": false,
+            "caption_italic": false,
+            "background_color": "#E8F5E9",
+            "default_state": "editable",
+            "states": [],
+            "children": [
+              {
+                "type": "field",
+                "index": 0,
+                "entity_name": "ApprovalStatus",
+                "default_state": "mandatory",
+                "states": []
+              },
+              {
+                "type": "field",
+                "index": 1,
+                "entity_name": "Comments",
+                "default_state": "editable",
+                "states": []
+              },
+              {
+                "type": "field",
+                "index": 2,
+                "entity_name": "Files",
+                "default_state": "editable",
+                "states": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

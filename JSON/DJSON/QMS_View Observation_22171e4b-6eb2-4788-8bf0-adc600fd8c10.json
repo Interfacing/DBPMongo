@@ -1,0 +1,473 @@
+{
+  "shortname": "QMS",
+  "application": "QMS",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "22171e4b-6eb2-4788-8bf0-adc600fd8c10",
+    "name": "Audit_Req_Result",
+    "fields": {
+      "RichTextBox": {
+        "name": "RichTextBox",
+        "type": "string",
+        "ext_type": "richtext",
+        "original_serverid": "RichTextBox",
+        "original_controltype": "RichTextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Notes",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "TextBox1": {
+        "name": "TextBox1",
+        "type": "string",
+        "original_serverid": "TextBox1",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Finding ID",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "Type": {
+        "name": "Type",
+        "type": "string",
+        "ext_type": "dropdown",
+        "original_serverid": "Type",
+        "original_controltype": "DropDown",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Type",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": "Select...",
+        "options": [
+          "Minor Finding",
+          "Major Finding",
+          "Non-conformity",
+          "General Findings"
+        ]
+      },
+      "ssdObservation": {
+        "name": "ssdObservation",
+        "type": "string",
+        "ext_type": "dropdown",
+        "original_serverid": "ssdObservation",
+        "original_controltype": "DropDown",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Select Finding",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": "Select...",
+        "system_options": []
+      },
+      "DateTimePicker": {
+        "name": "DateTimePicker",
+        "type": "datetime",
+        "ext_type": "date",
+        "original_serverid": "DateTimePicker",
+        "original_controltype": "DateEdit",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Creation Date",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "TextBox": {
+        "name": "TextBox",
+        "type": "string",
+        "original_serverid": "TextBox",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Created By",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "",
+        "original_serverid": "Row",
+        "original_controltype": "Row",
+        "type": "columns",
+        "index": 0,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "4377D9FE-F1F6-4A2E-AEA1-AD8101271DA5",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "4BD4CA61-03DF-4FA2-8FC6-AD8101273BC9",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "22171E4B-6EB2-4788-8BF0-ADC600FD8C10",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "4442EBE0-D8C1-4629-8666-B0DD00E21C60",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "89ECBA44-EEEF-4632-B159-B26B0128FD6B",
+            "state": "invisible"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "4377D9FE-F1F6-4A2E-AEA1-AD8101271DA5",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "4BD4CA61-03DF-4FA2-8FC6-AD8101273BC9",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "22171E4B-6EB2-4788-8BF0-ADC600FD8C10",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "4442EBE0-D8C1-4629-8666-B0DD00E21C60",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "89ECBA44-EEEF-4632-B159-B26B0128FD6B",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "TextBox1",
+                "original_serverid": "TextBox1",
+                "original_controltype": "TextBox",
+                "type": "field",
+                "index": 0,
+                "default_state": "readonly",
+                "states": [],
+                "caption": "Finding ID",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "entity_name": "",
+            "original_serverid": "Column1",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 1,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "4377D9FE-F1F6-4A2E-AEA1-AD8101271DA5",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "4BD4CA61-03DF-4FA2-8FC6-AD8101273BC9",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "22171E4B-6EB2-4788-8BF0-ADC600FD8C10",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "4442EBE0-D8C1-4629-8666-B0DD00E21C60",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "89ECBA44-EEEF-4632-B159-B26B0128FD6B",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "Type",
+                "original_serverid": "Type",
+                "original_controltype": "DropDown",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "Type",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "entity_name": "",
+        "original_serverid": "Row1",
+        "original_controltype": "Row",
+        "type": "columns",
+        "index": 1,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "4377D9FE-F1F6-4A2E-AEA1-AD8101271DA5",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "4BD4CA61-03DF-4FA2-8FC6-AD8101273BC9",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "22171E4B-6EB2-4788-8BF0-ADC600FD8C10",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "4442EBE0-D8C1-4629-8666-B0DD00E21C60",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "89ECBA44-EEEF-4632-B159-B26B0128FD6B",
+            "state": "invisible"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column5",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "4377D9FE-F1F6-4A2E-AEA1-AD8101271DA5",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "4BD4CA61-03DF-4FA2-8FC6-AD8101273BC9",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "22171E4B-6EB2-4788-8BF0-ADC600FD8C10",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "4442EBE0-D8C1-4629-8666-B0DD00E21C60",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "89ECBA44-EEEF-4632-B159-B26B0128FD6B",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "DateTimePicker",
+                "original_serverid": "DateTimePicker",
+                "original_controltype": "DateEdit",
+                "type": "field",
+                "index": 0,
+                "default_state": "readonly",
+                "states": [],
+                "caption": "Creation Date",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "entity_name": "",
+            "original_serverid": "Column6",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 1,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "4377D9FE-F1F6-4A2E-AEA1-AD8101271DA5",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "4BD4CA61-03DF-4FA2-8FC6-AD8101273BC9",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "22171E4B-6EB2-4788-8BF0-ADC600FD8C10",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "4442EBE0-D8C1-4629-8666-B0DD00E21C60",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "89ECBA44-EEEF-4632-B159-B26B0128FD6B",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "TextBox",
+                "original_serverid": "TextBox",
+                "original_controltype": "TextBox",
+                "type": "field",
+                "index": 0,
+                "default_state": "readonly",
+                "states": [],
+                "caption": "Created By",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "entity_name": "RichTextBox",
+        "original_serverid": "RichTextBox",
+        "original_controltype": "RichTextBox",
+        "type": "field",
+        "index": 2,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Notes",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "",
+        "original_serverid": "SelectSection",
+        "original_controltype": "Row",
+        "type": "section",
+        "index": 3,
+        "default_state": "invisible",
+        "states": [
+          {
+            "behaviorTaskId": "4377D9FE-F1F6-4A2E-AEA1-AD8101271DA5",
+            "state": "invisible"
+          },
+          {
+            "behaviorTaskId": "4BD4CA61-03DF-4FA2-8FC6-AD8101273BC9",
+            "state": "invisible"
+          },
+          {
+            "behaviorTaskId": "22171E4B-6EB2-4788-8BF0-ADC600FD8C10",
+            "state": "invisible"
+          },
+          {
+            "behaviorTaskId": "4442EBE0-D8C1-4629-8666-B0DD00E21C60",
+            "state": "invisible"
+          },
+          {
+            "behaviorTaskId": "89ECBA44-EEEF-4632-B159-B26B0128FD6B",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column4",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "4377D9FE-F1F6-4A2E-AEA1-AD8101271DA5",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "4BD4CA61-03DF-4FA2-8FC6-AD8101273BC9",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "22171E4B-6EB2-4788-8BF0-ADC600FD8C10",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "4442EBE0-D8C1-4629-8666-B0DD00E21C60",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "89ECBA44-EEEF-4632-B159-B26B0128FD6B",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "ssdObservation",
+                "original_serverid": "ssdObservation",
+                "original_controltype": "DropDown",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "Select Finding",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "4377D9FE-F1F6-4A2E-AEA1-AD8101271DA5",
+        "name": "New_Result"
+      },
+      {
+        "id": "4BD4CA61-03DF-4FA2-8FC6-AD8101273BC9",
+        "name": "Edit_Result"
+      },
+      {
+        "id": "22171E4B-6EB2-4788-8BF0-ADC600FD8C10",
+        "name": "View_ObservationAudit"
+      },
+      {
+        "id": "4442EBE0-D8C1-4629-8666-B0DD00E21C60",
+        "name": "DeleteObservationInAudit"
+      },
+      {
+        "id": "89ECBA44-EEEF-4632-B159-B26B0128FD6B",
+        "name": "SelectObservation"
+      }
+    ]
+  }
+}

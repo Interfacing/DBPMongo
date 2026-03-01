@@ -1,0 +1,179 @@
+{
+  "shortname": "QMS",
+  "application": "QMS",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "0b271f62-8233-4f48-aebc-ae14014a1907",
+    "name": "Audit_Dashboard",
+    "fields": {
+      "ClientChart": {
+        "name": "ClientChart",
+        "type": "none",
+        "ext_type": "Chart",
+        "original_serverid": "ClientChart",
+        "original_controltype": "Chart",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Interactive Chart",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "ClientChart1": {
+        "name": "ClientChart1",
+        "type": "none",
+        "ext_type": "Chart",
+        "original_serverid": "ClientChart1",
+        "original_controltype": "Chart",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Interactive Chart",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "",
+        "original_serverid": "Row",
+        "original_controltype": "Row",
+        "type": "columns",
+        "index": 0,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "0B271F62-8233-4F48-AEBC-AE14014A1907",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "0B271F62-8233-4F48-AEBC-AE14014A1907",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "ClientChart",
+                "original_serverid": "ClientChart",
+                "original_controltype": "Chart",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "Interactive Chart",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "entity_name": "",
+            "original_serverid": "Column1",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 1,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "0B271F62-8233-4F48-AEBC-AE14014A1907",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": []
+          }
+        ]
+      },
+      {
+        "entity_name": "",
+        "original_serverid": "Row1",
+        "original_controltype": "Row",
+        "type": "columns",
+        "index": 1,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "0B271F62-8233-4F48-AEBC-AE14014A1907",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column2",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "0B271F62-8233-4F48-AEBC-AE14014A1907",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "ClientChart1",
+                "original_serverid": "ClientChart1",
+                "original_controltype": "Chart",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "Interactive Chart",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "entity_name": "",
+            "original_serverid": "Column3",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 1,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "0B271F62-8233-4F48-AEBC-AE14014A1907",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": []
+          }
+        ]
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "0B271F62-8233-4F48-AEBC-AE14014A1907",
+        "name": "Audit_Dashboard"
+      }
+    ]
+  }
+}

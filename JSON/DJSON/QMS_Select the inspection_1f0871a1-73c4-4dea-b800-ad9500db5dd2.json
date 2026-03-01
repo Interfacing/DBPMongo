@@ -1,0 +1,86 @@
+{
+  "shortname": "QMS",
+  "application": "QMS",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "1f0871a1-73c4-4dea-b800-ad9500db5dd2",
+    "name": "Defined_Inspection_List",
+    "fields": {
+      "Grid": {
+        "name": "Grid",
+        "type": "none",
+        "ext_type": "Grid",
+        "original_serverid": "Grid",
+        "original_controltype": "Grid",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "#002D56"
+      },
+      "NumericTextBox": {
+        "name": "NumericTextBox",
+        "type": "int",
+        "original_serverid": "NumericTextBox",
+        "original_controltype": "NumericBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Inspection #",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "#002D56",
+        "placeholder": ""
+      },
+      "TextBox": {
+        "name": "TextBox",
+        "type": "string",
+        "original_serverid": "TextBox",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Inspection Name",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "#002D56",
+        "placeholder": ""
+      },
+      "SingleSelectDropdown": {
+        "name": "SingleSelectDropdown",
+        "type": "string",
+        "ext_type": "dropdown",
+        "original_serverid": "SingleSelectDropdown",
+        "original_controltype": "DropDown",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Location",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "#002D56",
+        "placeholder": "Select...",
+        "system_options": []
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "Grid",
+        "original_serverid": "Grid",
+        "original_controltype": "Grid",
+        "type": "field",
+        "index": 0,
+        "default_state": "editable",
+        "states": [],
+        "caption": "",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "661EDBFD-11EC-45DD-9D56-CA44BD545601",
+        "name": "Defined_Inspection_List"
+      },
+      {
+        "id": "1F0871A1-73C4-4DEA-B800-AD9500DB5DD2",
+        "name": "SelectInspection"
+      }
+    ]
+  }
+}

@@ -1,0 +1,232 @@
+{
+  "shortname": "QMS",
+  "application": "QMS",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "d5f3345b-1d6a-4c7b-9628-b1af00e6459f",
+    "name": "SelectActionItemApps",
+    "fields": {
+      "ssdQE": {
+        "name": "ssdQE",
+        "type": "string",
+        "ext_type": "dropdown",
+        "original_serverid": "ssdQE",
+        "original_controltype": "DropDown",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Select Quality Event",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": "Select...",
+        "system_options": []
+      },
+      "ssdCAPA": {
+        "name": "ssdCAPA",
+        "type": "string",
+        "ext_type": "dropdown",
+        "original_serverid": "ssdCAPA",
+        "original_controltype": "DropDown",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Select CAPA",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": "Select...",
+        "system_options": []
+      },
+      "ssdIncident": {
+        "name": "ssdIncident",
+        "type": "string",
+        "ext_type": "dropdown",
+        "original_serverid": "ssdIncident",
+        "original_controltype": "DropDown",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Select Incident",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": "Select...",
+        "system_options": []
+      },
+      "ssdObservation": {
+        "name": "ssdObservation",
+        "type": "string",
+        "ext_type": "dropdown",
+        "original_serverid": "ssdObservation",
+        "original_controltype": "DropDown",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Select Finding",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": "Select...",
+        "system_options": []
+      },
+      "ssdMR": {
+        "name": "ssdMR",
+        "type": "string",
+        "ext_type": "dropdown",
+        "original_serverid": "ssdMR",
+        "original_controltype": "DropDown",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Select Management Review",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": "Select...",
+        "system_options": []
+      },
+      "ssdRiskAssessment": {
+        "name": "ssdRiskAssessment",
+        "type": "string",
+        "ext_type": "dropdown",
+        "original_serverid": "ssdRiskAssessment",
+        "original_controltype": "DropDown",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Select Risk Assessment",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": "Select...",
+        "system_options": []
+      },
+      "ssdComplaint": {
+        "name": "ssdComplaint",
+        "type": "string",
+        "ext_type": "dropdown",
+        "original_serverid": "ssdComplaint",
+        "original_controltype": "DropDown",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Select Complaint",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": "Select...",
+        "system_options": []
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "ssdQE",
+        "original_serverid": "ssdQE",
+        "original_controltype": "DropDown",
+        "type": "field",
+        "index": 0,
+        "default_state": "invisible",
+        "states": [],
+        "caption": "Select Quality Event",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "ssdCAPA",
+        "original_serverid": "ssdCAPA",
+        "original_controltype": "DropDown",
+        "type": "field",
+        "index": 1,
+        "default_state": "invisible",
+        "states": [],
+        "caption": "Select CAPA",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "ssdIncident",
+        "original_serverid": "ssdIncident",
+        "original_controltype": "DropDown",
+        "type": "field",
+        "index": 2,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Select Incident",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "ssdObservation",
+        "original_serverid": "ssdObservation",
+        "original_controltype": "DropDown",
+        "type": "field",
+        "index": 3,
+        "default_state": "invisible",
+        "states": [],
+        "caption": "Select Finding",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "ssdMR",
+        "original_serverid": "ssdMR",
+        "original_controltype": "DropDown",
+        "type": "field",
+        "index": 4,
+        "default_state": "invisible",
+        "states": [],
+        "caption": "Select Management Review",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "ssdRiskAssessment",
+        "original_serverid": "ssdRiskAssessment",
+        "original_controltype": "DropDown",
+        "type": "field",
+        "index": 5,
+        "default_state": "invisible",
+        "states": [],
+        "caption": "Select Risk Assessment",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "ssdComplaint",
+        "original_serverid": "ssdComplaint",
+        "original_controltype": "DropDown",
+        "type": "field",
+        "index": 6,
+        "default_state": "invisible",
+        "states": [],
+        "caption": "Select Complaint",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "8A83F1B8-B01F-488B-869C-B1B000EEAC23",
+        "name": "SelectMRApps"
+      },
+      {
+        "id": "0341EEB9-344C-4766-B501-9A6A0C8BF25A",
+        "name": "SelectActionItemApps"
+      },
+      {
+        "id": "0B2288B3-879A-4DB5-859D-B1AF00D01528",
+        "name": "SelectActionItemCAPA"
+      },
+      {
+        "id": "16D8CACA-70E5-4004-A9DD-B1B000FD3383",
+        "name": "SelectRiskApps"
+      },
+      {
+        "id": "D5F3345B-1D6A-4C7B-9628-B1AF00E6459F",
+        "name": "SelectIncidentApps"
+      },
+      {
+        "id": "BF2C5281-EC8E-4FE3-8FC1-B1AF0125BC51",
+        "name": "SelectObservationAudit"
+      },
+      {
+        "id": "23B7F3E8-F0C9-4D80-9D77-B1B00106B0C9",
+        "name": "SelectComplaintApps"
+      }
+    ]
+  }
+}

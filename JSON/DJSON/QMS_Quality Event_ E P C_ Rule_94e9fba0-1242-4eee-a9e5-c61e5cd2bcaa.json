@@ -1,0 +1,221 @@
+{
+  "shortname": "QMS",
+  "application": "QMS",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "94e9fba0-1242-4eee-a9e5-c61e5cd2bcaa",
+    "name": "QualityEvent_EPC_Rule",
+    "fields": {
+      "BPMAPP_QMS_QualityEventfk_QualityEvent": {
+        "name": "BPMAPP_QMS_QualityEventfk_QualityEvent",
+        "type": "string",
+        "ext_type": "dropdown",
+        "original_serverid": "BPMAPP_QMS_QualityEventfk_QualityEvent",
+        "original_controltype": "DropDown",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "fk_QualityEvent",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": "Select...",
+        "system_options": []
+      },
+      "URL": {
+        "name": "URL",
+        "type": "string",
+        "original_serverid": "URL",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "URL",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "EPCRuleId": {
+        "name": "EPCRuleId",
+        "type": "string",
+        "original_serverid": "EPCRuleId",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "EPCRuleId",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "Description": {
+        "name": "Description",
+        "type": "string",
+        "original_serverid": "Description",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Description",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "Name": {
+        "name": "Name",
+        "type": "string",
+        "original_serverid": "Name",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Name",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "EpcVersionNo": {
+        "name": "EpcVersionNo",
+        "type": "string",
+        "original_serverid": "EpcVersionNo",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "EpcVersionNo",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "EpcNodeVersionId": {
+        "name": "EpcNodeVersionId",
+        "type": "string",
+        "original_serverid": "EpcNodeVersionId",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "EpcNodeVersionId",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "EpcVersioningType": {
+        "name": "EpcVersioningType",
+        "type": "int",
+        "original_serverid": "EpcVersioningType",
+        "original_controltype": "NumericBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "EpcVersioningType",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "BPMAPP_QMS_QualityEventfk_QualityEvent",
+        "original_serverid": "BPMAPP_QMS_QualityEventfk_QualityEvent",
+        "original_controltype": "DropDown",
+        "type": "field",
+        "index": 0,
+        "default_state": "editable",
+        "states": [],
+        "caption": "fk_QualityEvent",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "URL",
+        "original_serverid": "URL",
+        "original_controltype": "TextBox",
+        "type": "field",
+        "index": 1,
+        "default_state": "editable",
+        "states": [],
+        "caption": "URL",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "EPCRuleId",
+        "original_serverid": "EPCRuleId",
+        "original_controltype": "TextBox",
+        "type": "field",
+        "index": 2,
+        "default_state": "editable",
+        "states": [],
+        "caption": "EPCRuleId",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "Description",
+        "original_serverid": "Description",
+        "original_controltype": "TextBox",
+        "type": "field",
+        "index": 3,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Description",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "Name",
+        "original_serverid": "Name",
+        "original_controltype": "TextBox",
+        "type": "field",
+        "index": 4,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Name",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "EpcVersionNo",
+        "original_serverid": "EpcVersionNo",
+        "original_controltype": "TextBox",
+        "type": "field",
+        "index": 5,
+        "default_state": "editable",
+        "states": [],
+        "caption": "EpcVersionNo",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "EpcNodeVersionId",
+        "original_serverid": "EpcNodeVersionId",
+        "original_controltype": "TextBox",
+        "type": "field",
+        "index": 6,
+        "default_state": "editable",
+        "states": [],
+        "caption": "EpcNodeVersionId",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "EpcVersioningType",
+        "original_serverid": "EpcVersioningType",
+        "original_controltype": "NumericBox",
+        "type": "field",
+        "index": 7,
+        "default_state": "editable",
+        "states": [],
+        "caption": "EpcVersioningType",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "94E9FBA0-1242-4EEE-A9E5-C61E5CD2BCAA",
+        "name": "QualityEvent_EPC_Rule"
+      }
+    ]
+  }
+}

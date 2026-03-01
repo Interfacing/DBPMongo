@@ -1,0 +1,177 @@
+{
+  "shortname": "QMS",
+  "application": "QMS",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "890c1dd0-8bf9-4eba-84ed-ad7a00fc9cc1",
+    "name": "Audit_Define_Comment",
+    "fields": {
+      "BPMAPP_Audit_Review_Commentsfk_Comment": {
+        "name": "BPMAPP_Audit_Review_Commentsfk_Comment",
+        "type": "none",
+        "ext_type": "Grid",
+        "original_serverid": "BPMAPP_Audit_Review_Commentsfk_Comment",
+        "original_controltype": "Grid",
+        "original_bid": "cd1d06b0-6a5d-412f-9814-ad7a00fb86db",
+        "label": "fk_Comment",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "Text": {
+        "name": "Text",
+        "type": "string",
+        "original_serverid": "Text",
+        "original_controltype": "TextBox",
+        "original_bid": "4ad0d3cf-63d1-437b-bb43-ad7a00fb86db",
+        "label": "Text",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "Date": {
+        "name": "Date",
+        "type": "datetime",
+        "ext_type": "datetime",
+        "original_serverid": "Date",
+        "original_controltype": "DateEdit",
+        "original_bid": "3558a9a4-a847-407f-bf53-ad7a00fb86db",
+        "label": "Date",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "StaffRole": {
+        "name": "StaffRole",
+        "type": "string",
+        "ext_type": "dropdown",
+        "original_serverid": "StaffRole",
+        "original_controltype": "DropDown",
+        "original_bid": "3c045f08-f3f9-46ad-a60c-ad7a00fb86db",
+        "label": "Role",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": "Select..."
+      },
+      "BPMAPP_Audit_Define_Auditfk_define_audit": {
+        "name": "BPMAPP_Audit_Define_Auditfk_define_audit",
+        "type": "string",
+        "ext_type": "dropdown",
+        "original_serverid": "BPMAPP_Audit_Define_Auditfk_define_audit",
+        "original_controltype": "DropDown",
+        "original_bid": "5db4aa4c-265d-4abc-a010-ad7a00fb86db",
+        "label": "fk_define_audit",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": "Select..."
+      },
+      "UserUser": {
+        "name": "UserUser",
+        "type": "string",
+        "ext_type": "dropdown",
+        "original_serverid": "UserUser",
+        "original_controltype": "DropDown",
+        "original_bid": "9a56a53f-0623-4e16-bf41-ad7a00fb86db",
+        "label": "User",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": "Select..."
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "BPMAPP_Audit_Review_Commentsfk_Comment",
+        "original_serverid": "BPMAPP_Audit_Review_Commentsfk_Comment",
+        "original_controltype": "Grid",
+        "type": "field",
+        "index": 0,
+        "default_state": "editable",
+        "states": [],
+        "caption": "fk_Comment",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "Text",
+        "original_serverid": "Text",
+        "original_controltype": "TextBox",
+        "type": "field",
+        "index": 1,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Text",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "Date",
+        "original_serverid": "Date",
+        "original_controltype": "DateEdit",
+        "type": "field",
+        "index": 2,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Date",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "StaffRole",
+        "original_serverid": "StaffRole",
+        "original_controltype": "DropDown",
+        "type": "field",
+        "index": 3,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Role",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "BPMAPP_Audit_Define_Auditfk_define_audit",
+        "original_serverid": "BPMAPP_Audit_Define_Auditfk_define_audit",
+        "original_controltype": "DropDown",
+        "type": "field",
+        "index": 4,
+        "default_state": "editable",
+        "states": [],
+        "caption": "fk_define_audit",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "UserUser",
+        "original_serverid": "UserUser",
+        "original_controltype": "DropDown",
+        "type": "field",
+        "index": 5,
+        "default_state": "editable",
+        "states": [],
+        "caption": "User",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "16C5FE5D-E751-46D0-B73B-AD7A00FC8362",
+        "name": "New_Comment"
+      },
+      {
+        "id": "890C1DD0-8BF9-4EBA-84ED-AD7A00FC9CC1",
+        "name": "Edit_Comment"
+      }
+    ]
+  }
+}

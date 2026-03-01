@@ -1,0 +1,147 @@
+{
+  "shortname": "QMS",
+  "application": "QMS",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "c72e61ba-775a-4386-829c-ae5c01582106",
+    "name": "QMS_QualityEvent_Reason",
+    "fields": {
+      "NameAr": {
+        "name": "NameAr",
+        "type": "string",
+        "original_serverid": "NameAr",
+        "original_controltype": "TextBox",
+        "original_bid": "b7cc5a0c-c96e-45f8-ae76-ae5200f02d7c",
+        "label": "NameAr",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "Name": {
+        "name": "Name",
+        "type": "string",
+        "original_serverid": "Name",
+        "original_controltype": "TextBox",
+        "original_bid": "7162011c-e18b-45dc-bef8-ae5200f02d7c",
+        "label": "Name",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "NameDe": {
+        "name": "NameDe",
+        "type": "string",
+        "original_serverid": "NameDe",
+        "original_controltype": "TextBox",
+        "original_bid": "9c2051a8-9b48-449a-9144-ae5200f02d7c",
+        "label": "NameDe",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "NameFr": {
+        "name": "NameFr",
+        "type": "string",
+        "original_serverid": "NameFr",
+        "original_controltype": "TextBox",
+        "original_bid": "33e98e2a-ddb4-4cd1-8518-ae5200f02d7c",
+        "label": "NameFr",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "CheckBox": {
+        "name": "CheckBox",
+        "type": "boolean",
+        "original_serverid": "CheckBox",
+        "original_controltype": "CheckBox",
+        "original_bid": "a28a2963-0b22-4340-a1ee-ae69016f59d1",
+        "label": "Active",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "NameAr",
+        "original_serverid": "NameAr",
+        "original_controltype": "TextBox",
+        "type": "field",
+        "index": 0,
+        "default_state": "editable",
+        "states": [],
+        "caption": "NameAr",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "Name",
+        "original_serverid": "Name",
+        "original_controltype": "TextBox",
+        "type": "field",
+        "index": 1,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Name",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "NameDe",
+        "original_serverid": "NameDe",
+        "original_controltype": "TextBox",
+        "type": "field",
+        "index": 2,
+        "default_state": "editable",
+        "states": [],
+        "caption": "NameDe",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "NameFr",
+        "original_serverid": "NameFr",
+        "original_controltype": "TextBox",
+        "type": "field",
+        "index": 3,
+        "default_state": "editable",
+        "states": [],
+        "caption": "NameFr",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "CheckBox",
+        "original_serverid": "CheckBox",
+        "original_controltype": "CheckBox",
+        "type": "field",
+        "index": 4,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Active",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "C72E61BA-775A-4386-829C-AE5C01582106",
+        "name": "QMS_QualityEvent_ReasonEdit"
+      },
+      {
+        "id": "9E55FE07-32AA-4BF3-B8B5-5194FE1228A4",
+        "name": "QMS_QualityEvent_Reason"
+      }
+    ]
+  }
+}

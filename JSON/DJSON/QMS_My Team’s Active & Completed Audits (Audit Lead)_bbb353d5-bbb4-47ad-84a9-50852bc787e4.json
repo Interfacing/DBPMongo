@@ -1,0 +1,145 @@
+{
+  "shortname": "QMS",
+  "application": "QMS",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "bbb353d5-bbb4-47ad-84a9-50852bc787e4",
+    "name": "Audit_TeamLeaderList",
+    "fields": {
+      "Grid1": {
+        "name": "Grid1",
+        "type": "none",
+        "ext_type": "Grid",
+        "original_serverid": "Grid1",
+        "original_controltype": "Grid",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "My Team\u2019s Plans",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "AuditsToPlanGrid": {
+        "name": "AuditsToPlanGrid",
+        "type": "none",
+        "ext_type": "Grid",
+        "original_serverid": "AuditsToPlanGrid",
+        "original_controltype": "Grid",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Audit Definitions to Plan",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": ""
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "",
+        "original_serverid": "Row2",
+        "original_controltype": "Row",
+        "type": "section",
+        "index": 0,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "BBB353D5-BBB4-47AD-84A9-50852BC787E4",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column2",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "BBB353D5-BBB4-47AD-84A9-50852BC787E4",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "AuditsToPlanGrid",
+                "original_serverid": "AuditsToPlanGrid",
+                "original_controltype": "Grid",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "Audit Definitions to Plan",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "entity_name": "",
+        "original_serverid": "Row1",
+        "original_controltype": "Row",
+        "type": "section",
+        "index": 1,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "BBB353D5-BBB4-47AD-84A9-50852BC787E4",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column1",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "BBB353D5-BBB4-47AD-84A9-50852BC787E4",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "Grid1",
+                "original_serverid": "Grid1",
+                "original_controltype": "Grid",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "My Team\u2019s Plans",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "BBB353D5-BBB4-47AD-84A9-50852BC787E4",
+        "name": "Audit_TeamLeaderList"
+      }
+    ]
+  }
+}

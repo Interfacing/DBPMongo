@@ -1,0 +1,44 @@
+{
+  "shortname": "QMS",
+  "application": "QMS",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "c7618fcb-4ab1-4ec4-87b8-ad87005de286",
+    "name": "CAPA_Dashboard_Drilldown_Level1",
+    "fields": {
+      "ClientChart": {
+        "name": "ClientChart",
+        "type": "none",
+        "ext_type": "Chart",
+        "original_serverid": "ClientChart",
+        "original_controltype": "Chart",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Interactive Chart",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "ClientChart",
+        "original_serverid": "ClientChart",
+        "original_controltype": "Chart",
+        "type": "field",
+        "index": 0,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Interactive Chart",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "C7618FCB-4AB1-4EC4-87B8-AD87005DE286",
+        "name": "CAPA_Dashboard_Drilldown_Level1"
+      }
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "shortname": "QMS",
+  "application": "QMS",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "f1497dc7-0fb3-4c4d-8bda-adcc01231816",
+    "name": "Inspection_Method",
+    "fields": {
+      "Label": {
+        "name": "Label",
+        "type": "none",
+        "ext_type": "Label",
+        "original_serverid": "Label",
+        "original_controltype": "Label",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Create/ Edit/ Delete the inspection methods",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "Grid": {
+        "name": "Grid",
+        "type": "none",
+        "ext_type": "Grid",
+        "original_serverid": "Grid",
+        "original_controltype": "Grid",
+        "original_bid": "7113cae4-79d6-4450-a3db-adcc0122b7a8",
+        "label": "",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "Label",
+        "original_serverid": "Label",
+        "original_controltype": "Label",
+        "type": "field",
+        "index": 0,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Create/ Edit/ Delete the inspection methods",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "Grid",
+        "original_serverid": "Grid",
+        "original_controltype": "Grid",
+        "type": "field",
+        "index": 1,
+        "default_state": "editable",
+        "states": [],
+        "caption": "",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "F1497DC7-0FB3-4C4D-8BDA-ADCC01231816",
+        "name": "Edit_Inspection_Method"
+      },
+      {
+        "id": "CB60C2E6-9DF5-47A7-9518-853D1B361CE9",
+        "name": "Inspection_Method"
+      }
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "shortname": "QMS",
+  "application": "QMS",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "e5426e9e-58c5-4fbc-8ab3-84db16ab5fc3",
+    "name": "Define_trg_List",
+    "fields": {
+      "Training_Define_Training": {
+        "name": "Training_Define_Training",
+        "type": "none",
+        "ext_type": "Grid",
+        "original_serverid": "Training_Define_Training",
+        "original_controltype": "Grid",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "Black"
+      },
+      "DateTimePicker": {
+        "name": "DateTimePicker",
+        "type": "datetime",
+        "ext_type": "date",
+        "original_serverid": "DateTimePicker",
+        "original_controltype": "DateEdit",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Activation Date",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "Black",
+        "placeholder": ""
+      },
+      "TextBox": {
+        "name": "TextBox",
+        "type": "string",
+        "original_serverid": "TextBox",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Training Name",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "Black",
+        "placeholder": ""
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "Training_Define_Training",
+        "original_serverid": "Training_Define_Training",
+        "original_controltype": "Grid",
+        "type": "field",
+        "index": 0,
+        "default_state": "editable",
+        "states": [],
+        "caption": "",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "E5426E9E-58C5-4FBC-8AB3-84DB16AB5FC3",
+        "name": "Define_trg_List"
+      }
+    ]
+  }
+}

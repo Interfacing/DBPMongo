@@ -1,0 +1,694 @@
+{
+  "shortname": "AdminApp",
+  "application": "AdminApp",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "13796b3c-2a98-4fb5-903e-83f09e3de123",
+    "name": "frmAdminEPCSetting",
+    "fields": {
+      "BaseURL": {
+        "name": "BaseURL",
+        "type": "string",
+        "original_serverid": "BaseURL",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Base URL",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "lblMessage": {
+        "name": "lblMessage",
+        "type": "none",
+        "ext_type": "Label",
+        "original_serverid": "lblMessage",
+        "original_controltype": "Label",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "Label1": {
+        "name": "Label1",
+        "type": "none",
+        "ext_type": "Label",
+        "original_serverid": "Label1",
+        "original_controltype": "Label",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "*If there is no data inside the Environment dropdown of the Synchronization with EPC form, users will need to select the Submit Form button below. Users will also need to select this button if either the Admin Settings or the environment are not in sync. To resync the environment, simply deselect the Is Environment Synchronized checkbox and click on the Submit Form button again.\r\n",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "Label2": {
+        "name": "Label2",
+        "type": "none",
+        "ext_type": "Label",
+        "original_serverid": "Label2",
+        "original_controltype": "Label",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Admin App. Version 94",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "IsScriptLoaded": {
+        "name": "IsScriptLoaded",
+        "type": "boolean",
+        "original_serverid": "IsScriptLoaded",
+        "original_controltype": "CheckBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": " Is Environment Synchronized",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "UserName": {
+        "name": "UserName",
+        "type": "string",
+        "original_serverid": "UserName",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Username",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "Password": {
+        "name": "Password",
+        "type": "string",
+        "ext_type": "password",
+        "original_serverid": "Password",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Password",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "Label": {
+        "name": "Label",
+        "type": "none",
+        "ext_type": "Label",
+        "original_serverid": "Label",
+        "original_controltype": "Label",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "EPC Setting",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "DateTimePicker": {
+        "name": "DateTimePicker",
+        "type": "datetime",
+        "ext_type": "datetime",
+        "original_serverid": "DateTimePicker",
+        "original_controltype": "DateEdit",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Last Synchronization Date",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": ""
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "",
+        "original_serverid": "Row",
+        "original_controltype": "Row",
+        "type": "section",
+        "index": 0,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "13796B3C-2A98-4FB5-903E-83F09E3DE123",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "13796B3C-2A98-4FB5-903E-83F09E3DE123",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "",
+                "original_serverid": "Row3",
+                "original_controltype": "Row",
+                "type": "section",
+                "index": 0,
+                "default_state": "editable",
+                "states": [
+                  {
+                    "behaviorTaskId": "13796B3C-2A98-4FB5-903E-83F09E3DE123",
+                    "state": "editable"
+                  }
+                ],
+                "caption_bold": false,
+                "caption_italic": false,
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": [
+                  {
+                    "entity_name": "",
+                    "original_serverid": "Column5",
+                    "original_controltype": "Column",
+                    "type": "section",
+                    "index": 0,
+                    "default_state": "editable",
+                    "states": [
+                      {
+                        "behaviorTaskId": "13796B3C-2A98-4FB5-903E-83F09E3DE123",
+                        "state": "editable"
+                      }
+                    ],
+                    "is_default_open": false,
+                    "all_open_by_default": false,
+                    "children": [
+                      {
+                        "entity_name": "Label",
+                        "original_serverid": "Label",
+                        "original_controltype": "Label",
+                        "type": "field",
+                        "index": 0,
+                        "default_state": "editable",
+                        "states": [],
+                        "caption": "EPC Setting",
+                        "is_default_open": false,
+                        "all_open_by_default": false,
+                        "children": []
+                      },
+                      {
+                        "entity_name": "",
+                        "original_serverid": "Row8",
+                        "original_controltype": "Row",
+                        "type": "section",
+                        "index": 1,
+                        "default_state": "editable",
+                        "states": [
+                          {
+                            "behaviorTaskId": "13796B3C-2A98-4FB5-903E-83F09E3DE123",
+                            "state": "editable"
+                          }
+                        ],
+                        "caption_bold": false,
+                        "caption_italic": false,
+                        "is_default_open": false,
+                        "all_open_by_default": false,
+                        "children": [
+                          {
+                            "entity_name": "",
+                            "original_serverid": "Column11",
+                            "original_controltype": "Column",
+                            "type": "section",
+                            "index": 0,
+                            "default_state": "editable",
+                            "states": [
+                              {
+                                "behaviorTaskId": "13796B3C-2A98-4FB5-903E-83F09E3DE123",
+                                "state": "editable"
+                              }
+                            ],
+                            "is_default_open": false,
+                            "all_open_by_default": false,
+                            "children": [
+                              {
+                                "entity_name": "Label1",
+                                "original_serverid": "Label1",
+                                "original_controltype": "Label",
+                                "type": "field",
+                                "index": 0,
+                                "default_state": "editable",
+                                "states": [],
+                                "caption": "*If there is no data inside the Environment dropdown of the Synchronization with EPC form, users will need to select the Submit Form button below. Users will also need to select this button if either the Admin Settings or the environment are not in sync. To resync the environment, simply deselect the Is Environment Synchronized checkbox and click on the Submit Form button again.\r\n",
+                                "is_default_open": false,
+                                "all_open_by_default": false,
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "entity_name": "",
+                "original_serverid": "Row1",
+                "original_controltype": "Row",
+                "type": "columns",
+                "index": 1,
+                "default_state": "editable",
+                "states": [
+                  {
+                    "behaviorTaskId": "13796B3C-2A98-4FB5-903E-83F09E3DE123",
+                    "state": "editable"
+                  }
+                ],
+                "caption_bold": false,
+                "caption_italic": false,
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": [
+                  {
+                    "entity_name": "",
+                    "original_serverid": "Column1",
+                    "original_controltype": "Column",
+                    "type": "section",
+                    "index": 0,
+                    "default_state": "editable",
+                    "states": [
+                      {
+                        "behaviorTaskId": "13796B3C-2A98-4FB5-903E-83F09E3DE123",
+                        "state": "editable"
+                      }
+                    ],
+                    "is_default_open": false,
+                    "all_open_by_default": false,
+                    "children": [
+                      {
+                        "entity_name": "BaseURL",
+                        "original_serverid": "BaseURL",
+                        "original_controltype": "TextBox",
+                        "type": "field",
+                        "index": 0,
+                        "default_state": "editable",
+                        "states": [],
+                        "caption": "Base URL",
+                        "is_default_open": false,
+                        "all_open_by_default": false,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "entity_name": "",
+                    "original_serverid": "Column2",
+                    "original_controltype": "Column",
+                    "type": "section",
+                    "index": 1,
+                    "default_state": "editable",
+                    "states": [
+                      {
+                        "behaviorTaskId": "13796B3C-2A98-4FB5-903E-83F09E3DE123",
+                        "state": "editable"
+                      }
+                    ],
+                    "is_default_open": false,
+                    "all_open_by_default": false,
+                    "children": [
+                      {
+                        "entity_name": "IsScriptLoaded",
+                        "original_serverid": "IsScriptLoaded",
+                        "original_controltype": "CheckBox",
+                        "type": "field",
+                        "index": 0,
+                        "default_state": "editable",
+                        "states": [],
+                        "caption": " Is Environment Synchronized",
+                        "is_default_open": false,
+                        "all_open_by_default": false,
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "entity_name": "",
+                "original_serverid": "Row2",
+                "original_controltype": "Row",
+                "type": "columns",
+                "index": 2,
+                "default_state": "editable",
+                "states": [
+                  {
+                    "behaviorTaskId": "13796B3C-2A98-4FB5-903E-83F09E3DE123",
+                    "state": "editable"
+                  }
+                ],
+                "caption_bold": false,
+                "caption_italic": false,
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": [
+                  {
+                    "entity_name": "",
+                    "original_serverid": "Column3",
+                    "original_controltype": "Column",
+                    "type": "section",
+                    "index": 0,
+                    "default_state": "editable",
+                    "states": [
+                      {
+                        "behaviorTaskId": "13796B3C-2A98-4FB5-903E-83F09E3DE123",
+                        "state": "editable"
+                      }
+                    ],
+                    "is_default_open": false,
+                    "all_open_by_default": false,
+                    "children": [
+                      {
+                        "entity_name": "UserName",
+                        "original_serverid": "UserName",
+                        "original_controltype": "TextBox",
+                        "type": "field",
+                        "index": 0,
+                        "default_state": "editable",
+                        "states": [],
+                        "caption": "Username",
+                        "is_default_open": false,
+                        "all_open_by_default": false,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "entity_name": "",
+                    "original_serverid": "Column4",
+                    "original_controltype": "Column",
+                    "type": "section",
+                    "index": 1,
+                    "default_state": "editable",
+                    "states": [
+                      {
+                        "behaviorTaskId": "13796B3C-2A98-4FB5-903E-83F09E3DE123",
+                        "state": "editable"
+                      }
+                    ],
+                    "is_default_open": false,
+                    "all_open_by_default": false,
+                    "children": [
+                      {
+                        "entity_name": "Password",
+                        "original_serverid": "Password",
+                        "original_controltype": "TextBox",
+                        "type": "field",
+                        "index": 0,
+                        "default_state": "editable",
+                        "states": [],
+                        "caption": "Password",
+                        "is_default_open": false,
+                        "all_open_by_default": false,
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "entity_name": "",
+                "original_serverid": "Row5",
+                "original_controltype": "Row",
+                "type": "columns",
+                "index": 3,
+                "default_state": "editable",
+                "states": [
+                  {
+                    "behaviorTaskId": "13796B3C-2A98-4FB5-903E-83F09E3DE123",
+                    "state": "editable"
+                  }
+                ],
+                "caption_bold": false,
+                "caption_italic": false,
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": [
+                  {
+                    "entity_name": "",
+                    "original_serverid": "Column7",
+                    "original_controltype": "Column",
+                    "type": "section",
+                    "index": 0,
+                    "default_state": "editable",
+                    "states": [
+                      {
+                        "behaviorTaskId": "13796B3C-2A98-4FB5-903E-83F09E3DE123",
+                        "state": "editable"
+                      }
+                    ],
+                    "is_default_open": false,
+                    "all_open_by_default": false,
+                    "children": [
+                      {
+                        "entity_name": "DateTimePicker",
+                        "original_serverid": "DateTimePicker",
+                        "original_controltype": "DateEdit",
+                        "type": "field",
+                        "index": 0,
+                        "default_state": "editable",
+                        "states": [],
+                        "caption": "Last Synchronization Date",
+                        "is_default_open": false,
+                        "all_open_by_default": false,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "entity_name": "",
+                    "original_serverid": "Column8",
+                    "original_controltype": "Column",
+                    "type": "section",
+                    "index": 1,
+                    "default_state": "editable",
+                    "states": [
+                      {
+                        "behaviorTaskId": "13796B3C-2A98-4FB5-903E-83F09E3DE123",
+                        "state": "editable"
+                      }
+                    ],
+                    "is_default_open": false,
+                    "all_open_by_default": false,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "entity_name": "",
+                "original_serverid": "Row4",
+                "original_controltype": "Row",
+                "type": "section",
+                "index": 4,
+                "default_state": "editable",
+                "states": [
+                  {
+                    "behaviorTaskId": "13796B3C-2A98-4FB5-903E-83F09E3DE123",
+                    "state": "editable"
+                  }
+                ],
+                "caption_bold": false,
+                "caption_italic": false,
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": [
+                  {
+                    "entity_name": "",
+                    "original_serverid": "Column6",
+                    "original_controltype": "Column",
+                    "type": "section",
+                    "index": 0,
+                    "default_state": "editable",
+                    "states": [
+                      {
+                        "behaviorTaskId": "13796B3C-2A98-4FB5-903E-83F09E3DE123",
+                        "state": "editable"
+                      }
+                    ],
+                    "is_default_open": false,
+                    "all_open_by_default": false,
+                    "children": [
+                      {
+                        "entity_name": "",
+                        "original_serverid": "Row7",
+                        "original_controltype": "Row",
+                        "type": "section",
+                        "index": 0,
+                        "default_state": "editable",
+                        "states": [
+                          {
+                            "behaviorTaskId": "13796B3C-2A98-4FB5-903E-83F09E3DE123",
+                            "state": "editable"
+                          }
+                        ],
+                        "caption_bold": false,
+                        "caption_italic": false,
+                        "is_default_open": false,
+                        "all_open_by_default": false,
+                        "children": [
+                          {
+                            "entity_name": "",
+                            "original_serverid": "Column10",
+                            "original_controltype": "Column",
+                            "type": "section",
+                            "index": 0,
+                            "default_state": "editable",
+                            "states": [
+                              {
+                                "behaviorTaskId": "13796B3C-2A98-4FB5-903E-83F09E3DE123",
+                                "state": "editable"
+                              }
+                            ],
+                            "is_default_open": false,
+                            "all_open_by_default": false,
+                            "children": [
+                              {
+                                "entity_name": "lblMessage",
+                                "original_serverid": "lblMessage",
+                                "original_controltype": "Label",
+                                "type": "field",
+                                "index": 0,
+                                "default_state": "editable",
+                                "states": [],
+                                "caption": "",
+                                "is_default_open": false,
+                                "all_open_by_default": false,
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "entity_name": "",
+                        "original_serverid": "Row6",
+                        "original_controltype": "Row",
+                        "type": "section",
+                        "index": 1,
+                        "default_state": "editable",
+                        "states": [
+                          {
+                            "behaviorTaskId": "13796B3C-2A98-4FB5-903E-83F09E3DE123",
+                            "state": "editable"
+                          }
+                        ],
+                        "caption_bold": false,
+                        "caption_italic": false,
+                        "is_default_open": false,
+                        "all_open_by_default": false,
+                        "children": [
+                          {
+                            "entity_name": "",
+                            "original_serverid": "Column9",
+                            "original_controltype": "Column",
+                            "type": "section",
+                            "index": 0,
+                            "default_state": "editable",
+                            "states": [
+                              {
+                                "behaviorTaskId": "13796B3C-2A98-4FB5-903E-83F09E3DE123",
+                                "state": "editable"
+                              }
+                            ],
+                            "is_default_open": false,
+                            "all_open_by_default": false,
+                            "children": [
+                              {
+                                "entity_name": "",
+                                "original_serverid": "Row9",
+                                "original_controltype": "Row",
+                                "type": "columns",
+                                "index": 0,
+                                "default_state": "editable",
+                                "states": [
+                                  {
+                                    "behaviorTaskId": "13796B3C-2A98-4FB5-903E-83F09E3DE123",
+                                    "state": "editable"
+                                  }
+                                ],
+                                "caption_bold": false,
+                                "caption_italic": false,
+                                "is_default_open": false,
+                                "all_open_by_default": false,
+                                "children": [
+                                  {
+                                    "entity_name": "",
+                                    "original_serverid": "Column12",
+                                    "original_controltype": "Column",
+                                    "type": "section",
+                                    "index": 0,
+                                    "default_state": "editable",
+                                    "states": [
+                                      {
+                                        "behaviorTaskId": "13796B3C-2A98-4FB5-903E-83F09E3DE123",
+                                        "state": "editable"
+                                      }
+                                    ],
+                                    "is_default_open": false,
+                                    "all_open_by_default": false,
+                                    "children": [
+                                      {
+                                        "entity_name": "Label2",
+                                        "original_serverid": "Label2",
+                                        "original_controltype": "Label",
+                                        "type": "field",
+                                        "index": 0,
+                                        "default_state": "invisible",
+                                        "states": [],
+                                        "caption": "Admin App. Version 94",
+                                        "is_default_open": false,
+                                        "all_open_by_default": false,
+                                        "children": []
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "entity_name": "",
+                                    "original_serverid": "Column13",
+                                    "original_controltype": "Column",
+                                    "type": "section",
+                                    "index": 1,
+                                    "default_state": "editable",
+                                    "states": [
+                                      {
+                                        "behaviorTaskId": "13796B3C-2A98-4FB5-903E-83F09E3DE123",
+                                        "state": "editable"
+                                      }
+                                    ],
+                                    "is_default_open": false,
+                                    "all_open_by_default": false,
+                                    "children": []
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "13796B3C-2A98-4FB5-903E-83F09E3DE123",
+        "name": "frmAdminEPCSetting"
+      }
+    ]
+  }
+}

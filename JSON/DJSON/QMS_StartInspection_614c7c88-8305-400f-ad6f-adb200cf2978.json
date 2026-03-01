@@ -1,0 +1,257 @@
+{
+  "shortname": "QMS",
+  "application": "QMS",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "614c7c88-8305-400f-ad6f-adb200cf2978",
+    "name": "Inspection_UserTask",
+    "fields": {
+      "TextBox": {
+        "name": "TextBox",
+        "type": "string",
+        "original_serverid": "TextBox",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Name",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "Grid": {
+        "name": "Grid",
+        "type": "none",
+        "ext_type": "Grid",
+        "original_serverid": "Grid",
+        "original_controltype": "Grid",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Requirements",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "#0070C0"
+      },
+      "CheckBox": {
+        "name": "CheckBox",
+        "type": "boolean",
+        "original_serverid": "CheckBox",
+        "original_controltype": "CheckBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Toggle All Completed",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "ImageControl": {
+        "name": "ImageControl",
+        "type": "none",
+        "ext_type": "ImageControl",
+        "original_serverid": "ImageControl",
+        "original_controltype": "ImageControl",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Static Image",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "NumericTextBox": {
+        "name": "NumericTextBox",
+        "type": "int",
+        "original_serverid": "NumericTextBox",
+        "original_controltype": "NumericBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Plan #",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "",
+        "original_serverid": "Row",
+        "original_controltype": "Row",
+        "type": "columns",
+        "index": 0,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "B9B9ED27-C47C-44BF-877E-ADB200CFB530",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "614C7C88-8305-400F-AD6F-ADB200CF2978",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "B9B9ED27-C47C-44BF-877E-ADB200CFB530",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "614C7C88-8305-400F-AD6F-ADB200CF2978",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "ImageControl",
+                "original_serverid": "ImageControl",
+                "original_controltype": "ImageControl",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "Static Image",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "entity_name": "",
+            "original_serverid": "Column1",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 1,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "B9B9ED27-C47C-44BF-877E-ADB200CFB530",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "614C7C88-8305-400F-AD6F-ADB200CF2978",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": []
+          },
+          {
+            "entity_name": "",
+            "original_serverid": "Column2",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 2,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "B9B9ED27-C47C-44BF-877E-ADB200CFB530",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "614C7C88-8305-400F-AD6F-ADB200CF2978",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": []
+          },
+          {
+            "entity_name": "",
+            "original_serverid": "Column3",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 3,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "B9B9ED27-C47C-44BF-877E-ADB200CFB530",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "614C7C88-8305-400F-AD6F-ADB200CF2978",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "NumericTextBox",
+                "original_serverid": "NumericTextBox",
+                "original_controltype": "NumericBox",
+                "type": "field",
+                "index": 0,
+                "default_state": "readonly",
+                "states": [],
+                "caption": "Plan #",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "entity_name": "TextBox",
+        "original_serverid": "TextBox",
+        "original_controltype": "TextBox",
+        "type": "field",
+        "index": 1,
+        "default_state": "readonly",
+        "states": [],
+        "caption": "Name",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "Grid",
+        "original_serverid": "Grid",
+        "original_controltype": "Grid",
+        "type": "field",
+        "index": 2,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Requirements",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "CheckBox",
+        "original_serverid": "CheckBox",
+        "original_controltype": "CheckBox",
+        "type": "field",
+        "index": 3,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Toggle All Completed",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "B9B9ED27-C47C-44BF-877E-ADB200CFB530",
+        "name": "ConductInspectionUserTask"
+      },
+      {
+        "id": "614C7C88-8305-400F-AD6F-ADB200CF2978",
+        "name": "StartInspection"
+      }
+    ]
+  }
+}

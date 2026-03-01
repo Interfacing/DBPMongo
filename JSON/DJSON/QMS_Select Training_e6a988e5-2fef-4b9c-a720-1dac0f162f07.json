@@ -1,0 +1,44 @@
+{
+  "shortname": "QMS",
+  "application": "QMS",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "e6a988e5-2fef-4b9c-a720-1dac0f162f07",
+    "name": "Training_DefinitionSelectionList",
+    "fields": {
+      "TrainingDefinitions": {
+        "name": "TrainingDefinitions",
+        "type": "none",
+        "ext_type": "Grid",
+        "original_serverid": "TrainingDefinitions",
+        "original_controltype": "Grid",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "TrainingDefinitions",
+        "original_serverid": "TrainingDefinitions",
+        "original_controltype": "Grid",
+        "type": "field",
+        "index": 0,
+        "default_state": "editable",
+        "states": [],
+        "caption": "",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "E6A988E5-2FEF-4B9C-A720-1DAC0F162F07",
+        "name": "Training_DefinitionSelectionList"
+      }
+    ]
+  }
+}

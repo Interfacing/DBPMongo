@@ -1,0 +1,690 @@
+{
+  "shortname": "QMS",
+  "application": "QMS",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "8e8f2684-ef0e-4d73-bc29-5c9d5bd50e54",
+    "name": "EpcSettings",
+    "fields": {
+      "Label": {
+        "name": "Label",
+        "type": "none",
+        "ext_type": "Label",
+        "original_serverid": "Label",
+        "original_controltype": "Label",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Enter an EPC administrator\u0027s credentials",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "Label1": {
+        "name": "Label1",
+        "type": "none",
+        "ext_type": "Label",
+        "original_serverid": "Label1",
+        "original_controltype": "Label",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Select the environment from which all EPC data will be pulled",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "Label5": {
+        "name": "Label5",
+        "type": "none",
+        "ext_type": "Label",
+        "original_serverid": "Label5",
+        "original_controltype": "Label",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Archive Folder ID",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "Label4": {
+        "name": "Label4",
+        "type": "none",
+        "ext_type": "Label",
+        "original_serverid": "Label4",
+        "original_controltype": "Label",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "QMS app. Built version 197",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "SingleSelectDropdown": {
+        "name": "SingleSelectDropdown",
+        "type": "string",
+        "ext_type": "dropdown",
+        "original_serverid": "SingleSelectDropdown",
+        "original_controltype": "DropDown",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Environment",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": "Select...",
+        "system_options": []
+      },
+      "AuditArchiveID": {
+        "name": "AuditArchiveID",
+        "type": "string",
+        "original_serverid": "AuditArchiveID",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Audit Archive ID",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "IncidentArchiveID": {
+        "name": "IncidentArchiveID",
+        "type": "string",
+        "original_serverid": "IncidentArchiveID",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Incident Archive ID",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "BaseURL": {
+        "name": "BaseURL",
+        "type": "string",
+        "original_serverid": "BaseURL",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Base URL",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": "",
+        "tooltip": "e.g. https://qa3.interfacing.com"
+      },
+      "CheckBox": {
+        "name": "CheckBox",
+        "type": "boolean",
+        "original_serverid": "CheckBox",
+        "original_controltype": "CheckBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Skip Certificate Validation",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "CheckBox1": {
+        "name": "CheckBox1",
+        "type": "boolean",
+        "original_serverid": "CheckBox1",
+        "original_controltype": "CheckBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Use above user to create actions in EPC",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "Label2": {
+        "name": "Label2",
+        "type": "none",
+        "ext_type": "Label",
+        "original_serverid": "Label2",
+        "original_controltype": "Label",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "Username": {
+        "name": "Username",
+        "type": "string",
+        "original_serverid": "Username",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Username",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "Password": {
+        "name": "Password",
+        "type": "string",
+        "ext_type": "password",
+        "original_serverid": "Password",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Password",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "Button": {
+        "name": "Button",
+        "type": "none",
+        "ext_type": "Button",
+        "original_serverid": "Button",
+        "original_controltype": "Button",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Fetch Environments",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "Label3": {
+        "name": "Label3",
+        "type": "none",
+        "ext_type": "Label",
+        "original_serverid": "Label3",
+        "original_controltype": "Label",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Label",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "Label",
+        "original_serverid": "Label",
+        "original_controltype": "Label",
+        "type": "field",
+        "index": 0,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Enter an EPC administrator\u0027s credentials",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "",
+        "original_serverid": "Row1",
+        "original_controltype": "Row",
+        "type": "columns",
+        "index": 1,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "8E8F2684-EF0E-4D73-BC29-5C9D5BD50E54",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column2",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "8E8F2684-EF0E-4D73-BC29-5C9D5BD50E54",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "BaseURL",
+                "original_serverid": "BaseURL",
+                "original_controltype": "TextBox",
+                "type": "field",
+                "index": 0,
+                "default_state": "mandatory",
+                "states": [],
+                "caption": "Base URL",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              },
+              {
+                "entity_name": "",
+                "original_serverid": "Row2",
+                "original_controltype": "Row",
+                "type": "columns",
+                "index": 1,
+                "default_state": "editable",
+                "states": [
+                  {
+                    "behaviorTaskId": "8E8F2684-EF0E-4D73-BC29-5C9D5BD50E54",
+                    "state": "editable"
+                  }
+                ],
+                "caption_bold": false,
+                "caption_italic": false,
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": [
+                  {
+                    "entity_name": "",
+                    "original_serverid": "Column4",
+                    "original_controltype": "Column",
+                    "type": "section",
+                    "index": 0,
+                    "default_state": "editable",
+                    "states": [
+                      {
+                        "behaviorTaskId": "8E8F2684-EF0E-4D73-BC29-5C9D5BD50E54",
+                        "state": "editable"
+                      }
+                    ],
+                    "is_default_open": false,
+                    "all_open_by_default": false,
+                    "children": [
+                      {
+                        "entity_name": "Username",
+                        "original_serverid": "Username",
+                        "original_controltype": "TextBox",
+                        "type": "field",
+                        "index": 0,
+                        "default_state": "editable",
+                        "states": [],
+                        "caption": "Username",
+                        "is_default_open": false,
+                        "all_open_by_default": false,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "entity_name": "",
+                    "original_serverid": "Column5",
+                    "original_controltype": "Column",
+                    "type": "section",
+                    "index": 1,
+                    "default_state": "editable",
+                    "states": [
+                      {
+                        "behaviorTaskId": "8E8F2684-EF0E-4D73-BC29-5C9D5BD50E54",
+                        "state": "editable"
+                      }
+                    ],
+                    "is_default_open": false,
+                    "all_open_by_default": false,
+                    "children": [
+                      {
+                        "entity_name": "Password",
+                        "original_serverid": "Password",
+                        "original_controltype": "TextBox",
+                        "type": "field",
+                        "index": 0,
+                        "default_state": "editable",
+                        "states": [],
+                        "caption": "Password",
+                        "is_default_open": false,
+                        "all_open_by_default": false,
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "entity_name": "CheckBox",
+                "original_serverid": "CheckBox",
+                "original_controltype": "CheckBox",
+                "type": "field",
+                "index": 2,
+                "default_state": "editable",
+                "states": [],
+                "caption": "Skip Certificate Validation",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              },
+              {
+                "entity_name": "CheckBox1",
+                "original_serverid": "CheckBox1",
+                "original_controltype": "CheckBox",
+                "type": "field",
+                "index": 3,
+                "default_state": "invisible",
+                "states": [],
+                "caption": "Use above user to create actions in EPC",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "entity_name": "",
+            "original_serverid": "Column3",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 1,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "8E8F2684-EF0E-4D73-BC29-5C9D5BD50E54",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "Label2",
+                "original_serverid": "Label2",
+                "original_controltype": "Label",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "entity_name": "",
+        "original_serverid": "Row3",
+        "original_controltype": "Row",
+        "type": "columns",
+        "index": 2,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "8E8F2684-EF0E-4D73-BC29-5C9D5BD50E54",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column7",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "8E8F2684-EF0E-4D73-BC29-5C9D5BD50E54",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "Button",
+                "original_serverid": "Button",
+                "original_controltype": "Button",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "Fetch Environments",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "entity_name": "",
+            "original_serverid": "Column8",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 1,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "8E8F2684-EF0E-4D73-BC29-5C9D5BD50E54",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "Label3",
+                "original_serverid": "Label3",
+                "original_controltype": "Label",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "Label",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "entity_name": "Label1",
+        "original_serverid": "Label1",
+        "original_controltype": "Label",
+        "type": "field",
+        "index": 3,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Select the environment from which all EPC data will be pulled",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "",
+        "original_serverid": "Row",
+        "original_controltype": "Row",
+        "type": "columns",
+        "index": 4,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "8E8F2684-EF0E-4D73-BC29-5C9D5BD50E54",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "8E8F2684-EF0E-4D73-BC29-5C9D5BD50E54",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "SingleSelectDropdown",
+                "original_serverid": "SingleSelectDropdown",
+                "original_controltype": "DropDown",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "Environment",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "entity_name": "",
+            "original_serverid": "Column1",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 1,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "8E8F2684-EF0E-4D73-BC29-5C9D5BD50E54",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": []
+          },
+          {
+            "entity_name": "",
+            "original_serverid": "Column6",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 2,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "8E8F2684-EF0E-4D73-BC29-5C9D5BD50E54",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": []
+          }
+        ]
+      },
+      {
+        "entity_name": "Label5",
+        "original_serverid": "Label5",
+        "original_controltype": "Label",
+        "type": "field",
+        "index": 5,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Archive Folder ID",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "",
+        "original_serverid": "Row5",
+        "original_controltype": "Row",
+        "type": "columns",
+        "index": 6,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "8E8F2684-EF0E-4D73-BC29-5C9D5BD50E54",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column12",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "8E8F2684-EF0E-4D73-BC29-5C9D5BD50E54",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "AuditArchiveID",
+                "original_serverid": "AuditArchiveID",
+                "original_controltype": "TextBox",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "Audit Archive ID",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "entity_name": "",
+            "original_serverid": "Column13",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 1,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "8E8F2684-EF0E-4D73-BC29-5C9D5BD50E54",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "IncidentArchiveID",
+                "original_serverid": "IncidentArchiveID",
+                "original_controltype": "TextBox",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "Incident Archive ID",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "entity_name": "Label4",
+        "original_serverid": "Label4",
+        "original_controltype": "Label",
+        "type": "field",
+        "index": 7,
+        "default_state": "invisible",
+        "states": [],
+        "caption": "QMS app. Built version 197",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "8E8F2684-EF0E-4D73-BC29-5C9D5BD50E54",
+        "name": "EpcSettings"
+      }
+    ]
+  }
+}

@@ -1,0 +1,285 @@
+{
+  "shortname": "QMS",
+  "application": "QMS",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "c897d806-20c0-4f11-a2c3-ae43014b8cb1",
+    "name": "Country",
+    "fields": {
+      "Label": {
+        "name": "Label",
+        "type": "none",
+        "ext_type": "Label",
+        "original_serverid": "Label",
+        "original_controltype": "Label",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Enter the country name and select to which region this country is part of",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "Name": {
+        "name": "Name",
+        "type": "string",
+        "original_serverid": "Name",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Name",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "BPMAPP_QMS_Regionfk_Region": {
+        "name": "BPMAPP_QMS_Regionfk_Region",
+        "type": "string",
+        "ext_type": "dropdown",
+        "original_serverid": "BPMAPP_QMS_Regionfk_Region",
+        "original_controltype": "DropDown",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Region",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": "Select..."
+      },
+      "CheckBox": {
+        "name": "CheckBox",
+        "type": "boolean",
+        "original_serverid": "CheckBox",
+        "original_controltype": "CheckBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": " Active",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": ""
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "Label",
+        "original_serverid": "Label",
+        "original_controltype": "Label",
+        "type": "field",
+        "index": 0,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Enter the country name and select to which region this country is part of",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "",
+        "original_serverid": "Row",
+        "original_controltype": "Row",
+        "type": "columns",
+        "index": 1,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "97276D29-AF27-433B-B23E-AE43014B0C46",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "2E1F7926-8368-44F7-9905-AE43014B437E",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "C208C782-0D72-4376-AD07-AE430122AADA",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "C897D806-20C0-4F11-A2C3-AE43014B8CB1",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "97276D29-AF27-433B-B23E-AE43014B0C46",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "2E1F7926-8368-44F7-9905-AE43014B437E",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "C208C782-0D72-4376-AD07-AE430122AADA",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "C897D806-20C0-4F11-A2C3-AE43014B8CB1",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "Name",
+                "original_serverid": "Name",
+                "original_controltype": "TextBox",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "Name",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "entity_name": "",
+            "original_serverid": "Column1",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 1,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "97276D29-AF27-433B-B23E-AE43014B0C46",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "2E1F7926-8368-44F7-9905-AE43014B437E",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "C208C782-0D72-4376-AD07-AE430122AADA",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "C897D806-20C0-4F11-A2C3-AE43014B8CB1",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "BPMAPP_QMS_Regionfk_Region",
+                "original_serverid": "BPMAPP_QMS_Regionfk_Region",
+                "original_controltype": "DropDown",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "Region",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "entity_name": "",
+        "original_serverid": "Row1",
+        "original_controltype": "Row",
+        "type": "section",
+        "index": 2,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "97276D29-AF27-433B-B23E-AE43014B0C46",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "2E1F7926-8368-44F7-9905-AE43014B437E",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "C208C782-0D72-4376-AD07-AE430122AADA",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "C897D806-20C0-4F11-A2C3-AE43014B8CB1",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column3",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "97276D29-AF27-433B-B23E-AE43014B0C46",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "2E1F7926-8368-44F7-9905-AE43014B437E",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "C208C782-0D72-4376-AD07-AE430122AADA",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "C897D806-20C0-4F11-A2C3-AE43014B8CB1",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "CheckBox",
+                "original_serverid": "CheckBox",
+                "original_controltype": "CheckBox",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": " Active",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "97276D29-AF27-433B-B23E-AE43014B0C46",
+        "name": "Edit_Country"
+      },
+      {
+        "id": "2E1F7926-8368-44F7-9905-AE43014B437E",
+        "name": "View_Country"
+      },
+      {
+        "id": "C208C782-0D72-4376-AD07-AE430122AADA",
+        "name": "Country"
+      },
+      {
+        "id": "C897D806-20C0-4F11-A2C3-AE43014B8CB1",
+        "name": "Delete_Country"
+      }
+    ]
+  }
+}

@@ -1,0 +1,346 @@
+{
+  "shortname": "QMS",
+  "application": "QMS",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "2fb746b5-2399-4f2d-8b59-cbe7fd154c90",
+    "name": "QMS_RequestNewDocEdit",
+    "fields": {
+      "FileAttachment": {
+        "name": "FileAttachment",
+        "type": "file",
+        "original_serverid": "FileAttachment",
+        "original_controltype": "FileAttachment",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "File Attachment",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "SingleSelectDropdown": {
+        "name": "SingleSelectDropdown",
+        "type": "string",
+        "ext_type": "dropdown",
+        "original_serverid": "SingleSelectDropdown",
+        "original_controltype": "DropDown",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Document",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": "Select...",
+        "system_options": []
+      },
+      "ExpiryDate": {
+        "name": "ExpiryDate",
+        "type": "datetime",
+        "ext_type": "date",
+        "original_serverid": "ExpiryDate",
+        "original_controltype": "DateEdit",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Expiry Date",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": ""
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "",
+        "original_serverid": "Row1",
+        "original_controltype": "Row",
+        "type": "columns",
+        "index": 0,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "4E9FBA88-041F-4F1E-BDB9-AFC100F921E9",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "2FB746B5-2399-4F2D-8B59-CBE7FD154C90",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "0ECDC63C-9EB4-4421-A8D4-B028003E24A8",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "34FBE7D9-9949-47F4-894F-AFBF0160EF24",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "AF060BE3-97EB-4369-B373-AFBF01612710",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "3195DC91-40CF-4EAD-B41C-AFBF016152A9",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column2",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "4E9FBA88-041F-4F1E-BDB9-AFC100F921E9",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "2FB746B5-2399-4F2D-8B59-CBE7FD154C90",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "0ECDC63C-9EB4-4421-A8D4-B028003E24A8",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "34FBE7D9-9949-47F4-894F-AFBF0160EF24",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "AF060BE3-97EB-4369-B373-AFBF01612710",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "3195DC91-40CF-4EAD-B41C-AFBF016152A9",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "SingleSelectDropdown",
+                "original_serverid": "SingleSelectDropdown",
+                "original_controltype": "DropDown",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "Document",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "entity_name": "",
+            "original_serverid": "Column3",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 1,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "4E9FBA88-041F-4F1E-BDB9-AFC100F921E9",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "2FB746B5-2399-4F2D-8B59-CBE7FD154C90",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "0ECDC63C-9EB4-4421-A8D4-B028003E24A8",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "34FBE7D9-9949-47F4-894F-AFBF0160EF24",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "AF060BE3-97EB-4369-B373-AFBF01612710",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "3195DC91-40CF-4EAD-B41C-AFBF016152A9",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "ExpiryDate",
+                "original_serverid": "ExpiryDate",
+                "original_controltype": "DateEdit",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "Expiry Date",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "entity_name": "",
+        "original_serverid": "Row",
+        "original_controltype": "Row",
+        "type": "columns",
+        "index": 1,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "4E9FBA88-041F-4F1E-BDB9-AFC100F921E9",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "2FB746B5-2399-4F2D-8B59-CBE7FD154C90",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "0ECDC63C-9EB4-4421-A8D4-B028003E24A8",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "34FBE7D9-9949-47F4-894F-AFBF0160EF24",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "AF060BE3-97EB-4369-B373-AFBF01612710",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "3195DC91-40CF-4EAD-B41C-AFBF016152A9",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "4E9FBA88-041F-4F1E-BDB9-AFC100F921E9",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "2FB746B5-2399-4F2D-8B59-CBE7FD154C90",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "0ECDC63C-9EB4-4421-A8D4-B028003E24A8",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "34FBE7D9-9949-47F4-894F-AFBF0160EF24",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "AF060BE3-97EB-4369-B373-AFBF01612710",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "3195DC91-40CF-4EAD-B41C-AFBF016152A9",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "FileAttachment",
+                "original_serverid": "FileAttachment",
+                "original_controltype": "FileAttachment",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "File Attachment",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "entity_name": "",
+            "original_serverid": "Column1",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 1,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "4E9FBA88-041F-4F1E-BDB9-AFC100F921E9",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "2FB746B5-2399-4F2D-8B59-CBE7FD154C90",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "0ECDC63C-9EB4-4421-A8D4-B028003E24A8",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "34FBE7D9-9949-47F4-894F-AFBF0160EF24",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "AF060BE3-97EB-4369-B373-AFBF01612710",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "3195DC91-40CF-4EAD-B41C-AFBF016152A9",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": []
+          }
+        ]
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "4E9FBA88-041F-4F1E-BDB9-AFC100F921E9",
+        "name": "view_supplierdoc"
+      },
+      {
+        "id": "2FB746B5-2399-4F2D-8B59-CBE7FD154C90",
+        "name": "QMS_RequestNewDocEdit"
+      },
+      {
+        "id": "0ECDC63C-9EB4-4421-A8D4-B028003E24A8",
+        "name": "Add_Supplier_Doc"
+      },
+      {
+        "id": "34FBE7D9-9949-47F4-894F-AFBF0160EF24",
+        "name": "edit_supplierdoc"
+      },
+      {
+        "id": "AF060BE3-97EB-4369-B373-AFBF01612710",
+        "name": "add_supplierdoc"
+      },
+      {
+        "id": "3195DC91-40CF-4EAD-B41C-AFBF016152A9",
+        "name": "inline_edit"
+      }
+    ]
+  }
+}

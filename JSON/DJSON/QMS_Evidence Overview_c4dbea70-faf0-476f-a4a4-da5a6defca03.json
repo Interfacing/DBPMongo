@@ -1,0 +1,233 @@
+{
+  "shortname": "QMS",
+  "application": "QMS",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "c4dbea70-faf0-476f-a4a4-da5a6defca03",
+    "name": "EvidenceOverview_LeadCollector",
+    "fields": {
+      "AuditPlanID": {
+        "name": "AuditPlanID",
+        "type": "string",
+        "original_serverid": "AuditPlanID",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Audit ID",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "AuditPlanName": {
+        "name": "AuditPlanName",
+        "type": "string",
+        "original_serverid": "AuditPlanName",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Audit Name",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "EvidenceOverviewGrid": {
+        "name": "EvidenceOverviewGrid",
+        "type": "none",
+        "ext_type": "Grid",
+        "original_serverid": "EvidenceOverviewGrid",
+        "original_controltype": "Grid",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "",
+        "original_serverid": "Row1",
+        "original_controltype": "Row",
+        "type": "columns",
+        "index": 0,
+        "default_state": "invisible",
+        "states": [
+          {
+            "behaviorTaskId": "C4DBEA70-FAF0-476F-A4A4-DA5A6DEFCA03",
+            "state": "invisible"
+          },
+          {
+            "behaviorTaskId": "88C0984B-5FD5-4F19-A249-AFF900A45540",
+            "state": "invisible"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column1",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "C4DBEA70-FAF0-476F-A4A4-DA5A6DEFCA03",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "88C0984B-5FD5-4F19-A249-AFF900A45540",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "AuditPlanID",
+                "original_serverid": "AuditPlanID",
+                "original_controltype": "TextBox",
+                "type": "field",
+                "index": 0,
+                "default_state": "invisible",
+                "states": [],
+                "caption": "Audit ID",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "entity_name": "",
+            "original_serverid": "Column2",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 1,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "C4DBEA70-FAF0-476F-A4A4-DA5A6DEFCA03",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "88C0984B-5FD5-4F19-A249-AFF900A45540",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "AuditPlanName",
+                "original_serverid": "AuditPlanName",
+                "original_controltype": "TextBox",
+                "type": "field",
+                "index": 0,
+                "default_state": "invisible",
+                "states": [],
+                "caption": "Audit Name",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "entity_name": "",
+            "original_serverid": "Column3",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 2,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "C4DBEA70-FAF0-476F-A4A4-DA5A6DEFCA03",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "88C0984B-5FD5-4F19-A249-AFF900A45540",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": []
+          }
+        ]
+      },
+      {
+        "entity_name": "",
+        "original_serverid": "Row2",
+        "original_controltype": "Row",
+        "type": "section",
+        "index": 1,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "C4DBEA70-FAF0-476F-A4A4-DA5A6DEFCA03",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "88C0984B-5FD5-4F19-A249-AFF900A45540",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column4",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "C4DBEA70-FAF0-476F-A4A4-DA5A6DEFCA03",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "88C0984B-5FD5-4F19-A249-AFF900A45540",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "EvidenceOverviewGrid",
+                "original_serverid": "EvidenceOverviewGrid",
+                "original_controltype": "Grid",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "C4DBEA70-FAF0-476F-A4A4-DA5A6DEFCA03",
+        "name": "EvidenceOverview_LeadCollector"
+      },
+      {
+        "id": "88C0984B-5FD5-4F19-A249-AFF900A45540",
+        "name": "EvidenceOverview_7c586a7ec24345248b3ef3ebe25535f9"
+      }
+    ]
+  }
+}

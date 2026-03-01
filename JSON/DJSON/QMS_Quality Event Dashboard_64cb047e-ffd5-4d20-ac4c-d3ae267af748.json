@@ -1,0 +1,354 @@
+{
+  "shortname": "QMS",
+  "application": "QMS",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "64cb047e-ffd5-4d20-ac4c-d3ae267af748",
+    "name": "QualityEvent_Dashboard",
+    "fields": {
+      "ClientChart2": {
+        "name": "ClientChart2",
+        "type": "none",
+        "ext_type": "Chart",
+        "original_serverid": "ClientChart2",
+        "original_controltype": "Chart",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Interactive Chart",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "ClientChart1": {
+        "name": "ClientChart1",
+        "type": "none",
+        "ext_type": "Chart",
+        "original_serverid": "ClientChart1",
+        "original_controltype": "Chart",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Interactive Chart",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "DateTimePicker": {
+        "name": "DateTimePicker",
+        "type": "datetime",
+        "ext_type": "date",
+        "original_serverid": "DateTimePicker",
+        "original_controltype": "DateEdit",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Date \u2013 From",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "DateTimePicker1": {
+        "name": "DateTimePicker1",
+        "type": "datetime",
+        "ext_type": "date",
+        "original_serverid": "DateTimePicker1",
+        "original_controltype": "DateEdit",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Date \u2013 To",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "Button": {
+        "name": "Button",
+        "type": "none",
+        "ext_type": "Button",
+        "original_serverid": "Button",
+        "original_controltype": "Button",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Apply",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "ClientChart3": {
+        "name": "ClientChart3",
+        "type": "none",
+        "ext_type": "Chart",
+        "original_serverid": "ClientChart3",
+        "original_controltype": "Chart",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Interactive Chart",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "",
+        "original_serverid": "Row2",
+        "original_controltype": "Row",
+        "type": "columns",
+        "index": 0,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "64CB047E-FFD5-4D20-AC4C-D3AE267AF748",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column3",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "64CB047E-FFD5-4D20-AC4C-D3AE267AF748",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "DateTimePicker",
+                "original_serverid": "DateTimePicker",
+                "original_controltype": "DateEdit",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "Date \u2013 From",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "entity_name": "",
+            "original_serverid": "Column4",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 1,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "64CB047E-FFD5-4D20-AC4C-D3AE267AF748",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "DateTimePicker1",
+                "original_serverid": "DateTimePicker1",
+                "original_controltype": "DateEdit",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "Date \u2013 To",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "entity_name": "",
+            "original_serverid": "Column5",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 2,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "64CB047E-FFD5-4D20-AC4C-D3AE267AF748",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "Button",
+                "original_serverid": "Button",
+                "original_controltype": "Button",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "Apply",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "entity_name": "",
+        "original_serverid": "Row1",
+        "original_controltype": "Row",
+        "type": "columns",
+        "index": 1,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "64CB047E-FFD5-4D20-AC4C-D3AE267AF748",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column1",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "64CB047E-FFD5-4D20-AC4C-D3AE267AF748",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "ClientChart2",
+                "original_serverid": "ClientChart2",
+                "original_controltype": "Chart",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "Interactive Chart",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "entity_name": "",
+            "original_serverid": "Column2",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 1,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "64CB047E-FFD5-4D20-AC4C-D3AE267AF748",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "ClientChart1",
+                "original_serverid": "ClientChart1",
+                "original_controltype": "Chart",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "Interactive Chart",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "entity_name": "",
+        "original_serverid": "Row3",
+        "original_controltype": "Row",
+        "type": "columns",
+        "index": 2,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "64CB047E-FFD5-4D20-AC4C-D3AE267AF748",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column6",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "64CB047E-FFD5-4D20-AC4C-D3AE267AF748",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "ClientChart3",
+                "original_serverid": "ClientChart3",
+                "original_controltype": "Chart",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "Interactive Chart",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "entity_name": "",
+            "original_serverid": "Column7",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 1,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "64CB047E-FFD5-4D20-AC4C-D3AE267AF748",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": []
+          }
+        ]
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "64CB047E-FFD5-4D20-AC4C-D3AE267AF748",
+        "name": "QualityEvent_Dashboard"
+      }
+    ]
+  }
+}

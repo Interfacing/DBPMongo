@@ -1,0 +1,82 @@
+{
+  "shortname": "AdminApp",
+  "application": "AdminApp",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "78749622-4b65-4a80-8e94-3f97f0ed431d",
+    "name": "ProcessDurationtbl",
+    "fields": {
+      "tblProcessDuration": {
+        "name": "tblProcessDuration",
+        "type": "none",
+        "ext_type": "Table",
+        "original_serverid": "tblProcessDuration",
+        "original_controltype": "Table",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Completion duration for a specific task of Process ",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "",
+        "original_serverid": "Row",
+        "original_controltype": "Row",
+        "type": "section",
+        "index": 0,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "78749622-4B65-4A80-8E94-3F97F0ED431D",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "78749622-4B65-4A80-8E94-3F97F0ED431D",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "tblProcessDuration",
+                "original_serverid": "tblProcessDuration",
+                "original_controltype": "Table",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "Completion duration for a specific task of Process ",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "78749622-4B65-4A80-8E94-3F97F0ED431D",
+        "name": "ProcessDurationtbl"
+      }
+    ]
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "shortname": "QMS",
+  "application": "QMS",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "fba5b137-28df-4dd9-a7da-0225ea687174",
+    "name": "Audit_Trigger",
+    "fields": {
+      "Button": {
+        "name": "Button",
+        "type": "none",
+        "ext_type": "Button",
+        "original_serverid": "Button",
+        "original_controltype": "Button",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Trigger Audit Plans",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "Output": {
+        "name": "Output",
+        "type": "string",
+        "ext_type": "multiline",
+        "original_serverid": "Output",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Output",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "#1F497D",
+        "placeholder": ""
+      },
+      "Button1": {
+        "name": "Button1",
+        "type": "none",
+        "ext_type": "Button",
+        "original_serverid": "Button1",
+        "original_controltype": "Button",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Trigger Evidence Collection Rounds",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "Button",
+        "original_serverid": "Button",
+        "original_controltype": "Button",
+        "type": "field",
+        "index": 0,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Trigger Audit Plans",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "Output",
+        "original_serverid": "Output",
+        "original_controltype": "TextBox",
+        "type": "field",
+        "index": 1,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Output",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "Button1",
+        "original_serverid": "Button1",
+        "original_controltype": "Button",
+        "type": "field",
+        "index": 2,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Trigger Evidence Collection Rounds",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "FBA5B137-28DF-4DD9-A7DA-0225EA687174",
+        "name": "Audit_Trigger"
+      }
+    ]
+  }
+}

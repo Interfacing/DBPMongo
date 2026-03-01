@@ -1,0 +1,754 @@
+{
+  "shortname": "QMS",
+  "application": "QMS",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "982f2e12-90f8-4d96-85de-ad90011cf974",
+    "name": "Training_ExamUserResponse",
+    "fields": {
+      "Label": {
+        "name": "Label",
+        "type": "none",
+        "ext_type": "Label",
+        "original_serverid": "Label",
+        "original_controltype": "Label",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Label",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "RichTextBox": {
+        "name": "RichTextBox",
+        "type": "string",
+        "ext_type": "richtext",
+        "original_serverid": "RichTextBox",
+        "original_controltype": "RichTextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "lblCorrectAnwser": {
+        "name": "lblCorrectAnwser",
+        "type": "none",
+        "ext_type": "Label",
+        "original_serverid": "lblCorrectAnwser",
+        "original_controltype": "Label",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Label",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "Label1": {
+        "name": "Label1",
+        "type": "none",
+        "ext_type": "Label",
+        "original_serverid": "Label1",
+        "original_controltype": "Label",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Choose your answer(s):",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "ckbOpt1": {
+        "name": "ckbOpt1",
+        "type": "boolean",
+        "original_serverid": "ckbOpt1",
+        "original_controltype": "CheckBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "CheckBox",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "ckbOpt2": {
+        "name": "ckbOpt2",
+        "type": "boolean",
+        "original_serverid": "ckbOpt2",
+        "original_controltype": "CheckBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "CheckBox",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "ckbOpt3": {
+        "name": "ckbOpt3",
+        "type": "boolean",
+        "original_serverid": "ckbOpt3",
+        "original_controltype": "CheckBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "CheckBox",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "ckbOpt4": {
+        "name": "ckbOpt4",
+        "type": "boolean",
+        "original_serverid": "ckbOpt4",
+        "original_controltype": "CheckBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "CheckBox",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "ckbOpt5": {
+        "name": "ckbOpt5",
+        "type": "boolean",
+        "original_serverid": "ckbOpt5",
+        "original_controltype": "CheckBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "CheckBox",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "Label3": {
+        "name": "Label3",
+        "type": "none",
+        "ext_type": "Label",
+        "original_serverid": "Label3",
+        "original_controltype": "Label",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Choose your answer:",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "rbPassFail": {
+        "name": "rbPassFail",
+        "type": "string",
+        "ext_type": "radio",
+        "original_serverid": "rbPassFail",
+        "original_controltype": "RadioList",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "",
+        "options": [
+          "Pass",
+          "Fail"
+        ],
+        "layout_horizontal": false,
+        "nbr_columns_vertical": 1
+      },
+      "Label5": {
+        "name": "Label5",
+        "type": "none",
+        "ext_type": "Label",
+        "original_serverid": "Label5",
+        "original_controltype": "Label",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Choose your answer:",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "rbTrueFalse": {
+        "name": "rbTrueFalse",
+        "type": "string",
+        "ext_type": "radio",
+        "original_serverid": "rbTrueFalse",
+        "original_controltype": "RadioList",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "",
+        "options": [
+          "True",
+          "False"
+        ],
+        "layout_horizontal": false,
+        "nbr_columns_vertical": 1
+      },
+      "Label2": {
+        "name": "Label2",
+        "type": "none",
+        "ext_type": "Label",
+        "original_serverid": "Label2",
+        "original_controltype": "Label",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Enter your answer",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "tbAnswer": {
+        "name": "tbAnswer",
+        "type": "string",
+        "ext_type": "multiline",
+        "original_serverid": "tbAnswer",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "Label4": {
+        "name": "Label4",
+        "type": "none",
+        "ext_type": "Label",
+        "original_serverid": "Label4",
+        "original_controltype": "Label",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Choose your answer:",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "rbYesNo": {
+        "name": "rbYesNo",
+        "type": "string",
+        "ext_type": "radio",
+        "original_serverid": "rbYesNo",
+        "original_controltype": "RadioList",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "",
+        "options": [
+          "Yes",
+          "No"
+        ],
+        "layout_horizontal": false,
+        "nbr_columns_vertical": 1
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "Label",
+        "original_serverid": "Label",
+        "original_controltype": "Label",
+        "type": "field",
+        "index": 0,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Label",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "RichTextBox",
+        "original_serverid": "RichTextBox",
+        "original_controltype": "RichTextBox",
+        "type": "field",
+        "index": 1,
+        "default_state": "readonly",
+        "states": [],
+        "caption": "",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "",
+        "original_serverid": "CheckboxesSection",
+        "original_controltype": "Row",
+        "type": "section",
+        "index": 2,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "AA1B6C31-B4DA-4E17-A368-AD90011C7F99",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "982F2E12-90F8-4D96-85DE-AD90011CF974",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "AA1B6C31-B4DA-4E17-A368-AD90011C7F99",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "982F2E12-90F8-4D96-85DE-AD90011CF974",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "Label1",
+                "original_serverid": "Label1",
+                "original_controltype": "Label",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "Choose your answer(s):",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              },
+              {
+                "entity_name": "ckbOpt1",
+                "original_serverid": "ckbOpt1",
+                "original_controltype": "CheckBox",
+                "type": "field",
+                "index": 1,
+                "default_state": "editable",
+                "states": [],
+                "caption": "CheckBox",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              },
+              {
+                "entity_name": "ckbOpt2",
+                "original_serverid": "ckbOpt2",
+                "original_controltype": "CheckBox",
+                "type": "field",
+                "index": 2,
+                "default_state": "editable",
+                "states": [],
+                "caption": "CheckBox",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              },
+              {
+                "entity_name": "ckbOpt3",
+                "original_serverid": "ckbOpt3",
+                "original_controltype": "CheckBox",
+                "type": "field",
+                "index": 3,
+                "default_state": "editable",
+                "states": [],
+                "caption": "CheckBox",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              },
+              {
+                "entity_name": "ckbOpt4",
+                "original_serverid": "ckbOpt4",
+                "original_controltype": "CheckBox",
+                "type": "field",
+                "index": 4,
+                "default_state": "editable",
+                "states": [],
+                "caption": "CheckBox",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              },
+              {
+                "entity_name": "ckbOpt5",
+                "original_serverid": "ckbOpt5",
+                "original_controltype": "CheckBox",
+                "type": "field",
+                "index": 5,
+                "default_state": "editable",
+                "states": [],
+                "caption": "CheckBox",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "entity_name": "",
+        "original_serverid": "AnswerTF",
+        "original_controltype": "Row",
+        "type": "columns",
+        "index": 3,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "AA1B6C31-B4DA-4E17-A368-AD90011C7F99",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "982F2E12-90F8-4D96-85DE-AD90011CF974",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column3",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "AA1B6C31-B4DA-4E17-A368-AD90011C7F99",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "982F2E12-90F8-4D96-85DE-AD90011CF974",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "Label5",
+                "original_serverid": "Label5",
+                "original_controltype": "Label",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "Choose your answer:",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              },
+              {
+                "entity_name": "rbTrueFalse",
+                "original_serverid": "rbTrueFalse",
+                "original_controltype": "RadioList",
+                "type": "field",
+                "index": 1,
+                "default_state": "editable",
+                "states": [],
+                "caption": "",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "entity_name": "",
+            "original_serverid": "Column4",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 1,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "AA1B6C31-B4DA-4E17-A368-AD90011C7F99",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "982F2E12-90F8-4D96-85DE-AD90011CF974",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": []
+          }
+        ]
+      },
+      {
+        "entity_name": "",
+        "original_serverid": "AnswerYesNo",
+        "original_controltype": "Row",
+        "type": "columns",
+        "index": 4,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "AA1B6C31-B4DA-4E17-A368-AD90011C7F99",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "982F2E12-90F8-4D96-85DE-AD90011CF974",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column7",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "AA1B6C31-B4DA-4E17-A368-AD90011C7F99",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "982F2E12-90F8-4D96-85DE-AD90011CF974",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "Label4",
+                "original_serverid": "Label4",
+                "original_controltype": "Label",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "Choose your answer:",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              },
+              {
+                "entity_name": "rbYesNo",
+                "original_serverid": "rbYesNo",
+                "original_controltype": "RadioList",
+                "type": "field",
+                "index": 1,
+                "default_state": "editable",
+                "states": [],
+                "caption": "",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "entity_name": "",
+            "original_serverid": "Column8",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 1,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "AA1B6C31-B4DA-4E17-A368-AD90011C7F99",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "982F2E12-90F8-4D96-85DE-AD90011CF974",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": []
+          }
+        ]
+      },
+      {
+        "entity_name": "",
+        "original_serverid": "AnswerPassFail",
+        "original_controltype": "Row",
+        "type": "columns",
+        "index": 5,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "AA1B6C31-B4DA-4E17-A368-AD90011C7F99",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "982F2E12-90F8-4D96-85DE-AD90011CF974",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column1",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "AA1B6C31-B4DA-4E17-A368-AD90011C7F99",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "982F2E12-90F8-4D96-85DE-AD90011CF974",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "Label3",
+                "original_serverid": "Label3",
+                "original_controltype": "Label",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "Choose your answer:",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              },
+              {
+                "entity_name": "rbPassFail",
+                "original_serverid": "rbPassFail",
+                "original_controltype": "RadioList",
+                "type": "field",
+                "index": 1,
+                "default_state": "editable",
+                "states": [],
+                "caption": "",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "entity_name": "",
+            "original_serverid": "Column5",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 1,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "AA1B6C31-B4DA-4E17-A368-AD90011C7F99",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "982F2E12-90F8-4D96-85DE-AD90011CF974",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": []
+          }
+        ]
+      },
+      {
+        "entity_name": "",
+        "original_serverid": "AnswerFreeText",
+        "original_controltype": "Row",
+        "type": "section",
+        "index": 6,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "AA1B6C31-B4DA-4E17-A368-AD90011C7F99",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "982F2E12-90F8-4D96-85DE-AD90011CF974",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column6",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "AA1B6C31-B4DA-4E17-A368-AD90011C7F99",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "982F2E12-90F8-4D96-85DE-AD90011CF974",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "Label2",
+                "original_serverid": "Label2",
+                "original_controltype": "Label",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "Enter your answer",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              },
+              {
+                "entity_name": "tbAnswer",
+                "original_serverid": "tbAnswer",
+                "original_controltype": "TextBox",
+                "type": "field",
+                "index": 1,
+                "default_state": "editable",
+                "states": [],
+                "caption": "",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "entity_name": "lblCorrectAnwser",
+        "original_serverid": "lblCorrectAnwser",
+        "original_controltype": "Label",
+        "type": "field",
+        "index": 7,
+        "default_state": "invisible",
+        "states": [],
+        "caption": "Label",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "AA1B6C31-B4DA-4E17-A368-AD90011C7F99",
+        "name": "SurveyQuestion"
+      },
+      {
+        "id": "982F2E12-90F8-4D96-85DE-AD90011CF974",
+        "name": "ViewAnswer"
+      }
+    ]
+  }
+}

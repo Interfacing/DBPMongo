@@ -1,0 +1,84 @@
+{
+  "application": "SwiftProcessApp",
+  "shortname": "SwiftProcessApp",
+  "processId": "2706950D-FE9C-4B28-86D3-7EA1EE64A46C",
+  "icon": "",
+  "form": {
+    "name": "SwiftProcess",
+    "fields": {
+      "Name": {
+        "name": "Name",
+        "type": "string",
+        "ext_type": null,
+        "label": "Name",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "ContactNo": {
+        "name": "ContactNo",
+        "type": "int",
+        "ext_type": null,
+        "label": "Contact No",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      }
+    },
+    "layout": [
+      {
+        "type": "columns",
+        "index": 0,
+        "entity_name": "Label",
+        "default_state": "editable",
+        "states": [],
+        "caption": "Column",
+        "caption_bold": true,
+        "caption_italic": true,
+        "caption_color": "#00ACC1",
+        "children": [
+          {
+            "type": "section",
+            "index": 0,
+            "entity_name": "",
+            "caption": "",
+            "caption_bold": true,
+            "caption_italic": true,
+            "caption_color": "#00ACC1",
+            "default_state": "editable",
+            "states": [],
+            "children": [
+              {
+                "type": "field",
+                "index": 0,
+                "entity_name": "Name",
+                "default_state": "editable",
+                "states": []
+              }
+            ]
+          },
+          {
+            "type": "section",
+            "index": 1,
+            "entity_name": "",
+            "caption": "",
+            "caption_bold": true,
+            "caption_italic": true,
+            "caption_color": "#00ACC1",
+            "default_state": "editable",
+            "states": [],
+            "children": [
+              {
+                "type": "field",
+                "index": 0,
+                "entity_name": "ContactNo",
+                "default_state": "editable",
+                "states": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

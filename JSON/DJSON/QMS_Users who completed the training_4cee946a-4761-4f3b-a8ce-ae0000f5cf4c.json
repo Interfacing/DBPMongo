@@ -1,0 +1,48 @@
+{
+  "shortname": "QMS",
+  "application": "QMS",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "4cee946a-4761-4f3b-a8ce-ae0000f5cf4c",
+    "name": "Training_Completed_Users",
+    "fields": {
+      "GenericGrid": {
+        "name": "GenericGrid",
+        "type": "none",
+        "ext_type": "Table",
+        "original_serverid": "GenericGrid",
+        "original_controltype": "Table",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Users who completed the selected Training",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "GenericGrid",
+        "original_serverid": "GenericGrid",
+        "original_controltype": "Table",
+        "type": "field",
+        "index": 0,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Users who completed the selected Training",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "4CEE946A-4761-4F3B-A8CE-AE0000F5CF4C",
+        "name": "viewTrainingCompletedUsers"
+      },
+      {
+        "id": "8C5AA6B0-13DE-42A3-81C9-AE0700FA1411",
+        "name": "viewTrainingCompletedByUsers"
+      }
+    ]
+  }
+}

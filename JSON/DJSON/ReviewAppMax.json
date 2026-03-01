@@ -1,0 +1,214 @@
+﻿{
+  "processId": "9F4597C7-3CEB-423C-9C01-368B28506884",
+  "icon": "",
+  "form": {
+      "name": "ReviewAppMax",
+      "fields": {
+        "1": {
+          "name": "1",
+          "type": "string",
+          "ext_type": null,
+          "label": "1",
+          "label_bold": false,
+          "label_italic": false,
+          "label_color": ""
+        },
+        "2": {
+          "name": "2",
+          "type": "string",
+          "ext_type": "password",
+          "label": "2",
+          "label_bold": false,
+          "label_italic": false,
+          "label_color": ""
+        },
+        "3": {
+          "name": "3",
+          "type": "int",
+          "ext_type": null,
+          "label": "3",
+          "label_bold": false,
+          "label_italic": false,
+          "label_color": "",
+          "placeholder": "3333"
+        },
+        "4": {
+          "name": "4",
+          "type": "string",
+          "ext_type": "radio",
+          "label": "4",
+          "label_bold": false,
+          "label_italic": false,
+          "label_color": "",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "layout_horizontal": false,
+          "nbr_columns_vertical": 1
+        },
+        "5": {
+          "name": "5",
+          "type": "boolean",
+          "ext_type": null,
+          "label": "5",
+          "label_bold": false,
+          "label_italic": false,
+          "label_color": ""
+        },
+        "6": {
+          "name": "6",
+          "type": "datetime",
+          "ext_type": "datetime",
+          "label": "6",
+          "label_bold": false,
+          "label_italic": false,
+          "label_color": ""
+        },
+        "8": {
+          "name": "8",
+          "type": "string",
+          "ext_type": null,
+          "label": "8",
+          "label_bold": false,
+          "label_italic": false,
+          "label_color": ""
+        }
+      },
+      "layout": [
+        {
+          "type": "tabs",
+          "index": 0,
+          "entity_name": "",
+          "default_state": "editable",
+          "states": [
+          ],
+          "children": [
+            {
+              "type": "section",
+              "index": 0,
+              "entity_name": "",
+              "is_default_open": true,
+              "caption": "Tab 1",
+              "caption_bold": false,
+              "caption_italic": false,
+              "default_state": "editable",
+              "states": [
+              ],
+              "children": [
+                {
+                  "type": "field",
+                  "index": 0,
+                  "entity_name": "1",
+                  "default_state": "editable",
+                  "states": [
+                  ]
+                },
+                {
+                  "type": "field",
+                  "index": 1,
+                  "entity_name": "2",
+                  "default_state": "editable",
+                  "states": [
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "index": 1,
+              "entity_name": "",
+              "caption": "Tab 2",
+              "caption_bold": false,
+              "caption_italic": false,
+              "default_state": "editable",
+              "states": [
+              ],
+              "children": [
+                {
+                  "type": "field",
+                  "index": 0,
+                  "entity_name": "3",
+                  "default_state": "editable",
+                  "states": [
+                  ]
+                },
+                {
+                  "type": "field",
+                  "index": 1,
+                  "entity_name": "4",
+                  "default_state": "editable",
+                  "states": [
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "accordion",
+          "index": 1,
+          "entity_name": "23",
+          "default_state": "editable",
+          "states": [
+          ],
+          "children": [
+            {
+              "type": "section",
+              "index": 0,
+              "entity_name": "",
+              "is_default_open": true,
+              "caption": "Accordion 1",
+              "caption_bold": false,
+              "caption_italic": false,
+              "default_state": "editable",
+              "states": [
+              ],
+              "children": [
+                {
+                  "type": "field",
+                  "index": 0,
+                  "entity_name": "5",
+                  "default_state": "editable",
+                  "states": [
+                  ]
+                },
+                {
+                  "type": "field",
+                  "index": 1,
+                  "entity_name": "6",
+                  "default_state": "editable",
+                  "states": [
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "index": 1,
+              "entity_name": "",
+              "caption": "Accordion 2",
+              "caption_bold": false,
+              "caption_italic": false,
+              "default_state": "editable",
+              "states": [
+              ],
+              "children": [
+                {
+                  "type": "field",
+                  "index": 0,
+                  "entity_name": "8",
+                  "default_state": "editable",
+                  "states": [
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }

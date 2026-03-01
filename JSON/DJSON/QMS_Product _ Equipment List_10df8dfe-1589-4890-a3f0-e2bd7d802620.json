@@ -1,0 +1,94 @@
+{
+  "shortname": "QMS",
+  "application": "QMS",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "10df8dfe-1589-4890-a3f0-e2bd7d802620",
+    "name": "QMS_Product_List",
+    "fields": {
+      "QMS_Product": {
+        "name": "QMS_Product",
+        "type": "none",
+        "ext_type": "Grid",
+        "original_serverid": "QMS_Product",
+        "original_controltype": "Grid",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "Black"
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "",
+        "original_serverid": "Row2",
+        "original_controltype": "Row",
+        "type": "section",
+        "index": 0,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "10DF8DFE-1589-4890-A3F0-E2BD7D802620",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "582BBB3F-FEAB-4E88-A4EB-AD7C000AB042",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column1",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "10DF8DFE-1589-4890-A3F0-E2BD7D802620",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "582BBB3F-FEAB-4E88-A4EB-AD7C000AB042",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "QMS_Product",
+                "original_serverid": "QMS_Product",
+                "original_controltype": "Grid",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "10DF8DFE-1589-4890-A3F0-E2BD7D802620",
+        "name": "QMS_Product_List"
+      },
+      {
+        "id": "582BBB3F-FEAB-4E88-A4EB-AD7C000AB042",
+        "name": "SelectProduct"
+      }
+    ]
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "shortname": "QMS",
+  "application": "QMS",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "f4ed8f25-7c51-4b37-bece-aea60102b883",
+    "name": "QualityEvent_RelatedTo",
+    "fields": {
+      "Title": {
+        "name": "Title",
+        "type": "string",
+        "original_serverid": "Title",
+        "original_controltype": "TextBox",
+        "original_bid": "286f5c97-5f2b-4b14-a68f-aea600f8a70e",
+        "label": "Title",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "TitleFr": {
+        "name": "TitleFr",
+        "type": "string",
+        "original_serverid": "TitleFr",
+        "original_controltype": "TextBox",
+        "original_bid": "0e889a26-4a3c-4026-b9d1-aea600f8a70d",
+        "label": "French Title",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "TitleDe": {
+        "name": "TitleDe",
+        "type": "string",
+        "original_serverid": "TitleDe",
+        "original_controltype": "TextBox",
+        "original_bid": "5b8ec006-5e8f-40c5-818e-aea600f8a70e",
+        "label": "German Title",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "TitleAr": {
+        "name": "TitleAr",
+        "type": "string",
+        "original_serverid": "TitleAr",
+        "original_controltype": "TextBox",
+        "original_bid": "2366c4ab-5e10-4d21-bc53-aea600f8a70e",
+        "label": "Arabic Title",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "IsActive": {
+        "name": "IsActive",
+        "type": "boolean",
+        "original_serverid": "IsActive",
+        "original_controltype": "CheckBox",
+        "original_bid": "813abc61-f097-4bc7-951b-aea600f8a70e",
+        "label": "IsActive",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "Title",
+        "original_serverid": "Title",
+        "original_controltype": "TextBox",
+        "type": "field",
+        "index": 0,
+        "default_state": "mandatory",
+        "states": [],
+        "caption": "Title",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "TitleFr",
+        "original_serverid": "TitleFr",
+        "original_controltype": "TextBox",
+        "type": "field",
+        "index": 1,
+        "default_state": "editable",
+        "states": [],
+        "caption": "French Title",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "TitleDe",
+        "original_serverid": "TitleDe",
+        "original_controltype": "TextBox",
+        "type": "field",
+        "index": 2,
+        "default_state": "editable",
+        "states": [],
+        "caption": "German Title",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "TitleAr",
+        "original_serverid": "TitleAr",
+        "original_controltype": "TextBox",
+        "type": "field",
+        "index": 3,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Arabic Title",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "IsActive",
+        "original_serverid": "IsActive",
+        "original_controltype": "CheckBox",
+        "type": "field",
+        "index": 4,
+        "default_state": "editable",
+        "states": [],
+        "caption": "IsActive",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "F4ED8F25-7C51-4B37-BECE-AEA60102B883",
+        "name": "EditQualityEventRelatedTo"
+      },
+      {
+        "id": "14951EAD-EEE6-4CBE-A288-AEA601020EC5",
+        "name": "NewQualityEventRelatedTo"
+      }
+    ]
+  }
+}

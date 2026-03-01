@@ -1,0 +1,774 @@
+{
+  "shortname": "QMS",
+  "application": "QMS",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "aaa919ff-ff3b-4dd8-a593-fdb34e439120",
+    "name": "Audit_Plan_Test_Mid",
+    "fields": {
+      "Label1": {
+        "name": "Label1",
+        "type": "none",
+        "ext_type": "Label",
+        "original_serverid": "Label1",
+        "original_controltype": "Label",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Label",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "TextBox": {
+        "name": "TextBox",
+        "type": "string",
+        "original_serverid": "TextBox",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Test ID",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "TextBox1": {
+        "name": "TextBox1",
+        "type": "string",
+        "original_serverid": "TextBox1",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Test Name",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "DateTimePicker1": {
+        "name": "DateTimePicker1",
+        "type": "datetime",
+        "ext_type": "date",
+        "original_serverid": "DateTimePicker1",
+        "original_controltype": "DateEdit",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Round End",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "Button": {
+        "name": "Button",
+        "type": "none",
+        "ext_type": "Button",
+        "original_serverid": "Button",
+        "original_controltype": "Button",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Set 3rd Round Dates",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "MultiSelectThirdRound": {
+        "name": "MultiSelectThirdRound",
+        "type": "none",
+        "ext_type": "MultiSelect",
+        "original_serverid": "MultiSelectThirdRound",
+        "original_controltype": "MultiSelect",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Select Evidence",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "GridTestSamples": {
+        "name": "GridTestSamples",
+        "type": "none",
+        "ext_type": "Grid",
+        "original_serverid": "GridTestSamples",
+        "original_controltype": "Grid",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Collected Samples",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "#0070C0"
+      },
+      "Grid": {
+        "name": "Grid",
+        "type": "none",
+        "ext_type": "Grid",
+        "original_serverid": "Grid",
+        "original_controltype": "Grid",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Test Evidences",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "#0070C0"
+      },
+      "DateTimePicker": {
+        "name": "DateTimePicker",
+        "type": "datetime",
+        "ext_type": "date",
+        "original_serverid": "DateTimePicker",
+        "original_controltype": "DateEdit",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Round Start",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "",
+        "original_serverid": "Row",
+        "original_controltype": "Row",
+        "type": "columns",
+        "index": 0,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "9803A517-26CA-469E-8D7D-AE5A0122C433",
+            "state": "readonly"
+          },
+          {
+            "behaviorTaskId": "AAA919FF-FF3B-4DD8-A593-FDB34E439120",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "9803A517-26CA-469E-8D7D-AE5A0122C433",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "AAA919FF-FF3B-4DD8-A593-FDB34E439120",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "TextBox",
+                "original_serverid": "TextBox",
+                "original_controltype": "TextBox",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "Test ID",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "entity_name": "",
+            "original_serverid": "Column1",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 1,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "9803A517-26CA-469E-8D7D-AE5A0122C433",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "AAA919FF-FF3B-4DD8-A593-FDB34E439120",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "TextBox1",
+                "original_serverid": "TextBox1",
+                "original_controltype": "TextBox",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "Test Name",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "entity_name": "",
+        "original_serverid": "Row3",
+        "original_controltype": "Row",
+        "type": "section",
+        "index": 1,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "9803A517-26CA-469E-8D7D-AE5A0122C433",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "AAA919FF-FF3B-4DD8-A593-FDB34E439120",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column6",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "9803A517-26CA-469E-8D7D-AE5A0122C433",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "AAA919FF-FF3B-4DD8-A593-FDB34E439120",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "GridTestSamples",
+                "original_serverid": "GridTestSamples",
+                "original_controltype": "Grid",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "Collected Samples",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "entity_name": "",
+        "original_serverid": "Row4",
+        "original_controltype": "Row",
+        "type": "section",
+        "index": 2,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "9803A517-26CA-469E-8D7D-AE5A0122C433",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "AAA919FF-FF3B-4DD8-A593-FDB34E439120",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column7",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "9803A517-26CA-469E-8D7D-AE5A0122C433",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "AAA919FF-FF3B-4DD8-A593-FDB34E439120",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "Grid",
+                "original_serverid": "Grid",
+                "original_controltype": "Grid",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "Test Evidences",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "entity_name": "",
+        "original_serverid": "Row5",
+        "original_controltype": "Row",
+        "type": "section",
+        "index": 3,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "9803A517-26CA-469E-8D7D-AE5A0122C433",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "AAA919FF-FF3B-4DD8-A593-FDB34E439120",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column8",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "9803A517-26CA-469E-8D7D-AE5A0122C433",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "AAA919FF-FF3B-4DD8-A593-FDB34E439120",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "",
+                "original_serverid": "Accordion1",
+                "original_controltype": "Accordion",
+                "type": "accordion",
+                "index": 0,
+                "default_state": "editable",
+                "states": [
+                  {
+                    "behaviorTaskId": "9803A517-26CA-469E-8D7D-AE5A0122C433",
+                    "state": "editable"
+                  },
+                  {
+                    "behaviorTaskId": "AAA919FF-FF3B-4DD8-A593-FDB34E439120",
+                    "state": "editable"
+                  }
+                ],
+                "is_default_open": false,
+                "all_open_by_default": true,
+                "children": [
+                  {
+                    "entity_name": "",
+                    "original_serverid": "AccordionSection",
+                    "original_controltype": "AccordionSection",
+                    "type": "section",
+                    "index": 0,
+                    "default_state": "editable",
+                    "states": [
+                      {
+                        "behaviorTaskId": "9803A517-26CA-469E-8D7D-AE5A0122C433",
+                        "state": "editable"
+                      },
+                      {
+                        "behaviorTaskId": "AAA919FF-FF3B-4DD8-A593-FDB34E439120",
+                        "state": "editable"
+                      }
+                    ],
+                    "caption": "Trigger 3rd Evidence Round",
+                    "caption_bold": false,
+                    "caption_italic": false,
+                    "is_default_open": false,
+                    "all_open_by_default": false,
+                    "background_color": "Transparent",
+                    "children": [
+                      {
+                        "entity_name": "",
+                        "original_serverid": "Row1",
+                        "original_controltype": "Row",
+                        "type": "columns",
+                        "index": 0,
+                        "default_state": "editable",
+                        "states": [
+                          {
+                            "behaviorTaskId": "9803A517-26CA-469E-8D7D-AE5A0122C433",
+                            "state": "editable"
+                          },
+                          {
+                            "behaviorTaskId": "AAA919FF-FF3B-4DD8-A593-FDB34E439120",
+                            "state": "editable"
+                          }
+                        ],
+                        "caption_bold": false,
+                        "caption_italic": false,
+                        "is_default_open": false,
+                        "all_open_by_default": false,
+                        "children": [
+                          {
+                            "entity_name": "",
+                            "original_serverid": "Column2",
+                            "original_controltype": "Column",
+                            "type": "section",
+                            "index": 0,
+                            "default_state": "editable",
+                            "states": [
+                              {
+                                "behaviorTaskId": "9803A517-26CA-469E-8D7D-AE5A0122C433",
+                                "state": "editable"
+                              },
+                              {
+                                "behaviorTaskId": "AAA919FF-FF3B-4DD8-A593-FDB34E439120",
+                                "state": "editable"
+                              }
+                            ],
+                            "is_default_open": false,
+                            "all_open_by_default": false,
+                            "children": [
+                              {
+                                "entity_name": "MultiSelectThirdRound",
+                                "original_serverid": "MultiSelectThirdRound",
+                                "original_controltype": "MultiSelect",
+                                "type": "field",
+                                "index": 0,
+                                "default_state": "editable",
+                                "states": [],
+                                "caption": "Select Evidence",
+                                "is_default_open": false,
+                                "all_open_by_default": false,
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "entity_name": "",
+                            "original_serverid": "Column3",
+                            "original_controltype": "Column",
+                            "type": "section",
+                            "index": 1,
+                            "default_state": "editable",
+                            "states": [
+                              {
+                                "behaviorTaskId": "9803A517-26CA-469E-8D7D-AE5A0122C433",
+                                "state": "editable"
+                              },
+                              {
+                                "behaviorTaskId": "AAA919FF-FF3B-4DD8-A593-FDB34E439120",
+                                "state": "editable"
+                              }
+                            ],
+                            "is_default_open": false,
+                            "all_open_by_default": false,
+                            "children": [
+                              {
+                                "entity_name": "",
+                                "original_serverid": "Row2",
+                                "original_controltype": "Row",
+                                "type": "columns",
+                                "index": 0,
+                                "default_state": "editable",
+                                "states": [
+                                  {
+                                    "behaviorTaskId": "9803A517-26CA-469E-8D7D-AE5A0122C433",
+                                    "state": "editable"
+                                  },
+                                  {
+                                    "behaviorTaskId": "AAA919FF-FF3B-4DD8-A593-FDB34E439120",
+                                    "state": "editable"
+                                  }
+                                ],
+                                "caption_bold": false,
+                                "caption_italic": false,
+                                "is_default_open": false,
+                                "all_open_by_default": false,
+                                "children": [
+                                  {
+                                    "entity_name": "",
+                                    "original_serverid": "Column4",
+                                    "original_controltype": "Column",
+                                    "type": "section",
+                                    "index": 0,
+                                    "default_state": "editable",
+                                    "states": [
+                                      {
+                                        "behaviorTaskId": "9803A517-26CA-469E-8D7D-AE5A0122C433",
+                                        "state": "editable"
+                                      },
+                                      {
+                                        "behaviorTaskId": "AAA919FF-FF3B-4DD8-A593-FDB34E439120",
+                                        "state": "editable"
+                                      }
+                                    ],
+                                    "is_default_open": false,
+                                    "all_open_by_default": false,
+                                    "children": []
+                                  },
+                                  {
+                                    "entity_name": "",
+                                    "original_serverid": "Column5",
+                                    "original_controltype": "Column",
+                                    "type": "section",
+                                    "index": 1,
+                                    "default_state": "editable",
+                                    "states": [
+                                      {
+                                        "behaviorTaskId": "9803A517-26CA-469E-8D7D-AE5A0122C433",
+                                        "state": "editable"
+                                      },
+                                      {
+                                        "behaviorTaskId": "AAA919FF-FF3B-4DD8-A593-FDB34E439120",
+                                        "state": "editable"
+                                      }
+                                    ],
+                                    "is_default_open": false,
+                                    "all_open_by_default": false,
+                                    "children": []
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "entity_name": "",
+                        "original_serverid": "Row6",
+                        "original_controltype": "Row",
+                        "type": "columns",
+                        "index": 1,
+                        "default_state": "editable",
+                        "states": [
+                          {
+                            "behaviorTaskId": "9803A517-26CA-469E-8D7D-AE5A0122C433",
+                            "state": "editable"
+                          },
+                          {
+                            "behaviorTaskId": "AAA919FF-FF3B-4DD8-A593-FDB34E439120",
+                            "state": "editable"
+                          }
+                        ],
+                        "caption_bold": false,
+                        "caption_italic": false,
+                        "is_default_open": false,
+                        "all_open_by_default": false,
+                        "children": [
+                          {
+                            "entity_name": "",
+                            "original_serverid": "Column9",
+                            "original_controltype": "Column",
+                            "type": "section",
+                            "index": 0,
+                            "default_state": "editable",
+                            "states": [
+                              {
+                                "behaviorTaskId": "9803A517-26CA-469E-8D7D-AE5A0122C433",
+                                "state": "editable"
+                              },
+                              {
+                                "behaviorTaskId": "AAA919FF-FF3B-4DD8-A593-FDB34E439120",
+                                "state": "editable"
+                              }
+                            ],
+                            "is_default_open": false,
+                            "all_open_by_default": false,
+                            "children": [
+                              {
+                                "entity_name": "DateTimePicker",
+                                "original_serverid": "DateTimePicker",
+                                "original_controltype": "DateEdit",
+                                "type": "field",
+                                "index": 0,
+                                "default_state": "editable",
+                                "states": [],
+                                "caption": "Round Start",
+                                "is_default_open": false,
+                                "all_open_by_default": false,
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "entity_name": "",
+                            "original_serverid": "Column10",
+                            "original_controltype": "Column",
+                            "type": "section",
+                            "index": 1,
+                            "default_state": "editable",
+                            "states": [
+                              {
+                                "behaviorTaskId": "9803A517-26CA-469E-8D7D-AE5A0122C433",
+                                "state": "editable"
+                              },
+                              {
+                                "behaviorTaskId": "AAA919FF-FF3B-4DD8-A593-FDB34E439120",
+                                "state": "editable"
+                              }
+                            ],
+                            "is_default_open": false,
+                            "all_open_by_default": false,
+                            "children": [
+                              {
+                                "entity_name": "DateTimePicker1",
+                                "original_serverid": "DateTimePicker1",
+                                "original_controltype": "DateEdit",
+                                "type": "field",
+                                "index": 0,
+                                "default_state": "editable",
+                                "states": [],
+                                "caption": "Round End",
+                                "is_default_open": false,
+                                "all_open_by_default": false,
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "entity_name": "",
+                        "original_serverid": "Row7",
+                        "original_controltype": "Row",
+                        "type": "columns",
+                        "index": 2,
+                        "default_state": "editable",
+                        "states": [
+                          {
+                            "behaviorTaskId": "9803A517-26CA-469E-8D7D-AE5A0122C433",
+                            "state": "editable"
+                          },
+                          {
+                            "behaviorTaskId": "AAA919FF-FF3B-4DD8-A593-FDB34E439120",
+                            "state": "editable"
+                          }
+                        ],
+                        "caption_bold": false,
+                        "caption_italic": false,
+                        "is_default_open": false,
+                        "all_open_by_default": false,
+                        "children": [
+                          {
+                            "entity_name": "",
+                            "original_serverid": "Column11",
+                            "original_controltype": "Column",
+                            "type": "section",
+                            "index": 0,
+                            "default_state": "editable",
+                            "states": [
+                              {
+                                "behaviorTaskId": "9803A517-26CA-469E-8D7D-AE5A0122C433",
+                                "state": "editable"
+                              },
+                              {
+                                "behaviorTaskId": "AAA919FF-FF3B-4DD8-A593-FDB34E439120",
+                                "state": "editable"
+                              }
+                            ],
+                            "is_default_open": false,
+                            "all_open_by_default": false,
+                            "children": []
+                          },
+                          {
+                            "entity_name": "",
+                            "original_serverid": "Column12",
+                            "original_controltype": "Column",
+                            "type": "section",
+                            "index": 1,
+                            "default_state": "editable",
+                            "states": [
+                              {
+                                "behaviorTaskId": "9803A517-26CA-469E-8D7D-AE5A0122C433",
+                                "state": "editable"
+                              },
+                              {
+                                "behaviorTaskId": "AAA919FF-FF3B-4DD8-A593-FDB34E439120",
+                                "state": "editable"
+                              }
+                            ],
+                            "is_default_open": false,
+                            "all_open_by_default": false,
+                            "children": [
+                              {
+                                "entity_name": "Button",
+                                "original_serverid": "Button",
+                                "original_controltype": "Button",
+                                "type": "field",
+                                "index": 0,
+                                "default_state": "editable",
+                                "states": [],
+                                "caption": "Set 3rd Round Dates",
+                                "is_default_open": false,
+                                "all_open_by_default": false,
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "entity_name": "Label1",
+                        "original_serverid": "Label1",
+                        "original_controltype": "Label",
+                        "type": "field",
+                        "index": 3,
+                        "default_state": "editable",
+                        "states": [],
+                        "caption": "Label",
+                        "is_default_open": false,
+                        "all_open_by_default": false,
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "9803A517-26CA-469E-8D7D-AE5A0122C433",
+        "name": "Audit_Plan_Test_Mid_Conduct"
+      },
+      {
+        "id": "AAA919FF-FF3B-4DD8-A593-FDB34E439120",
+        "name": "Audit_Plan_Test_Mid"
+      }
+    ]
+  }
+}

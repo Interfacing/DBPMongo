@@ -1,0 +1,52 @@
+{
+  "shortname": "QMS",
+  "application": "QMS",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "0337143c-e457-4da7-8437-adff00d500f7",
+    "name": "User_Training_List",
+    "fields": {
+      "Training_User_Instance": {
+        "name": "Training_User_Instance",
+        "type": "none",
+        "ext_type": "Grid",
+        "original_serverid": "Training_User_Instance",
+        "original_controltype": "Grid",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "User\u0027s Training List",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": ""
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "Training_User_Instance",
+        "original_serverid": "Training_User_Instance",
+        "original_controltype": "Grid",
+        "type": "field",
+        "index": 0,
+        "default_state": "editable",
+        "states": [],
+        "caption": "User\u0027s Training List",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "0337143C-E457-4DA7-8437-ADFF00D500F7",
+        "name": "viewUserTrainings"
+      },
+      {
+        "id": "A8BAA858-0268-4372-B8F2-AF9C010FBE88",
+        "name": "PastDueUserTrainings"
+      },
+      {
+        "id": "32333C66-B5F2-40FA-B1AA-AF9C00EA7081",
+        "name": "OnTimeUserTrainings"
+      }
+    ]
+  }
+}

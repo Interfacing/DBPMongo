@@ -1,0 +1,274 @@
+{
+  "shortname": "QMS",
+  "application": "QMS",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "1fdb871b-49ee-46f9-89ac-b1db00da0ea0",
+    "name": "EPCRegionRule",
+    "fields": {
+      "EpcNodeVersionId": {
+        "name": "EpcNodeVersionId",
+        "type": "string",
+        "original_serverid": "EpcNodeVersionId",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "EpcNodeVersionId",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "Name": {
+        "name": "Name",
+        "type": "string",
+        "original_serverid": "Name",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Name",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "EpcVersioningType": {
+        "name": "EpcVersioningType",
+        "type": "int",
+        "original_serverid": "EpcVersioningType",
+        "original_controltype": "NumericBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "EpcVersioningType",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "CurrentVersionDisplay": {
+        "name": "CurrentVersionDisplay",
+        "type": "string",
+        "original_serverid": "CurrentVersionDisplay",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "CurrentVersionDisplay",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "URL": {
+        "name": "URL",
+        "type": "string",
+        "original_serverid": "URL",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "URL",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "EpcVersionNo": {
+        "name": "EpcVersionNo",
+        "type": "string",
+        "original_serverid": "EpcVersionNo",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "EpcVersionNo",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "BPMAPP_QMS_Regionfk_Region": {
+        "name": "BPMAPP_QMS_Regionfk_Region",
+        "type": "string",
+        "ext_type": "dropdown",
+        "original_serverid": "BPMAPP_QMS_Regionfk_Region",
+        "original_controltype": "DropDown",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "fk_Region",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": "Select..."
+      },
+      "EPCRuleID": {
+        "name": "EPCRuleID",
+        "type": "string",
+        "original_serverid": "EPCRuleID",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "EPCRuleID",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "Description": {
+        "name": "Description",
+        "type": "string",
+        "original_serverid": "Description",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Description",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "LastUpdated": {
+        "name": "LastUpdated",
+        "type": "datetime",
+        "ext_type": "date",
+        "original_serverid": "LastUpdated",
+        "original_controltype": "DateEdit",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "LastUpdated",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "EpcNodeVersionId",
+        "original_serverid": "EpcNodeVersionId",
+        "original_controltype": "TextBox",
+        "type": "field",
+        "index": 0,
+        "default_state": "editable",
+        "states": [],
+        "caption": "EpcNodeVersionId",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "Name",
+        "original_serverid": "Name",
+        "original_controltype": "TextBox",
+        "type": "field",
+        "index": 1,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Name",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "EpcVersioningType",
+        "original_serverid": "EpcVersioningType",
+        "original_controltype": "NumericBox",
+        "type": "field",
+        "index": 2,
+        "default_state": "editable",
+        "states": [],
+        "caption": "EpcVersioningType",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "CurrentVersionDisplay",
+        "original_serverid": "CurrentVersionDisplay",
+        "original_controltype": "TextBox",
+        "type": "field",
+        "index": 3,
+        "default_state": "editable",
+        "states": [],
+        "caption": "CurrentVersionDisplay",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "URL",
+        "original_serverid": "URL",
+        "original_controltype": "TextBox",
+        "type": "field",
+        "index": 4,
+        "default_state": "editable",
+        "states": [],
+        "caption": "URL",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "EpcVersionNo",
+        "original_serverid": "EpcVersionNo",
+        "original_controltype": "TextBox",
+        "type": "field",
+        "index": 5,
+        "default_state": "editable",
+        "states": [],
+        "caption": "EpcVersionNo",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "BPMAPP_QMS_Regionfk_Region",
+        "original_serverid": "BPMAPP_QMS_Regionfk_Region",
+        "original_controltype": "DropDown",
+        "type": "field",
+        "index": 6,
+        "default_state": "editable",
+        "states": [],
+        "caption": "fk_Region",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "EPCRuleID",
+        "original_serverid": "EPCRuleID",
+        "original_controltype": "TextBox",
+        "type": "field",
+        "index": 7,
+        "default_state": "editable",
+        "states": [],
+        "caption": "EPCRuleID",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "Description",
+        "original_serverid": "Description",
+        "original_controltype": "TextBox",
+        "type": "field",
+        "index": 8,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Description",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "LastUpdated",
+        "original_serverid": "LastUpdated",
+        "original_controltype": "DateEdit",
+        "type": "field",
+        "index": 9,
+        "default_state": "editable",
+        "states": [],
+        "caption": "LastUpdated",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "BFA99939-4AF7-4185-A886-BF840A60E3A4",
+        "name": "EPCRegionRule"
+      },
+      {
+        "id": "1FDB871B-49EE-46F9-89AC-B1DB00DA0EA0",
+        "name": "EditRegionRule"
+      }
+    ]
+  }
+}

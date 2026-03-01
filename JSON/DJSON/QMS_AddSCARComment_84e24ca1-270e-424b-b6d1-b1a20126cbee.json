@@ -1,0 +1,94 @@
+{
+  "shortname": "QMS",
+  "application": "QMS",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "84e24ca1-270e-424b-b6d1-b1a20126cbee",
+    "name": "SCARComment",
+    "fields": {
+      "BPMAPP_SCAR_Commentsfk_SCARComment": {
+        "name": "BPMAPP_SCAR_Commentsfk_SCARComment",
+        "type": "none",
+        "ext_type": "Grid",
+        "original_serverid": "BPMAPP_SCAR_Commentsfk_SCARComment",
+        "original_controltype": "Grid",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "fk_SCARComment",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "Date": {
+        "name": "Date",
+        "type": "datetime",
+        "ext_type": "date",
+        "original_serverid": "Date",
+        "original_controltype": "DateEdit",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Date",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "Text": {
+        "name": "Text",
+        "type": "string",
+        "original_serverid": "Text",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Text",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "BPMAPP_SCAR_Commentsfk_SCARComment",
+        "original_serverid": "BPMAPP_SCAR_Commentsfk_SCARComment",
+        "original_controltype": "Grid",
+        "type": "field",
+        "index": 0,
+        "default_state": "editable",
+        "states": [],
+        "caption": "fk_SCARComment",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "Date",
+        "original_serverid": "Date",
+        "original_controltype": "DateEdit",
+        "type": "field",
+        "index": 1,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Date",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "Text",
+        "original_serverid": "Text",
+        "original_controltype": "TextBox",
+        "type": "field",
+        "index": 2,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Text",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "6A5FB96B-A80A-4E2F-9661-4998898137CD",
+        "name": "SCARComment"
+      }
+    ]
+  }
+}

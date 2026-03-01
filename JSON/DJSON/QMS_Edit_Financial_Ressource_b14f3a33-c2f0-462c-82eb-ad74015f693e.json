@@ -1,0 +1,123 @@
+{
+  "shortname": "QMS",
+  "application": "QMS",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "b14f3a33-c2f0-462c-82eb-ad74015f693e",
+    "name": "Audit_Financial_Ressource",
+    "fields": {
+      "Cost": {
+        "name": "Cost",
+        "type": "string",
+        "original_serverid": "Cost",
+        "original_controltype": "TextBox",
+        "original_bid": "7ab293db-8eef-4aed-bb8e-ad74015e0170",
+        "label": "Cost",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "Comment": {
+        "name": "Comment",
+        "type": "string",
+        "original_serverid": "Comment",
+        "original_controltype": "TextBox",
+        "original_bid": "f6f58c21-0743-46cc-b452-ad74015e0170",
+        "label": "Comment",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "Time": {
+        "name": "Time",
+        "type": "int",
+        "original_serverid": "Time",
+        "original_controltype": "NumericBox",
+        "original_bid": "1ee7476e-f67c-4796-b2b6-ad74015e0170",
+        "label": "Time",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "Item": {
+        "name": "Item",
+        "type": "string",
+        "original_serverid": "Item",
+        "original_controltype": "TextBox",
+        "original_bid": "dc726402-e6b0-4ad7-842e-ad74015e0170",
+        "label": "Item",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "Cost",
+        "original_serverid": "Cost",
+        "original_controltype": "TextBox",
+        "type": "field",
+        "index": 0,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Cost",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "Comment",
+        "original_serverid": "Comment",
+        "original_controltype": "TextBox",
+        "type": "field",
+        "index": 1,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Comment",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "Time",
+        "original_serverid": "Time",
+        "original_controltype": "NumericBox",
+        "type": "field",
+        "index": 2,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Time",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "Item",
+        "original_serverid": "Item",
+        "original_controltype": "TextBox",
+        "type": "field",
+        "index": 3,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Item",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "B14F3A33-C2F0-462C-82EB-AD74015F693E",
+        "name": "Edit_Financial_Ressource"
+      },
+      {
+        "id": "795676E6-6CE5-456C-9A7E-AD74015F43DC",
+        "name": "New_Financial_Ressource"
+      }
+    ]
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "shortname": "QMS",
+  "application": "QMS",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "4aebe20b-38ac-4b75-a974-31210fa930bb",
+    "name": "QualityEvent_Audit_List",
+    "fields": {
+      "Grid1": {
+        "name": "Grid1",
+        "type": "none",
+        "ext_type": "Grid",
+        "original_serverid": "Grid1",
+        "original_controltype": "Grid",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Audit",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "Grid2": {
+        "name": "Grid2",
+        "type": "none",
+        "ext_type": "Grid",
+        "original_serverid": "Grid2",
+        "original_controltype": "Grid",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Quality Event",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": ""
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "Grid1",
+        "original_serverid": "Grid1",
+        "original_controltype": "Grid",
+        "type": "field",
+        "index": 0,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Audit",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "",
+        "original_serverid": "Row1",
+        "original_controltype": "Row",
+        "type": "section",
+        "index": 1,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "4AEBE20B-38AC-4B75-A974-31210FA930BB",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column1",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "4AEBE20B-38AC-4B75-A974-31210FA930BB",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "Grid2",
+                "original_serverid": "Grid2",
+                "original_controltype": "Grid",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "Quality Event",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "4AEBE20B-38AC-4B75-A974-31210FA930BB",
+        "name": "QualityEvent_Audit_List"
+      }
+    ]
+  }
+}

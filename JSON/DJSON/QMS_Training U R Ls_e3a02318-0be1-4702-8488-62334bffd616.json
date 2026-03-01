@@ -1,0 +1,94 @@
+{
+  "shortname": "QMS",
+  "application": "QMS",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "e3a02318-0be1-4702-8488-62334bffd616",
+    "name": "TrainingURLs",
+    "fields": {
+      "BPMAPP_Training_Define_Trainingfk_DefineTraining": {
+        "name": "BPMAPP_Training_Define_Trainingfk_DefineTraining",
+        "type": "string",
+        "ext_type": "dropdown",
+        "original_serverid": "BPMAPP_Training_Define_Trainingfk_DefineTraining",
+        "original_controltype": "DropDown",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "fk_DefineTraining",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": "Select..."
+      },
+      "IsWebContent": {
+        "name": "IsWebContent",
+        "type": "boolean",
+        "original_serverid": "IsWebContent",
+        "original_controltype": "CheckBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "IsWebContent",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "InputURL": {
+        "name": "InputURL",
+        "type": "string",
+        "original_serverid": "InputURL",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "InputURL",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "BPMAPP_Training_Define_Trainingfk_DefineTraining",
+        "original_serverid": "BPMAPP_Training_Define_Trainingfk_DefineTraining",
+        "original_controltype": "DropDown",
+        "type": "field",
+        "index": 0,
+        "default_state": "editable",
+        "states": [],
+        "caption": "fk_DefineTraining",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "IsWebContent",
+        "original_serverid": "IsWebContent",
+        "original_controltype": "CheckBox",
+        "type": "field",
+        "index": 1,
+        "default_state": "editable",
+        "states": [],
+        "caption": "IsWebContent",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "InputURL",
+        "original_serverid": "InputURL",
+        "original_controltype": "TextBox",
+        "type": "field",
+        "index": 2,
+        "default_state": "editable",
+        "states": [],
+        "caption": "InputURL",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "E3A02318-0BE1-4702-8488-62334BFFD616",
+        "name": "TrainingURLs"
+      }
+    ]
+  }
+}

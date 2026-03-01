@@ -1,0 +1,121 @@
+{
+  "shortname": "QMS",
+  "application": "QMS",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "e4b2df34-336d-4031-a035-ae0701029c45",
+    "name": "Training_Course",
+    "fields": {
+      "EndDateTime": {
+        "name": "EndDateTime",
+        "type": "datetime",
+        "ext_type": "date",
+        "original_serverid": "EndDateTime",
+        "original_controltype": "DateEdit",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "EndDateTime",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "Location": {
+        "name": "Location",
+        "type": "string",
+        "original_serverid": "Location",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Location",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "StartDateTime": {
+        "name": "StartDateTime",
+        "type": "datetime",
+        "ext_type": "date",
+        "original_serverid": "StartDateTime",
+        "original_controltype": "DateEdit",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "StartDateTime",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "Capacity": {
+        "name": "Capacity",
+        "type": "int",
+        "original_serverid": "Capacity",
+        "original_controltype": "NumericBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Capacity",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "EndDateTime",
+        "original_serverid": "EndDateTime",
+        "original_controltype": "DateEdit",
+        "type": "field",
+        "index": 0,
+        "default_state": "editable",
+        "states": [],
+        "caption": "EndDateTime",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "Location",
+        "original_serverid": "Location",
+        "original_controltype": "TextBox",
+        "type": "field",
+        "index": 1,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Location",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "StartDateTime",
+        "original_serverid": "StartDateTime",
+        "original_controltype": "DateEdit",
+        "type": "field",
+        "index": 2,
+        "default_state": "editable",
+        "states": [],
+        "caption": "StartDateTime",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "Capacity",
+        "original_serverid": "Capacity",
+        "original_controltype": "NumericBox",
+        "type": "field",
+        "index": 3,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Capacity",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "F1CD462B-4E62-4EAD-B155-5631E0399C5A",
+        "name": "Training_CourseAdd"
+      }
+    ]
+  }
+}

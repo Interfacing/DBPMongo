@@ -1,0 +1,1180 @@
+{
+  "shortname": "QMS",
+  "application": "QMS",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "e56da4f1-8b91-4a99-96a6-adb801467614",
+    "name": "CAPA_TrainingRequest",
+    "fields": {
+      "Label": {
+        "name": "Label",
+        "type": "none",
+        "ext_type": "Label",
+        "original_serverid": "Label",
+        "original_controltype": "Label",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Each of the dropdowns below will display the current trainee(s) assigned to the selected training. If the training does not apply to a listed trainee, please remove them.",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "MultiSelectDropdown": {
+        "name": "MultiSelectDropdown",
+        "type": "none",
+        "ext_type": "MultiSelect",
+        "original_serverid": "MultiSelectDropdown",
+        "original_controltype": "MultiSelect",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Departments",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "MultiSelectDropdown1": {
+        "name": "MultiSelectDropdown1",
+        "type": "none",
+        "ext_type": "MultiSelect",
+        "original_serverid": "MultiSelectDropdown1",
+        "original_controltype": "MultiSelect",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Roles",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "MultiSelectDropdown2": {
+        "name": "MultiSelectDropdown2",
+        "type": "none",
+        "ext_type": "MultiSelect",
+        "original_serverid": "MultiSelectDropdown2",
+        "original_controltype": "MultiSelect",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Users",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "MultiSelectDropdown3": {
+        "name": "MultiSelectDropdown3",
+        "type": "none",
+        "ext_type": "MultiSelect",
+        "original_serverid": "MultiSelectDropdown3",
+        "original_controltype": "MultiSelect",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Groups",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "NestedLink1": {
+        "name": "NestedLink1",
+        "type": "none",
+        "ext_type": "NestedLink",
+        "original_serverid": "NestedLink1",
+        "original_controltype": "NestedLink",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Click on the [\u002B] to create a new training",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "#E36C09"
+      },
+      "BPMAPP_Training_Define_TrainingTraining_Definition": {
+        "name": "BPMAPP_Training_Define_TrainingTraining_Definition",
+        "type": "string",
+        "ext_type": "dropdown",
+        "original_serverid": "BPMAPP_Training_Define_TrainingTraining_Definition",
+        "original_controltype": "DropDown",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Existing Training",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": "Select...",
+        "system_options": []
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "",
+        "original_serverid": "Row2",
+        "original_controltype": "Row",
+        "type": "columns",
+        "index": 0,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "1E1ACFAF-9A10-4B55-B2F4-AFAB00A8D01B",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "C3CA7AEB-1021-4A91-A987-2E4D60AD42B3",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "E56DA4F1-8B91-4A99-96A6-ADB801467614",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "6B583EEC-1538-4C27-A2DF-AE1301141729",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "24D4C61B-3294-4BFE-8C93-AFAB00A830E1",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "E810B31B-7F37-4D26-AC1F-AE13011475D4",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "096137C2-CA54-4C9E-ACB6-AF56002A96FC",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "A6CB145E-A115-4B2C-B77C-AF56002AB2F4",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "2721B90F-5619-48C1-9278-AF560029BB69",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "019DED17-A59B-4507-B7BE-AF560029E22B",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "80841F1D-6214-4C6E-842E-AE13011723EA",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "CBE08D9A-ECB4-4C90-AC5F-AE130116FEB1",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column6",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "1E1ACFAF-9A10-4B55-B2F4-AFAB00A8D01B",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "C3CA7AEB-1021-4A91-A987-2E4D60AD42B3",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "E56DA4F1-8B91-4A99-96A6-ADB801467614",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "6B583EEC-1538-4C27-A2DF-AE1301141729",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "24D4C61B-3294-4BFE-8C93-AFAB00A830E1",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "E810B31B-7F37-4D26-AC1F-AE13011475D4",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "096137C2-CA54-4C9E-ACB6-AF56002A96FC",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "A6CB145E-A115-4B2C-B77C-AF56002AB2F4",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "2721B90F-5619-48C1-9278-AF560029BB69",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "019DED17-A59B-4507-B7BE-AF560029E22B",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "80841F1D-6214-4C6E-842E-AE13011723EA",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "CBE08D9A-ECB4-4C90-AC5F-AE130116FEB1",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": []
+          },
+          {
+            "entity_name": "",
+            "original_serverid": "Column7",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 1,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "1E1ACFAF-9A10-4B55-B2F4-AFAB00A8D01B",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "C3CA7AEB-1021-4A91-A987-2E4D60AD42B3",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "E56DA4F1-8B91-4A99-96A6-ADB801467614",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "6B583EEC-1538-4C27-A2DF-AE1301141729",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "24D4C61B-3294-4BFE-8C93-AFAB00A830E1",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "E810B31B-7F37-4D26-AC1F-AE13011475D4",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "096137C2-CA54-4C9E-ACB6-AF56002A96FC",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "A6CB145E-A115-4B2C-B77C-AF56002AB2F4",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "2721B90F-5619-48C1-9278-AF560029BB69",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "019DED17-A59B-4507-B7BE-AF560029E22B",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "80841F1D-6214-4C6E-842E-AE13011723EA",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "CBE08D9A-ECB4-4C90-AC5F-AE130116FEB1",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": []
+          }
+        ]
+      },
+      {
+        "entity_name": "",
+        "original_serverid": "Row1",
+        "original_controltype": "Row",
+        "type": "columns",
+        "index": 1,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "1E1ACFAF-9A10-4B55-B2F4-AFAB00A8D01B",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "C3CA7AEB-1021-4A91-A987-2E4D60AD42B3",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "E56DA4F1-8B91-4A99-96A6-ADB801467614",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "6B583EEC-1538-4C27-A2DF-AE1301141729",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "24D4C61B-3294-4BFE-8C93-AFAB00A830E1",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "E810B31B-7F37-4D26-AC1F-AE13011475D4",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "096137C2-CA54-4C9E-ACB6-AF56002A96FC",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "A6CB145E-A115-4B2C-B77C-AF56002AB2F4",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "2721B90F-5619-48C1-9278-AF560029BB69",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "019DED17-A59B-4507-B7BE-AF560029E22B",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "80841F1D-6214-4C6E-842E-AE13011723EA",
+            "state": "invisible"
+          },
+          {
+            "behaviorTaskId": "CBE08D9A-ECB4-4C90-AC5F-AE130116FEB1",
+            "state": "invisible"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column4",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "1E1ACFAF-9A10-4B55-B2F4-AFAB00A8D01B",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "C3CA7AEB-1021-4A91-A987-2E4D60AD42B3",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "E56DA4F1-8B91-4A99-96A6-ADB801467614",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "6B583EEC-1538-4C27-A2DF-AE1301141729",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "24D4C61B-3294-4BFE-8C93-AFAB00A830E1",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "E810B31B-7F37-4D26-AC1F-AE13011475D4",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "096137C2-CA54-4C9E-ACB6-AF56002A96FC",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "A6CB145E-A115-4B2C-B77C-AF56002AB2F4",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "2721B90F-5619-48C1-9278-AF560029BB69",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "019DED17-A59B-4507-B7BE-AF560029E22B",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "80841F1D-6214-4C6E-842E-AE13011723EA",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "CBE08D9A-ECB4-4C90-AC5F-AE130116FEB1",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "NestedLink1",
+                "original_serverid": "NestedLink1",
+                "original_controltype": "NestedLink",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "Click on the [\u002B] to create a new training",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "entity_name": "",
+            "original_serverid": "Column5",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 1,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "1E1ACFAF-9A10-4B55-B2F4-AFAB00A8D01B",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "C3CA7AEB-1021-4A91-A987-2E4D60AD42B3",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "E56DA4F1-8B91-4A99-96A6-ADB801467614",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "6B583EEC-1538-4C27-A2DF-AE1301141729",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "24D4C61B-3294-4BFE-8C93-AFAB00A830E1",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "E810B31B-7F37-4D26-AC1F-AE13011475D4",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "096137C2-CA54-4C9E-ACB6-AF56002A96FC",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "A6CB145E-A115-4B2C-B77C-AF56002AB2F4",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "2721B90F-5619-48C1-9278-AF560029BB69",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "019DED17-A59B-4507-B7BE-AF560029E22B",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "80841F1D-6214-4C6E-842E-AE13011723EA",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "CBE08D9A-ECB4-4C90-AC5F-AE130116FEB1",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": []
+          }
+        ]
+      },
+      {
+        "entity_name": "",
+        "original_serverid": "Row3",
+        "original_controltype": "Row",
+        "type": "columns",
+        "index": 2,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "1E1ACFAF-9A10-4B55-B2F4-AFAB00A8D01B",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "C3CA7AEB-1021-4A91-A987-2E4D60AD42B3",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "E56DA4F1-8B91-4A99-96A6-ADB801467614",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "6B583EEC-1538-4C27-A2DF-AE1301141729",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "24D4C61B-3294-4BFE-8C93-AFAB00A830E1",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "E810B31B-7F37-4D26-AC1F-AE13011475D4",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "096137C2-CA54-4C9E-ACB6-AF56002A96FC",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "A6CB145E-A115-4B2C-B77C-AF56002AB2F4",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "2721B90F-5619-48C1-9278-AF560029BB69",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "019DED17-A59B-4507-B7BE-AF560029E22B",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "80841F1D-6214-4C6E-842E-AE13011723EA",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "CBE08D9A-ECB4-4C90-AC5F-AE130116FEB1",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column8",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "1E1ACFAF-9A10-4B55-B2F4-AFAB00A8D01B",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "C3CA7AEB-1021-4A91-A987-2E4D60AD42B3",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "E56DA4F1-8B91-4A99-96A6-ADB801467614",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "6B583EEC-1538-4C27-A2DF-AE1301141729",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "24D4C61B-3294-4BFE-8C93-AFAB00A830E1",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "E810B31B-7F37-4D26-AC1F-AE13011475D4",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "096137C2-CA54-4C9E-ACB6-AF56002A96FC",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "A6CB145E-A115-4B2C-B77C-AF56002AB2F4",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "2721B90F-5619-48C1-9278-AF560029BB69",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "019DED17-A59B-4507-B7BE-AF560029E22B",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "80841F1D-6214-4C6E-842E-AE13011723EA",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "CBE08D9A-ECB4-4C90-AC5F-AE130116FEB1",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "BPMAPP_Training_Define_TrainingTraining_Definition",
+                "original_serverid": "BPMAPP_Training_Define_TrainingTraining_Definition",
+                "original_controltype": "DropDown",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "Existing Training",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "entity_name": "",
+            "original_serverid": "Column9",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 1,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "1E1ACFAF-9A10-4B55-B2F4-AFAB00A8D01B",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "C3CA7AEB-1021-4A91-A987-2E4D60AD42B3",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "E56DA4F1-8B91-4A99-96A6-ADB801467614",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "6B583EEC-1538-4C27-A2DF-AE1301141729",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "24D4C61B-3294-4BFE-8C93-AFAB00A830E1",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "E810B31B-7F37-4D26-AC1F-AE13011475D4",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "096137C2-CA54-4C9E-ACB6-AF56002A96FC",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "A6CB145E-A115-4B2C-B77C-AF56002AB2F4",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "2721B90F-5619-48C1-9278-AF560029BB69",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "019DED17-A59B-4507-B7BE-AF560029E22B",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "80841F1D-6214-4C6E-842E-AE13011723EA",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "CBE08D9A-ECB4-4C90-AC5F-AE130116FEB1",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": []
+          }
+        ]
+      },
+      {
+        "entity_name": "Label",
+        "original_serverid": "Label",
+        "original_controltype": "Label",
+        "type": "field",
+        "index": 3,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Each of the dropdowns below will display the current trainee(s) assigned to the selected training. If the training does not apply to a listed trainee, please remove them.",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "",
+        "original_serverid": "Row",
+        "original_controltype": "Row",
+        "type": "columns",
+        "index": 4,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "1E1ACFAF-9A10-4B55-B2F4-AFAB00A8D01B",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "C3CA7AEB-1021-4A91-A987-2E4D60AD42B3",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "E56DA4F1-8B91-4A99-96A6-ADB801467614",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "6B583EEC-1538-4C27-A2DF-AE1301141729",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "24D4C61B-3294-4BFE-8C93-AFAB00A830E1",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "E810B31B-7F37-4D26-AC1F-AE13011475D4",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "096137C2-CA54-4C9E-ACB6-AF56002A96FC",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "A6CB145E-A115-4B2C-B77C-AF56002AB2F4",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "2721B90F-5619-48C1-9278-AF560029BB69",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "019DED17-A59B-4507-B7BE-AF560029E22B",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "80841F1D-6214-4C6E-842E-AE13011723EA",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "CBE08D9A-ECB4-4C90-AC5F-AE130116FEB1",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "1E1ACFAF-9A10-4B55-B2F4-AFAB00A8D01B",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "C3CA7AEB-1021-4A91-A987-2E4D60AD42B3",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "E56DA4F1-8B91-4A99-96A6-ADB801467614",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "6B583EEC-1538-4C27-A2DF-AE1301141729",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "24D4C61B-3294-4BFE-8C93-AFAB00A830E1",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "E810B31B-7F37-4D26-AC1F-AE13011475D4",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "096137C2-CA54-4C9E-ACB6-AF56002A96FC",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "A6CB145E-A115-4B2C-B77C-AF56002AB2F4",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "2721B90F-5619-48C1-9278-AF560029BB69",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "019DED17-A59B-4507-B7BE-AF560029E22B",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "80841F1D-6214-4C6E-842E-AE13011723EA",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "CBE08D9A-ECB4-4C90-AC5F-AE130116FEB1",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "MultiSelectDropdown",
+                "original_serverid": "MultiSelectDropdown",
+                "original_controltype": "MultiSelect",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "Departments",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "entity_name": "",
+            "original_serverid": "Column1",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 1,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "1E1ACFAF-9A10-4B55-B2F4-AFAB00A8D01B",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "C3CA7AEB-1021-4A91-A987-2E4D60AD42B3",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "E56DA4F1-8B91-4A99-96A6-ADB801467614",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "6B583EEC-1538-4C27-A2DF-AE1301141729",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "24D4C61B-3294-4BFE-8C93-AFAB00A830E1",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "E810B31B-7F37-4D26-AC1F-AE13011475D4",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "096137C2-CA54-4C9E-ACB6-AF56002A96FC",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "A6CB145E-A115-4B2C-B77C-AF56002AB2F4",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "2721B90F-5619-48C1-9278-AF560029BB69",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "019DED17-A59B-4507-B7BE-AF560029E22B",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "80841F1D-6214-4C6E-842E-AE13011723EA",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "CBE08D9A-ECB4-4C90-AC5F-AE130116FEB1",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "MultiSelectDropdown1",
+                "original_serverid": "MultiSelectDropdown1",
+                "original_controltype": "MultiSelect",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "Roles",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "entity_name": "",
+        "original_serverid": "Row4",
+        "original_controltype": "Row",
+        "type": "columns",
+        "index": 5,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "1E1ACFAF-9A10-4B55-B2F4-AFAB00A8D01B",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "C3CA7AEB-1021-4A91-A987-2E4D60AD42B3",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "E56DA4F1-8B91-4A99-96A6-ADB801467614",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "6B583EEC-1538-4C27-A2DF-AE1301141729",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "24D4C61B-3294-4BFE-8C93-AFAB00A830E1",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "E810B31B-7F37-4D26-AC1F-AE13011475D4",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "096137C2-CA54-4C9E-ACB6-AF56002A96FC",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "A6CB145E-A115-4B2C-B77C-AF56002AB2F4",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "2721B90F-5619-48C1-9278-AF560029BB69",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "019DED17-A59B-4507-B7BE-AF560029E22B",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "80841F1D-6214-4C6E-842E-AE13011723EA",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "CBE08D9A-ECB4-4C90-AC5F-AE130116FEB1",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column10",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "1E1ACFAF-9A10-4B55-B2F4-AFAB00A8D01B",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "C3CA7AEB-1021-4A91-A987-2E4D60AD42B3",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "E56DA4F1-8B91-4A99-96A6-ADB801467614",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "6B583EEC-1538-4C27-A2DF-AE1301141729",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "24D4C61B-3294-4BFE-8C93-AFAB00A830E1",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "E810B31B-7F37-4D26-AC1F-AE13011475D4",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "096137C2-CA54-4C9E-ACB6-AF56002A96FC",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "A6CB145E-A115-4B2C-B77C-AF56002AB2F4",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "2721B90F-5619-48C1-9278-AF560029BB69",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "019DED17-A59B-4507-B7BE-AF560029E22B",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "80841F1D-6214-4C6E-842E-AE13011723EA",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "CBE08D9A-ECB4-4C90-AC5F-AE130116FEB1",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "MultiSelectDropdown2",
+                "original_serverid": "MultiSelectDropdown2",
+                "original_controltype": "MultiSelect",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "Users",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "entity_name": "",
+            "original_serverid": "Column11",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 1,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "1E1ACFAF-9A10-4B55-B2F4-AFAB00A8D01B",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "C3CA7AEB-1021-4A91-A987-2E4D60AD42B3",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "E56DA4F1-8B91-4A99-96A6-ADB801467614",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "6B583EEC-1538-4C27-A2DF-AE1301141729",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "24D4C61B-3294-4BFE-8C93-AFAB00A830E1",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "E810B31B-7F37-4D26-AC1F-AE13011475D4",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "096137C2-CA54-4C9E-ACB6-AF56002A96FC",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "A6CB145E-A115-4B2C-B77C-AF56002AB2F4",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "2721B90F-5619-48C1-9278-AF560029BB69",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "019DED17-A59B-4507-B7BE-AF560029E22B",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "80841F1D-6214-4C6E-842E-AE13011723EA",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "CBE08D9A-ECB4-4C90-AC5F-AE130116FEB1",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "MultiSelectDropdown3",
+                "original_serverid": "MultiSelectDropdown3",
+                "original_controltype": "MultiSelect",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "Groups",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "1E1ACFAF-9A10-4B55-B2F4-AFAB00A8D01B",
+        "name": "EditRiskAppTrainingRequest"
+      },
+      {
+        "id": "C3CA7AEB-1021-4A91-A987-2E4D60AD42B3",
+        "name": "AddCapaTrainingRequest"
+      },
+      {
+        "id": "E56DA4F1-8B91-4A99-96A6-ADB801467614",
+        "name": "EditCapaTrainingRequest"
+      },
+      {
+        "id": "6B583EEC-1538-4C27-A2DF-AE1301141729",
+        "name": "AddQeTrainingRequest"
+      },
+      {
+        "id": "24D4C61B-3294-4BFE-8C93-AFAB00A830E1",
+        "name": "AddRiskAppTrainingRequest"
+      },
+      {
+        "id": "E810B31B-7F37-4D26-AC1F-AE13011475D4",
+        "name": "EditQeTrainingRequest"
+      },
+      {
+        "id": "096137C2-CA54-4C9E-ACB6-AF56002A96FC",
+        "name": "EditFMEATrainingRequest"
+      },
+      {
+        "id": "A6CB145E-A115-4B2C-B77C-AF56002AB2F4",
+        "name": "SelectFMEATrainingRequest"
+      },
+      {
+        "id": "2721B90F-5619-48C1-9278-AF560029BB69",
+        "name": "EditRiskTrainingRequest"
+      },
+      {
+        "id": "019DED17-A59B-4507-B7BE-AF560029E22B",
+        "name": "SelectRiskTrainingRequest"
+      },
+      {
+        "id": "80841F1D-6214-4C6E-842E-AE13011723EA",
+        "name": "EditStandaloneTrainingRequest"
+      },
+      {
+        "id": "CBE08D9A-ECB4-4C90-AC5F-AE130116FEB1",
+        "name": "AddStandaloneTrainingRequest"
+      }
+    ]
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "shortname": "QMS",
+  "application": "QMS",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "dc2809af-a62b-4d0d-a714-af6300d250c4",
+    "name": "PlanExecuteAuditDefinition",
+    "fields": {
+      "PlanExecute": {
+        "name": "PlanExecute",
+        "type": "string",
+        "ext_type": "dropdown",
+        "original_serverid": "PlanExecute",
+        "original_controltype": "DropDown",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Plan Execute",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": "Select...",
+        "system_options": []
+      },
+      "SingleSelectDropdown1": {
+        "name": "SingleSelectDropdown1",
+        "type": "string",
+        "ext_type": "dropdown",
+        "original_serverid": "SingleSelectDropdown1",
+        "original_controltype": "DropDown",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Select the Audit Definition",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "Black",
+        "placeholder": "Select...",
+        "system_options": []
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "PlanExecute",
+        "original_serverid": "PlanExecute",
+        "original_controltype": "DropDown",
+        "type": "field",
+        "index": 0,
+        "default_state": "invisible",
+        "states": [],
+        "caption": "Plan Execute",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "SingleSelectDropdown1",
+        "original_serverid": "SingleSelectDropdown1",
+        "original_controltype": "DropDown",
+        "type": "field",
+        "index": 1,
+        "default_state": "invisible",
+        "states": [],
+        "caption": "Select the Audit Definition",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "DC2809AF-A62B-4D0D-A714-AF6300D250C4",
+        "name": "ViewAuditDefinition"
+      },
+      {
+        "id": "74C36EEF-0AB1-44A5-ADC6-432F256DE4CD",
+        "name": "PlanExecuteAuditDefinition"
+      }
+    ]
+  }
+}

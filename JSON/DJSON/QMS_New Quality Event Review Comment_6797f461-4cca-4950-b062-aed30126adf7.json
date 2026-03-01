@@ -1,0 +1,94 @@
+{
+  "shortname": "QMS",
+  "application": "QMS",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "6797f461-4cca-4950-b062-aed30126adf7",
+    "name": "QMS_QualityEvent_Review_Comment",
+    "fields": {
+      "Date": {
+        "name": "Date",
+        "type": "datetime",
+        "ext_type": "date",
+        "original_serverid": "Date",
+        "original_controltype": "DateEdit",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Date",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "Text": {
+        "name": "Text",
+        "type": "string",
+        "original_serverid": "Text",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Text",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "BPMAPP_QMS_QualityEvent_Review_CommentsParent": {
+        "name": "BPMAPP_QMS_QualityEvent_Review_CommentsParent",
+        "type": "none",
+        "ext_type": "Grid",
+        "original_serverid": "BPMAPP_QMS_QualityEvent_Review_CommentsParent",
+        "original_controltype": "Grid",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Parent",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "Date",
+        "original_serverid": "Date",
+        "original_controltype": "DateEdit",
+        "type": "field",
+        "index": 0,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Date",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "Text",
+        "original_serverid": "Text",
+        "original_controltype": "TextBox",
+        "type": "field",
+        "index": 1,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Text",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "BPMAPP_QMS_QualityEvent_Review_CommentsParent",
+        "original_serverid": "BPMAPP_QMS_QualityEvent_Review_CommentsParent",
+        "original_controltype": "Grid",
+        "type": "field",
+        "index": 2,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Parent",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "6797F461-4CCA-4950-B062-AED30126ADF7",
+        "name": "NewQualityEventReviewComment"
+      }
+    ]
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "icon": "",
+  "form": {
+    "name": "SectionWithLabel",
+    "fields": {
+      "Name": {
+        "name": "Name",
+        "type": "string",
+        "ext_type": null,
+        "label": "Name",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "ContactDate": {
+        "name": "ContactDate",
+        "type": "datetime",
+        "ext_type": "datetime",
+        "label": "Contact Date",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      }
+    },
+    "layout": [
+      {
+        "type": "columns",
+        "index": 0,
+        "entity_name": "Label",
+        "default_state": "editable",
+        "states": [
+        ],
+        "caption": "Label for columns",
+        "caption_bold": false,
+        "caption_italic": false,
+        "children": [
+          {
+            "type": "section",
+            "index": 0,
+            "entity_name": "",
+            "caption": "Label for section 1",
+            "caption_bold": false,
+            "caption_italic": false,
+            "default_state": "editable",
+            "states": [
+            ],
+            "children": [
+              {
+                "type": "field",
+                "index": 0,
+                "entity_name": "Name",
+                "default_state": "editable",
+                "states": [
+                ]
+              }
+            ]
+          },
+          {
+            "type": "section",
+            "index": 1,
+            "entity_name": "",
+            "caption": "Label for section 2",
+            "caption_bold": false,
+            "caption_italic": false,
+            "default_state": "editable",
+            "states": [
+            ],
+            "children": [
+              {
+                "type": "field",
+                "index": 0,
+                "entity_name": "ContactDate",
+                "default_state": "editable",
+                "states": [
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

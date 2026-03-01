@@ -1,0 +1,185 @@
+{
+  "shortname": "QMS",
+  "application": "QMS",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "c6e7e143-1c82-45e8-9c9a-ae7c015f8aab",
+    "name": "QMS_Frequency",
+    "fields": {
+      "Label": {
+        "name": "Label",
+        "type": "none",
+        "ext_type": "Label",
+        "original_serverid": "Label",
+        "original_controltype": "Label",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Create, edit, and/or delete the frequency options that are to be used in QMS",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "Grid": {
+        "name": "Grid",
+        "type": "none",
+        "ext_type": "Grid",
+        "original_serverid": "Grid",
+        "original_controltype": "Grid",
+        "original_bid": "bc95569a-3023-4930-8403-ad7401567933",
+        "label": "",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "",
+        "original_serverid": "Row1",
+        "original_controltype": "Row",
+        "type": "section",
+        "index": 0,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "C6E7E143-1C82-45E8-9C9A-AE7C015F8AAB",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "089F7EB3-0D79-4E24-9467-AD740156B372",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "44137E7E-A7FB-43EE-90B4-542443CF450D",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column1",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "C6E7E143-1C82-45E8-9C9A-AE7C015F8AAB",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "089F7EB3-0D79-4E24-9467-AD740156B372",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "44137E7E-A7FB-43EE-90B4-542443CF450D",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "Label",
+                "original_serverid": "Label",
+                "original_controltype": "Label",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "Create, edit, and/or delete the frequency options that are to be used in QMS",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "entity_name": "",
+        "original_serverid": "Row2",
+        "original_controltype": "Row",
+        "type": "section",
+        "index": 1,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "C6E7E143-1C82-45E8-9C9A-AE7C015F8AAB",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "089F7EB3-0D79-4E24-9467-AD740156B372",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "44137E7E-A7FB-43EE-90B4-542443CF450D",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column2",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "C6E7E143-1C82-45E8-9C9A-AE7C015F8AAB",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "089F7EB3-0D79-4E24-9467-AD740156B372",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "44137E7E-A7FB-43EE-90B4-542443CF450D",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "Grid",
+                "original_serverid": "Grid",
+                "original_controltype": "Grid",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "C6E7E143-1C82-45E8-9C9A-AE7C015F8AAB",
+        "name": "Delete_Frequency"
+      },
+      {
+        "id": "089F7EB3-0D79-4E24-9467-AD740156B372",
+        "name": "Edit_QMS_Frequency"
+      },
+      {
+        "id": "44137E7E-A7FB-43EE-90B4-542443CF450D",
+        "name": "QMS_Frequency"
+      }
+    ]
+  }
+}

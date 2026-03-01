@@ -1,0 +1,217 @@
+{
+  "shortname": "QMS",
+  "application": "QMS",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "b2a6ec5b-5047-42fa-8c69-afc000e08f09",
+    "name": "CAPA_UserTask",
+    "fields": {
+      "HiddenButton": {
+        "name": "HiddenButton",
+        "type": "none",
+        "ext_type": "Button",
+        "original_serverid": "HiddenButton",
+        "original_controltype": "Button",
+        "original_bid": "2341af3e-0609-496c-83cb-afa30103b277",
+        "label": "On Loading",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "Grid": {
+        "name": "Grid",
+        "type": "none",
+        "ext_type": "Grid",
+        "original_serverid": "Grid",
+        "original_controltype": "Grid",
+        "original_bid": "50910cb0-9cf2-4ff3-ad95-adce011d0cc7",
+        "label": "",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "Label1": {
+        "name": "Label1",
+        "type": "none",
+        "ext_type": "Label",
+        "original_serverid": "Label1",
+        "original_controltype": "Label",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Action items that are left incomplete will be considered \u0027Rejected.\u0027 All rejected actions will be returned to the CAPA content owner for reassignment.",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "Label2": {
+        "name": "Label2",
+        "type": "none",
+        "ext_type": "Label",
+        "original_serverid": "Label2",
+        "original_controltype": "Label",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Action Items refused by owner can be assigned to other users.",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "",
+        "original_serverid": "Row1",
+        "original_controltype": "Row",
+        "type": "section",
+        "index": 0,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "C804DD7B-51C3-462E-8BD4-B03000B9E203",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "A69946B8-D91B-4F20-AFDE-AFC7010222B4",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "BDC5C53F-1293-448E-B734-ADCE0122A9DF",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "B2A6EC5B-5047-42FA-8C69-AFC000E08F09",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "D9613128-471E-423E-8C44-B03000BA4719",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "0246089C-B2A6-4622-AB0A-C3E04D1CB8E5",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column1",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "C804DD7B-51C3-462E-8BD4-B03000B9E203",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "A69946B8-D91B-4F20-AFDE-AFC7010222B4",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "BDC5C53F-1293-448E-B734-ADCE0122A9DF",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "B2A6EC5B-5047-42FA-8C69-AFC000E08F09",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "D9613128-471E-423E-8C44-B03000BA4719",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "0246089C-B2A6-4622-AB0A-C3E04D1CB8E5",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "Label1",
+                "original_serverid": "Label1",
+                "original_controltype": "Label",
+                "type": "field",
+                "index": 0,
+                "default_state": "invisible",
+                "states": [],
+                "caption": "Action items that are left incomplete will be considered \u0027Rejected.\u0027 All rejected actions will be returned to the CAPA content owner for reassignment.",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              },
+              {
+                "entity_name": "Label2",
+                "original_serverid": "Label2",
+                "original_controltype": "Label",
+                "type": "field",
+                "index": 1,
+                "default_state": "editable",
+                "states": [],
+                "caption": "Action Items refused by owner can be assigned to other users.",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "entity_name": "HiddenButton",
+        "original_serverid": "HiddenButton",
+        "original_controltype": "Button",
+        "type": "field",
+        "index": 1,
+        "default_state": "editable",
+        "states": [],
+        "caption": "On Loading",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "Grid",
+        "original_serverid": "Grid",
+        "original_controltype": "Grid",
+        "type": "field",
+        "index": 2,
+        "default_state": "editable",
+        "states": [],
+        "caption": "",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "C804DD7B-51C3-462E-8BD4-B03000B9E203",
+        "name": "CAPARejectActions"
+      },
+      {
+        "id": "A69946B8-D91B-4F20-AFDE-AFC7010222B4",
+        "name": "CAPA_UserTaskComplete"
+      },
+      {
+        "id": "BDC5C53F-1293-448E-B734-ADCE0122A9DF",
+        "name": "ExecuteItems_4d70d4d546c34cf8907ea249b9fdaaa9"
+      },
+      {
+        "id": "B2A6EC5B-5047-42FA-8C69-AFC000E08F09",
+        "name": "ActionRefused_4dad068b63f9462cb6e8ea741b3785b9"
+      },
+      {
+        "id": "D9613128-471E-423E-8C44-B03000BA4719",
+        "name": "CAPASendBackActions"
+      },
+      {
+        "id": "0246089C-B2A6-4622-AB0A-C3E04D1CB8E5",
+        "name": "CAPA_UserTask"
+      }
+    ]
+  }
+}

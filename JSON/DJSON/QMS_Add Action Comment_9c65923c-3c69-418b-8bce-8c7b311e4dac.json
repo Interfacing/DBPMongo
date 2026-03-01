@@ -1,0 +1,172 @@
+{
+  "shortname": "QMS",
+  "application": "QMS",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "9c65923c-3c69-418b-8bce-8c7b311e4dac",
+    "name": "QMS_Action_Commment",
+    "fields": {
+      "BPMAPP_QMS_ActionItemfk_action": {
+        "name": "BPMAPP_QMS_ActionItemfk_action",
+        "type": "string",
+        "ext_type": "dropdown",
+        "original_serverid": "BPMAPP_QMS_ActionItemfk_action",
+        "original_controltype": "DropDown",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "fk_action",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": "Select..."
+      },
+      "Stafffk_Roles": {
+        "name": "Stafffk_Roles",
+        "type": "string",
+        "ext_type": "dropdown",
+        "original_serverid": "Stafffk_Roles",
+        "original_controltype": "DropDown",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "fk_Roles",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": "Select..."
+      },
+      "Text": {
+        "name": "Text",
+        "type": "string",
+        "original_serverid": "Text",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Text",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "Userfk_Users": {
+        "name": "Userfk_Users",
+        "type": "string",
+        "ext_type": "dropdown",
+        "original_serverid": "Userfk_Users",
+        "original_controltype": "DropDown",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "fk_Users",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": "Select..."
+      },
+      "Date": {
+        "name": "Date",
+        "type": "datetime",
+        "ext_type": "date",
+        "original_serverid": "Date",
+        "original_controltype": "DateEdit",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Date",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "BPMAPP_QMS_Action_Commentsfk_comment": {
+        "name": "BPMAPP_QMS_Action_Commentsfk_comment",
+        "type": "none",
+        "ext_type": "Grid",
+        "original_serverid": "BPMAPP_QMS_Action_Commentsfk_comment",
+        "original_controltype": "Grid",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "fk_comment",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "BPMAPP_QMS_ActionItemfk_action",
+        "original_serverid": "BPMAPP_QMS_ActionItemfk_action",
+        "original_controltype": "DropDown",
+        "type": "field",
+        "index": 0,
+        "default_state": "editable",
+        "states": [],
+        "caption": "fk_action",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "Stafffk_Roles",
+        "original_serverid": "Stafffk_Roles",
+        "original_controltype": "DropDown",
+        "type": "field",
+        "index": 1,
+        "default_state": "editable",
+        "states": [],
+        "caption": "fk_Roles",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "Text",
+        "original_serverid": "Text",
+        "original_controltype": "TextBox",
+        "type": "field",
+        "index": 2,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Text",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "Userfk_Users",
+        "original_serverid": "Userfk_Users",
+        "original_controltype": "DropDown",
+        "type": "field",
+        "index": 3,
+        "default_state": "editable",
+        "states": [],
+        "caption": "fk_Users",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "Date",
+        "original_serverid": "Date",
+        "original_controltype": "DateEdit",
+        "type": "field",
+        "index": 4,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Date",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "BPMAPP_QMS_Action_Commentsfk_comment",
+        "original_serverid": "BPMAPP_QMS_Action_Commentsfk_comment",
+        "original_controltype": "Grid",
+        "type": "field",
+        "index": 5,
+        "default_state": "editable",
+        "states": [],
+        "caption": "fk_comment",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "9C65923C-3C69-418B-8BCE-8C7B311E4DAC",
+        "name": "QMS_Action_Commment"
+      }
+    ]
+  }
+}

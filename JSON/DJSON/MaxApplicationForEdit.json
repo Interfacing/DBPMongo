@@ -1,0 +1,227 @@
+{
+  "application": "MaxApplicationForEdit",
+  "shortname": "MaxApplicationForEdit",
+  "processId": null,
+  "icon": "",
+  "form": {
+    "name": "MainForm",
+    "id": "191bfcbd-048f-45be-b0b4-e0a41eca23d9",
+    "fields": {
+      "NumericTextBox": {
+        "name": "NumericTextBox",
+        "type": "string",
+        "ext_type": null,
+        "label": "Numeric TextBox 2",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "label_font_size": null,
+        "original_serverid": "NumericTextBox",
+        "original_binding": "DomainObject.NumericTextBox",
+        "original_controltype": "NumericBox",
+        "original_cid": "NumericTextBox592bfeec-8069-4b68-b08c-b39501265fa5",
+        "original_lid": "41960bcc-ad22-4750-90f4-b3950126c45b",
+        "original_bid": "b81ba23b-76c7-4f8b-8edf-b3950126cb61"
+      },
+      "TextBox": {
+        "name": "TextBox",
+        "type": "string",
+        "ext_type": null,
+        "label": "TextBox",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "label_font_size": null,
+        "original_serverid": "TextBox",
+        "original_binding": "DomainObject.TextBox",
+        "original_controltype": "TextBox",
+        "original_cid": "TextBox592bfeec-8069-4b68-b08c-b39501265fa5",
+        "original_lid": "f5fe3e1c-0690-4b0f-b3f7-b3950126c469",
+        "original_bid": "4001f499-628a-4a9f-8d5b-b3950126cb62"
+      },
+      "TextBox1": {
+        "name": "TextBox1",
+        "type": "string",
+        "ext_type": null,
+        "label": "TextBox",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "label_font_size": null,
+        "original_serverid": "TextBox1",
+        "original_binding": "DomainObject.TextBox1",
+        "original_controltype": "TextBox",
+        "original_cid": "TextBox1592bfeec-8069-4b68-b08c-b39501265fa5",
+        "original_lid": "9b8ce266-6ef8-420d-8ec1-b3950126c472",
+        "original_bid": "351ca61c-d879-4c3e-b75f-b3950126cb62"
+      },
+      "Radiobuttonlist": {
+        "name": "Radiobuttonlist",
+        "type": "string",
+        "ext_type": "radio",
+        "label": "Radio-button list",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "label_font_size": null,
+        "original_serverid": "Radiobuttonlist",
+        "original_binding": "DomainObject.Radiobuttonlist",
+        "original_controltype": "RadioList",
+        "original_cid": "Radiobuttonlist592bfeec-8069-4b68-b08c-b39501265fa5",
+        "original_lid": "c7c60415-89b3-4ced-ad46-b3950126c478",
+        "original_bid": "abfb95dd-fde2-4fb4-9049-b3950126cb62",
+        "options": [
+          "Item 1"
+        ],
+        "layout_horizontal": false,
+        "nbr_columns_vertical": 1
+      }
+    },
+    "layout": [
+      {
+        "type": "section",
+        "index": 0,
+        "entity_name": "Row1",
+        "default_state": "editable",
+        "states": [
+        ],
+        "original_serverid": "Row1",
+        "caption": "",
+        "caption_bold": false,
+        "caption_italic": false,
+        "children": [
+          {
+            "type": "section",
+            "index": 0,
+            "entity_name": "",
+            "caption": "",
+            "caption_bold": false,
+            "caption_italic": false,
+            "default_state": "editable",
+            "states": [
+            ],
+            "children": [
+              {
+                "type": "field",
+                "index": 0,
+                "entity_name": "NumericTextBox",
+                "default_state": "editable",
+                "states": [
+                ],
+                "original_serverid": "NumericTextBox"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "index": 1,
+        "entity_name": "Row2",
+        "default_state": "editable",
+        "states": [
+        ],
+        "original_serverid": "Row2",
+        "caption": "",
+        "caption_bold": false,
+        "caption_italic": false,
+        "children": [
+          {
+            "type": "section",
+            "index": 0,
+            "entity_name": "",
+            "caption": "",
+            "caption_bold": false,
+            "caption_italic": false,
+            "default_state": "editable",
+            "states": [
+            ],
+            "children": [
+              {
+                "type": "field",
+                "index": 0,
+                "entity_name": "TextBox",
+                "default_state": "editable",
+                "states": [
+                ],
+                "original_serverid": "TextBox"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "index": 2,
+        "entity_name": "Row3",
+        "default_state": "editable",
+        "states": [
+        ],
+        "original_serverid": "Row3",
+        "caption": "",
+        "caption_bold": false,
+        "caption_italic": false,
+        "children": [
+          {
+            "type": "section",
+            "index": 0,
+            "entity_name": "",
+            "caption": "",
+            "caption_bold": false,
+            "caption_italic": false,
+            "default_state": "editable",
+            "states": [
+            ],
+            "children": [
+              {
+                "type": "field",
+                "index": 0,
+                "entity_name": "TextBox1",
+                "default_state": "editable",
+                "states": [
+                ],
+                "original_serverid": "TextBox1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "index": 3,
+        "entity_name": "Row4",
+        "default_state": "editable",
+        "states": [
+        ],
+        "original_serverid": "Row4",
+        "caption": "",
+        "caption_bold": false,
+        "caption_italic": false,
+        "children": [
+          {
+            "type": "section",
+            "index": 0,
+            "entity_name": "",
+            "caption": "",
+            "caption_bold": false,
+            "caption_italic": false,
+            "default_state": "editable",
+            "states": [
+            ],
+            "children": [
+              {
+                "type": "field",
+                "index": 0,
+                "entity_name": "Radiobuttonlist",
+                "default_state": "editable",
+                "states": [
+                ],
+                "original_serverid": "Radiobuttonlist"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

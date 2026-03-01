@@ -1,0 +1,133 @@
+{
+  "shortname": "QMS",
+  "application": "QMS",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "e346643d-c3ba-47db-8b78-eb7c34517335",
+    "name": "QualityEvent_List",
+    "fields": {
+      "Grid": {
+        "name": "Grid",
+        "type": "none",
+        "ext_type": "Grid",
+        "original_serverid": "Grid",
+        "original_controltype": "Grid",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "Black"
+      },
+      "EventType": {
+        "name": "EventType",
+        "type": "string",
+        "ext_type": "dropdown",
+        "original_serverid": "EventType",
+        "original_controltype": "DropDown",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Event Type",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "Black",
+        "placeholder": "Select...",
+        "options": [
+          "Audit Finding (Internal)",
+          "Audit Finding (External)",
+          "Complaint",
+          "Deviation",
+          "Hazard (H\u0026S)",
+          "Incident",
+          "Inspection Finding",
+          "Issue",
+          "Management Review",
+          "Near Miss",
+          "Non-Conformity",
+          "Out-of-Spec",
+          "Serious Breach",
+          "Variance"
+        ]
+      },
+      "Severity": {
+        "name": "Severity",
+        "type": "string",
+        "ext_type": "dropdown",
+        "original_serverid": "Severity",
+        "original_controltype": "DropDown",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Severity",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "Black",
+        "placeholder": "Select...",
+        "options": [
+          "Critical",
+          "Major",
+          "Minor"
+        ]
+      },
+      "SingleSelectDropdown": {
+        "name": "SingleSelectDropdown",
+        "type": "string",
+        "ext_type": "dropdown",
+        "original_serverid": "SingleSelectDropdown",
+        "original_controltype": "DropDown",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Source",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "Black",
+        "placeholder": "Select...",
+        "system_options": []
+      },
+      "PrincipalBusinessDivisionID": {
+        "name": "PrincipalBusinessDivisionID",
+        "type": "string",
+        "ext_type": "dropdown",
+        "original_serverid": "PrincipalBusinessDivisionID",
+        "original_controltype": "DropDown",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Business Division",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "Black",
+        "placeholder": "Select...",
+        "system_options": []
+      },
+      "PrincipalBusinessLineID": {
+        "name": "PrincipalBusinessLineID",
+        "type": "string",
+        "ext_type": "dropdown",
+        "original_serverid": "PrincipalBusinessLineID",
+        "original_controltype": "DropDown",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Business Line",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "Black",
+        "placeholder": "Select...",
+        "system_options": []
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "Grid",
+        "original_serverid": "Grid",
+        "original_controltype": "Grid",
+        "type": "field",
+        "index": 0,
+        "default_state": "editable",
+        "states": [],
+        "caption": "",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "E346643D-C3BA-47DB-8B78-EB7C34517335",
+        "name": "QualityEvent_List"
+      }
+    ]
+  }
+}

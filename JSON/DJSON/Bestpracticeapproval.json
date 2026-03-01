@@ -1,0 +1,302 @@
+﻿{
+  "application": "BestpracticeapprovalApp",
+  "shortname": "BestpracticeapprovalApp",
+  "processId": "80D12D94-2B62-4A48-8665-C6642A98B42E",
+  "icon": "",
+  "form": {
+    "name": "Bestpracticeapproval",
+    "fields": {
+      "Title": {
+        "name": "Title",
+        "type": "string",
+        "ext_type": null,
+        "label": "Title",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": "Enter the Title"
+      },
+      "ComplianceOfficer": {
+        "name": "ComplianceOfficer",
+        "type": "string",
+        "ext_type": "dropdown",
+        "label": "Compliance Officer",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": "Select Compliance Officer",
+        "tooltip": "Choose the officer responsible for compliance verification.",
+        "system_options": [
+          "users"
+        ]
+      },
+      "ApprovalDate": {
+        "name": "ApprovalDate",
+        "type": "string",
+        "ext_type": null,
+        "label": "Approval Date",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": "Select date of approval",
+        "tooltip": "Date when the approval should take place."
+      },
+      "ReviewStatus": {
+        "name": "ReviewStatus",
+        "type": "string",
+        "ext_type": "radio",
+        "label": "Review Status",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "tooltip": "Select the current review status.",
+        "options": [
+          "Approved",
+          "Pending",
+          "Rejected"
+        ],
+        "layout_horizontal": false,
+        "nbr_columns_vertical": null
+      },
+      "ReviewComments": {
+        "name": "ReviewComments",
+        "type": "string",
+        "ext_type": "multiline",
+        "label": "Review Comments",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": "Enter comments from review",
+        "tooltip": "Comments and feedback from the reviewer."
+      },
+      "RequesterName": {
+        "name": "RequesterName",
+        "type": "string",
+        "ext_type": null,
+        "label": "Requester Name",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": "Enter requester's name",
+        "tooltip": "Full name of the person making this request."
+      },
+      "Department": {
+        "name": "Department",
+        "type": "string",
+        "ext_type": "dropdown",
+        "label": "Department",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": "Select department",
+        "tooltip": "Department associated with the request.",
+        "system_options": [
+          "departments"
+        ]
+      },
+      "PracticeName": {
+        "name": "PracticeName",
+        "type": "string",
+        "ext_type": null,
+        "label": "Practice Name",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": "Enter the name of the practice",
+        "tooltip": "Name of the best practice being proposed."
+      },
+      "PracticeDescription": {
+        "name": "PracticeDescription",
+        "type": "string",
+        "ext_type": "multiline",
+        "label": "Practice Description",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": "Describe the practice",
+        "tooltip": "A brief description of the best practice proposal."
+      },
+      "Checklist": {
+        "name": "Checklist",
+        "type": "string",
+        "ext_type": null,
+        "label": "Checklist",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "tooltip": "Items to ensure the request is complete."
+      }
+    },
+    "layout": [
+      {
+        "type": "field",
+        "index": 0,
+        "entity_name": "Title",
+        "default_state": "editable",
+        "states": [
+        ]
+      },
+      {
+        "type": "columns",
+        "index": 1,
+        "entity_name": "ComplianceInformation",
+        "default_state": "editable",
+        "states": [
+        ],
+        "caption": "Compliance Information",
+        "caption_bold": false,
+        "caption_italic": false,
+        "children": [
+          {
+            "type": "section",
+            "index": 0,
+            "entity_name": "",
+            "default_state": "editable",
+            "states": [
+            ],
+            "children": [
+              {
+                "type": "field",
+                "index": 0,
+                "entity_name": "ComplianceOfficer",
+                "default_state": "mandatory",
+                "states": [
+                ]
+              },
+              {
+                "type": "field",
+                "index": 1,
+                "entity_name": "ApprovalDate",
+                "default_state": "mandatory",
+                "states": [
+                ]
+              }
+            ]
+          },
+          {
+            "type": "section",
+            "index": 1,
+            "entity_name": "",
+            "default_state": "editable",
+            "states": [
+            ],
+            "children": [
+              {
+                "type": "field",
+                "index": 0,
+                "entity_name": "ReviewStatus",
+                "default_state": "mandatory",
+                "states": [
+                ]
+              },
+              {
+                "type": "field",
+                "index": 1,
+                "entity_name": "ReviewComments",
+                "default_state": "editable",
+                "states": [
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "columns",
+        "index": 2,
+        "entity_name": "RequestDetails",
+        "default_state": "editable",
+        "states": [
+        ],
+        "caption": "Request Details",
+        "caption_bold": false,
+        "caption_italic": false,
+        "children": [
+          {
+            "type": "section",
+            "index": 0,
+            "entity_name": "",
+            "default_state": "editable",
+            "states": [
+            ],
+            "children": [
+              {
+                "type": "field",
+                "index": 0,
+                "entity_name": "RequesterName",
+                "default_state": "mandatory",
+                "states": [
+                ]
+              },
+              {
+                "type": "field",
+                "index": 1,
+                "entity_name": "Department",
+                "default_state": "editable",
+                "states": [
+                ]
+              }
+            ]
+          },
+          {
+            "type": "section",
+            "index": 1,
+            "entity_name": "",
+            "default_state": "editable",
+            "states": [
+            ],
+            "children": [
+              {
+                "type": "field",
+                "index": 0,
+                "entity_name": "PracticeName",
+                "default_state": "mandatory",
+                "states": [
+                ]
+              },
+              {
+                "type": "field",
+                "index": 1,
+                "entity_name": "PracticeDescription",
+                "default_state": "editable",
+                "states": [
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "index": 3,
+        "entity_name": "RequestCompletenessCheck",
+        "default_state": "editable",
+        "states": [
+        ],
+        "caption": "Request Completeness Check",
+        "caption_bold": false,
+        "caption_italic": false,
+        "children": [
+          {
+            "type": "section",
+            "index": 0,
+            "entity_name": "",
+            "default_state": "editable",
+            "states": [
+            ],
+            "children": [
+              {
+                "type": "field",
+                "index": 0,
+                "entity_name": "Checklist",
+                "default_state": "editable",
+                "states": [
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

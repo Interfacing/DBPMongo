@@ -1,0 +1,382 @@
+{
+  "shortname": "QMS",
+  "application": "QMS",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "7524bd9b-a30d-4f2b-92ff-70903bb364e2",
+    "name": "Audit_RequirementCheckItem_Response",
+    "fields": {
+      "Label": {
+        "name": "Label",
+        "type": "none",
+        "ext_type": "Label",
+        "original_serverid": "Label",
+        "original_controltype": "Label",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Label",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "RichTextBox": {
+        "name": "RichTextBox",
+        "type": "string",
+        "ext_type": "richtext",
+        "original_serverid": "RichTextBox",
+        "original_controltype": "RichTextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "rbTrueFalse": {
+        "name": "rbTrueFalse",
+        "type": "string",
+        "ext_type": "radio",
+        "original_serverid": "rbTrueFalse",
+        "original_controltype": "RadioList",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Choose your answer:",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "",
+        "options": [
+          "True",
+          "False"
+        ],
+        "layout_horizontal": false,
+        "nbr_columns_vertical": 1
+      },
+      "rbYesNo": {
+        "name": "rbYesNo",
+        "type": "string",
+        "ext_type": "radio",
+        "original_serverid": "rbYesNo",
+        "original_controltype": "RadioList",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Choose your answer:",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "",
+        "options": [
+          "Yes",
+          "No"
+        ],
+        "layout_horizontal": false,
+        "nbr_columns_vertical": 1
+      },
+      "rbPassFail": {
+        "name": "rbPassFail",
+        "type": "string",
+        "ext_type": "radio",
+        "original_serverid": "rbPassFail",
+        "original_controltype": "RadioList",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Choose your answer:",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "",
+        "options": [
+          "Pass",
+          "Fail"
+        ],
+        "layout_horizontal": false,
+        "nbr_columns_vertical": 1
+      },
+      "tbAnswer": {
+        "name": "tbAnswer",
+        "type": "string",
+        "original_serverid": "tbAnswer",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Choose your answer:",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "lblCorrectAnwser": {
+        "name": "lblCorrectAnwser",
+        "type": "none",
+        "ext_type": "Label",
+        "original_serverid": "lblCorrectAnwser",
+        "original_controltype": "Label",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Label",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "ckbOpt1": {
+        "name": "ckbOpt1",
+        "type": "boolean",
+        "original_serverid": "ckbOpt1",
+        "original_controltype": "CheckBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "CheckBox",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "ckbOpt2": {
+        "name": "ckbOpt2",
+        "type": "boolean",
+        "original_serverid": "ckbOpt2",
+        "original_controltype": "CheckBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "CheckBox",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "ckbOpt3": {
+        "name": "ckbOpt3",
+        "type": "boolean",
+        "original_serverid": "ckbOpt3",
+        "original_controltype": "CheckBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "CheckBox",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "ckbOpt4": {
+        "name": "ckbOpt4",
+        "type": "boolean",
+        "original_serverid": "ckbOpt4",
+        "original_controltype": "CheckBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "CheckBox",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "ckbOpt5": {
+        "name": "ckbOpt5",
+        "type": "boolean",
+        "original_serverid": "ckbOpt5",
+        "original_controltype": "CheckBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "CheckBox",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "Label",
+        "original_serverid": "Label",
+        "original_controltype": "Label",
+        "type": "field",
+        "index": 0,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Label",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "RichTextBox",
+        "original_serverid": "RichTextBox",
+        "original_controltype": "RichTextBox",
+        "type": "field",
+        "index": 1,
+        "default_state": "readonly",
+        "states": [],
+        "caption": "",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "",
+        "original_serverid": "CheckboxesSection",
+        "original_controltype": "Row",
+        "type": "section",
+        "index": 2,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "7524BD9B-A30D-4F2B-92FF-70903BB364E2",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "C086D135-E376-401C-A197-ADA5010EC585",
+            "state": "readonly"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "7524BD9B-A30D-4F2B-92FF-70903BB364E2",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "C086D135-E376-401C-A197-ADA5010EC585",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "ckbOpt1",
+                "original_serverid": "ckbOpt1",
+                "original_controltype": "CheckBox",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "CheckBox",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              },
+              {
+                "entity_name": "ckbOpt2",
+                "original_serverid": "ckbOpt2",
+                "original_controltype": "CheckBox",
+                "type": "field",
+                "index": 1,
+                "default_state": "editable",
+                "states": [],
+                "caption": "CheckBox",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              },
+              {
+                "entity_name": "ckbOpt3",
+                "original_serverid": "ckbOpt3",
+                "original_controltype": "CheckBox",
+                "type": "field",
+                "index": 2,
+                "default_state": "editable",
+                "states": [],
+                "caption": "CheckBox",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              },
+              {
+                "entity_name": "ckbOpt4",
+                "original_serverid": "ckbOpt4",
+                "original_controltype": "CheckBox",
+                "type": "field",
+                "index": 3,
+                "default_state": "editable",
+                "states": [],
+                "caption": "CheckBox",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              },
+              {
+                "entity_name": "ckbOpt5",
+                "original_serverid": "ckbOpt5",
+                "original_controltype": "CheckBox",
+                "type": "field",
+                "index": 4,
+                "default_state": "editable",
+                "states": [],
+                "caption": "CheckBox",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "entity_name": "rbTrueFalse",
+        "original_serverid": "rbTrueFalse",
+        "original_controltype": "RadioList",
+        "type": "field",
+        "index": 3,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Choose your answer:",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "rbYesNo",
+        "original_serverid": "rbYesNo",
+        "original_controltype": "RadioList",
+        "type": "field",
+        "index": 4,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Choose your answer:",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "rbPassFail",
+        "original_serverid": "rbPassFail",
+        "original_controltype": "RadioList",
+        "type": "field",
+        "index": 5,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Choose your answer:",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "tbAnswer",
+        "original_serverid": "tbAnswer",
+        "original_controltype": "TextBox",
+        "type": "field",
+        "index": 6,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Choose your answer:",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "lblCorrectAnwser",
+        "original_serverid": "lblCorrectAnwser",
+        "original_controltype": "Label",
+        "type": "field",
+        "index": 7,
+        "default_state": "invisible",
+        "states": [],
+        "caption": "Label",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "7524BD9B-A30D-4F2B-92FF-70903BB364E2",
+        "name": "Audit_RequirementCheckItem_Response"
+      },
+      {
+        "id": "C086D135-E376-401C-A197-ADA5010EC585",
+        "name": "Audit_RequirementCheckItem_Report"
+      }
+    ]
+  }
+}

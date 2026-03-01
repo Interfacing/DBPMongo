@@ -1,0 +1,72 @@
+{
+  "shortname": "QMS",
+  "application": "QMS",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "99d7a8cb-28a9-4f0b-9400-ae52010b939a",
+    "name": "TestMethod",
+    "fields": {
+      "Name": {
+        "name": "Name",
+        "type": "string",
+        "original_serverid": "Name",
+        "original_controltype": "TextBox",
+        "original_bid": "2fc15265-c4f0-49c6-9125-ae510149a302",
+        "label": "Name",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "CheckBox": {
+        "name": "CheckBox",
+        "type": "boolean",
+        "original_serverid": "CheckBox",
+        "original_controltype": "CheckBox",
+        "original_bid": "3fdbbb61-266a-4d9e-8fdb-ae690166f993",
+        "label": "Active",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": ""
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "Name",
+        "original_serverid": "Name",
+        "original_controltype": "TextBox",
+        "type": "field",
+        "index": 0,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Name",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "CheckBox",
+        "original_serverid": "CheckBox",
+        "original_controltype": "CheckBox",
+        "type": "field",
+        "index": 1,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Active",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "99D7A8CB-28A9-4F0B-9400-AE52010B939A",
+        "name": "EditTestMethod"
+      },
+      {
+        "id": "71DD91AA-05D9-4F9A-8078-AE52010B64A8",
+        "name": "NewTestMethod"
+      }
+    ]
+  }
+}

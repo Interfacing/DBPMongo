@@ -1,0 +1,82 @@
+{
+  "shortname": "AdminApp",
+  "application": "AdminApp",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "7ced6d5d-b5bf-40d8-b00c-befd50868968",
+    "name": "TasksListInMonth",
+    "fields": {
+      "GenericGrid": {
+        "name": "GenericGrid",
+        "type": "none",
+        "ext_type": "Table",
+        "original_serverid": "GenericGrid",
+        "original_controltype": "Table",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Tasks List In Month",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "",
+        "original_serverid": "Row",
+        "original_controltype": "Row",
+        "type": "section",
+        "index": 0,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "7CED6D5D-B5BF-40D8-B00C-BEFD50868968",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "7CED6D5D-B5BF-40D8-B00C-BEFD50868968",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "GenericGrid",
+                "original_serverid": "GenericGrid",
+                "original_controltype": "Table",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "Tasks List In Month",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "7CED6D5D-B5BF-40D8-B00C-BEFD50868968",
+        "name": "TasksListInMonth"
+      }
+    ]
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "shortname": "QMS",
+  "application": "QMS",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "ba3fe06d-ab0c-4e5c-af22-aed201391291",
+    "name": "CAPA_Review_Comment",
+    "fields": {
+      "BPMAPP_CAPA_Review_CommentsParent": {
+        "name": "BPMAPP_CAPA_Review_CommentsParent",
+        "type": "none",
+        "ext_type": "Grid",
+        "original_serverid": "BPMAPP_CAPA_Review_CommentsParent",
+        "original_controltype": "Grid",
+        "original_bid": "4cd4e997-d75d-4700-9683-aed20137ae20",
+        "label": "Parent",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "Text": {
+        "name": "Text",
+        "type": "string",
+        "original_serverid": "Text",
+        "original_controltype": "TextBox",
+        "original_bid": "64d39a6f-c15a-4eaa-b76c-aed20137ae21",
+        "label": "Text",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "Date": {
+        "name": "Date",
+        "type": "datetime",
+        "ext_type": "date",
+        "original_serverid": "Date",
+        "original_controltype": "DateEdit",
+        "original_bid": "4a61697a-c1bd-4075-bcd1-aed20137ae21",
+        "label": "Date",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "BPMAPP_CAPA_Review_CommentsParent",
+        "original_serverid": "BPMAPP_CAPA_Review_CommentsParent",
+        "original_controltype": "Grid",
+        "type": "field",
+        "index": 0,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Parent",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "Text",
+        "original_serverid": "Text",
+        "original_controltype": "TextBox",
+        "type": "field",
+        "index": 1,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Text",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "Date",
+        "original_serverid": "Date",
+        "original_controltype": "DateEdit",
+        "type": "field",
+        "index": 2,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Date",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      }
+    ],
+    "behaviors": []
+  }
+}

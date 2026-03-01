@@ -1,0 +1,164 @@
+{
+  "shortname": "QMS",
+  "application": "QMS",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "3a523dd4-39ad-4007-be03-aa6b16b6e9a4",
+    "name": "QMS_QualityEvent_UserTask",
+    "fields": {
+      "Grid": {
+        "name": "Grid",
+        "type": "none",
+        "ext_type": "Grid",
+        "original_serverid": "Grid",
+        "original_controltype": "Grid",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "CheckBox": {
+        "name": "CheckBox",
+        "type": "boolean",
+        "original_serverid": "CheckBox",
+        "original_controltype": "CheckBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Select to Mark All Actions as Completed",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "Black"
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "",
+        "original_serverid": "Row1",
+        "original_controltype": "Row",
+        "type": "section",
+        "index": 0,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "018A7B37-086B-4A96-9DF2-AE1400DD73A7",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "3A523DD4-39AD-4007-BE03-AA6B16B6E9A4",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column1",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "018A7B37-086B-4A96-9DF2-AE1400DD73A7",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "3A523DD4-39AD-4007-BE03-AA6B16B6E9A4",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "Grid",
+                "original_serverid": "Grid",
+                "original_controltype": "Grid",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "entity_name": "",
+        "original_serverid": "Row2",
+        "original_controltype": "Row",
+        "type": "section",
+        "index": 1,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "018A7B37-086B-4A96-9DF2-AE1400DD73A7",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "3A523DD4-39AD-4007-BE03-AA6B16B6E9A4",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column2",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "018A7B37-086B-4A96-9DF2-AE1400DD73A7",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "3A523DD4-39AD-4007-BE03-AA6B16B6E9A4",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "CheckBox",
+                "original_serverid": "CheckBox",
+                "original_controltype": "CheckBox",
+                "type": "field",
+                "index": 0,
+                "default_state": "invisible",
+                "states": [],
+                "caption": "Select to Mark All Actions as Completed",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "018A7B37-086B-4A96-9DF2-AE1400DD73A7",
+        "name": "QeUserTaskExecut_625234860db147559dcc4968d91977ee"
+      },
+      {
+        "id": "3A523DD4-39AD-4007-BE03-AA6B16B6E9A4",
+        "name": "QMS_QualityEvent_UserTask"
+      }
+    ]
+  }
+}

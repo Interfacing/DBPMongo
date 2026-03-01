@@ -1,0 +1,70 @@
+{
+  "shortname": "QMS",
+  "application": "QMS",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "85821b06-2044-4fc4-8569-b09300dd2851",
+    "name": "WebContentURL",
+    "fields": {
+      "InputURL": {
+        "name": "InputURL",
+        "type": "string",
+        "original_serverid": "InputURL",
+        "original_controltype": "TextBox",
+        "original_bid": "4dae8dc7-20ce-4e2e-9813-b09300d33c11",
+        "label": "InputURL",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "BPMAPP_Training_Define_Trainingfk_DefineTraining": {
+        "name": "BPMAPP_Training_Define_Trainingfk_DefineTraining",
+        "type": "string",
+        "ext_type": "dropdown",
+        "original_serverid": "BPMAPP_Training_Define_Trainingfk_DefineTraining",
+        "original_controltype": "DropDown",
+        "original_bid": "364b01c1-c790-4b85-881b-b09300d33c11",
+        "label": "fk_DefineTraining",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": "Select..."
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "InputURL",
+        "original_serverid": "InputURL",
+        "original_controltype": "TextBox",
+        "type": "field",
+        "index": 0,
+        "default_state": "editable",
+        "states": [],
+        "caption": "InputURL",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "BPMAPP_Training_Define_Trainingfk_DefineTraining",
+        "original_serverid": "BPMAPP_Training_Define_Trainingfk_DefineTraining",
+        "original_controltype": "DropDown",
+        "type": "field",
+        "index": 1,
+        "default_state": "editable",
+        "states": [],
+        "caption": "fk_DefineTraining",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "BF2E68D6-5912-4275-8681-5F80BE1461F9",
+        "name": "WebContentURL"
+      }
+    ]
+  }
+}

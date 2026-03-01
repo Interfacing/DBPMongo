@@ -1,0 +1,258 @@
+﻿{
+  "application": "HighlevelSupportProcessApp",
+  "shortname": "HighlevelSupportProcessApp",
+  "processId": "13174A9C-DB81-4440-B95B-7AA23A85D527",
+  "icon": "",
+  "form": {
+    "name": "HighlevelSupportProcess",
+    "id": "019ac63f-7656-7857-bfa0-fa6848897139",
+    "fields": {
+      "Name": {
+        "name": "Name",
+        "type": "string",
+        "ext_type": null,
+        "label": "Name 1",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "UserID": {
+        "name": "UserID",
+        "type": "int",
+        "ext_type": null,
+        "label": "User ID",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "Password": {
+        "name": "Password",
+        "type": "string",
+        "ext_type": "password",
+        "label": "Password",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "Users": {
+        "name": "Users",
+        "type": "string",
+        "ext_type": "dropdown",
+        "label": "Users",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "system_options": [
+          "users"
+        ]
+      },
+      "Projects": {
+        "name": "Projects",
+        "type": "string",
+        "ext_type": "radio",
+        "label": "Projects",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "layout_horizontal": false,
+        "nbr_columns_vertical": 1
+      },
+      "Iagreetoeverything": {
+        "name": "Iagreetoeverything",
+        "type": "boolean",
+        "ext_type": null,
+        "label": "I agree to everything",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "Role": {
+        "name": "Role",
+        "type": "string",
+        "ext_type": null,
+        "label": "Role",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "Details": {
+        "name": "Details",
+        "type": "string",
+        "ext_type": "multiline",
+        "label": "Details",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      }
+    },
+    "layout": [
+      {
+        "type": "field",
+        "index": 0,
+        "entity_name": "Name",
+        "default_state": "editable",
+        "states": []
+      },
+      {
+        "type": "accordion",
+        "index": 1,
+        "entity_name": "accordion",
+        "default_state": "editable",
+        "states": [],
+        "children": [
+          {
+            "type": "section",
+            "index": 0,
+            "entity_name": "",
+            "is_default_open": true,
+            "caption": "Basic",
+            "caption_bold": false,
+            "caption_italic": false,
+            "default_state": "editable",
+            "states": [],
+            "children": [
+              {
+                "type": "field",
+                "index": 0,
+                "entity_name": "UserID",
+                "default_state": "editable",
+                "states": []
+              },
+              {
+                "type": "field",
+                "index": 1,
+                "entity_name": "Password",
+                "default_state": "editable",
+                "states": []
+              }
+            ]
+          },
+          {
+            "type": "section",
+            "index": 1,
+            "entity_name": "",
+            "is_default_open": false,
+            "caption": "Advanced",
+            "caption_bold": false,
+            "caption_italic": false,
+            "default_state": "editable",
+            "states": [],
+            "children": [
+              {
+                "type": "columns",
+                "index": 0,
+                "entity_name": "Label2",
+                "default_state": "editable",
+                "states": [],
+                "caption": "Label",
+                "caption_bold": false,
+                "caption_italic": false,
+                "children": [
+                  {
+                    "type": "section",
+                    "index": 0,
+                    "entity_name": "",
+                    "caption": "",
+                    "caption_bold": false,
+                    "caption_italic": false,
+                    "default_state": "editable",
+                    "states": [],
+                    "children": [
+                      {
+                        "type": "field",
+                        "index": 0,
+                        "entity_name": "Users",
+                        "default_state": "editable",
+                        "states": []
+                      }
+                    ]
+                  },
+                  {
+                    "type": "section",
+                    "index": 1,
+                    "entity_name": "",
+                    "caption": "",
+                    "caption_bold": false,
+                    "caption_italic": false,
+                    "default_state": "editable",
+                    "states": [],
+                    "children": [
+                      {
+                        "type": "field",
+                        "index": 0,
+                        "entity_name": "Projects",
+                        "default_state": "editable",
+                        "states": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "field",
+        "index": 2,
+        "entity_name": "Iagreetoeverything",
+        "default_state": "editable",
+        "states": []
+      },
+      {
+        "type": "tabs",
+        "index": 3,
+        "entity_name": "tabs",
+        "default_state": "editable",
+        "states": [],
+        "children": [
+          {
+            "type": "section",
+            "index": 0,
+            "entity_name": "",
+            "is_default_open": true,
+            "caption": "Tab 1",
+            "caption_bold": false,
+            "caption_italic": false,
+            "default_state": "editable",
+            "states": [],
+            "children": [
+              {
+                "type": "field",
+                "index": 0,
+                "entity_name": "Role",
+                "default_state": "editable",
+                "states": []
+              }
+            ]
+          },
+          {
+            "type": "section",
+            "index": 1,
+            "entity_name": "",
+            "caption": "Tab 2",
+            "caption_bold": false,
+            "caption_italic": false,
+            "default_state": "editable",
+            "states": [],
+            "children": [
+              {
+                "type": "field",
+                "index": 0,
+                "entity_name": "Details",
+                "default_state": "editable",
+                "states": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

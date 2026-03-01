@@ -1,0 +1,388 @@
+{
+  "shortname": "QMS",
+  "application": "QMS",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "24459a67-5a36-4f87-b4ab-b14600a9b1e0",
+    "name": "TrainingInstance_Reminder",
+    "fields": {
+      "btnReminder": {
+        "name": "btnReminder",
+        "type": "none",
+        "ext_type": "Button",
+        "original_serverid": "btnReminder",
+        "original_controltype": "Button",
+        "original_bid": "9a43b6f8-7aeb-4d9f-8d65-b146008e934f",
+        "label": "Send Email Reminder",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "TextBox1": {
+        "name": "TextBox1",
+        "type": "string",
+        "original_serverid": "TextBox1",
+        "original_controltype": "TextBox",
+        "original_bid": "f51eadac-1a9d-4759-a513-b14800dbb8fd",
+        "label": "Training Name",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "lblMessage": {
+        "name": "lblMessage",
+        "type": "none",
+        "ext_type": "Label",
+        "original_serverid": "lblMessage",
+        "original_controltype": "Label",
+        "original_bid": "c88b1fac-8f1f-48e9-8f0a-b1460091568f",
+        "label": "",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "TrainingUserInstancesGrid": {
+        "name": "TrainingUserInstancesGrid",
+        "type": "none",
+        "ext_type": "Grid",
+        "original_serverid": "TrainingUserInstancesGrid",
+        "original_controltype": "Grid",
+        "original_bid": "39baf938-e748-4e70-9183-b146007d9d81",
+        "label": "",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "DueDate": {
+        "name": "DueDate",
+        "type": "datetime",
+        "ext_type": "date",
+        "original_serverid": "DueDate",
+        "original_controltype": "DateEdit",
+        "original_bid": "2a73eece-b97e-4ddc-8dc9-b14800dab075",
+        "label": "Due Date",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": ""
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "",
+        "original_serverid": "Row4",
+        "original_controltype": "Row",
+        "type": "columns",
+        "index": 0,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "0DF81E07-24D7-4DF9-83AD-B1460091BA92",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "24459A67-5A36-4F87-B4AB-B14600A9B1E0",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column5",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "0DF81E07-24D7-4DF9-83AD-B1460091BA92",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "24459A67-5A36-4F87-B4AB-B14600A9B1E0",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": []
+          },
+          {
+            "entity_name": "",
+            "original_serverid": "Column6",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 1,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "0DF81E07-24D7-4DF9-83AD-B1460091BA92",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "24459A67-5A36-4F87-B4AB-B14600A9B1E0",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": []
+          },
+          {
+            "entity_name": "",
+            "original_serverid": "Column7",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 2,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "0DF81E07-24D7-4DF9-83AD-B1460091BA92",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "24459A67-5A36-4F87-B4AB-B14600A9B1E0",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": []
+          },
+          {
+            "entity_name": "",
+            "original_serverid": "Column8",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 3,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "0DF81E07-24D7-4DF9-83AD-B1460091BA92",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "24459A67-5A36-4F87-B4AB-B14600A9B1E0",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": []
+          }
+        ]
+      },
+      {
+        "entity_name": "",
+        "original_serverid": "Row1",
+        "original_controltype": "Row",
+        "type": "section",
+        "index": 1,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "0DF81E07-24D7-4DF9-83AD-B1460091BA92",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "24459A67-5A36-4F87-B4AB-B14600A9B1E0",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column1",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "0DF81E07-24D7-4DF9-83AD-B1460091BA92",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "24459A67-5A36-4F87-B4AB-B14600A9B1E0",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "btnReminder",
+                "original_serverid": "btnReminder",
+                "original_controltype": "Button",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "Send Email Reminder",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "entity_name": "",
+        "original_serverid": "Row3",
+        "original_controltype": "Row",
+        "type": "section",
+        "index": 2,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "0DF81E07-24D7-4DF9-83AD-B1460091BA92",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "24459A67-5A36-4F87-B4AB-B14600A9B1E0",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column4",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "0DF81E07-24D7-4DF9-83AD-B1460091BA92",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "24459A67-5A36-4F87-B4AB-B14600A9B1E0",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "",
+                "original_serverid": "Row2",
+                "original_controltype": "Row",
+                "type": "columns",
+                "index": 0,
+                "default_state": "editable",
+                "states": [
+                  {
+                    "behaviorTaskId": "0DF81E07-24D7-4DF9-83AD-B1460091BA92",
+                    "state": "editable"
+                  },
+                  {
+                    "behaviorTaskId": "24459A67-5A36-4F87-B4AB-B14600A9B1E0",
+                    "state": "editable"
+                  }
+                ],
+                "caption_bold": false,
+                "caption_italic": false,
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": [
+                  {
+                    "entity_name": "",
+                    "original_serverid": "Column2",
+                    "original_controltype": "Column",
+                    "type": "section",
+                    "index": 0,
+                    "default_state": "editable",
+                    "states": [
+                      {
+                        "behaviorTaskId": "0DF81E07-24D7-4DF9-83AD-B1460091BA92",
+                        "state": "editable"
+                      },
+                      {
+                        "behaviorTaskId": "24459A67-5A36-4F87-B4AB-B14600A9B1E0",
+                        "state": "editable"
+                      }
+                    ],
+                    "is_default_open": false,
+                    "all_open_by_default": false,
+                    "children": [
+                      {
+                        "entity_name": "lblMessage",
+                        "original_serverid": "lblMessage",
+                        "original_controltype": "Label",
+                        "type": "field",
+                        "index": 0,
+                        "default_state": "editable",
+                        "states": [],
+                        "caption": "",
+                        "is_default_open": false,
+                        "all_open_by_default": false,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "entity_name": "",
+                    "original_serverid": "Column3",
+                    "original_controltype": "Column",
+                    "type": "section",
+                    "index": 1,
+                    "default_state": "editable",
+                    "states": [
+                      {
+                        "behaviorTaskId": "0DF81E07-24D7-4DF9-83AD-B1460091BA92",
+                        "state": "editable"
+                      },
+                      {
+                        "behaviorTaskId": "24459A67-5A36-4F87-B4AB-B14600A9B1E0",
+                        "state": "editable"
+                      }
+                    ],
+                    "is_default_open": false,
+                    "all_open_by_default": false,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "entity_name": "TrainingUserInstancesGrid",
+                "original_serverid": "TrainingUserInstancesGrid",
+                "original_controltype": "Grid",
+                "type": "field",
+                "index": 1,
+                "default_state": "editable",
+                "states": [],
+                "caption": "",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "0DF81E07-24D7-4DF9-83AD-B1460091BA92",
+        "name": "TrainingInstanceReminders"
+      },
+      {
+        "id": "24459A67-5A36-4F87-B4AB-B14600A9B1E0",
+        "name": "InlineEditTrainingUserInstance"
+      }
+    ]
+  }
+}

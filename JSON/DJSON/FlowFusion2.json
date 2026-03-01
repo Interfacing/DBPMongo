@@ -1,0 +1,48 @@
+﻿{
+  "processId": "252D0107-2E21-4C00-A682-44897813DA29",
+  "icon": "",
+  "form": {
+    "name": "FlowFusion",
+    "fields": {
+      "Name": {
+        "name": "Name",
+        "type": "string",
+        "ext_type": null,
+        "label": "Name",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "UserNumber": {
+        "name": "UserNumber",
+        "type": "int",
+        "ext_type": null,
+        "label": "User Number",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      }
+    },
+    "layout": [
+      {
+        "type": "field",
+        "index": 0,
+        "entity_name": "Name",
+        "default_state": "editable",
+        "states": []
+      },
+      {
+        "type": "field",
+        "index": 1,
+        "entity_name": "UserNumber",
+        "default_state": "editable",
+        "states": []
+      }
+    ]
+  },
+  "rulesWorkspace": {
+    "contextId": "c5908db5-bb8d-4ae9-8ccf-afcfbbafe692",
+    "contextType": "process",
+    "ruleGroups": []
+  }
+}

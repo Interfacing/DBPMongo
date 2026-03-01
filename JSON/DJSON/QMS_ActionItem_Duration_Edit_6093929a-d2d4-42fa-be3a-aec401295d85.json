@@ -1,0 +1,165 @@
+{
+  "shortname": "QMS",
+  "application": "QMS",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "6093929a-d2d4-42fa-be3a-aec401295d85",
+    "name": "ActionItem_Duration",
+    "fields": {
+      "Label": {
+        "name": "Label",
+        "type": "none",
+        "ext_type": "Label",
+        "original_serverid": "Label",
+        "original_controltype": "Label",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Create, edit, or disable the action item durations",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "Durations": {
+        "name": "Durations",
+        "type": "none",
+        "ext_type": "Grid",
+        "original_serverid": "Durations",
+        "original_controltype": "Grid",
+        "original_bid": "5246637d-6dd2-4421-b8ef-aec40124acde",
+        "label": "",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "",
+        "original_serverid": "Row1",
+        "original_controltype": "Row",
+        "type": "section",
+        "index": 0,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "96D7ECDD-3B87-4FA0-969B-CEBA66DF2627",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "6093929A-D2D4-42FA-BE3A-AEC401295D85",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column1",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "96D7ECDD-3B87-4FA0-969B-CEBA66DF2627",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "6093929A-D2D4-42FA-BE3A-AEC401295D85",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "Label",
+                "original_serverid": "Label",
+                "original_controltype": "Label",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "Create, edit, or disable the action item durations",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "entity_name": "",
+        "original_serverid": "Row2",
+        "original_controltype": "Row",
+        "type": "section",
+        "index": 1,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "96D7ECDD-3B87-4FA0-969B-CEBA66DF2627",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "6093929A-D2D4-42FA-BE3A-AEC401295D85",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column2",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "96D7ECDD-3B87-4FA0-969B-CEBA66DF2627",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "6093929A-D2D4-42FA-BE3A-AEC401295D85",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "Durations",
+                "original_serverid": "Durations",
+                "original_controltype": "Grid",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "96D7ECDD-3B87-4FA0-969B-CEBA66DF2627",
+        "name": "ActionItem_Duration"
+      },
+      {
+        "id": "6093929A-D2D4-42FA-BE3A-AEC401295D85",
+        "name": "ActionItem_Duration_Edit"
+      }
+    ]
+  }
+}

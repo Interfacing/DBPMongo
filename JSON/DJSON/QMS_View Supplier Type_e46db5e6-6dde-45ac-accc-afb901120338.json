@@ -1,0 +1,159 @@
+{
+  "shortname": "QMS",
+  "application": "QMS",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "e46db5e6-6dde-45ac-accc-afb901120338",
+    "name": "QMS_Supplier_TypeForm",
+    "fields": {
+      "Types": {
+        "name": "Types",
+        "type": "string",
+        "original_serverid": "Types",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Supplier Type",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "French_Title": {
+        "name": "French_Title",
+        "type": "string",
+        "original_serverid": "French_Title",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "French",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "German_Title": {
+        "name": "German_Title",
+        "type": "string",
+        "original_serverid": "German_Title",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "German",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "Arabic_Title": {
+        "name": "Arabic_Title",
+        "type": "string",
+        "original_serverid": "Arabic_Title",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Arabic",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "Active": {
+        "name": "Active",
+        "type": "boolean",
+        "original_serverid": "Active",
+        "original_controltype": "CheckBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Active",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "Types",
+        "original_serverid": "Types",
+        "original_controltype": "TextBox",
+        "type": "field",
+        "index": 0,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Supplier Type",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "French_Title",
+        "original_serverid": "French_Title",
+        "original_controltype": "TextBox",
+        "type": "field",
+        "index": 1,
+        "default_state": "editable",
+        "states": [],
+        "caption": "French",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "German_Title",
+        "original_serverid": "German_Title",
+        "original_controltype": "TextBox",
+        "type": "field",
+        "index": 2,
+        "default_state": "editable",
+        "states": [],
+        "caption": "German",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "Arabic_Title",
+        "original_serverid": "Arabic_Title",
+        "original_controltype": "TextBox",
+        "type": "field",
+        "index": 3,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Arabic",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "Active",
+        "original_serverid": "Active",
+        "original_controltype": "CheckBox",
+        "type": "field",
+        "index": 4,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Active",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "6E5D24AA-AD6C-4646-950E-1FACB5B7A028",
+        "name": "QMS_Supplier_TypeForm"
+      },
+      {
+        "id": "E46DB5E6-6DDE-45AC-ACCC-AFB901120338",
+        "name": "view_SupplierType"
+      },
+      {
+        "id": "71D574FB-5B2D-4451-BC19-AFB901121C13",
+        "name": "add_SupplierType"
+      },
+      {
+        "id": "72F52370-1B36-4FF8-9A6B-AFB9011231F6",
+        "name": "edit_SupplierType"
+      },
+      {
+        "id": "1B7D0081-A79D-4D45-B4EA-AFD2004AB44F",
+        "name": "delete_SupplierType"
+      }
+    ]
+  }
+}

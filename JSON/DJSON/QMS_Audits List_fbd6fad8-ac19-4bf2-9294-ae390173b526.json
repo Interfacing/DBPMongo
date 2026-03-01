@@ -1,0 +1,44 @@
+{
+  "shortname": "QMS",
+  "application": "QMS",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "fbd6fad8-ac19-4bf2-9294-ae390173b526",
+    "name": "AuditDashboard_AuditsList",
+    "fields": {
+      "GenericGrid": {
+        "name": "GenericGrid",
+        "type": "none",
+        "ext_type": "Table",
+        "original_serverid": "GenericGrid",
+        "original_controltype": "Table",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "GenericGrid",
+        "original_serverid": "GenericGrid",
+        "original_controltype": "Table",
+        "type": "field",
+        "index": 0,
+        "default_state": "editable",
+        "states": [],
+        "caption": "",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "FBD6FAD8-AC19-4BF2-9294-AE390173B526",
+        "name": "AuditDashboard_AuditList"
+      }
+    ]
+  }
+}

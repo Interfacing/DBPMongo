@@ -1,0 +1,182 @@
+{
+  "shortname": "QMS",
+  "application": "QMS",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "4b5946c3-f40a-49e9-a4fe-ae470145ee12",
+    "name": "QMS_ActionItem_BudgetItem",
+    "fields": {
+      "RichTextBox": {
+        "name": "RichTextBox",
+        "type": "string",
+        "ext_type": "richtext",
+        "original_serverid": "RichTextBox",
+        "original_controltype": "RichTextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Description",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "Name": {
+        "name": "Name",
+        "type": "string",
+        "original_serverid": "Name",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Budget Item Name",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "NumericTextBox": {
+        "name": "NumericTextBox",
+        "type": "decimal",
+        "original_serverid": "NumericTextBox",
+        "original_controltype": "NumericBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Cost",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "",
+        "original_serverid": "Row",
+        "original_controltype": "Row",
+        "type": "columns",
+        "index": 0,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "4B5946C3-F40A-49E9-A4FE-AE470145EE12",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "CD2CD3CE-50A1-4D59-B6AE-AE47016B9E30",
+            "state": "editable"
+          },
+          {
+            "behaviorTaskId": "8094F0C8-EE7F-419E-89B2-A36BE7EE321D",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "4B5946C3-F40A-49E9-A4FE-AE470145EE12",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "CD2CD3CE-50A1-4D59-B6AE-AE47016B9E30",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "8094F0C8-EE7F-419E-89B2-A36BE7EE321D",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "Name",
+                "original_serverid": "Name",
+                "original_controltype": "TextBox",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "Budget Item Name",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "entity_name": "",
+            "original_serverid": "Column1",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 1,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "4B5946C3-F40A-49E9-A4FE-AE470145EE12",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "CD2CD3CE-50A1-4D59-B6AE-AE47016B9E30",
+                "state": "editable"
+              },
+              {
+                "behaviorTaskId": "8094F0C8-EE7F-419E-89B2-A36BE7EE321D",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "NumericTextBox",
+                "original_serverid": "NumericTextBox",
+                "original_controltype": "NumericBox",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "Cost",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "entity_name": "RichTextBox",
+        "original_serverid": "RichTextBox",
+        "original_controltype": "RichTextBox",
+        "type": "field",
+        "index": 1,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Description",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "4B5946C3-F40A-49E9-A4FE-AE470145EE12",
+        "name": "QMS_ActionItem_BudgetItem_Edit"
+      },
+      {
+        "id": "CD2CD3CE-50A1-4D59-B6AE-AE47016B9E30",
+        "name": "QMS_ActionItem_BudgetItem_View"
+      },
+      {
+        "id": "8094F0C8-EE7F-419E-89B2-A36BE7EE321D",
+        "name": "QMS_ActionItem_BudgetItem_Add"
+      }
+    ]
+  }
+}

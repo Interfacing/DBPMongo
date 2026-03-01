@@ -1,0 +1,326 @@
+{
+  "contextId": "2FAA898C-5AB8-4A45-B5D8-B00A00B762B1",
+  "contextType": "process",
+  "ruleGroups": [
+    {
+      "id": "a18e6eda-8781-40a6-9d33-e519336769ea",
+      "entrypoint": "form-designer",
+      "contextType": "process",
+      "contextId": "2FAA898C-5AB8-4A45-B5D8-B00A00B762B1",
+      "rules": [
+        {
+          "id": "1b4fb913-5bf8-4f73-bc6b-807914b44d06",
+          "name": "Rule 02",
+          "order": 0,
+          "possibleFields": [
+            {
+              "id": "f_3b37fd27_b426_4d5e_8f57_9439ab2de406",
+              "name": "3b37fd27_b426_4d5e_8f57_9439ab2de406",
+              "label": "Label 1",
+              "type": "string"
+            },
+            {
+              "id": "f_1ac955e4_e1a0_4fb4_82a5_33182e1ff873",
+              "name": "1ac955e4_e1a0_4fb4_82a5_33182e1ff873",
+              "label": "Label 2",
+              "type": "string"
+            }
+          ],
+          "conditions": {
+            "id": "de289b42-a6ba-45a3-a195-d219e20991cd",
+            "type": "group",
+            "logic": "ALL",
+            "children": [
+              {
+                "id": "d9fe047d-8a10-45a6-b69e-84764c27d6cf",
+                "order": 0,
+                "type": "condition",
+                "possibleOperators": [
+                  {
+                    "id": "eq",
+                    "label": "Equals",
+                    "value": "EQ",
+                    "symbol": "="
+                  },
+                  {
+                    "id": "neq",
+                    "label": "Not equals",
+                    "value": "NEQ",
+                    "symbol": "≠"
+                  },
+                  {
+                    "id": "contains",
+                    "label": "Contains",
+                    "value": "CONTAINS",
+                    "symbol": "∋"
+                  },
+                  {
+                    "id": "not_contains",
+                    "label": "Does not contain",
+                    "value": "NOT_CONTAINS",
+                    "symbol": "∌"
+                  },
+                  {
+                    "id": "starts_with",
+                    "label": "Starts with",
+                    "value": "STARTS_WITH",
+                    "symbol": "↦"
+                  },
+                  {
+                    "id": "ends_with",
+                    "label": "Ends with",
+                    "value": "ENDS_WITH",
+                    "symbol": "↤"
+                  },
+                  {
+                    "id": "matches",
+                    "label": "Matches (regex)",
+                    "value": "MATCHES",
+                    "symbol": "~"
+                  },
+                  {
+                    "id": "in",
+                    "label": "In list",
+                    "value": "IN",
+                    "symbol": "∈"
+                  },
+                  {
+                    "id": "not_in",
+                    "label": "Not in list",
+                    "value": "NOT_IN",
+                    "symbol": "∉"
+                  },
+                  {
+                    "id": "is_empty",
+                    "label": "Is empty",
+                    "value": "IS_EMPTY",
+                    "symbol": "∅"
+                  },
+                  {
+                    "id": "is_not_empty",
+                    "label": "Is not empty",
+                    "value": "IS_NOT_EMPTY",
+                    "symbol": "≠∅"
+                  }
+                ],
+                "field": {
+                  "id": "f_3b37fd27_b426_4d5e_8f57_9439ab2de406",
+                  "name": "3b37fd27_b426_4d5e_8f57_9439ab2de406",
+                  "label": "Label 1",
+                  "type": "string"
+                },
+                "operator": {
+                  "id": "starts_with",
+                  "label": "Starts with",
+                  "value": "STARTS_WITH",
+                  "symbol": "↦"
+                },
+                "value": "Hello",
+                "possibleValues": []
+              },
+              {
+                "id": "f804580f-61aa-42bf-a7b4-0bc3f913f259",
+                "order": 1,
+                "type": "group",
+                "logic": "ANY",
+                "children": [
+                  {
+                    "id": "a7d8eac5-ec07-4d4a-b198-736bf77641b0",
+                    "order": 0,
+                    "type": "condition",
+                    "possibleOperators": [
+                      {
+                        "id": "eq",
+                        "label": "Equals",
+                        "value": "EQ",
+                        "symbol": "="
+                      },
+                      {
+                        "id": "neq",
+                        "label": "Not equals",
+                        "value": "NEQ",
+                        "symbol": "≠"
+                      },
+                      {
+                        "id": "contains",
+                        "label": "Contains",
+                        "value": "CONTAINS",
+                        "symbol": "∋"
+                      },
+                      {
+                        "id": "not_contains",
+                        "label": "Does not contain",
+                        "value": "NOT_CONTAINS",
+                        "symbol": "∌"
+                      },
+                      {
+                        "id": "starts_with",
+                        "label": "Starts with",
+                        "value": "STARTS_WITH",
+                        "symbol": "↦"
+                      },
+                      {
+                        "id": "ends_with",
+                        "label": "Ends with",
+                        "value": "ENDS_WITH",
+                        "symbol": "↤"
+                      },
+                      {
+                        "id": "matches",
+                        "label": "Matches (regex)",
+                        "value": "MATCHES",
+                        "symbol": "~"
+                      },
+                      {
+                        "id": "in",
+                        "label": "In list",
+                        "value": "IN",
+                        "symbol": "∈"
+                      },
+                      {
+                        "id": "not_in",
+                        "label": "Not in list",
+                        "value": "NOT_IN",
+                        "symbol": "∉"
+                      },
+                      {
+                        "id": "is_empty",
+                        "label": "Is empty",
+                        "value": "IS_EMPTY",
+                        "symbol": "∅"
+                      },
+                      {
+                        "id": "is_not_empty",
+                        "label": "Is not empty",
+                        "value": "IS_NOT_EMPTY",
+                        "symbol": "≠∅"
+                      }
+                    ],
+                    "field": {
+                      "id": "f_1ac955e4_e1a0_4fb4_82a5_33182e1ff873",
+                      "name": "1ac955e4_e1a0_4fb4_82a5_33182e1ff873",
+                      "label": "Label 2",
+                      "type": "string"
+                    },
+                    "operator": {
+                      "id": "contains",
+                      "label": "Contains",
+                      "value": "CONTAINS",
+                      "symbol": "∋"
+                    },
+                    "value": "World",
+                    "possibleValues": []
+                  },
+                  {
+                    "id": "de3cf144-58d8-4983-b5ca-8c64c6732e4a",
+                    "order": 1,
+                    "type": "condition",
+                    "possibleOperators": [
+                      {
+                        "id": "eq",
+                        "label": "Equals",
+                        "value": "EQ",
+                        "symbol": "="
+                      },
+                      {
+                        "id": "neq",
+                        "label": "Not equals",
+                        "value": "NEQ",
+                        "symbol": "≠"
+                      },
+                      {
+                        "id": "contains",
+                        "label": "Contains",
+                        "value": "CONTAINS",
+                        "symbol": "∋"
+                      },
+                      {
+                        "id": "not_contains",
+                        "label": "Does not contain",
+                        "value": "NOT_CONTAINS",
+                        "symbol": "∌"
+                      },
+                      {
+                        "id": "starts_with",
+                        "label": "Starts with",
+                        "value": "STARTS_WITH",
+                        "symbol": "↦"
+                      },
+                      {
+                        "id": "ends_with",
+                        "label": "Ends with",
+                        "value": "ENDS_WITH",
+                        "symbol": "↤"
+                      },
+                      {
+                        "id": "matches",
+                        "label": "Matches (regex)",
+                        "value": "MATCHES",
+                        "symbol": "~"
+                      },
+                      {
+                        "id": "in",
+                        "label": "In list",
+                        "value": "IN",
+                        "symbol": "∈"
+                      },
+                      {
+                        "id": "not_in",
+                        "label": "Not in list",
+                        "value": "NOT_IN",
+                        "symbol": "∉"
+                      },
+                      {
+                        "id": "is_empty",
+                        "label": "Is empty",
+                        "value": "IS_EMPTY",
+                        "symbol": "∅"
+                      },
+                      {
+                        "id": "is_not_empty",
+                        "label": "Is not empty",
+                        "value": "IS_NOT_EMPTY",
+                        "symbol": "≠∅"
+                      }
+                    ],
+                    "field": {
+                      "id": "f_1ac955e4_e1a0_4fb4_82a5_33182e1ff873",
+                      "name": "1ac955e4_e1a0_4fb4_82a5_33182e1ff873",
+                      "label": "Label 2",
+                      "type": "string"
+                    },
+                    "operator": {
+                      "id": "ends_with",
+                      "label": "Ends with",
+                      "value": "ENDS_WITH",
+                      "symbol": "↤"
+                    },
+                    "value": "World",
+                    "possibleValues": []
+                  }
+                ]
+              }
+            ],
+            "order": 0
+          },
+          "actions": [
+            {
+              "id": "8e215718-a598-4e9b-b170-6372fd5ade8c",
+              "order": 0,
+              "field": {
+                "id": "f_3b37fd27_b426_4d5e_8f57_9439ab2de406",
+                "name": "3b37fd27_b426_4d5e_8f57_9439ab2de406",
+                "label": "Label 1",
+                "type": "string"
+              },
+              "type": "icon",
+              "iconType": "svg",
+              "iconName": "fa-brands fa-airbnb",
+              "iconColor": "43A047"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

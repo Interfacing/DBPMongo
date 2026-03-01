@@ -1,0 +1,249 @@
+{
+  "shortname": "QMS",
+  "application": "QMS",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "07236541-7cc6-4eca-88c4-447583f9c684",
+    "name": "QMS_Supplier_Scorecard",
+    "fields": {
+      "Defectivepartspermillion": {
+        "name": "Defectivepartspermillion",
+        "type": "int",
+        "original_serverid": "Defectivepartspermillion",
+        "original_controltype": "NumericBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Defective parts per million",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "Percentageofreturnedproducts": {
+        "name": "Percentageofreturnedproducts",
+        "type": "int",
+        "original_serverid": "Percentageofreturnedproducts",
+        "original_controltype": "NumericBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Percentageofreturnedproducts",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "Percentageofproductsoutofcomplianceorqualitystandards": {
+        "name": "Percentageofproductsoutofcomplianceorqualitystandards",
+        "type": "int",
+        "original_serverid": "Percentageofproductsoutofcomplianceorqualitystandards",
+        "original_controltype": "NumericBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Percentageofproductsoutofcomplianceorqualitystandards",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "Date": {
+        "name": "Date",
+        "type": "datetime",
+        "ext_type": "datetime",
+        "original_serverid": "Date",
+        "original_controltype": "DateEdit",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Date",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "Fk_Supplier": {
+        "name": "Fk_Supplier",
+        "type": "string",
+        "original_serverid": "Fk_Supplier",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "fk_Supplier",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "Successofnewproductintroductions": {
+        "name": "Successofnewproductintroductions",
+        "type": "int",
+        "original_serverid": "Successofnewproductintroductions",
+        "original_controltype": "NumericBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Successofnewproductintroductions",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "Chargebacksfornonconformances": {
+        "name": "Chargebacksfornonconformances",
+        "type": "int",
+        "original_serverid": "Chargebacksfornonconformances",
+        "original_controltype": "NumericBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Chargebacksfornonconformances",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "Completeandontimedelivery": {
+        "name": "Completeandontimedelivery",
+        "type": "int",
+        "original_serverid": "Completeandontimedelivery",
+        "original_controltype": "NumericBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Completeandontimedelivery",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "Percentageofdefectiveproductsreceived": {
+        "name": "Percentageofdefectiveproductsreceived",
+        "type": "int",
+        "original_serverid": "Percentageofdefectiveproductsreceived",
+        "original_controltype": "NumericBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Percentageofdefectiveproductsreceived",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "Defectivepartspermillion",
+        "original_serverid": "Defectivepartspermillion",
+        "original_controltype": "NumericBox",
+        "type": "field",
+        "index": 0,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Defective parts per million",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "Percentageofreturnedproducts",
+        "original_serverid": "Percentageofreturnedproducts",
+        "original_controltype": "NumericBox",
+        "type": "field",
+        "index": 1,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Percentageofreturnedproducts",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "Percentageofproductsoutofcomplianceorqualitystandards",
+        "original_serverid": "Percentageofproductsoutofcomplianceorqualitystandards",
+        "original_controltype": "NumericBox",
+        "type": "field",
+        "index": 2,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Percentageofproductsoutofcomplianceorqualitystandards",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "Date",
+        "original_serverid": "Date",
+        "original_controltype": "DateEdit",
+        "type": "field",
+        "index": 3,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Date",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "Fk_Supplier",
+        "original_serverid": "Fk_Supplier",
+        "original_controltype": "TextBox",
+        "type": "field",
+        "index": 4,
+        "default_state": "editable",
+        "states": [],
+        "caption": "fk_Supplier",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "Successofnewproductintroductions",
+        "original_serverid": "Successofnewproductintroductions",
+        "original_controltype": "NumericBox",
+        "type": "field",
+        "index": 5,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Successofnewproductintroductions",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "Chargebacksfornonconformances",
+        "original_serverid": "Chargebacksfornonconformances",
+        "original_controltype": "NumericBox",
+        "type": "field",
+        "index": 6,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Chargebacksfornonconformances",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "Completeandontimedelivery",
+        "original_serverid": "Completeandontimedelivery",
+        "original_controltype": "NumericBox",
+        "type": "field",
+        "index": 7,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Completeandontimedelivery",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "Percentageofdefectiveproductsreceived",
+        "original_serverid": "Percentageofdefectiveproductsreceived",
+        "original_controltype": "NumericBox",
+        "type": "field",
+        "index": 8,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Percentageofdefectiveproductsreceived",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "27C44726-D00C-4A20-AEE6-AD7D0108FD7C",
+        "name": "Edit_Scorecard"
+      },
+      {
+        "id": "07236541-7CC6-4ECA-88C4-447583F9C684",
+        "name": "QMS_Supplier_Scorecard"
+      }
+    ]
+  }
+}

@@ -1,0 +1,269 @@
+{
+  "shortname": "QMS",
+  "application": "QMS",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "cc696663-b06c-4b38-b448-526cd030fea0",
+    "name": "QMS_EPC_Risk_Detectability",
+    "fields": {
+      "ScoreMultiplier": {
+        "name": "ScoreMultiplier",
+        "type": "decimal",
+        "original_serverid": "ScoreMultiplier",
+        "original_controltype": "NumericBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "ScoreMultiplier",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "TextDe": {
+        "name": "TextDe",
+        "type": "string",
+        "original_serverid": "TextDe",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "TextDe",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "DescriptionDe": {
+        "name": "DescriptionDe",
+        "type": "string",
+        "original_serverid": "DescriptionDe",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "DescriptionDe",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "Text": {
+        "name": "Text",
+        "type": "string",
+        "original_serverid": "Text",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Text",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "DescriptionFr": {
+        "name": "DescriptionFr",
+        "type": "string",
+        "original_serverid": "DescriptionFr",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "DescriptionFr",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "Description": {
+        "name": "Description",
+        "type": "string",
+        "original_serverid": "Description",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Description",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "Color": {
+        "name": "Color",
+        "type": "string",
+        "original_serverid": "Color",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Color",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "TextFr": {
+        "name": "TextFr",
+        "type": "string",
+        "original_serverid": "TextFr",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "TextFr",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "Value": {
+        "name": "Value",
+        "type": "int",
+        "original_serverid": "Value",
+        "original_controltype": "NumericBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Value",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "EpcId": {
+        "name": "EpcId",
+        "type": "int",
+        "original_serverid": "EpcId",
+        "original_controltype": "NumericBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "EpcId",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "ScoreMultiplier",
+        "original_serverid": "ScoreMultiplier",
+        "original_controltype": "NumericBox",
+        "type": "field",
+        "index": 0,
+        "default_state": "editable",
+        "states": [],
+        "caption": "ScoreMultiplier",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "TextDe",
+        "original_serverid": "TextDe",
+        "original_controltype": "TextBox",
+        "type": "field",
+        "index": 1,
+        "default_state": "editable",
+        "states": [],
+        "caption": "TextDe",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "DescriptionDe",
+        "original_serverid": "DescriptionDe",
+        "original_controltype": "TextBox",
+        "type": "field",
+        "index": 2,
+        "default_state": "editable",
+        "states": [],
+        "caption": "DescriptionDe",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "Text",
+        "original_serverid": "Text",
+        "original_controltype": "TextBox",
+        "type": "field",
+        "index": 3,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Text",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "DescriptionFr",
+        "original_serverid": "DescriptionFr",
+        "original_controltype": "TextBox",
+        "type": "field",
+        "index": 4,
+        "default_state": "editable",
+        "states": [],
+        "caption": "DescriptionFr",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "Description",
+        "original_serverid": "Description",
+        "original_controltype": "TextBox",
+        "type": "field",
+        "index": 5,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Description",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "Color",
+        "original_serverid": "Color",
+        "original_controltype": "TextBox",
+        "type": "field",
+        "index": 6,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Color",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "TextFr",
+        "original_serverid": "TextFr",
+        "original_controltype": "TextBox",
+        "type": "field",
+        "index": 7,
+        "default_state": "editable",
+        "states": [],
+        "caption": "TextFr",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "Value",
+        "original_serverid": "Value",
+        "original_controltype": "NumericBox",
+        "type": "field",
+        "index": 8,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Value",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "EpcId",
+        "original_serverid": "EpcId",
+        "original_controltype": "NumericBox",
+        "type": "field",
+        "index": 9,
+        "default_state": "editable",
+        "states": [],
+        "caption": "EpcId",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "CC696663-B06C-4B38-B448-526CD030FEA0",
+        "name": "QMS_EPC_Risk_Detectability"
+      }
+    ]
+  }
+}

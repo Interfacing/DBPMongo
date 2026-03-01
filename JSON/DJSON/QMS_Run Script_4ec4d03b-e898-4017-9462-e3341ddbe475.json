@@ -1,0 +1,70 @@
+{
+  "shortname": "QMS",
+  "application": "QMS",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "4ec4d03b-e898-4017-9462-e3341ddbe475",
+    "name": "Run_Script",
+    "fields": {
+      "Button": {
+        "name": "Button",
+        "type": "none",
+        "ext_type": "Button",
+        "original_serverid": "Button",
+        "original_controltype": "Button",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Run Script",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "TextBox": {
+        "name": "TextBox",
+        "type": "string",
+        "ext_type": "multiline",
+        "original_serverid": "TextBox",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Output",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "#0070C0",
+        "placeholder": ""
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "Button",
+        "original_serverid": "Button",
+        "original_controltype": "Button",
+        "type": "field",
+        "index": 0,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Run Script",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "TextBox",
+        "original_serverid": "TextBox",
+        "original_controltype": "TextBox",
+        "type": "field",
+        "index": 1,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Output",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "4EC4D03B-E898-4017-9462-E3341DDBE475",
+        "name": "Run_Script"
+      }
+    ]
+  }
+}

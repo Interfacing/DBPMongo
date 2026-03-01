@@ -1,0 +1,86 @@
+{
+  "shortname": "QMS",
+  "application": "QMS",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "0de35d6a-674f-47ec-a1a0-af000107ed07",
+    "name": "ObservationList",
+    "fields": {
+      "grdObservationList": {
+        "name": "grdObservationList",
+        "type": "none",
+        "ext_type": "Grid",
+        "original_serverid": "grdObservationList",
+        "original_controltype": "Grid",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "TextBox": {
+        "name": "TextBox",
+        "type": "string",
+        "original_serverid": "TextBox",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Finding ID",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "#002060"
+      },
+      "SingleSelectDropdown": {
+        "name": "SingleSelectDropdown",
+        "type": "string",
+        "ext_type": "dropdown",
+        "original_serverid": "SingleSelectDropdown",
+        "original_controltype": "DropDown",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Type",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "#002060",
+        "placeholder": "Select...",
+        "options": [
+          "Minor Finding",
+          "Major Finding",
+          "Non-conformity",
+          "General Findings"
+        ]
+      },
+      "dtCreationDate": {
+        "name": "dtCreationDate",
+        "type": "datetime",
+        "ext_type": "date",
+        "original_serverid": "dtCreationDate",
+        "original_controltype": "DateEdit",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Creation Date",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "#002060"
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "grdObservationList",
+        "original_serverid": "grdObservationList",
+        "original_controltype": "Grid",
+        "type": "field",
+        "index": 0,
+        "default_state": "editable",
+        "states": [],
+        "caption": "",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "0DE35D6A-674F-47EC-A1A0-AF000107ED07",
+        "name": "ViewObservationList"
+      }
+    ]
+  }
+}

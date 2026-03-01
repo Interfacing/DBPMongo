@@ -1,0 +1,147 @@
+{
+  "shortname": "QMS",
+  "application": "QMS",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "aa6cb5ad-dd8f-47c7-a1be-ae99010c7834",
+    "name": "QMS_LanguageItem",
+    "fields": {
+      "Title": {
+        "name": "Title",
+        "type": "string",
+        "original_serverid": "Title",
+        "original_controltype": "TextBox",
+        "original_bid": "a01da459-1288-4ac5-9bfc-ae99010a930a",
+        "label": "Title",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "TitleFr": {
+        "name": "TitleFr",
+        "type": "string",
+        "original_serverid": "TitleFr",
+        "original_controltype": "TextBox",
+        "original_bid": "368ee230-0671-49aa-b19f-ae99010a930b",
+        "label": "French Title",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "TitleAr": {
+        "name": "TitleAr",
+        "type": "string",
+        "original_serverid": "TitleAr",
+        "original_controltype": "TextBox",
+        "original_bid": "c689f2c9-099e-4ba6-97af-ae99010a930b",
+        "label": "Arabic Title",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "TitleDe": {
+        "name": "TitleDe",
+        "type": "string",
+        "original_serverid": "TitleDe",
+        "original_controltype": "TextBox",
+        "original_bid": "a92f3a96-73bb-4e3f-bedd-ae99010a930b",
+        "label": "German Title",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "IsActive": {
+        "name": "IsActive",
+        "type": "boolean",
+        "original_serverid": "IsActive",
+        "original_controltype": "CheckBox",
+        "original_bid": "e21699b6-3f9c-47fe-b71d-ae99010a930b",
+        "label": "IsActive",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "Title",
+        "original_serverid": "Title",
+        "original_controltype": "TextBox",
+        "type": "field",
+        "index": 0,
+        "default_state": "mandatory",
+        "states": [],
+        "caption": "Title",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "TitleFr",
+        "original_serverid": "TitleFr",
+        "original_controltype": "TextBox",
+        "type": "field",
+        "index": 1,
+        "default_state": "editable",
+        "states": [],
+        "caption": "French Title",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "TitleAr",
+        "original_serverid": "TitleAr",
+        "original_controltype": "TextBox",
+        "type": "field",
+        "index": 2,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Arabic Title",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "TitleDe",
+        "original_serverid": "TitleDe",
+        "original_controltype": "TextBox",
+        "type": "field",
+        "index": 3,
+        "default_state": "editable",
+        "states": [],
+        "caption": "German Title",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "IsActive",
+        "original_serverid": "IsActive",
+        "original_controltype": "CheckBox",
+        "type": "field",
+        "index": 4,
+        "default_state": "editable",
+        "states": [],
+        "caption": "IsActive",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "AA6CB5AD-DD8F-47C7-A1BE-AE99010C7834",
+        "name": "EditLanguage"
+      },
+      {
+        "id": "4EB33533-47BD-4B9D-8028-AE99010BFF78",
+        "name": "NewLanguage"
+      }
+    ]
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "shortname": "AdminApp",
+  "application": "AdminApp",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "6815758c-3e78-4f66-a868-1758e6df1679",
+    "name": "frmProcessDashboard",
+    "fields": {
+      "ClientChart": {
+        "name": "ClientChart",
+        "type": "none",
+        "ext_type": "Chart",
+        "original_serverid": "ClientChart",
+        "original_controltype": "Chart",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Interactive Chart",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "",
+        "original_serverid": "Row",
+        "original_controltype": "Row",
+        "type": "section",
+        "index": 0,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "6815758C-3E78-4F66-A868-1758E6DF1679",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "6815758C-3E78-4F66-A868-1758E6DF1679",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "ClientChart",
+                "original_serverid": "ClientChart",
+                "original_controltype": "Chart",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "Interactive Chart",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "6815758C-3E78-4F66-A868-1758E6DF1679",
+        "name": "frmProcessDashboard"
+      }
+    ]
+  }
+}

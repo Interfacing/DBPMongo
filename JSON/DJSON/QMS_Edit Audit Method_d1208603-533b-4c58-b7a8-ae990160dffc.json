@@ -1,0 +1,138 @@
+{
+  "shortname": "QMS",
+  "application": "QMS",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "d1208603-533b-4c58-b7a8-ae990160dffc",
+    "name": "Audit_Method_Item",
+    "fields": {
+      "Title": {
+        "name": "Title",
+        "type": "string",
+        "original_serverid": "Title",
+        "original_controltype": "TextBox",
+        "original_bid": "cf888266-e72a-4245-bd43-ae99015ee6c0",
+        "label": "Title",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "TitleFr": {
+        "name": "TitleFr",
+        "type": "string",
+        "original_serverid": "TitleFr",
+        "original_controltype": "TextBox",
+        "original_bid": "b70eb82d-383f-4215-b540-ae99015ee6c0",
+        "label": "French Title",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "TitleAr": {
+        "name": "TitleAr",
+        "type": "string",
+        "original_serverid": "TitleAr",
+        "original_controltype": "TextBox",
+        "original_bid": "981d4c08-ad52-43b3-9b1c-ae99015ee6c0",
+        "label": "Arabic Title",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "TitleDe": {
+        "name": "TitleDe",
+        "type": "string",
+        "original_serverid": "TitleDe",
+        "original_controltype": "TextBox",
+        "original_bid": "ab22503f-9869-40ff-a73e-ae99015ee6c0",
+        "label": "German Title",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "IsActive": {
+        "name": "IsActive",
+        "type": "boolean",
+        "original_serverid": "IsActive",
+        "original_controltype": "CheckBox",
+        "original_bid": "5c50ceb8-ad7a-4f52-946f-ae99015ee6c0",
+        "label": "IsActive",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "Title",
+        "original_serverid": "Title",
+        "original_controltype": "TextBox",
+        "type": "field",
+        "index": 0,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Title",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "TitleFr",
+        "original_serverid": "TitleFr",
+        "original_controltype": "TextBox",
+        "type": "field",
+        "index": 1,
+        "default_state": "editable",
+        "states": [],
+        "caption": "French Title",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "TitleAr",
+        "original_serverid": "TitleAr",
+        "original_controltype": "TextBox",
+        "type": "field",
+        "index": 2,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Arabic Title",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "TitleDe",
+        "original_serverid": "TitleDe",
+        "original_controltype": "TextBox",
+        "type": "field",
+        "index": 3,
+        "default_state": "editable",
+        "states": [],
+        "caption": "German Title",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "IsActive",
+        "original_serverid": "IsActive",
+        "original_controltype": "CheckBox",
+        "type": "field",
+        "index": 4,
+        "default_state": "editable",
+        "states": [],
+        "caption": "IsActive",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      }
+    ],
+    "behaviors": []
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "shortname": "QMS",
+  "application": "QMS",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "f5afc60d-7802-480b-a137-ae5901574bc4",
+    "name": "Audit_Plan_TestEvidenceRound_Sample",
+    "fields": {
+      "Effectiveness": {
+        "name": "Effectiveness",
+        "type": "string",
+        "original_serverid": "Effectiveness",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Effectiveness",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "Population": {
+        "name": "Population",
+        "type": "string",
+        "original_serverid": "Population",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Population",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "Observation": {
+        "name": "Observation",
+        "type": "string",
+        "original_serverid": "Observation",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Finding",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "Accurate": {
+        "name": "Accurate",
+        "type": "string",
+        "original_serverid": "Accurate",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Accurate",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "PassFail": {
+        "name": "PassFail",
+        "type": "string",
+        "original_serverid": "PassFail",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Pass Fail",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "Effectiveness",
+        "original_serverid": "Effectiveness",
+        "original_controltype": "TextBox",
+        "type": "field",
+        "index": 0,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Effectiveness",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "Population",
+        "original_serverid": "Population",
+        "original_controltype": "TextBox",
+        "type": "field",
+        "index": 1,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Population",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "Observation",
+        "original_serverid": "Observation",
+        "original_controltype": "TextBox",
+        "type": "field",
+        "index": 2,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Finding",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "Accurate",
+        "original_serverid": "Accurate",
+        "original_controltype": "TextBox",
+        "type": "field",
+        "index": 3,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Accurate",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "PassFail",
+        "original_serverid": "PassFail",
+        "original_controltype": "TextBox",
+        "type": "field",
+        "index": 4,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Pass Fail",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "EEFADCA0-2D84-4E38-81D3-80845A9F4EF0",
+        "name": "Audit_Plan_TestEvidenceRound_Sample"
+      },
+      {
+        "id": "F5AFC60D-7802-480B-A137-AE5901574BC4",
+        "name": "Audit_Plan_TestEvidenceRound_Sample_Edit"
+      },
+      {
+        "id": "6BD88FB2-8D54-4B68-89E2-AE6601069552",
+        "name": "Audit_Plan_TestEvidenceRound_Sample_SelectImport"
+      }
+    ]
+  }
+}

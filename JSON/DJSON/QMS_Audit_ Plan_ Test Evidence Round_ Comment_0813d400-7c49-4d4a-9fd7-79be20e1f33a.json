@@ -1,0 +1,120 @@
+{
+  "shortname": "QMS",
+  "application": "QMS",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "0813d400-7c49-4d4a-9fd7-79be20e1f33a",
+    "name": "Audit_Plan_TestEvidenceRound_Comment",
+    "fields": {
+      "Text": {
+        "name": "Text",
+        "type": "string",
+        "original_serverid": "Text",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Text",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "Date": {
+        "name": "Date",
+        "type": "datetime",
+        "ext_type": "date",
+        "original_serverid": "Date",
+        "original_controltype": "DateEdit",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Date",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "BPMAPP_Audit_Plan_TestEvidenceRound_CommentsParent": {
+        "name": "BPMAPP_Audit_Plan_TestEvidenceRound_CommentsParent",
+        "type": "none",
+        "ext_type": "Grid",
+        "original_serverid": "BPMAPP_Audit_Plan_TestEvidenceRound_CommentsParent",
+        "original_controltype": "Grid",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Parent",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "Iteration": {
+        "name": "Iteration",
+        "type": "int",
+        "original_serverid": "Iteration",
+        "original_controltype": "NumericBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Iteration",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "Text",
+        "original_serverid": "Text",
+        "original_controltype": "TextBox",
+        "type": "field",
+        "index": 0,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Text",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "Date",
+        "original_serverid": "Date",
+        "original_controltype": "DateEdit",
+        "type": "field",
+        "index": 1,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Date",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "BPMAPP_Audit_Plan_TestEvidenceRound_CommentsParent",
+        "original_serverid": "BPMAPP_Audit_Plan_TestEvidenceRound_CommentsParent",
+        "original_controltype": "Grid",
+        "type": "field",
+        "index": 2,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Parent",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "Iteration",
+        "original_serverid": "Iteration",
+        "original_controltype": "NumericBox",
+        "type": "field",
+        "index": 3,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Iteration",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "0813D400-7C49-4D4A-9FD7-79BE20E1F33A",
+        "name": "Audit_Plan_TestEvidenceRound_Comment"
+      }
+    ]
+  }
+}

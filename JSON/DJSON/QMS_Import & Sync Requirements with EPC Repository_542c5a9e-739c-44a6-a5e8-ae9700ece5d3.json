@@ -1,0 +1,1998 @@
+{
+  "shortname": "QMS",
+  "application": "QMS",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "542c5a9e-739c-44a6-a5e8-ae9700ece5d3",
+    "name": "ImportRequirements",
+    "fields": {
+      "TextBox": {
+        "name": "TextBox",
+        "type": "string",
+        "ext_type": "multiline",
+        "original_serverid": "TextBox",
+        "original_controltype": "TextBox",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Output",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "BtnSelectedAllControls": {
+        "name": "BtnSelectedAllControls",
+        "type": "none",
+        "ext_type": "Button",
+        "original_serverid": "BtnSelectedAllControls",
+        "original_controltype": "Button",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Select All",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "BtnDeselectedAllControls": {
+        "name": "BtnDeselectedAllControls",
+        "type": "none",
+        "ext_type": "Button",
+        "original_serverid": "BtnDeselectedAllControls",
+        "original_controltype": "Button",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Deselect All",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "BtnImportSelectedControls": {
+        "name": "BtnImportSelectedControls",
+        "type": "none",
+        "ext_type": "Button",
+        "original_serverid": "BtnImportSelectedControls",
+        "original_controltype": "Button",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Import Selected",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "BtnImportAllControls": {
+        "name": "BtnImportAllControls",
+        "type": "none",
+        "ext_type": "Button",
+        "original_serverid": "BtnImportAllControls",
+        "original_controltype": "Button",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Import All",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "SelectControlNode": {
+        "name": "SelectControlNode",
+        "type": "string",
+        "ext_type": "dropdown",
+        "original_serverid": "SelectControlNode",
+        "original_controltype": "DropDown",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Folder",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": "Select...",
+        "system_options": []
+      },
+      "SelectProcessNode": {
+        "name": "SelectProcessNode",
+        "type": "string",
+        "ext_type": "dropdown",
+        "original_serverid": "SelectProcessNode",
+        "original_controltype": "DropDown",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Folder",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": "Select...",
+        "system_options": []
+      },
+      "BtnSelectAllCapabilities": {
+        "name": "BtnSelectAllCapabilities",
+        "type": "none",
+        "ext_type": "Button",
+        "original_serverid": "BtnSelectAllCapabilities",
+        "original_controltype": "Button",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Select All",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "BtnDeselectAllCapabilities": {
+        "name": "BtnDeselectAllCapabilities",
+        "type": "none",
+        "ext_type": "Button",
+        "original_serverid": "BtnDeselectAllCapabilities",
+        "original_controltype": "Button",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Deselect All",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "BtnImportSelectedCapabilities": {
+        "name": "BtnImportSelectedCapabilities",
+        "type": "none",
+        "ext_type": "Button",
+        "original_serverid": "BtnImportSelectedCapabilities",
+        "original_controltype": "Button",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Import Selected",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "BtnImportAllCapabilities": {
+        "name": "BtnImportAllCapabilities",
+        "type": "none",
+        "ext_type": "Button",
+        "original_serverid": "BtnImportAllCapabilities",
+        "original_controltype": "Button",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Import All",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "BtnSelectAllRules": {
+        "name": "BtnSelectAllRules",
+        "type": "none",
+        "ext_type": "Button",
+        "original_serverid": "BtnSelectAllRules",
+        "original_controltype": "Button",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Select All",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "BtnDeselectAllRules": {
+        "name": "BtnDeselectAllRules",
+        "type": "none",
+        "ext_type": "Button",
+        "original_serverid": "BtnDeselectAllRules",
+        "original_controltype": "Button",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Deselect All",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "BtnImportSelectedRules": {
+        "name": "BtnImportSelectedRules",
+        "type": "none",
+        "ext_type": "Button",
+        "original_serverid": "BtnImportSelectedRules",
+        "original_controltype": "Button",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Import Selected",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "BtnImportAllRules": {
+        "name": "BtnImportAllRules",
+        "type": "none",
+        "ext_type": "Button",
+        "original_serverid": "BtnImportAllRules",
+        "original_controltype": "Button",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Import All",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "SelectCapabilityNode": {
+        "name": "SelectCapabilityNode",
+        "type": "string",
+        "ext_type": "dropdown",
+        "original_serverid": "SelectCapabilityNode",
+        "original_controltype": "DropDown",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Folder",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": "Select...",
+        "system_options": []
+      },
+      "SelectRuleNode": {
+        "name": "SelectRuleNode",
+        "type": "string",
+        "ext_type": "dropdown",
+        "original_serverid": "SelectRuleNode",
+        "original_controltype": "DropDown",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Folder",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": "Select...",
+        "system_options": []
+      },
+      "GridEpcObjectControl": {
+        "name": "GridEpcObjectControl",
+        "type": "none",
+        "ext_type": "Grid",
+        "original_serverid": "GridEpcObjectControl",
+        "original_controltype": "Grid",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "GridEpcObjectDocument": {
+        "name": "GridEpcObjectDocument",
+        "type": "none",
+        "ext_type": "Grid",
+        "original_serverid": "GridEpcObjectDocument",
+        "original_controltype": "Grid",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "GridEpcObjectProcess": {
+        "name": "GridEpcObjectProcess",
+        "type": "none",
+        "ext_type": "Grid",
+        "original_serverid": "GridEpcObjectProcess",
+        "original_controltype": "Grid",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "GridEpcObjectCapability": {
+        "name": "GridEpcObjectCapability",
+        "type": "none",
+        "ext_type": "Grid",
+        "original_serverid": "GridEpcObjectCapability",
+        "original_controltype": "Grid",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "GridRequirement": {
+        "name": "GridRequirement",
+        "type": "none",
+        "ext_type": "Grid",
+        "original_serverid": "GridRequirement",
+        "original_controltype": "Grid",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "btnSync": {
+        "name": "btnSync",
+        "type": "none",
+        "ext_type": "Button",
+        "original_serverid": "btnSync",
+        "original_controltype": "Button",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Sync with EPC",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "Module": {
+        "name": "Module",
+        "type": "string",
+        "ext_type": "radio",
+        "original_serverid": "Module",
+        "original_controltype": "RadioList",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Module",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "options": [
+          "Process",
+          "Rule",
+          "Document",
+          "Control",
+          "Capability"
+        ],
+        "layout_horizontal": false,
+        "nbr_columns_vertical": 1
+      },
+      "GridEpcObjectRule": {
+        "name": "GridEpcObjectRule",
+        "type": "none",
+        "ext_type": "Grid",
+        "original_serverid": "GridEpcObjectRule",
+        "original_controltype": "Grid",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "BtnSelectedAllDocuments": {
+        "name": "BtnSelectedAllDocuments",
+        "type": "none",
+        "ext_type": "Button",
+        "original_serverid": "BtnSelectedAllDocuments",
+        "original_controltype": "Button",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Select All",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "BtnDeselectedAllDocuments": {
+        "name": "BtnDeselectedAllDocuments",
+        "type": "none",
+        "ext_type": "Button",
+        "original_serverid": "BtnDeselectedAllDocuments",
+        "original_controltype": "Button",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Deselect All",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "BtnImportSelectedDocuments": {
+        "name": "BtnImportSelectedDocuments",
+        "type": "none",
+        "ext_type": "Button",
+        "original_serverid": "BtnImportSelectedDocuments",
+        "original_controltype": "Button",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Import Selected",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "BtnImportAllDocuments": {
+        "name": "BtnImportAllDocuments",
+        "type": "none",
+        "ext_type": "Button",
+        "original_serverid": "BtnImportAllDocuments",
+        "original_controltype": "Button",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Import All",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "SelectDocumentNode": {
+        "name": "SelectDocumentNode",
+        "type": "string",
+        "ext_type": "dropdown",
+        "original_serverid": "SelectDocumentNode",
+        "original_controltype": "DropDown",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Folder",
+        "label_bold": true,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": "Select...",
+        "system_options": []
+      },
+      "BtnSelectAllProcesses": {
+        "name": "BtnSelectAllProcesses",
+        "type": "none",
+        "ext_type": "Button",
+        "original_serverid": "BtnSelectAllProcesses",
+        "original_controltype": "Button",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Select All",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "BtnDeselectAllProcesses": {
+        "name": "BtnDeselectAllProcesses",
+        "type": "none",
+        "ext_type": "Button",
+        "original_serverid": "BtnDeselectAllProcesses",
+        "original_controltype": "Button",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Deselect All",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "BtnImportSelectedProcesses": {
+        "name": "BtnImportSelectedProcesses",
+        "type": "none",
+        "ext_type": "Button",
+        "original_serverid": "BtnImportSelectedProcesses",
+        "original_controltype": "Button",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Import Selected",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "BtnImportAllProcesses": {
+        "name": "BtnImportAllProcesses",
+        "type": "none",
+        "ext_type": "Button",
+        "original_serverid": "BtnImportAllProcesses",
+        "original_controltype": "Button",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "Import All",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "Label": {
+        "name": "Label",
+        "type": "none",
+        "ext_type": "Label",
+        "original_serverid": "Label",
+        "original_controltype": "Label",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "In this tab, you can select which control(s) to import from EPC.",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "Label1": {
+        "name": "Label1",
+        "type": "none",
+        "ext_type": "Label",
+        "original_serverid": "Label1",
+        "original_controltype": "Label",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "In this tab, you can select which document(s) to import from EPC.",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "Label2": {
+        "name": "Label2",
+        "type": "none",
+        "ext_type": "Label",
+        "original_serverid": "Label2",
+        "original_controltype": "Label",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "In this tab, you can select which process(es) to import from EPC.",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "Label3": {
+        "name": "Label3",
+        "type": "none",
+        "ext_type": "Label",
+        "original_serverid": "Label3",
+        "original_controltype": "Label",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "In this tab, you can select which capability(s) to import from EPC.",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      },
+      "Label4": {
+        "name": "Label4",
+        "type": "none",
+        "ext_type": "Label",
+        "original_serverid": "Label4",
+        "original_controltype": "Label",
+        "original_bid": "00000000-0000-0000-0000-000000000000",
+        "label": "In this tab, you can select which rule(s) to import from EPC.",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "",
+        "original_serverid": "TabControl",
+        "original_controltype": "TabControl",
+        "type": "tabs",
+        "index": 0,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "542C5A9E-739C-44A6-A5E8-AE9700ECE5D3",
+            "state": "editable"
+          }
+        ],
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "TabPage",
+            "original_controltype": "TabPage",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "542C5A9E-739C-44A6-A5E8-AE9700ECE5D3",
+                "state": "editable"
+              }
+            ],
+            "caption": "Import Control",
+            "caption_bold": false,
+            "caption_italic": false,
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "background_color": "Transparent",
+            "children": [
+              {
+                "entity_name": "Label",
+                "original_serverid": "Label",
+                "original_controltype": "Label",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "In this tab, you can select which control(s) to import from EPC.",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              },
+              {
+                "entity_name": "",
+                "original_serverid": "Row1",
+                "original_controltype": "Row",
+                "type": "columns",
+                "index": 1,
+                "default_state": "editable",
+                "states": [
+                  {
+                    "behaviorTaskId": "542C5A9E-739C-44A6-A5E8-AE9700ECE5D3",
+                    "state": "editable"
+                  }
+                ],
+                "caption_bold": false,
+                "caption_italic": false,
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": [
+                  {
+                    "entity_name": "",
+                    "original_serverid": "Column1",
+                    "original_controltype": "Column",
+                    "type": "section",
+                    "index": 0,
+                    "default_state": "editable",
+                    "states": [
+                      {
+                        "behaviorTaskId": "542C5A9E-739C-44A6-A5E8-AE9700ECE5D3",
+                        "state": "editable"
+                      }
+                    ],
+                    "is_default_open": false,
+                    "all_open_by_default": false,
+                    "children": [
+                      {
+                        "entity_name": "SelectControlNode",
+                        "original_serverid": "SelectControlNode",
+                        "original_controltype": "DropDown",
+                        "type": "field",
+                        "index": 0,
+                        "default_state": "editable",
+                        "states": [],
+                        "caption": "Folder",
+                        "is_default_open": false,
+                        "all_open_by_default": false,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "entity_name": "",
+                    "original_serverid": "Column2",
+                    "original_controltype": "Column",
+                    "type": "section",
+                    "index": 1,
+                    "default_state": "editable",
+                    "states": [
+                      {
+                        "behaviorTaskId": "542C5A9E-739C-44A6-A5E8-AE9700ECE5D3",
+                        "state": "editable"
+                      }
+                    ],
+                    "is_default_open": false,
+                    "all_open_by_default": false,
+                    "children": []
+                  },
+                  {
+                    "entity_name": "",
+                    "original_serverid": "Column3",
+                    "original_controltype": "Column",
+                    "type": "section",
+                    "index": 2,
+                    "default_state": "editable",
+                    "states": [
+                      {
+                        "behaviorTaskId": "542C5A9E-739C-44A6-A5E8-AE9700ECE5D3",
+                        "state": "editable"
+                      }
+                    ],
+                    "is_default_open": false,
+                    "all_open_by_default": false,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "entity_name": "",
+                "original_serverid": "Row6",
+                "original_controltype": "Row",
+                "type": "section",
+                "index": 2,
+                "default_state": "editable",
+                "states": [
+                  {
+                    "behaviorTaskId": "542C5A9E-739C-44A6-A5E8-AE9700ECE5D3",
+                    "state": "editable"
+                  }
+                ],
+                "caption_bold": false,
+                "caption_italic": false,
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": [
+                  {
+                    "entity_name": "",
+                    "original_serverid": "Column21",
+                    "original_controltype": "Column",
+                    "type": "section",
+                    "index": 0,
+                    "default_state": "editable",
+                    "states": [
+                      {
+                        "behaviorTaskId": "542C5A9E-739C-44A6-A5E8-AE9700ECE5D3",
+                        "state": "editable"
+                      }
+                    ],
+                    "is_default_open": false,
+                    "all_open_by_default": false,
+                    "children": [
+                      {
+                        "entity_name": "GridEpcObjectControl",
+                        "original_serverid": "GridEpcObjectControl",
+                        "original_controltype": "Grid",
+                        "type": "field",
+                        "index": 0,
+                        "default_state": "editable",
+                        "states": [],
+                        "caption": "",
+                        "is_default_open": false,
+                        "all_open_by_default": false,
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "entity_name": "",
+                "original_serverid": "SectionBtnsControls",
+                "original_controltype": "Row",
+                "type": "section",
+                "index": 3,
+                "default_state": "editable",
+                "states": [
+                  {
+                    "behaviorTaskId": "542C5A9E-739C-44A6-A5E8-AE9700ECE5D3",
+                    "state": "editable"
+                  }
+                ],
+                "caption_bold": false,
+                "caption_italic": false,
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": [
+                  {
+                    "entity_name": "",
+                    "original_serverid": "Column",
+                    "original_controltype": "Column",
+                    "type": "section",
+                    "index": 0,
+                    "default_state": "editable",
+                    "states": [
+                      {
+                        "behaviorTaskId": "542C5A9E-739C-44A6-A5E8-AE9700ECE5D3",
+                        "state": "editable"
+                      }
+                    ],
+                    "is_default_open": false,
+                    "all_open_by_default": false,
+                    "children": [
+                      {
+                        "entity_name": "BtnSelectedAllControls",
+                        "original_serverid": "BtnSelectedAllControls",
+                        "original_controltype": "Button",
+                        "type": "field",
+                        "index": 0,
+                        "default_state": "editable",
+                        "states": [],
+                        "caption": "Select All",
+                        "is_default_open": false,
+                        "all_open_by_default": false,
+                        "children": []
+                      },
+                      {
+                        "entity_name": "BtnDeselectedAllControls",
+                        "original_serverid": "BtnDeselectedAllControls",
+                        "original_controltype": "Button",
+                        "type": "field",
+                        "index": 1,
+                        "default_state": "editable",
+                        "states": [],
+                        "caption": "Deselect All",
+                        "is_default_open": false,
+                        "all_open_by_default": false,
+                        "children": []
+                      },
+                      {
+                        "entity_name": "BtnImportSelectedControls",
+                        "original_serverid": "BtnImportSelectedControls",
+                        "original_controltype": "Button",
+                        "type": "field",
+                        "index": 2,
+                        "default_state": "editable",
+                        "states": [],
+                        "caption": "Import Selected",
+                        "is_default_open": false,
+                        "all_open_by_default": false,
+                        "children": []
+                      },
+                      {
+                        "entity_name": "BtnImportAllControls",
+                        "original_serverid": "BtnImportAllControls",
+                        "original_controltype": "Button",
+                        "type": "field",
+                        "index": 3,
+                        "default_state": "invisible",
+                        "states": [],
+                        "caption": "Import All",
+                        "is_default_open": false,
+                        "all_open_by_default": false,
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "entity_name": "",
+            "original_serverid": "TabPage1",
+            "original_controltype": "TabPage",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "542C5A9E-739C-44A6-A5E8-AE9700ECE5D3",
+                "state": "editable"
+              }
+            ],
+            "caption": "Import Document",
+            "caption_bold": false,
+            "caption_italic": false,
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "background_color": "Transparent",
+            "children": [
+              {
+                "entity_name": "Label1",
+                "original_serverid": "Label1",
+                "original_controltype": "Label",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "In this tab, you can select which document(s) to import from EPC.",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              },
+              {
+                "entity_name": "",
+                "original_serverid": "SectionBtnsDocuments",
+                "original_controltype": "Row",
+                "type": "columns",
+                "index": 1,
+                "default_state": "editable",
+                "states": [
+                  {
+                    "behaviorTaskId": "542C5A9E-739C-44A6-A5E8-AE9700ECE5D3",
+                    "state": "editable"
+                  }
+                ],
+                "caption_bold": false,
+                "caption_italic": false,
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": [
+                  {
+                    "entity_name": "",
+                    "original_serverid": "Column6",
+                    "original_controltype": "Column",
+                    "type": "section",
+                    "index": 0,
+                    "default_state": "editable",
+                    "states": [
+                      {
+                        "behaviorTaskId": "542C5A9E-739C-44A6-A5E8-AE9700ECE5D3",
+                        "state": "editable"
+                      }
+                    ],
+                    "is_default_open": false,
+                    "all_open_by_default": false,
+                    "children": [
+                      {
+                        "entity_name": "SelectDocumentNode",
+                        "original_serverid": "SelectDocumentNode",
+                        "original_controltype": "DropDown",
+                        "type": "field",
+                        "index": 0,
+                        "default_state": "editable",
+                        "states": [],
+                        "caption": "Folder",
+                        "is_default_open": false,
+                        "all_open_by_default": false,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "entity_name": "",
+                    "original_serverid": "Column7",
+                    "original_controltype": "Column",
+                    "type": "section",
+                    "index": 1,
+                    "default_state": "editable",
+                    "states": [
+                      {
+                        "behaviorTaskId": "542C5A9E-739C-44A6-A5E8-AE9700ECE5D3",
+                        "state": "editable"
+                      }
+                    ],
+                    "is_default_open": false,
+                    "all_open_by_default": false,
+                    "children": []
+                  },
+                  {
+                    "entity_name": "",
+                    "original_serverid": "Column8",
+                    "original_controltype": "Column",
+                    "type": "section",
+                    "index": 2,
+                    "default_state": "editable",
+                    "states": [
+                      {
+                        "behaviorTaskId": "542C5A9E-739C-44A6-A5E8-AE9700ECE5D3",
+                        "state": "editable"
+                      }
+                    ],
+                    "is_default_open": false,
+                    "all_open_by_default": false,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "entity_name": "",
+                "original_serverid": "Row8",
+                "original_controltype": "Row",
+                "type": "section",
+                "index": 2,
+                "default_state": "editable",
+                "states": [
+                  {
+                    "behaviorTaskId": "542C5A9E-739C-44A6-A5E8-AE9700ECE5D3",
+                    "state": "editable"
+                  }
+                ],
+                "caption_bold": false,
+                "caption_italic": false,
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": [
+                  {
+                    "entity_name": "",
+                    "original_serverid": "Column22",
+                    "original_controltype": "Column",
+                    "type": "section",
+                    "index": 0,
+                    "default_state": "editable",
+                    "states": [
+                      {
+                        "behaviorTaskId": "542C5A9E-739C-44A6-A5E8-AE9700ECE5D3",
+                        "state": "editable"
+                      }
+                    ],
+                    "is_default_open": false,
+                    "all_open_by_default": false,
+                    "children": [
+                      {
+                        "entity_name": "GridEpcObjectDocument",
+                        "original_serverid": "GridEpcObjectDocument",
+                        "original_controltype": "Grid",
+                        "type": "field",
+                        "index": 0,
+                        "default_state": "editable",
+                        "states": [],
+                        "caption": "",
+                        "is_default_open": false,
+                        "all_open_by_default": false,
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "entity_name": "",
+                "original_serverid": "Row2",
+                "original_controltype": "Row",
+                "type": "section",
+                "index": 3,
+                "default_state": "editable",
+                "states": [
+                  {
+                    "behaviorTaskId": "542C5A9E-739C-44A6-A5E8-AE9700ECE5D3",
+                    "state": "editable"
+                  }
+                ],
+                "caption_bold": false,
+                "caption_italic": false,
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": [
+                  {
+                    "entity_name": "",
+                    "original_serverid": "Column5",
+                    "original_controltype": "Column",
+                    "type": "section",
+                    "index": 0,
+                    "default_state": "editable",
+                    "states": [
+                      {
+                        "behaviorTaskId": "542C5A9E-739C-44A6-A5E8-AE9700ECE5D3",
+                        "state": "editable"
+                      }
+                    ],
+                    "is_default_open": false,
+                    "all_open_by_default": false,
+                    "children": [
+                      {
+                        "entity_name": "BtnSelectedAllDocuments",
+                        "original_serverid": "BtnSelectedAllDocuments",
+                        "original_controltype": "Button",
+                        "type": "field",
+                        "index": 0,
+                        "default_state": "editable",
+                        "states": [],
+                        "caption": "Select All",
+                        "is_default_open": false,
+                        "all_open_by_default": false,
+                        "children": []
+                      },
+                      {
+                        "entity_name": "BtnDeselectedAllDocuments",
+                        "original_serverid": "BtnDeselectedAllDocuments",
+                        "original_controltype": "Button",
+                        "type": "field",
+                        "index": 1,
+                        "default_state": "editable",
+                        "states": [],
+                        "caption": "Deselect All",
+                        "is_default_open": false,
+                        "all_open_by_default": false,
+                        "children": []
+                      },
+                      {
+                        "entity_name": "BtnImportSelectedDocuments",
+                        "original_serverid": "BtnImportSelectedDocuments",
+                        "original_controltype": "Button",
+                        "type": "field",
+                        "index": 2,
+                        "default_state": "editable",
+                        "states": [],
+                        "caption": "Import Selected",
+                        "is_default_open": false,
+                        "all_open_by_default": false,
+                        "children": []
+                      },
+                      {
+                        "entity_name": "BtnImportAllDocuments",
+                        "original_serverid": "BtnImportAllDocuments",
+                        "original_controltype": "Button",
+                        "type": "field",
+                        "index": 3,
+                        "default_state": "invisible",
+                        "states": [],
+                        "caption": "Import All",
+                        "is_default_open": false,
+                        "all_open_by_default": false,
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "entity_name": "",
+            "original_serverid": "TabPage2",
+            "original_controltype": "TabPage",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "542C5A9E-739C-44A6-A5E8-AE9700ECE5D3",
+                "state": "editable"
+              }
+            ],
+            "caption": "Import Process",
+            "caption_bold": false,
+            "caption_italic": false,
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "background_color": "Transparent",
+            "children": [
+              {
+                "entity_name": "Label2",
+                "original_serverid": "Label2",
+                "original_controltype": "Label",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "In this tab, you can select which process(es) to import from EPC.",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              },
+              {
+                "entity_name": "",
+                "original_serverid": "SectionBtnsProcesses",
+                "original_controltype": "Row",
+                "type": "columns",
+                "index": 1,
+                "default_state": "editable",
+                "states": [
+                  {
+                    "behaviorTaskId": "542C5A9E-739C-44A6-A5E8-AE9700ECE5D3",
+                    "state": "editable"
+                  }
+                ],
+                "caption_bold": false,
+                "caption_italic": false,
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": [
+                  {
+                    "entity_name": "",
+                    "original_serverid": "Column10",
+                    "original_controltype": "Column",
+                    "type": "section",
+                    "index": 0,
+                    "default_state": "editable",
+                    "states": [
+                      {
+                        "behaviorTaskId": "542C5A9E-739C-44A6-A5E8-AE9700ECE5D3",
+                        "state": "editable"
+                      }
+                    ],
+                    "is_default_open": false,
+                    "all_open_by_default": false,
+                    "children": [
+                      {
+                        "entity_name": "SelectProcessNode",
+                        "original_serverid": "SelectProcessNode",
+                        "original_controltype": "DropDown",
+                        "type": "field",
+                        "index": 0,
+                        "default_state": "editable",
+                        "states": [],
+                        "caption": "Folder",
+                        "is_default_open": false,
+                        "all_open_by_default": false,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "entity_name": "",
+                    "original_serverid": "Column11",
+                    "original_controltype": "Column",
+                    "type": "section",
+                    "index": 1,
+                    "default_state": "editable",
+                    "states": [
+                      {
+                        "behaviorTaskId": "542C5A9E-739C-44A6-A5E8-AE9700ECE5D3",
+                        "state": "editable"
+                      }
+                    ],
+                    "is_default_open": false,
+                    "all_open_by_default": false,
+                    "children": []
+                  },
+                  {
+                    "entity_name": "",
+                    "original_serverid": "Column16",
+                    "original_controltype": "Column",
+                    "type": "section",
+                    "index": 2,
+                    "default_state": "editable",
+                    "states": [
+                      {
+                        "behaviorTaskId": "542C5A9E-739C-44A6-A5E8-AE9700ECE5D3",
+                        "state": "editable"
+                      }
+                    ],
+                    "is_default_open": false,
+                    "all_open_by_default": false,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "entity_name": "",
+                "original_serverid": "Row9",
+                "original_controltype": "Row",
+                "type": "section",
+                "index": 2,
+                "default_state": "editable",
+                "states": [
+                  {
+                    "behaviorTaskId": "542C5A9E-739C-44A6-A5E8-AE9700ECE5D3",
+                    "state": "editable"
+                  }
+                ],
+                "caption_bold": false,
+                "caption_italic": false,
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": [
+                  {
+                    "entity_name": "",
+                    "original_serverid": "Column23",
+                    "original_controltype": "Column",
+                    "type": "section",
+                    "index": 0,
+                    "default_state": "editable",
+                    "states": [
+                      {
+                        "behaviorTaskId": "542C5A9E-739C-44A6-A5E8-AE9700ECE5D3",
+                        "state": "editable"
+                      }
+                    ],
+                    "is_default_open": false,
+                    "all_open_by_default": false,
+                    "children": [
+                      {
+                        "entity_name": "GridEpcObjectProcess",
+                        "original_serverid": "GridEpcObjectProcess",
+                        "original_controltype": "Grid",
+                        "type": "field",
+                        "index": 0,
+                        "default_state": "editable",
+                        "states": [],
+                        "caption": "",
+                        "is_default_open": false,
+                        "all_open_by_default": false,
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "entity_name": "",
+                "original_serverid": "Row3",
+                "original_controltype": "Row",
+                "type": "section",
+                "index": 3,
+                "default_state": "editable",
+                "states": [
+                  {
+                    "behaviorTaskId": "542C5A9E-739C-44A6-A5E8-AE9700ECE5D3",
+                    "state": "editable"
+                  }
+                ],
+                "caption_bold": false,
+                "caption_italic": false,
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": [
+                  {
+                    "entity_name": "",
+                    "original_serverid": "Column9",
+                    "original_controltype": "Column",
+                    "type": "section",
+                    "index": 0,
+                    "default_state": "editable",
+                    "states": [
+                      {
+                        "behaviorTaskId": "542C5A9E-739C-44A6-A5E8-AE9700ECE5D3",
+                        "state": "editable"
+                      }
+                    ],
+                    "is_default_open": false,
+                    "all_open_by_default": false,
+                    "children": [
+                      {
+                        "entity_name": "BtnSelectAllProcesses",
+                        "original_serverid": "BtnSelectAllProcesses",
+                        "original_controltype": "Button",
+                        "type": "field",
+                        "index": 0,
+                        "default_state": "editable",
+                        "states": [],
+                        "caption": "Select All",
+                        "is_default_open": false,
+                        "all_open_by_default": false,
+                        "children": []
+                      },
+                      {
+                        "entity_name": "BtnDeselectAllProcesses",
+                        "original_serverid": "BtnDeselectAllProcesses",
+                        "original_controltype": "Button",
+                        "type": "field",
+                        "index": 1,
+                        "default_state": "editable",
+                        "states": [],
+                        "caption": "Deselect All",
+                        "is_default_open": false,
+                        "all_open_by_default": false,
+                        "children": []
+                      },
+                      {
+                        "entity_name": "BtnImportSelectedProcesses",
+                        "original_serverid": "BtnImportSelectedProcesses",
+                        "original_controltype": "Button",
+                        "type": "field",
+                        "index": 2,
+                        "default_state": "editable",
+                        "states": [],
+                        "caption": "Import Selected",
+                        "is_default_open": false,
+                        "all_open_by_default": false,
+                        "children": []
+                      },
+                      {
+                        "entity_name": "BtnImportAllProcesses",
+                        "original_serverid": "BtnImportAllProcesses",
+                        "original_controltype": "Button",
+                        "type": "field",
+                        "index": 3,
+                        "default_state": "invisible",
+                        "states": [],
+                        "caption": "Import All",
+                        "is_default_open": false,
+                        "all_open_by_default": false,
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "entity_name": "",
+            "original_serverid": "TabPage3",
+            "original_controltype": "TabPage",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "542C5A9E-739C-44A6-A5E8-AE9700ECE5D3",
+                "state": "editable"
+              }
+            ],
+            "caption": "Import Capability",
+            "caption_bold": false,
+            "caption_italic": false,
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "background_color": "Transparent",
+            "children": [
+              {
+                "entity_name": "Label3",
+                "original_serverid": "Label3",
+                "original_controltype": "Label",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "In this tab, you can select which capability(s) to import from EPC.",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              },
+              {
+                "entity_name": "",
+                "original_serverid": "SectionBtnsCapabilities",
+                "original_controltype": "Row",
+                "type": "columns",
+                "index": 1,
+                "default_state": "editable",
+                "states": [
+                  {
+                    "behaviorTaskId": "542C5A9E-739C-44A6-A5E8-AE9700ECE5D3",
+                    "state": "editable"
+                  }
+                ],
+                "caption_bold": false,
+                "caption_italic": false,
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": [
+                  {
+                    "entity_name": "",
+                    "original_serverid": "Column14",
+                    "original_controltype": "Column",
+                    "type": "section",
+                    "index": 0,
+                    "default_state": "editable",
+                    "states": [
+                      {
+                        "behaviorTaskId": "542C5A9E-739C-44A6-A5E8-AE9700ECE5D3",
+                        "state": "editable"
+                      }
+                    ],
+                    "is_default_open": false,
+                    "all_open_by_default": false,
+                    "children": [
+                      {
+                        "entity_name": "SelectCapabilityNode",
+                        "original_serverid": "SelectCapabilityNode",
+                        "original_controltype": "DropDown",
+                        "type": "field",
+                        "index": 0,
+                        "default_state": "editable",
+                        "states": [],
+                        "caption": "Folder",
+                        "is_default_open": false,
+                        "all_open_by_default": false,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "entity_name": "",
+                    "original_serverid": "Column15",
+                    "original_controltype": "Column",
+                    "type": "section",
+                    "index": 1,
+                    "default_state": "editable",
+                    "states": [
+                      {
+                        "behaviorTaskId": "542C5A9E-739C-44A6-A5E8-AE9700ECE5D3",
+                        "state": "editable"
+                      }
+                    ],
+                    "is_default_open": false,
+                    "all_open_by_default": false,
+                    "children": []
+                  },
+                  {
+                    "entity_name": "",
+                    "original_serverid": "Column17",
+                    "original_controltype": "Column",
+                    "type": "section",
+                    "index": 2,
+                    "default_state": "editable",
+                    "states": [
+                      {
+                        "behaviorTaskId": "542C5A9E-739C-44A6-A5E8-AE9700ECE5D3",
+                        "state": "editable"
+                      }
+                    ],
+                    "is_default_open": false,
+                    "all_open_by_default": false,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "entity_name": "",
+                "original_serverid": "Row10",
+                "original_controltype": "Row",
+                "type": "section",
+                "index": 2,
+                "default_state": "editable",
+                "states": [
+                  {
+                    "behaviorTaskId": "542C5A9E-739C-44A6-A5E8-AE9700ECE5D3",
+                    "state": "editable"
+                  }
+                ],
+                "caption_bold": false,
+                "caption_italic": false,
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": [
+                  {
+                    "entity_name": "",
+                    "original_serverid": "Column24",
+                    "original_controltype": "Column",
+                    "type": "section",
+                    "index": 0,
+                    "default_state": "editable",
+                    "states": [
+                      {
+                        "behaviorTaskId": "542C5A9E-739C-44A6-A5E8-AE9700ECE5D3",
+                        "state": "editable"
+                      }
+                    ],
+                    "is_default_open": false,
+                    "all_open_by_default": false,
+                    "children": [
+                      {
+                        "entity_name": "GridEpcObjectCapability",
+                        "original_serverid": "GridEpcObjectCapability",
+                        "original_controltype": "Grid",
+                        "type": "field",
+                        "index": 0,
+                        "default_state": "editable",
+                        "states": [],
+                        "caption": "",
+                        "is_default_open": false,
+                        "all_open_by_default": false,
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "entity_name": "",
+                "original_serverid": "Row4",
+                "original_controltype": "Row",
+                "type": "section",
+                "index": 3,
+                "default_state": "editable",
+                "states": [
+                  {
+                    "behaviorTaskId": "542C5A9E-739C-44A6-A5E8-AE9700ECE5D3",
+                    "state": "editable"
+                  }
+                ],
+                "caption_bold": false,
+                "caption_italic": false,
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": [
+                  {
+                    "entity_name": "",
+                    "original_serverid": "Column12",
+                    "original_controltype": "Column",
+                    "type": "section",
+                    "index": 0,
+                    "default_state": "editable",
+                    "states": [
+                      {
+                        "behaviorTaskId": "542C5A9E-739C-44A6-A5E8-AE9700ECE5D3",
+                        "state": "editable"
+                      }
+                    ],
+                    "is_default_open": false,
+                    "all_open_by_default": false,
+                    "children": [
+                      {
+                        "entity_name": "BtnSelectAllCapabilities",
+                        "original_serverid": "BtnSelectAllCapabilities",
+                        "original_controltype": "Button",
+                        "type": "field",
+                        "index": 0,
+                        "default_state": "editable",
+                        "states": [],
+                        "caption": "Select All",
+                        "is_default_open": false,
+                        "all_open_by_default": false,
+                        "children": []
+                      },
+                      {
+                        "entity_name": "BtnDeselectAllCapabilities",
+                        "original_serverid": "BtnDeselectAllCapabilities",
+                        "original_controltype": "Button",
+                        "type": "field",
+                        "index": 1,
+                        "default_state": "editable",
+                        "states": [],
+                        "caption": "Deselect All",
+                        "is_default_open": false,
+                        "all_open_by_default": false,
+                        "children": []
+                      },
+                      {
+                        "entity_name": "BtnImportSelectedCapabilities",
+                        "original_serverid": "BtnImportSelectedCapabilities",
+                        "original_controltype": "Button",
+                        "type": "field",
+                        "index": 2,
+                        "default_state": "editable",
+                        "states": [],
+                        "caption": "Import Selected",
+                        "is_default_open": false,
+                        "all_open_by_default": false,
+                        "children": []
+                      },
+                      {
+                        "entity_name": "BtnImportAllCapabilities",
+                        "original_serverid": "BtnImportAllCapabilities",
+                        "original_controltype": "Button",
+                        "type": "field",
+                        "index": 3,
+                        "default_state": "invisible",
+                        "states": [],
+                        "caption": "Import All",
+                        "is_default_open": false,
+                        "all_open_by_default": false,
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "entity_name": "",
+            "original_serverid": "TabPage4",
+            "original_controltype": "TabPage",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "542C5A9E-739C-44A6-A5E8-AE9700ECE5D3",
+                "state": "editable"
+              }
+            ],
+            "caption": "Import Rule",
+            "caption_bold": false,
+            "caption_italic": false,
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "background_color": "Transparent",
+            "children": [
+              {
+                "entity_name": "Label4",
+                "original_serverid": "Label4",
+                "original_controltype": "Label",
+                "type": "field",
+                "index": 0,
+                "default_state": "editable",
+                "states": [],
+                "caption": "In this tab, you can select which rule(s) to import from EPC.",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              },
+              {
+                "entity_name": "",
+                "original_serverid": "SectionBtnsRules",
+                "original_controltype": "Row",
+                "type": "columns",
+                "index": 1,
+                "default_state": "editable",
+                "states": [
+                  {
+                    "behaviorTaskId": "542C5A9E-739C-44A6-A5E8-AE9700ECE5D3",
+                    "state": "editable"
+                  }
+                ],
+                "caption_bold": false,
+                "caption_italic": false,
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": [
+                  {
+                    "entity_name": "",
+                    "original_serverid": "Column18",
+                    "original_controltype": "Column",
+                    "type": "section",
+                    "index": 0,
+                    "default_state": "editable",
+                    "states": [
+                      {
+                        "behaviorTaskId": "542C5A9E-739C-44A6-A5E8-AE9700ECE5D3",
+                        "state": "editable"
+                      }
+                    ],
+                    "is_default_open": false,
+                    "all_open_by_default": false,
+                    "children": [
+                      {
+                        "entity_name": "SelectRuleNode",
+                        "original_serverid": "SelectRuleNode",
+                        "original_controltype": "DropDown",
+                        "type": "field",
+                        "index": 0,
+                        "default_state": "editable",
+                        "states": [],
+                        "caption": "Folder",
+                        "is_default_open": false,
+                        "all_open_by_default": false,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "entity_name": "",
+                    "original_serverid": "Column19",
+                    "original_controltype": "Column",
+                    "type": "section",
+                    "index": 1,
+                    "default_state": "editable",
+                    "states": [
+                      {
+                        "behaviorTaskId": "542C5A9E-739C-44A6-A5E8-AE9700ECE5D3",
+                        "state": "editable"
+                      }
+                    ],
+                    "is_default_open": false,
+                    "all_open_by_default": false,
+                    "children": []
+                  },
+                  {
+                    "entity_name": "",
+                    "original_serverid": "Column20",
+                    "original_controltype": "Column",
+                    "type": "section",
+                    "index": 2,
+                    "default_state": "editable",
+                    "states": [
+                      {
+                        "behaviorTaskId": "542C5A9E-739C-44A6-A5E8-AE9700ECE5D3",
+                        "state": "editable"
+                      }
+                    ],
+                    "is_default_open": false,
+                    "all_open_by_default": false,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "entity_name": "",
+                "original_serverid": "Row7",
+                "original_controltype": "Row",
+                "type": "section",
+                "index": 2,
+                "default_state": "editable",
+                "states": [
+                  {
+                    "behaviorTaskId": "542C5A9E-739C-44A6-A5E8-AE9700ECE5D3",
+                    "state": "editable"
+                  }
+                ],
+                "caption_bold": false,
+                "caption_italic": false,
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": [
+                  {
+                    "entity_name": "",
+                    "original_serverid": "Column4",
+                    "original_controltype": "Column",
+                    "type": "section",
+                    "index": 0,
+                    "default_state": "editable",
+                    "states": [
+                      {
+                        "behaviorTaskId": "542C5A9E-739C-44A6-A5E8-AE9700ECE5D3",
+                        "state": "editable"
+                      }
+                    ],
+                    "is_default_open": false,
+                    "all_open_by_default": false,
+                    "children": [
+                      {
+                        "entity_name": "GridEpcObjectRule",
+                        "original_serverid": "GridEpcObjectRule",
+                        "original_controltype": "Grid",
+                        "type": "field",
+                        "index": 0,
+                        "default_state": "editable",
+                        "states": [],
+                        "caption": "",
+                        "is_default_open": false,
+                        "all_open_by_default": false,
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "entity_name": "",
+                "original_serverid": "Row5",
+                "original_controltype": "Row",
+                "type": "section",
+                "index": 3,
+                "default_state": "editable",
+                "states": [
+                  {
+                    "behaviorTaskId": "542C5A9E-739C-44A6-A5E8-AE9700ECE5D3",
+                    "state": "editable"
+                  }
+                ],
+                "caption_bold": false,
+                "caption_italic": false,
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": [
+                  {
+                    "entity_name": "",
+                    "original_serverid": "Column13",
+                    "original_controltype": "Column",
+                    "type": "section",
+                    "index": 0,
+                    "default_state": "editable",
+                    "states": [
+                      {
+                        "behaviorTaskId": "542C5A9E-739C-44A6-A5E8-AE9700ECE5D3",
+                        "state": "editable"
+                      }
+                    ],
+                    "is_default_open": false,
+                    "all_open_by_default": false,
+                    "children": [
+                      {
+                        "entity_name": "BtnSelectAllRules",
+                        "original_serverid": "BtnSelectAllRules",
+                        "original_controltype": "Button",
+                        "type": "field",
+                        "index": 0,
+                        "default_state": "editable",
+                        "states": [],
+                        "caption": "Select All",
+                        "is_default_open": false,
+                        "all_open_by_default": false,
+                        "children": []
+                      },
+                      {
+                        "entity_name": "BtnDeselectAllRules",
+                        "original_serverid": "BtnDeselectAllRules",
+                        "original_controltype": "Button",
+                        "type": "field",
+                        "index": 1,
+                        "default_state": "editable",
+                        "states": [],
+                        "caption": "Deselect All",
+                        "is_default_open": false,
+                        "all_open_by_default": false,
+                        "children": []
+                      },
+                      {
+                        "entity_name": "BtnImportSelectedRules",
+                        "original_serverid": "BtnImportSelectedRules",
+                        "original_controltype": "Button",
+                        "type": "field",
+                        "index": 2,
+                        "default_state": "editable",
+                        "states": [],
+                        "caption": "Import Selected",
+                        "is_default_open": false,
+                        "all_open_by_default": false,
+                        "children": []
+                      },
+                      {
+                        "entity_name": "BtnImportAllRules",
+                        "original_serverid": "BtnImportAllRules",
+                        "original_controltype": "Button",
+                        "type": "field",
+                        "index": 3,
+                        "default_state": "invisible",
+                        "states": [],
+                        "caption": "Import All",
+                        "is_default_open": false,
+                        "all_open_by_default": false,
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "entity_name": "",
+            "original_serverid": "TabPage5",
+            "original_controltype": "TabPage",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "542C5A9E-739C-44A6-A5E8-AE9700ECE5D3",
+                "state": "editable"
+              }
+            ],
+            "caption": "Sync by Module",
+            "caption_bold": false,
+            "caption_italic": false,
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "background_color": "Transparent",
+            "children": [
+              {
+                "entity_name": "",
+                "original_serverid": "Row12",
+                "original_controltype": "Row",
+                "type": "columns",
+                "index": 0,
+                "default_state": "editable",
+                "states": [
+                  {
+                    "behaviorTaskId": "542C5A9E-739C-44A6-A5E8-AE9700ECE5D3",
+                    "state": "editable"
+                  }
+                ],
+                "caption_bold": false,
+                "caption_italic": false,
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": [
+                  {
+                    "entity_name": "",
+                    "original_serverid": "Column26",
+                    "original_controltype": "Column",
+                    "type": "section",
+                    "index": 0,
+                    "default_state": "editable",
+                    "states": [
+                      {
+                        "behaviorTaskId": "542C5A9E-739C-44A6-A5E8-AE9700ECE5D3",
+                        "state": "editable"
+                      }
+                    ],
+                    "is_default_open": false,
+                    "all_open_by_default": false,
+                    "children": [
+                      {
+                        "entity_name": "btnSync",
+                        "original_serverid": "btnSync",
+                        "original_controltype": "Button",
+                        "type": "field",
+                        "index": 0,
+                        "default_state": "editable",
+                        "states": [],
+                        "caption": "Sync with EPC",
+                        "is_default_open": false,
+                        "all_open_by_default": false,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "entity_name": "",
+                    "original_serverid": "Column27",
+                    "original_controltype": "Column",
+                    "type": "section",
+                    "index": 1,
+                    "default_state": "editable",
+                    "states": [
+                      {
+                        "behaviorTaskId": "542C5A9E-739C-44A6-A5E8-AE9700ECE5D3",
+                        "state": "editable"
+                      }
+                    ],
+                    "is_default_open": false,
+                    "all_open_by_default": false,
+                    "children": [
+                      {
+                        "entity_name": "Module",
+                        "original_serverid": "Module",
+                        "original_controltype": "RadioList",
+                        "type": "field",
+                        "index": 0,
+                        "default_state": "editable",
+                        "states": [],
+                        "caption": "Module",
+                        "is_default_open": false,
+                        "all_open_by_default": false,
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "entity_name": "",
+        "original_serverid": "Row11",
+        "original_controltype": "Row",
+        "type": "section",
+        "index": 1,
+        "default_state": "editable",
+        "states": [
+          {
+            "behaviorTaskId": "542C5A9E-739C-44A6-A5E8-AE9700ECE5D3",
+            "state": "editable"
+          }
+        ],
+        "caption_bold": false,
+        "caption_italic": false,
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": [
+          {
+            "entity_name": "",
+            "original_serverid": "Column25",
+            "original_controltype": "Column",
+            "type": "section",
+            "index": 0,
+            "default_state": "editable",
+            "states": [
+              {
+                "behaviorTaskId": "542C5A9E-739C-44A6-A5E8-AE9700ECE5D3",
+                "state": "editable"
+              }
+            ],
+            "is_default_open": false,
+            "all_open_by_default": false,
+            "children": [
+              {
+                "entity_name": "GridRequirement",
+                "original_serverid": "GridRequirement",
+                "original_controltype": "Grid",
+                "type": "field",
+                "index": 0,
+                "default_state": "invisible",
+                "states": [],
+                "caption": "",
+                "is_default_open": false,
+                "all_open_by_default": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "entity_name": "TextBox",
+        "original_serverid": "TextBox",
+        "original_controltype": "TextBox",
+        "type": "field",
+        "index": 2,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Output",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "542C5A9E-739C-44A6-A5E8-AE9700ECE5D3",
+        "name": "ImportRequirements"
+      }
+    ]
+  }
+}

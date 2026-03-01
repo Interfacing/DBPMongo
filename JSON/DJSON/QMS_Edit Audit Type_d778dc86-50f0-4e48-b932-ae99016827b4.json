@@ -1,0 +1,147 @@
+{
+  "shortname": "QMS",
+  "application": "QMS",
+  "icon": "fa-regular fa-object-group",
+  "form": {
+    "id": "d778dc86-50f0-4e48-b932-ae99016827b4",
+    "name": "Audit_Type_Item",
+    "fields": {
+      "Title": {
+        "name": "Title",
+        "type": "string",
+        "original_serverid": "Title",
+        "original_controltype": "TextBox",
+        "original_bid": "5e55c5be-6aad-4141-8579-ae9901670aaa",
+        "label": "Title",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "TitleFr": {
+        "name": "TitleFr",
+        "type": "string",
+        "original_serverid": "TitleFr",
+        "original_controltype": "TextBox",
+        "original_bid": "ef4ff60d-c6a8-48c6-84e8-ae9901670aaa",
+        "label": "French Title",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "TitleAr": {
+        "name": "TitleAr",
+        "type": "string",
+        "original_serverid": "TitleAr",
+        "original_controltype": "TextBox",
+        "original_bid": "5a8a198c-40f1-45fb-a7a5-ae9901670aaa",
+        "label": "Arabic Title",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "TitleDe": {
+        "name": "TitleDe",
+        "type": "string",
+        "original_serverid": "TitleDe",
+        "original_controltype": "TextBox",
+        "original_bid": "f05bb6e5-d46f-49ff-9407-ae9901670aaa",
+        "label": "German Title",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": "",
+        "placeholder": ""
+      },
+      "IsActive": {
+        "name": "IsActive",
+        "type": "boolean",
+        "original_serverid": "IsActive",
+        "original_controltype": "CheckBox",
+        "original_bid": "c8916752-84bd-4405-bfa2-ae9901670aaa",
+        "label": "IsActive",
+        "label_bold": false,
+        "label_italic": false,
+        "label_color": ""
+      }
+    },
+    "layout": [
+      {
+        "entity_name": "Title",
+        "original_serverid": "Title",
+        "original_controltype": "TextBox",
+        "type": "field",
+        "index": 0,
+        "default_state": "mandatory",
+        "states": [],
+        "caption": "Title",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "TitleFr",
+        "original_serverid": "TitleFr",
+        "original_controltype": "TextBox",
+        "type": "field",
+        "index": 1,
+        "default_state": "editable",
+        "states": [],
+        "caption": "French Title",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "TitleAr",
+        "original_serverid": "TitleAr",
+        "original_controltype": "TextBox",
+        "type": "field",
+        "index": 2,
+        "default_state": "editable",
+        "states": [],
+        "caption": "Arabic Title",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "TitleDe",
+        "original_serverid": "TitleDe",
+        "original_controltype": "TextBox",
+        "type": "field",
+        "index": 3,
+        "default_state": "editable",
+        "states": [],
+        "caption": "German Title",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      },
+      {
+        "entity_name": "IsActive",
+        "original_serverid": "IsActive",
+        "original_controltype": "CheckBox",
+        "type": "field",
+        "index": 4,
+        "default_state": "editable",
+        "states": [],
+        "caption": "IsActive",
+        "is_default_open": false,
+        "all_open_by_default": false,
+        "children": []
+      }
+    ],
+    "behaviors": [
+      {
+        "id": "D778DC86-50F0-4E48-B932-AE99016827B4",
+        "name": "EditAuditType"
+      },
+      {
+        "id": "B5183CE0-30A1-4A86-B63B-AE990167A039",
+        "name": "NewAuditType"
+      }
+    ]
+  }
+}
