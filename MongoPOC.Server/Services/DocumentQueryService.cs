@@ -10,6 +10,12 @@ public sealed class DocumentQueryService
 {
     private readonly MongoDbContext _mongoDbContext;
 
+    // Excludes the raw JSON blob and full-text search field — not needed for list/dashboard views.
+    private static readonly ProjectionDefinition<MongoDocumentRecord> ListProjection =
+        Builders<MongoDocumentRecord>.Projection
+            .Exclude(r => r.Raw)
+            .Exclude(r => r.SearchText);
+
     public DocumentQueryService(MongoDbContext mongoDbContext)
     {
         _mongoDbContext = mongoDbContext;
@@ -17,45 +23,52 @@ public sealed class DocumentQueryService
 
     public async Task<DashboardSummaryResponse> GetDashboardSummaryAsync(CancellationToken cancellationToken)
     {
-        var allDocuments = new List<(DocumentKind Kind, MongoDocumentRecord Document)>();
-        var collectionCounts = new List<CollectionCountItem>();
+        var collectionPairs = _mongoDbContext.GetAllCollections();
 
-        foreach (var (kind, collection) in _mongoDbContext.GetAllCollections())
-        {
-            var documents = await collection
-                .Find(FilterDefinition<MongoDocumentRecord>.Empty)
-                .ToListAsync(cancellationToken);
-
-            collectionCounts.Add(new CollectionCountItem(kind.ToCollectionName(), documents.Count));
-            allDocuments.AddRange(documents.Select(document => (kind, document)));
-        }
-
-        var totalDocuments = collectionCounts.Sum(item => item.Count);
-
-        var topForms = allDocuments
-            .Select(item => item.Document.Normalized.FormName)
-            .Where(value => !string.IsNullOrWhiteSpace(value))
-            .GroupBy(value => value!, StringComparer.OrdinalIgnoreCase)
-            .OrderByDescending(group => group.Count())
-            .ThenBy(group => group.Key, StringComparer.OrdinalIgnoreCase)
-            .Take(10)
-            .Select(group => new DashboardTopItem(group.Key, group.Count()))
+        // Fire count and document queries concurrently across all collections.
+        var countTasks = collectionPairs
+            .Select(pair =>
+            {
+                var (_, collection) = pair;
+                return collection.CountDocumentsAsync(
+                    FilterDefinition<MongoDocumentRecord>.Empty, cancellationToken: cancellationToken);
+            })
             .ToList();
 
-        var topApplications = allDocuments
-            .Select(item => item.Document.Normalized.Application)
-            .Where(value => !string.IsNullOrWhiteSpace(value))
-            .GroupBy(value => value!, StringComparer.OrdinalIgnoreCase)
-            .OrderByDescending(group => group.Count())
-            .ThenBy(group => group.Key, StringComparer.OrdinalIgnoreCase)
-            .Take(10)
-            .Select(group => new DashboardTopItem(group.Key, group.Count()))
+        var docTasks = collectionPairs
+            .Select(async pair =>
+            {
+                var (kind, collection) = pair;
+                var documents = await collection
+                    .Find(FilterDefinition<MongoDocumentRecord>.Empty)
+                    .Project<MongoDocumentRecord>(ListProjection)
+                    .ToListAsync(cancellationToken);
+                return (Kind: kind, Documents: documents);
+            })
             .ToList();
 
+        var counts = await Task.WhenAll(countTasks);
+        var kindedResults = await Task.WhenAll(docTasks);
+
+        var collectionCounts = collectionPairs
+            .Zip(counts, (pair, count) =>
+            {
+                var (kind, _) = pair;
+                return new CollectionCountItem(kind.ToCollectionName(), count);
+            })
+            .ToList();
+
+        var allDocuments = kindedResults
+            .SelectMany(r => r.Documents.Select(d => (r.Kind, Document: d)))
+            .ToList();
+
+        var totalDocuments = counts.Sum();
+        var topForms = BuildTopItems(allDocuments, n => n.FormName);
+        var topApplications = BuildTopItems(allDocuments, n => n.Application);
         var recentDocuments = allDocuments
             .OrderByDescending(item => item.Document.Source.IngestedAtUtc)
             .Take(20)
-            .Select(item => ToRecentDocumentItem(item.Document, item.Kind))
+            .Select(item => ToDocumentListItem(item.Document, item.Kind))
             .ToList();
 
         return new DashboardSummaryResponse(
@@ -78,27 +91,34 @@ public sealed class DocumentQueryService
 
         var kinds = ResolveKinds(request.Collection);
         var filter = BuildFilter(request);
-        var matches = new List<(DocumentKind Kind, MongoDocumentRecord Document)>();
 
-        foreach (var kind in kinds)
-        {
-            var collection = _mongoDbContext.GetCollection(kind);
-            var documents = await collection
-                .Find(filter)
-                .ToListAsync(cancellationToken);
-
-            matches.AddRange(documents.Select(document => (kind, document)));
-        }
-
-        var ordered = matches
-            .OrderByDescending(item => item.Document.Source.IngestedAtUtc)
+        // Fire count and document queries concurrently across all matching collections.
+        var countTasks = kinds
+            .Select(kind => _mongoDbContext.GetCollection(kind)
+                .CountDocumentsAsync(filter, cancellationToken: cancellationToken))
             .ToList();
 
-        var total = ordered.Count;
-        var items = ordered
+        var docTasks = kinds
+            .Select(async kind =>
+            {
+                var documents = await _mongoDbContext.GetCollection(kind)
+                    .Find(filter)
+                    .Project<MongoDocumentRecord>(ListProjection)
+                    .ToListAsync(cancellationToken);
+                return (Kind: kind, Documents: documents);
+            })
+            .ToList();
+
+        var counts = await Task.WhenAll(countTasks);
+        var kindedResults = await Task.WhenAll(docTasks);
+
+        var total = counts.Sum();
+        var items = kindedResults
+            .SelectMany(r => r.Documents.Select(d => (r.Kind, Document: d)))
+            .OrderByDescending(item => item.Document.Source.IngestedAtUtc)
             .Skip((page - 1) * pageSize)
             .Take(pageSize)
-            .Select(item => ToSearchDocumentItem(item.Document, item.Kind))
+            .Select(item => ToDocumentListItem(item.Document, item.Kind))
             .ToList();
 
         return new SearchResponse(total, page, pageSize, items);
@@ -250,27 +270,22 @@ public sealed class DocumentQueryService
         return value;
     }
 
-    private static SearchDocumentItem ToSearchDocumentItem(MongoDocumentRecord document, DocumentKind kind)
-    {
-        return new SearchDocumentItem(
-            document.Id.ToString(),
-            kind.ToCollectionName(),
-            document.Kind,
-            document.Source.FileName,
-            document.Source.RelativePath,
-            document.Source.IngestedAtUtc,
-            document.Normalized.FormId,
-            document.Normalized.FormName,
-            document.Normalized.Title,
-            document.Normalized.Application,
-            document.Normalized.Shortname,
-            document.Normalized.InstanceId);
-    }
+    private static List<DashboardTopItem> BuildTopItems(
+        IEnumerable<(DocumentKind Kind, MongoDocumentRecord Document)> source,
+        Func<NormalizedMetadata, string?> selector,
+        int take = 10) =>
+        source
+            .Select(item => selector(item.Document.Normalized))
+            .Where(v => !string.IsNullOrWhiteSpace(v))
+            .GroupBy(v => v!, StringComparer.OrdinalIgnoreCase)
+            .OrderByDescending(g => g.Count())
+            .ThenBy(g => g.Key, StringComparer.OrdinalIgnoreCase)
+            .Take(take)
+            .Select(g => new DashboardTopItem(g.Key, g.Count()))
+            .ToList();
 
-    private static RecentDocumentItem ToRecentDocumentItem(MongoDocumentRecord document, DocumentKind kind)
-    {
-        return new RecentDocumentItem(
-            document.Id.ToString(),
+    private static DocumentListItem ToDocumentListItem(MongoDocumentRecord document, DocumentKind kind) =>
+        new(document.Id.ToString(),
             kind.ToCollectionName(),
             document.Kind,
             document.Source.FileName,
@@ -282,5 +297,4 @@ public sealed class DocumentQueryService
             document.Normalized.Application,
             document.Normalized.Shortname,
             document.Normalized.InstanceId);
-    }
 }

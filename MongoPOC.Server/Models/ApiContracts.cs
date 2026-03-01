@@ -13,7 +13,7 @@ public sealed record CollectionCountItem(string Collection, long Count);
 
 public sealed record DashboardTopItem(string Value, long Count);
 
-public sealed record RecentDocumentItem(
+public sealed record DocumentListItem(
     string Id,
     string Collection,
     string Kind,
@@ -32,7 +32,7 @@ public sealed record DashboardSummaryResponse(
     IReadOnlyList<CollectionCountItem> CollectionCounts,
     IReadOnlyList<DashboardTopItem> TopForms,
     IReadOnlyList<DashboardTopItem> TopApplications,
-    IReadOnlyList<RecentDocumentItem> RecentDocuments);
+    IReadOnlyList<DocumentListItem> RecentDocuments);
 
 public sealed class SearchRequest
 {
@@ -66,25 +66,11 @@ public sealed class FieldFilterRequest
     public string Value { get; set; } = string.Empty;
 }
 
-public sealed record SearchDocumentItem(
-    string Id,
-    string Collection,
-    string Kind,
-    string FileName,
-    string RelativePath,
-    DateTime IngestedAtUtc,
-    string? FormId,
-    string? FormName,
-    string? Title,
-    string? Application,
-    string? Shortname,
-    string? InstanceId);
-
 public sealed record SearchResponse(
     long Total,
     int Page,
     int PageSize,
-    IReadOnlyList<SearchDocumentItem> Items);
+    IReadOnlyList<DocumentListItem> Items);
 
 public sealed record DocumentDetailResponse(
     string Id,

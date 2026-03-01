@@ -9,49 +9,12 @@ public enum DocumentKind
 
 public static class DocumentKindExtensions
 {
-    public static readonly DocumentKind[] All =
-    [
-        DocumentKind.DJSON,
-        DocumentKind.FormData,
-        DocumentKind.FormDataPreview
-    ];
+    public static readonly DocumentKind[] All = Enum.GetValues<DocumentKind>();
 
     public static bool TryParse(string? value, out DocumentKind kind)
-    {
-        kind = default;
-        if (string.IsNullOrWhiteSpace(value))
-        {
-            return false;
-        }
+        => Enum.TryParse(value, ignoreCase: true, out kind);
 
-        if (value.Equals("DJSON", StringComparison.OrdinalIgnoreCase))
-        {
-            kind = DocumentKind.DJSON;
-            return true;
-        }
-
-        if (value.Equals("FormData", StringComparison.OrdinalIgnoreCase))
-        {
-            kind = DocumentKind.FormData;
-            return true;
-        }
-
-        if (value.Equals("FormDataPreview", StringComparison.OrdinalIgnoreCase))
-        {
-            kind = DocumentKind.FormDataPreview;
-            return true;
-        }
-
-        return false;
-    }
-
-    public static string ToKindValue(this DocumentKind kind) => kind switch
-    {
-        DocumentKind.DJSON => "DJSON",
-        DocumentKind.FormData => "FormData",
-        DocumentKind.FormDataPreview => "FormDataPreview",
-        _ => throw new ArgumentOutOfRangeException(nameof(kind), kind, null)
-    };
+    public static string ToKindValue(this DocumentKind kind) => kind.ToString();
 
     public static string ToFolderName(this DocumentKind kind) => kind.ToKindValue();
 
